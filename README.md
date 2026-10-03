@@ -27,7 +27,6 @@ The model importer verifies the exact SHA-256. See [app setup](app/README.md) fo
 | --- | --- |
 | Small public-photo development benchmark | 6/7 complete hands correct |
 | Different 156-image diagnostic | 69/156 exact images; 78.1% tile precision, 76.2% recall |
-| One real video row, 20 correlated frames | 0/20 exact rows |
 
 Upstream training overlap is unknown. These are not guarantees of unseen-data accuracy. Newly trained candidates did not generalize well enough to replace the current app model. Detailed results are in [the evaluation report](training/docs/VISION_EVALUATION.md).
 
