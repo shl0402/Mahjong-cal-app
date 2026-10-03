@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mahjong grouped vision manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "manifest_id",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "manifest_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "dataset_version",
+          "exposure",
+          "id",
+          "near_duplicate_clusters",
+          "parent_capture",
+          "parent_ids",
+          "path",
+          "physical_tile_set",
+          "session_id",
+          "sha256",
+          "source_image",
+          "source_sha256",
+          "split",
+          "upstream_training_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_image": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dataset_version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "notes": {
+            "type": "string",
+            "minLength": 1
+          },
+          "upstream_evidence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "annotation_path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "parent_capture": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1
+          },
+          "session_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1
+          },
+          "physical_tile_set": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "annotation_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "parent_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "near_duplicate_clusters": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "dhash64": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{16}$"
+          },
+          "split": {
+            "enum": [
+              "dev",
+              "holdout",
+              "internal_test",
+              "quarantine",
+              "train",
+              "unassigned"
+            ]
+          },
+          "exposure": {
+            "enum": [
+              "unexposed",
+              "development",
+              "training"
+            ]
+          },
+          "upstream_training_status": {
+            "enum": [
+              "unknown",
+              "known_in_training",
+              "verified_disjoint"
+            ]
+          }
+        },
+        "dependentRequired": {
+          "annotation_path": [
+            "annotation_sha256"
+          ],
+          "annotation_sha256": [
+            "annotation_path"
+          ]
+        }
+      }
+    }
+  }
+}

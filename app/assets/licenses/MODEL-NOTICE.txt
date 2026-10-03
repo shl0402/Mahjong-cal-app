@@ -1,0 +1,52 @@
+EXPERIMENTAL LOCAL TEST BUILD ONLY — AR42 mahjong detector
+
+App version: 0.3.0+3
+Model ID: mahjong-ar42-63b683c7
+Source: https://github.com/LYiHub/AR-Mahjong-Assistant-preview
+Pinned commit: e6bc06cbdbc22ab53f40b1ef5ebeca6dc49f8299
+Source model path: server/models/yolo/weights.onnx
+Source class list: server/models/yolo/class_names.txt
+Model SHA-256: 63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a
+Class-list SHA-256: 58f9fa2c2b01f554a5dcb5526a579fe6e79c3c5acc5f206ce1535163c376046e
+Bundled model bytes: 12,270,403. Original ONNX artifact, no re-export.
+
+PUBLISHER GRANT UNRESOLVED
+The pinned repository does not provide a LICENSE or explicit README grant.
+The model contains AGPL-3.0/Ultralytics license metadata, but that text is
+automatically inserted by the Ultralytics 8.0.196 exporter. It is not
+independent evidence that the publisher granted permission for this model.
+The AGPL text is retained as a notice; it does not resolve this missing grant.
+This experimental bundle is for research and local testing only. It is not
+approval for public, store, commercial or binary redistribution. Before any
+distribution, resolve the publisher/model/data permissions or replace the model.
+
+The pinned README credits the Jon Chan mahjong-baq4s dataset family:
+https://universe.roboflow.com/jon-chan-gnsoa/mahjong-baq4s
+The exact training version, split and image manifest are unknown. Do not infer
+the current dataset version or that evaluation photos are absent from training.
+Historical nikmomo MIT/model notices retained in this directory apply to the
+previous YOLO11n V2 baseline only; they do not license the current AR42 model.
+
+RECOGNITION LIMITS
+Input: float32 RGB 1 x 3 x 640 x 640, aspect-preserving letterbox, padding114.
+Output: float32 1 x 46 x 8400, four box channels then42 class scores.
+B=bamboo, C=characters, D=circles. Eight flower/season classes are retained as
+unsupported tile -1, preventing automatic stable acceptance. No distinct
+red-five or general UNKNOWN class exists. Jokers, backs and other unsupported
+faces are not reliably rejected merely because they lack a model class.
+The same confidence, count, geometry and temporal checks remain in use.
+High-confidence wrong predictions were observed. Every hand needs the user's
+visual confirmation/correction. Development results are not universal accuracy.
+The historical public-video replay uses the old YOLO11n V2 predictions and
+does not establish current AR42 video behavior. Recognition and scoring differ.
+
+LICENSED NATIVE TEST FIXTURE
+assets/test_fixtures/commons-ting-row-2.jpg is a crop of Ting-de-base.JPG by
+Dominique D'Issy, licensed CC BY-SA 3.0:
+https://commons.wikimedia.org/wiki/File:Ting-de-base.JPG
+https://creativecommons.org/licenses/by-sa/3.0/
+Changes: fixed second-row crop [0,134,700,215], JPEG re-encoding at quality95;
+no generated or overlaid tiles. This derivative retains CC BY-SA 3.0.
+Fixture SHA-256: a5f0dcc671cd86f516291637f9f96c21a82e3cce5f4c8ab7ae8bce2cc6cc2dde
+This known development photo tests the native inference path. It is not an
+untouched accuracy test, camera-stream simulation or proof of live stability.

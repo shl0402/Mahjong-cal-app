@@ -1,0 +1,105 @@
+{
+  "id": "mahjong-yolo11n-3c7732c0",
+  "status": "experimental; requires human correction",
+  "source_repository": "https://github.com/nikmomo/Mahjong-YOLO",
+  "source_commit": "28ffceed232ad95fd019c47a6c51ae7c78791a0e",
+  "source_path": "models/nano/mahjong-yolon-best.onnx",
+  "sha256": "3c7732c022d41c1a3f48cea931ce626416d92486ab5b86692312941d0cc22226",
+  "bytes": 10611888,
+  "repository_license": "MIT",
+  "model_embedded_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+  "distribution_status": "Do not infer a permissive model license from repository MIT license. Select a compliant release license or replace model before distribution.",
+  "input": {
+    "name": "images",
+    "shape": [
+      1,
+      3,
+      640,
+      640
+    ],
+    "dtype": "float32",
+    "channels": "RGB",
+    "scale": "1/255",
+    "layout": "NCHW",
+    "resize": "aspect-preserving letterbox",
+    "padding": 114
+  },
+  "output": {
+    "name": "output0",
+    "shape": [
+      1,
+      41,
+      8400
+    ],
+    "coordinates": "cx, cy, width, height in input pixels",
+    "objectness_column": false,
+    "class_scores_start": 4,
+    "embedded_nms": false
+  },
+  "classes": [
+    "1m",
+    "1p",
+    "1s",
+    "1z",
+    "2m",
+    "2p",
+    "2s",
+    "2z",
+    "3m",
+    "3p",
+    "3s",
+    "3z",
+    "4m",
+    "4p",
+    "4s",
+    "4z",
+    "5m",
+    "5p",
+    "5s",
+    "5z",
+    "6m",
+    "6p",
+    "6s",
+    "6z",
+    "7m",
+    "7p",
+    "7s",
+    "7z",
+    "8m",
+    "8p",
+    "8s",
+    "9m",
+    "9p",
+    "9s",
+    "0m",
+    "0p",
+    "0s"
+  ],
+  "unsupported": [
+    "flowers",
+    "seasons",
+    "jokers",
+    "backs",
+    "unknown class"
+  ],
+  "normalization": {
+    "0m": "5m plus red-five flag",
+    "0p": "5p plus red-five flag",
+    "0s": "5s plus red-five flag",
+    "5z": "white dragon",
+    "6z": "green dragon",
+    "7z": "red dragon"
+  },
+  "postprocessing": {
+    "confidence": 0.25,
+    "class_agnostic_nms_iou": 0.45,
+    "maximum_detections": 40,
+    "order": "left-to-right for guided single-row capture"
+  },
+  "evaluation_reports": [
+    "reports/baseline.json",
+    "reports/scale_probe.json"
+  ],
+  "evaluated_on_phone": false,
+  "real_whole_hand_accuracy": null
+}

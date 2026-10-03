@@ -1,0 +1,1202 @@
+{
+  "sha": "b595c9865a47e785c5834c5f4cca541d2fc571f1",
+  "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/b595c9865a47e785c5834c5f4cca541d2fc571f1",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fd6ac798861524fdcd19fc9855bf70e2341e239",
+      "size": 151,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/8fd6ac798861524fdcd19fc9855bf70e2341e239"
+    },
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c64e83398aa6f14c50a68180226e85b283df99d4",
+      "size": 272,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/c64e83398aa6f14c50a68180226e85b283df99d4"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b331587b5fe725d4d39a47f33666f77b63937b7d",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/b331587b5fe725d4d39a47f33666f77b63937b7d"
+    },
+    {
+      "path": ".github/copilot-instructions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d44a6ac0b9f61856b30e45de272288bdab966b5",
+      "size": 1636,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/0d44a6ac0b9f61856b30e45de272288bdab966b5"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b5559f91bebfc88d4df1a7f3f8edb61889cc2a3",
+      "size": 584,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/4b5559f91bebfc88d4df1a7f3f8edb61889cc2a3"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b1c24106493cfc5b9fbb7401e52fe8a97ae7bea",
+      "size": 3909,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/9b1c24106493cfc5b9fbb7401e52fe8a97ae7bea"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7e04c21f7fcdecc7c0259914960092730646bbc",
+      "size": 7148,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/a7e04c21f7fcdecc7c0259914960092730646bbc"
+    },
+    {
+      "path": "app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1086c4f00a59b8df167062df1019a9cba962f448",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/1086c4f00a59b8df167062df1019a9cba962f448"
+    },
+    {
+      "path": "app/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e45a05a5dbe9750eda3e0e66703a7b411feaa89d",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/e45a05a5dbe9750eda3e0e66703a7b411feaa89d"
+    },
+    {
+      "path": "app/api/detect-gemini",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10231a39219d191c91e19601bf68d288dbd78fb8",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/10231a39219d191c91e19601bf68d288dbd78fb8"
+    },
+    {
+      "path": "app/api/detect-gemini/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa6b868fca98752e9031515423fa4a46856e225f",
+      "size": 5365,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/aa6b868fca98752e9031515423fa4a46856e225f"
+    },
+    {
+      "path": "app/api/detect-server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7aa578426dc499d9a9c4d7f5f365354eb0f8a239",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/7aa578426dc499d9a9c4d7f5f365354eb0f8a239"
+    },
+    {
+      "path": "app/api/detect-server/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20aff6cc7ec4eea12a70ba974b58467430c3cc2e",
+      "size": 4381,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/20aff6cc7ec4eea12a70ba974b58467430c3cc2e"
+    },
+    {
+      "path": "app/api/save-training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1afb692bac5f78c71e5015788e64052ec3461e16",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/1afb692bac5f78c71e5015788e64052ec3461e16"
+    },
+    {
+      "path": "app/api/save-training/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bac2ce1453077ce6dcb51edcb49b8d81ea76339",
+      "size": 622,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/3bac2ce1453077ce6dcb51edcb49b8d81ea76339"
+    },
+    {
+      "path": "app/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ce4c7170df7a9196ea41ad11f6207f015eacf80",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/1ce4c7170df7a9196ea41ad11f6207f015eacf80"
+    },
+    {
+      "path": "app/components/CameraCapture.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb5f5972f6ae9b713ec9fe6ee138fcd3905383e9",
+      "size": 9941,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/fb5f5972f6ae9b713ec9fe6ee138fcd3905383e9"
+    },
+    {
+      "path": "app/components/GuidedCapture.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbeb3cfc659f5aa222f4dbcb8a0655d6d02ab063",
+      "size": 33044,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/cbeb3cfc659f5aa222f4dbcb8a0655d6d02ab063"
+    },
+    {
+      "path": "app/components/GuidedScanUpdateNotice.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a84eb42ac0e1c9ddd0409b8a7249914f1083e50c",
+      "size": 3530,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/a84eb42ac0e1c9ddd0409b8a7249914f1083e50c"
+    },
+    {
+      "path": "app/components/MeldBuilder.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebfa2995ed6b0a0ca739802ae9bd5eca29076d91",
+      "size": 14777,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/ebfa2995ed6b0a0ca739802ae9bd5eca29076d91"
+    },
+    {
+      "path": "app/components/PWAInstallBanner.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0104cf0661aad30b26bca937c6906e1ebd5d8f9",
+      "size": 5797,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/e0104cf0661aad30b26bca937c6906e1ebd5d8f9"
+    },
+    {
+      "path": "app/components/TileGraphic.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7d92fd8b394b574c36ba9c08071138898b6517",
+      "size": 1611,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/2f7d92fd8b394b574c36ba9c08071138898b6517"
+    },
+    {
+      "path": "app/components/TileRow.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11bbce047c46cc67e7eb5025a93992a533aea34c",
+      "size": 11274,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/11bbce047c46cc67e7eb5025a93992a533aea34c"
+    },
+    {
+      "path": "app/components/TrainingConsentBanner.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a989b93be70498309e343be507a67eeacbfd5cc2",
+      "size": 2869,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/a989b93be70498309e343be507a67eeacbfd5cc2"
+    },
+    {
+      "path": "app/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb058b0ba57666749aac6bd0c5ce6b095e930818",
+      "size": 14599,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/cb058b0ba57666749aac6bd0c5ce6b095e930818"
+    },
+    {
+      "path": "app/globals.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68b18a24941642dba0a164bc157855a752d34686",
+      "size": 116,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/68b18a24941642dba0a164bc157855a752d34686"
+    },
+    {
+      "path": "app/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "281b7178c9ffb29cb5a79b958d0a22727cb00dbd",
+      "size": 4056,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/281b7178c9ffb29cb5a79b958d0a22727cb00dbd"
+    },
+    {
+      "path": "app/opengraph-image.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93d3117aab4e72b178c5657c162a30a66d74a8ad",
+      "size": 2678,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/93d3117aab4e72b178c5657c162a30a66d74a8ad"
+    },
+    {
+      "path": "app/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dafe3bb8518026c0bd078c3a5185afaa50a33703",
+      "size": 16908,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/dafe3bb8518026c0bd078c3a5185afaa50a33703"
+    },
+    {
+      "path": "app/privacy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e821a22efb769fca402992a7ef829b321266cec",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/6e821a22efb769fca402992a7ef829b321266cec"
+    },
+    {
+      "path": "app/privacy/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d168064642f80f55f6c7ac4d6930b2637b2fa55b",
+      "size": 11161,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/d168064642f80f55f6c7ac4d6930b2637b2fa55b"
+    },
+    {
+      "path": "app/robots.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de7b61960dbd4f81a502859f480d6e63f4918efd",
+      "size": 256,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/de7b61960dbd4f81a502859f480d6e63f4918efd"
+    },
+    {
+      "path": "app/score",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7d7336b2ad95e223138b357ac1d93693741f8f4",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/b7d7336b2ad95e223138b357ac1d93693741f8f4"
+    },
+    {
+      "path": "app/score/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b9539cbf6c4a35320c5b654c0efa4f06c3e3783",
+      "size": 715,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/6b9539cbf6c4a35320c5b654c0efa4f06c3e3783"
+    },
+    {
+      "path": "app/score/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb392328f6153184719368c2860d9b9875b5be13",
+      "size": 79713,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/eb392328f6153184719368c2860d9b9875b5be13"
+    },
+    {
+      "path": "app/sitemap.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f6d87e31c9ca01954ccb92903884e641d5ea768",
+      "size": 540,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/6f6d87e31c9ca01954ccb92903884e641d5ea768"
+    },
+    {
+      "path": "archive",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04ec74bff2bc61cc97f995018ad1e931809846b3",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/04ec74bff2bc61cc97f995018ad1e931809846b3"
+    },
+    {
+      "path": "archive/legacy-browser-detector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "428da9542ef49ae7d51ec9856526eca1a9e97dde",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/428da9542ef49ae7d51ec9856526eca1a9e97dde"
+    },
+    {
+      "path": "archive/legacy-browser-detector/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f382145479a09072f381c3e34921633ca4163f9d",
+      "size": 420,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/f382145479a09072f381c3e34921633ca4163f9d"
+    },
+    {
+      "path": "infra",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37968a25d16dca8850255ed3d61a84a228f1c783",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/37968a25d16dca8850255ed3d61a84a228f1c783"
+    },
+    {
+      "path": "infra/gcp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fd0ddf7201cfb4719d4278fc4acc375b3075d43",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/4fd0ddf7201cfb4719d4278fc4acc375b3075d43"
+    },
+    {
+      "path": "infra/gcp/riichicam-inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a71bee984f00c1552c0b7958b0724104597a8506",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/a71bee984f00c1552c0b7958b0724104597a8506"
+    },
+    {
+      "path": "infra/gcp/riichicam-inference/.terraform.lock.hcl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6212e9c3a1f8fd7e000a370196de51a3c4e05da",
+      "size": 1184,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/a6212e9c3a1f8fd7e000a370196de51a3c4e05da"
+    },
+    {
+      "path": "infra/gcp/riichicam-inference/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b00937d426db4d32c94bddd511db5f0b32a5a5dd",
+      "size": 2750,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/b00937d426db4d32c94bddd511db5f0b32a5a5dd"
+    },
+    {
+      "path": "infra/gcp/riichicam-inference/main.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6febfb35623e77d957e8006baa4254aef4936b8b",
+      "size": 4448,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/6febfb35623e77d957e8006baa4254aef4936b8b"
+    },
+    {
+      "path": "infra/gcp/riichicam-inference/outputs.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "129aa39046a2a0ac187f7bff1aa347fe3ae1fd7e",
+      "size": 600,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/129aa39046a2a0ac187f7bff1aa347fe3ae1fd7e"
+    },
+    {
+      "path": "infra/gcp/riichicam-inference/terraform.tfvars.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecae0031866e76658f769249d5b97f0fbdbcf672",
+      "size": 492,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/ecae0031866e76658f769249d5b97f0fbdbcf672"
+    },
+    {
+      "path": "infra/gcp/riichicam-inference/variables.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b4ec929c9075e525dde4687156d9444bba068d9",
+      "size": 1900,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/0b4ec929c9075e525dde4687156d9444bba068d9"
+    },
+    {
+      "path": "infra/gcp/riichicam-inference/versions.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1816b4e0ef19cde74c72a25a617479288bc7005a",
+      "size": 229,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/1816b4e0ef19cde74c72a25a617479288bc7005a"
+    },
+    {
+      "path": "lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ff114a10d3d3049a2d826534bfb93a25d47c37c",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/0ff114a10d3d3049a2d826534bfb93a25d47c37c"
+    },
+    {
+      "path": "lib/detection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4cbd78d2b9d8af52968775b65316f17d0cec992",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/a4cbd78d2b9d8af52968775b65316f17d0cec992"
+    },
+    {
+      "path": "lib/detection/__tests__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4152fed46cf976c5bc8e4c5400b612cb7c388daa",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/4152fed46cf976c5bc8e4c5400b612cb7c388daa"
+    },
+    {
+      "path": "lib/detection/__tests__/sections.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d37245bbdab2b40fbba9937182bebc0618780005",
+      "size": 5278,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/d37245bbdab2b40fbba9937182bebc0618780005"
+    },
+    {
+      "path": "lib/detection/sections.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e158918e4471e6761568dc938ea25d86a064d7e",
+      "size": 3647,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/2e158918e4471e6761568dc938ea25d86a064d7e"
+    },
+    {
+      "path": "lib/detection/server.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "676a0500b470cd27559119b3cbcfc066ea8ee1bc",
+      "size": 4527,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/676a0500b470cd27559119b3cbcfc066ea8ee1bc"
+    },
+    {
+      "path": "lib/scoring",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a5f5d9d811c984c0c7ff1bc963acda46ff4e6a5",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/9a5f5d9d811c984c0c7ff1bc963acda46ff4e6a5"
+    },
+    {
+      "path": "lib/scoring/__tests__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb7eacc5a383bc00044997c3ce8d8576e89183f4",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/eb7eacc5a383bc00044997c3ce8d8576e89183f4"
+    },
+    {
+      "path": "lib/scoring/__tests__/fu-points.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "483628527f9aea8c6eff33f96f96d36f48715b9c",
+      "size": 10777,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/483628527f9aea8c6eff33f96f96d36f48715b9c"
+    },
+    {
+      "path": "lib/scoring/__tests__/fuzz-corpus.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f14bc93260989b9691553f920957e327887315b",
+      "size": 10220,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/6f14bc93260989b9691553f920957e327887315b"
+    },
+    {
+      "path": "lib/scoring/__tests__/meld-grouping.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f821eda02b3fb8bb8c7c9cc4160e02460982e0c",
+      "size": 3360,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/3f821eda02b3fb8bb8c7c9cc4160e02460982e0c"
+    },
+    {
+      "path": "lib/scoring/__tests__/roboflow-parser.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "447fdf59fa072ea8a8e8c685ee645c92a880a065",
+      "size": 2485,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/447fdf59fa072ea8a8e8c685ee645c92a880a065"
+    },
+    {
+      "path": "lib/scoring/__tests__/scoring.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f19a7fb8f5cab04f95b4396164f72a7851bdaf",
+      "size": 35531,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/45f19a7fb8f5cab04f95b4396164f72a7851bdaf"
+    },
+    {
+      "path": "lib/scoring/fu.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b9a2d38fce96eb3b07b6e4df08004e4e874c038",
+      "size": 4993,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/3b9a2d38fce96eb3b07b6e4df08004e4e874c038"
+    },
+    {
+      "path": "lib/scoring/gemini-parser.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "342924028ca672ccbdb5ec5a082d1b6e303a7ac9",
+      "size": 2133,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/342924028ca672ccbdb5ec5a082d1b6e303a7ac9"
+    },
+    {
+      "path": "lib/scoring/hand-parser.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f02dd0488eca064cbf673cb9926028cc03f61a6f",
+      "size": 11918,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/f02dd0488eca064cbf673cb9926028cc03f61a6f"
+    },
+    {
+      "path": "lib/scoring/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77a36160cf82b794cc3c6f675097d5b5716830b1",
+      "size": 9176,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/77a36160cf82b794cc3c6f675097d5b5716830b1"
+    },
+    {
+      "path": "lib/scoring/meld-grouping.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc18a00cc437aa30e834cf6d8b390c25ba0c6840",
+      "size": 6254,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/cc18a00cc437aa30e834cf6d8b390c25ba0c6840"
+    },
+    {
+      "path": "lib/scoring/points.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc90e7fffb38b1fdff93bd2b48cbfc4c1c27c836",
+      "size": 3213,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/dc90e7fffb38b1fdff93bd2b48cbfc4c1c27c836"
+    },
+    {
+      "path": "lib/scoring/roboflow-parser.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "360a296c3fd2f8bebfef193cf981bdad708ca91d",
+      "size": 1398,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/360a296c3fd2f8bebfef193cf981bdad708ca91d"
+    },
+    {
+      "path": "lib/scoring/tiles.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daa281d8720c9152fc1d6a0881f97b77488e7e8f",
+      "size": 2796,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/daa281d8720c9152fc1d6a0881f97b77488e7e8f"
+    },
+    {
+      "path": "lib/scoring/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1072a5439196c586cc081956596deb5bd3286a81",
+      "size": 7353,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/1072a5439196c586cc081956596deb5bd3286a81"
+    },
+    {
+      "path": "lib/scoring/yaku.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e830c8b0b024b4905ca93955c173e91a555afaac",
+      "size": 26278,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/e830c8b0b024b4905ca93955c173e91a555afaac"
+    },
+    {
+      "path": "lib/server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8714b83b81fbc14b4e5a4ced8ed1defbc4ded5c6",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/8714b83b81fbc14b4e5a4ced8ed1defbc4ded5c6"
+    },
+    {
+      "path": "lib/server/__tests__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc4c553ed1b0d0506958ac388aeb2f5ab37523e1",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/dc4c553ed1b0d0506958ac388aeb2f5ab37523e1"
+    },
+    {
+      "path": "lib/server/__tests__/cloud-run-auth.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b511975856041a3e53ea8e959af27ad26c7f965",
+      "size": 2191,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/4b511975856041a3e53ea8e959af27ad26c7f965"
+    },
+    {
+      "path": "lib/server/cloud-run-auth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd56196f97c394a3796113208ec21f7c3b02052f",
+      "size": 3840,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/fd56196f97c394a3796113208ec21f7c3b02052f"
+    },
+    {
+      "path": "lib/training-storage.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1311d27769215b30a0d1a9a134cc07df66c4895",
+      "size": 693,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/f1311d27769215b30a0d1a9a134cc07df66c4895"
+    },
+    {
+      "path": "next.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a8b1d51711cb008135ce0593bf0a8fc9b21ba2e",
+      "size": 933,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/7a8b1d51711cb008135ce0593bf0a8fc9b21ba2e"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9673352737b5e5a98cfb077050918be6ac574ff4",
+      "size": 136764,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/9673352737b5e5a98cfb077050918be6ac574ff4"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fabd1d7992c86d60815026bd4ca1d99bca74cf82",
+      "size": 692,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/fabd1d7992c86d60815026bd4ca1d99bca74cf82"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4045a1cfc4aba148d9474e2e59acd132b3008dc4",
+      "size": 104,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/4045a1cfc4aba148d9474e2e59acd132b3008dc4"
+    },
+    {
+      "path": "proxy.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e613cb8db6e920a21c7162d72a1896dacf9c6036",
+      "size": 602,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/e613cb8db6e920a21c7162d72a1896dacf9c6036"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "151ce12e7c248cbef5912aea7ca2354cc632ff27",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/151ce12e7c248cbef5912aea7ca2354cc632ff27"
+    },
+    {
+      "path": "public/icon-192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c985a49eea1a4aa2e5f757720ad03238ce6b1a97",
+      "size": 3179,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/c985a49eea1a4aa2e5f757720ad03238ce6b1a97"
+    },
+    {
+      "path": "public/icon-512-maskable.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baafd72d5c8e02191bbbc2fb528b7a3821b9332f",
+      "size": 13329,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/baafd72d5c8e02191bbbc2fb528b7a3821b9332f"
+    },
+    {
+      "path": "public/icon-512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baafd72d5c8e02191bbbc2fb528b7a3821b9332f",
+      "size": 13329,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/baafd72d5c8e02191bbbc2fb528b7a3821b9332f"
+    },
+    {
+      "path": "public/icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b15d852375e211d9b2767b7a7f705a1389c4d4bf",
+      "size": 425,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/b15d852375e211d9b2767b7a7f705a1389c4d4bf"
+    },
+    {
+      "path": "public/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc275653e56cec58b32f727f616c3a238a691e8c",
+      "size": 736,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/dc275653e56cec58b32f727f616c3a238a691e8c"
+    },
+    {
+      "path": "public/sw.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d69115aeac97415acaaab54677acf43b546cfe9",
+      "size": 2186,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/1d69115aeac97415acaaab54677acf43b546cfe9"
+    },
+    {
+      "path": "public/tiles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a960a148507a3c9fd2ae9753227fcfb867bbba5",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/5a960a148507a3c9fd2ae9753227fcfb867bbba5"
+    },
+    {
+      "path": "public/tiles/Chun.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "831b9c0a089553b3a0b88ce3f1e7e0abd3825227",
+      "size": 9497,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/831b9c0a089553b3a0b88ce3f1e7e0abd3825227"
+    },
+    {
+      "path": "public/tiles/Haku.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12d1d75a188818b7c298574fb612d974f8d9c865",
+      "size": 7122,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/12d1d75a188818b7c298574fb612d974f8d9c865"
+    },
+    {
+      "path": "public/tiles/Hatsu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d7f37d6d95b1b1dc61889c466bf97501862ae94",
+      "size": 16047,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/4d7f37d6d95b1b1dc61889c466bf97501862ae94"
+    },
+    {
+      "path": "public/tiles/Man1.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1673e3630dcc664943883ebe5b0735bee5abede9",
+      "size": 13877,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/1673e3630dcc664943883ebe5b0735bee5abede9"
+    },
+    {
+      "path": "public/tiles/Man2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb9e3cda2039db1f4f56d5227ec9f4f41e0fcb8e",
+      "size": 14414,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/bb9e3cda2039db1f4f56d5227ec9f4f41e0fcb8e"
+    },
+    {
+      "path": "public/tiles/Man3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "544ae471994b9c4ff216ec477b1a7fed2d50abbd",
+      "size": 15014,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/544ae471994b9c4ff216ec477b1a7fed2d50abbd"
+    },
+    {
+      "path": "public/tiles/Man4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1facb4736da8863a4314fd49b0b2d6f7d40f7fdf",
+      "size": 15436,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/1facb4736da8863a4314fd49b0b2d6f7d40f7fdf"
+    },
+    {
+      "path": "public/tiles/Man5-Dora.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af337270cdd6733bf8dba58e646e76fbe86449ab",
+      "size": 17291,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/af337270cdd6733bf8dba58e646e76fbe86449ab"
+    },
+    {
+      "path": "public/tiles/Man5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac99fee9ba6a92b607d3b69181101cf68975025a",
+      "size": 16943,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/ac99fee9ba6a92b607d3b69181101cf68975025a"
+    },
+    {
+      "path": "public/tiles/Man6.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b611e312bcb0446c161335d758bb2c25baac028",
+      "size": 15694,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/4b611e312bcb0446c161335d758bb2c25baac028"
+    },
+    {
+      "path": "public/tiles/Man7.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "714afea73e9151a79d5229c6de376df82382528c",
+      "size": 14365,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/714afea73e9151a79d5229c6de376df82382528c"
+    },
+    {
+      "path": "public/tiles/Man8.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dcdf8946bf248838f5505420033bcd907935057",
+      "size": 14459,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/6dcdf8946bf248838f5505420033bcd907935057"
+    },
+    {
+      "path": "public/tiles/Man9.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ad115d6d2f68cd3b1b466d1b0739e7763324802",
+      "size": 15159,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/9ad115d6d2f68cd3b1b466d1b0739e7763324802"
+    },
+    {
+      "path": "public/tiles/Nan.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8e247a979f020d6602d2cdd742f4986885e3249",
+      "size": 12658,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/c8e247a979f020d6602d2cdd742f4986885e3249"
+    },
+    {
+      "path": "public/tiles/Pei.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65176e16f80c027c3c6296742808e9d5ece4477b",
+      "size": 10212,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/65176e16f80c027c3c6296742808e9d5ece4477b"
+    },
+    {
+      "path": "public/tiles/Pin1.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dfebb470ad50688f5824405d0beeef8b15151c4",
+      "size": 20624,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/2dfebb470ad50688f5824405d0beeef8b15151c4"
+    },
+    {
+      "path": "public/tiles/Pin2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8edba73642e68a63b68e2ac0960ae362a2d2174d",
+      "size": 14939,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/8edba73642e68a63b68e2ac0960ae362a2d2174d"
+    },
+    {
+      "path": "public/tiles/Pin3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc48dfbcb6048aa62356106a4e46726d76fe6a87",
+      "size": 15486,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/dc48dfbcb6048aa62356106a4e46726d76fe6a87"
+    },
+    {
+      "path": "public/tiles/Pin4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f5551f1a46074694d3a5f88afec6ddaf15345eb",
+      "size": 18108,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/8f5551f1a46074694d3a5f88afec6ddaf15345eb"
+    },
+    {
+      "path": "public/tiles/Pin5-Dora.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a7b30fa39bc13e06b2c6c64242c220d9d0e3457",
+      "size": 21179,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/8a7b30fa39bc13e06b2c6c64242c220d9d0e3457"
+    },
+    {
+      "path": "public/tiles/Pin5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3255fd6c696104c044425caf764e1f50adce2750",
+      "size": 20828,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/3255fd6c696104c044425caf764e1f50adce2750"
+    },
+    {
+      "path": "public/tiles/Pin6.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0df00d6b7c9fe77744b238a512f02b12d1016c9",
+      "size": 22365,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/f0df00d6b7c9fe77744b238a512f02b12d1016c9"
+    },
+    {
+      "path": "public/tiles/Pin7.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92f8a393aa946393ee1127a6da107378533f742f",
+      "size": 27573,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/92f8a393aa946393ee1127a6da107378533f742f"
+    },
+    {
+      "path": "public/tiles/Pin8.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f435bf298f072ee4356bb3f721037cff3b60a99a",
+      "size": 27566,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/f435bf298f072ee4356bb3f721037cff3b60a99a"
+    },
+    {
+      "path": "public/tiles/Pin9.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91ec6bf79934928f908aff86eeb05f9b2ca94c17",
+      "size": 31026,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/91ec6bf79934928f908aff86eeb05f9b2ca94c17"
+    },
+    {
+      "path": "public/tiles/Shaa.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "393b3eeb92b5195176a57f170e28d2ffa42c7bb5",
+      "size": 10805,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/393b3eeb92b5195176a57f170e28d2ffa42c7bb5"
+    },
+    {
+      "path": "public/tiles/Sou1.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9986c1a032f930f1a2d0150cb96bbe492a6c3545",
+      "size": 60121,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/9986c1a032f930f1a2d0150cb96bbe492a6c3545"
+    },
+    {
+      "path": "public/tiles/Sou2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8e9d2042b907f9a4cf24968c187b702f8f39976",
+      "size": 16093,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/d8e9d2042b907f9a4cf24968c187b702f8f39976"
+    },
+    {
+      "path": "public/tiles/Sou3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a620c3a6c661033488bbbad73a92b7ca05fdc403",
+      "size": 20338,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/a620c3a6c661033488bbbad73a92b7ca05fdc403"
+    },
+    {
+      "path": "public/tiles/Sou4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64488aea3f2744c3f0ff4795d40c1fe497e80d7c",
+      "size": 25945,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/64488aea3f2744c3f0ff4795d40c1fe497e80d7c"
+    },
+    {
+      "path": "public/tiles/Sou5-Dora.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c98457c320c8fa0d8b73ae2621e296e9cfba2df",
+      "size": 29124,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/3c98457c320c8fa0d8b73ae2621e296e9cfba2df"
+    },
+    {
+      "path": "public/tiles/Sou5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae87331f9c9940876e94778f4e3c584e1d777567",
+      "size": 28759,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/ae87331f9c9940876e94778f4e3c584e1d777567"
+    },
+    {
+      "path": "public/tiles/Sou6.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d32e73fa193f6c0b5a70354700396d734645ff",
+      "size": 33117,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/f6d32e73fa193f6c0b5a70354700396d734645ff"
+    },
+    {
+      "path": "public/tiles/Sou7.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e6ce61b761d31812c66c72eb3c9c644068ca8e1",
+      "size": 30548,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/4e6ce61b761d31812c66c72eb3c9c644068ca8e1"
+    },
+    {
+      "path": "public/tiles/Sou8.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc76f3655424499a3f85010c6364d82f3f45e07b",
+      "size": 34696,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/cc76f3655424499a3f85010c6364d82f3f45e07b"
+    },
+    {
+      "path": "public/tiles/Sou9.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6632ebe1aa74c56b256f943212a71bd0300c587a",
+      "size": 37279,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/6632ebe1aa74c56b256f943212a71bd0300c587a"
+    },
+    {
+      "path": "public/tiles/Ton.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13a0cf4610d0d63b0a0a53a9e0e85011f003d6d9",
+      "size": 11281,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/13a0cf4610d0d63b0a0a53a9e0e85011f003d6d9"
+    },
+    {
+      "path": "public/tiles/download.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22ac304542689f670ce84dae5fe83893da44721c",
+      "size": 646,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/22ac304542689f670ce84dae5fe83893da44721c"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b911ba5a70618a43549b11f01d16d742c1d98f8",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/9b911ba5a70618a43549b11f01d16d742c1d98f8"
+    },
+    {
+      "path": "scripts/differential_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7838b9b446a8d5944d76bf11f79a4ddd9c726e43",
+      "size": 7619,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/7838b9b446a8d5944d76bf11f79a4ddd9c726e43"
+    },
+    {
+      "path": "services",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db90c2cff4a53df7042bedea245f1d39aa6206d7",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/db90c2cff4a53df7042bedea245f1d39aa6206d7"
+    },
+    {
+      "path": "services/inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04602b54c967d28b3e57fd8c42a9e81ccf769c97",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/04602b54c967d28b3e57fd8c42a9e81ccf769c97"
+    },
+    {
+      "path": "services/inference/Caddyfile.inference.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21caf7df9cc05902a2c8ff748aebcb6422b0185c",
+      "size": 424,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/21caf7df9cc05902a2c8ff748aebcb6422b0185c"
+    },
+    {
+      "path": "services/inference/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9d1ee1963d69ef556d0de2459f698a39686d823",
+      "size": 883,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/e9d1ee1963d69ef556d0de2459f698a39686d823"
+    },
+    {
+      "path": "services/inference/Dockerfile.cpu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6694eb1b3f1e96627b46773f7d43d709e695b62b",
+      "size": 764,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/6694eb1b3f1e96627b46773f7d43d709e695b62b"
+    },
+    {
+      "path": "services/inference/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cead7c00c8267a04e35686202682f4fb23eb1d1",
+      "size": 5421,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/0cead7c00c8267a04e35686202682f4fb23eb1d1"
+    },
+    {
+      "path": "services/inference/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "277c38af3b119d1bb5943751124583dc67b810a2",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/277c38af3b119d1bb5943751124583dc67b810a2"
+    },
+    {
+      "path": "services/inference/app/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd46978b13819d2907114b8ec8165ddf0c4856f8",
+      "size": 42,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/fd46978b13819d2907114b8ec8165ddf0c4856f8"
+    },
+    {
+      "path": "services/inference/app/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4817ddc410b0560e31fcb3613dc8cb7c6465b365",
+      "size": 6233,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/4817ddc410b0560e31fcb3613dc8cb7c6465b365"
+    },
+    {
+      "path": "services/inference/app/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5755ebaaaf2746bf31a2b8e888e3bdbe3e2c2e8",
+      "size": 4877,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/c5755ebaaaf2746bf31a2b8e888e3bdbe3e2c2e8"
+    },
+    {
+      "path": "services/inference/app/postprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6d63e021e757fa2a23e8afd0a1f0289848171ab",
+      "size": 6753,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/e6d63e021e757fa2a23e8afd0a1f0289848171ab"
+    },
+    {
+      "path": "services/inference/benchmarks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bfaf3ea58d47bb393dfecc06a09e0161be82a5d3",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/bfaf3ea58d47bb393dfecc06a09e0161be82a5d3"
+    },
+    {
+      "path": "services/inference/benchmarks/compare_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c56fdbae51c32c2818e1675fc8a2952f303d28",
+      "size": 17307,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/33c56fdbae51c32c2818e1675fc8a2952f303d28"
+    },
+    {
+      "path": "services/inference/cloudbuild.cpu.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "613f5d4d7c7dcbf8b4426d1830fdf6966c9f1946",
+      "size": 230,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/613f5d4d7c7dcbf8b4426d1830fdf6966c9f1946"
+    },
+    {
+      "path": "services/inference/docker-compose.vm.example.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4515e204646d29bc5345ea4c2fe9b1ee84f66d7",
+      "size": 807,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/d4515e204646d29bc5345ea4c2fe9b1ee84f66d7"
+    },
+    {
+      "path": "services/inference/requirements-cpu.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0599fe1c62e0e004c3c7126d4e1d88542b671dce",
+      "size": 91,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/0599fe1c62e0e004c3c7126d4e1d88542b671dce"
+    },
+    {
+      "path": "services/inference/requirements-dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d559aab3790ff78f8054eed7c154a5acf08a7ba4",
+      "size": 35,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/d559aab3790ff78f8054eed7c154a5acf08a7ba4"
+    },
+    {
+      "path": "services/inference/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "177653088c9039d3a9c83bf726a8003768e84455",
+      "size": 95,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/177653088c9039d3a9c83bf726a8003768e84455"
+    },
+    {
+      "path": "services/inference/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d57b96ccd8e6fa366118f83fcbab7fd27deb470",
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/trees/2d57b96ccd8e6fa366118f83fcbab7fd27deb470"
+    },
+    {
+      "path": "services/inference/tests/test_postprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24cd2343118481de2461e4cf5a7a01537ebf4aeb",
+      "size": 3112,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/24cd2343118481de2461e4cf5a7a01537ebf4aeb"
+    },
+    {
+      "path": "tailwind.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2578419402d713cc9caace1be1cbeb4dca7b0dba",
+      "size": 276,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/2578419402d713cc9caace1be1cbeb4dca7b0dba"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e9bbf7b1950e738560c4b3fb50a77af1c53d8f0",
+      "size": 698,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/9e9bbf7b1950e738560c4b3fb50a77af1c53d8f0"
+    },
+    {
+      "path": "vitest.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2571ecec93789a9ce5db4b3201b2f935112194b6",
+      "size": 214,
+      "url": "https://api.github.com/repos/MMitch42/RiichiCam/git/blobs/2571ecec93789a9ce5db4b3201b2f935112194b6"
+    }
+  ],
+  "truncated": false
+}

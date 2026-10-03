@@ -1,0 +1,200 @@
+{
+  "app_version": "0.3.0+3",
+  "engine_version": "0.1.2",
+  "date": "2026-10-03",
+  "status": "all final engine0.1.2 builds passed; unchanged native scanner tests retained from prior snapshot",
+  "flutter_tests_passed": 206,
+  "analysis": "no issues (whole app, after formatting scoring.dart and main.dart)",
+  "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+  "dart_source_sha256": "017a497674d1c2d01c7f5ac26e96546c0a4813e4714952069e42395db44bc475",
+  "source_digest_method": "SHA256 of lexicographically sorted repository-relative app/lib/**.dart paths (including app/lib/ prefix) + NUL + file bytes + NUL",
+  "native_checks": {
+    "ios_real_photo_14_tiles": "passed",
+    "ios_blank_repeat_reopen": "passed",
+    "android_real_photo_14_tiles": "passed",
+    "android_blank_repeat_reopen": "passed",
+    "android_actual_yuv420_two_camera_cycles": "passed",
+    "android_page_size_bytes": 16384
+  },
+  "artifacts": [
+    {
+      "artifact": "app/build/ios/iphonesimulator/Runner.app",
+      "version": "0.3.0",
+      "build": "3",
+      "engine_source_version": "0.1.2",
+      "configuration": "Debug",
+      "target": "lib/main.dart",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "runner_sha256": "6f2d9428addba0e695921c4a57f274738f8f30f86229a806c3aae0e5924a7017",
+      "flutter_app_sha256": "e978aae3624843277db8d8abb22627ecbf210e056bcd3b0c5b08176a7551f799",
+      "bundle_bytes": 251679802,
+      "kernel_blob_sha256": "35a7116aea2e4a779e15a0b4548baec31a6397a7207dd2ec30a353bc7b001299"
+    },
+    {
+      "artifact": "app/build/ios/iphoneos/Runner.app",
+      "version": "0.3.0",
+      "build": "3",
+      "engine_source_version": "0.1.2",
+      "configuration": "Profile",
+      "target": "lib/main.dart",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "runner_sha256": "6d67577a1aba04f1c0d9229cb7f1ffd61d5485b11c21d725d3097fdd93d16a20",
+      "flutter_app_sha256": "b01a12a7bf9f80698c3417a3ae4b5ab293881eff8be9e1cf6d5b61da336c7010",
+      "bundle_bytes": 81945645
+    },
+    {
+      "artifact": "app/build/xcode-phone-test/Build/Products/Profile-iphoneos/Runner.app",
+      "version": "0.3.0",
+      "build": "3",
+      "engine_source_version": "0.1.2",
+      "configuration": "Profile",
+      "target": "lib/main.dart",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "runner_sha256": "f410c26038f1aef27701c569d15208309cc3ca1785b38586746ea3975992da58",
+      "flutter_app_sha256": "b01a12a7bf9f80698c3417a3ae4b5ab293881eff8be9e1cf6d5b61da336c7010",
+      "bundle_bytes": 81944989
+    },
+    {
+      "artifact": "app/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk",
+      "bytes": 57612175,
+      "sha256": "389e41aea7d5ddcb08882d253e25d1f0a4aac8da83029de498e776ab23fe25df",
+      "version": "0.3.0",
+      "build": "3",
+      "engine_source_version": "0.1.2",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "target": "lib/main.dart",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "com.mahjongvision.mahjong_vision.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+      ]
+    },
+    {
+      "artifact": "app/build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk",
+      "bytes": 49697283,
+      "sha256": "335dfe0eb94852ecd0c5c6bbc14c33899aab4283a4d0bd2d474c38e84a24075d",
+      "version": "0.3.0",
+      "build": "3",
+      "engine_source_version": "0.1.2",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "target": "lib/main.dart",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "com.mahjongvision.mahjong_vision.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+      ]
+    },
+    {
+      "artifact": "app/build/app/outputs/flutter-apk/app-debug.apk",
+      "bytes": 247839155,
+      "sha256": "a1498b89182e851e433b4cab02f89dd9bd7fe457da7865b5ff3126694f885976",
+      "version": "0.3.0",
+      "build": "3",
+      "engine_source_version": "0.1.2",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "target": "lib/main.dart",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "com.mahjongvision.mahjong_vision.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+      ]
+    },
+    {
+      "artifact": "app/build/app/outputs/flutter-apk/app-x86_64-release.apk",
+      "bytes": 62920583,
+      "sha256": "925bca4554527e3a67a02c0a5fa8bcedc445533552faf8317237a342cbad6a64",
+      "version": "0.3.0",
+      "build": "3",
+      "engine_source_version": "0.1.2",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "target": "lib/main.dart",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "com.mahjongvision.mahjong_vision.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+      ]
+    }
+  ],
+  "pending": [],
+  "historical_manifest": "docs/history/TEST_BUILD_MANIFEST_0.2.0.json",
+  "emulators_running": false,
+  "physical_phone_modified": false,
+  "direct_xcode_workspace_build": "passed unsigned Runner iPhone Test / Profile",
+  "final_flutter_target": "lib/main.dart",
+  "build_stages": [
+    {
+      "stage": "ios-simulator",
+      "exit_code": 0,
+      "seconds": 23.9,
+      "log": "/tmp/mahjong-030-engine012-ios-simulator.log"
+    },
+    {
+      "stage": "ios-profile",
+      "exit_code": 0,
+      "seconds": 28.1,
+      "log": "/tmp/mahjong-030-engine012-ios-profile.log"
+    },
+    {
+      "stage": "xcode-profile",
+      "exit_code": 0,
+      "seconds": 19.5,
+      "log": "/tmp/mahjong-030-engine012-xcode-profile.log"
+    },
+    {
+      "stage": "android-debug",
+      "exit_code": 0,
+      "seconds": 11.6,
+      "log": "/tmp/mahjong-030-engine012-android-debug.log"
+    },
+    {
+      "stage": "android-release",
+      "exit_code": 0,
+      "seconds": 20.1,
+      "log": "/tmp/mahjong-030-engine012-android-release.log"
+    },
+    {
+      "stage": "web",
+      "exit_code": 0,
+      "seconds": 17.1,
+      "log": "/tmp/mahjong-030-engine012-web.log"
+    }
+  ],
+  "web_build": "passed release; manual entry/settings/calculation, no live camera stream",
+  "web_version": {
+    "app_name": "mahjong_vision",
+    "version": "0.3.0",
+    "build_number": "3",
+    "package_name": "mahjong_vision"
+  },
+  "web_model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+  "web_main_js_sha256": "95d40b0d3649559fa4dd3e64cfb5deceb1a436b2dc097e76dac2174ea6fce706",
+  "native_measurements_ms": {
+    "ios_real_photo": 317,
+    "ios_blank_first": 171,
+    "ios_blank_reuse": 157,
+    "android_real_photo": 1364,
+    "android_blank_first": 1679,
+    "android_blank_reuse": 917,
+    "android_camera_first": 1937,
+    "android_camera_reuse": 976
+  },
+  "measurement_caveat": "Simulated devices under concurrent training load; not phone benchmarks",
+  "source_tree_frozen_tests": 206,
+  "verified_at_utc": "2026-10-02T17:41:04.219507+00:00",
+  "domain_tests_passed": 76,
+  "analysis_log": "/tmp/mahjong-030-engine012-analyze.log",
+  "changed_source_files_sha256": {
+    "app/lib/domain/scoring.dart": "3daddc415b1738dce19cd41489e0e87aa146e98269858469a0f140c56732ec92",
+    "app/lib/main.dart": "62de839a43e39992c5dc0ba4e779d5c38c37550a07b42f303805542e3bfb99e0"
+  },
+  "previous_engine_manifest": "docs/history/TEST_BUILD_MANIFEST_0.3.0_engine0.1.1.json",
+  "native_test_source_scope": {
+    "app_version": "0.3.0+3",
+    "engine_version": "0.1.1",
+    "dart_source_sha256": "15837a498eee47dd4f6186f07e49e5d1714bcae1824d9683fa4b45e1009e77cd",
+    "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+    "rerun_for_engine_0_1_2": false,
+    "reason": "Only scoring.dart and main.dart changed (settlement and explanatory text). The native model, camera and vision paths are unchanged. No emulators were started for this refresh."
+  }
+}

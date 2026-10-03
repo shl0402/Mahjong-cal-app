@@ -1,0 +1,8 @@
+{
+  "best_checkpoint_sha256": "3881dd8444e934c0cb2ff9e8d39f97e65ace09f34e0d66ed7ada3ae31f438c78",
+  "best_development_macro_recall": 0.9620623449069153,
+  "best_development_accuracy": 0.9685697808535179,
+  "total_seconds": 167.29540516703855,
+  "epochs_completed": 12,
+  "test_evaluation_performed": false
+}

@@ -1,0 +1,12 @@
+Ting-de-base.JPG, Dominique D'Issy
+Source: https://commons.wikimedia.org/wiki/File:Ting-de-base.JPG
+License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+https://creativecommons.org/licenses/by-sa/3.0/
+
+Original: vision/data/commons-real-hands/commons-31193194.jpg
+Source SHA-256: 0be9c0968daa5aee4a6959fc329872af8907d954998133a1bbef586641228857
+Derivative: assets/test_fixtures/commons-ting-row-2.jpg
+Changes: crop rectangle [0,134,700,215] in the upright source image; JPEG95,
+4:4:4 chroma, no scaling, no synthesized or overlaid tiles.
+The derivative retains CC BY-SA 3.0. No endorsement by the author is implied.
+Exact provenance/annotation hashes: vision/validation/native_ar42_fixture.json.

@@ -1,0 +1,5882 @@
+{
+  "experiment": "Development-only scale480 input probe; not integrated",
+  "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+  "reference_sha256": "8b49ac8b4aa4ae5491f721c06ebe47e7e53f903a7e4e2f1588e016e4c8f4f940",
+  "policy": "Resize content longest side to 480 on unchanged 640 RGB input padded114; confidence .25, class-agnostic NMS .45 and cap40.",
+  "video_totals": {
+    "correct": 222,
+    "extra": 38,
+    "missed": 38,
+    "exact_rows": 0,
+    "frames": 20
+  },
+  "photo_totals": {
+    "correct": 137,
+    "extra": 1,
+    "missed": 1,
+    "exact_regions": 9,
+    "exact_hands14": 7,
+    "hands14": 7
+  },
+  "video_frames": [
+    {
+      "frame_index": 0,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9135351181030273,
+          "box": [
+            0.32210007309913635,
+            0.2721827030181885,
+            0.3988950848579407,
+            0.6375017762184143
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9057981967926025,
+          "box": [
+            0.6078908443450928,
+            0.3995228409767151,
+            0.6896555423736572,
+            0.7805430889129639
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9048483371734619,
+          "box": [
+            0.7675727605819702,
+            0.4583697021007538,
+            0.8569165468215942,
+            0.8688411712646484
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9038652777671814,
+          "box": [
+            0.2610369920730591,
+            0.24571102857589722,
+            0.32997390627861023,
+            0.6024184226989746
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9003182649612427,
+          "box": [
+            0.4592856168746948,
+            0.3423296809196472,
+            0.5332286953926086,
+            0.7078376412391663
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8983717560768127,
+          "box": [
+            0.07722334563732147,
+            0.15335944294929504,
+            0.14406737685203552,
+            0.494771808385849
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8940191268920898,
+          "box": [
+            0.2059253305196762,
+            0.20794031023979187,
+            0.26728060841560364,
+            0.5594618916511536
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8875939846038818,
+          "box": [
+            0.14170750975608826,
+            0.17614170908927917,
+            0.21143083274364471,
+            0.5283985733985901
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8821440935134888,
+          "box": [
+            0.846545398235321,
+            0.4871603548526764,
+            0.9306796789169312,
+            0.9125825762748718
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8692065477371216,
+          "box": [
+            0.3950204849243164,
+            0.3149087429046631,
+            0.46472644805908203,
+            0.6635760068893433
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8685142993927002,
+          "box": [
+            0.5306378602981567,
+            0.36743971705436707,
+            0.6129553318023682,
+            0.7442969679832458
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8508066534996033,
+          "box": [
+            0.687191903591156,
+            0.43227773904800415,
+            0.7759357690811157,
+            0.8168649077415466
+          ]
+        },
+        {
+          "tile": "1s",
+          "tile_index": 18,
+          "red_five": false,
+          "model_class_id": 0,
+          "model_class_name": "1s",
+          "confidence": 0.6041412353515625,
+          "box": [
+            0.018551349639892578,
+            0.13537131249904633,
+            0.08063866198062897,
+            0.4620041847229004
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 12,
+      "extra": 1,
+      "missed": 1,
+      "pipeline_ms": 85.7922499999404
+    },
+    {
+      "frame_index": 12,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9154179096221924,
+          "box": [
+            0.32270634174346924,
+            0.27066290378570557,
+            0.39890021085739136,
+            0.6376227736473083
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9072189331054688,
+          "box": [
+            0.6077653169631958,
+            0.399148553609848,
+            0.6896103024482727,
+            0.7800689935684204
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9064737558364868,
+          "box": [
+            0.7681563496589661,
+            0.4599149823188782,
+            0.8570200204849243,
+            0.8658188581466675
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.9019701480865479,
+          "box": [
+            0.07774674147367477,
+            0.15396010875701904,
+            0.144019216299057,
+            0.4936383366584778
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9010448455810547,
+          "box": [
+            0.4593043029308319,
+            0.34429535269737244,
+            0.5339627861976624,
+            0.7067479491233826
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8997526168823242,
+          "box": [
+            0.20643450319766998,
+            0.2086210399866104,
+            0.2674432098865509,
+            0.5606344938278198
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8962106704711914,
+          "box": [
+            0.26174411177635193,
+            0.24523243308067322,
+            0.32999706268310547,
+            0.6017035841941833
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.883920431137085,
+          "box": [
+            0.1418685019016266,
+            0.17708560824394226,
+            0.2115800529718399,
+            0.5264931917190552
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8810214996337891,
+          "box": [
+            0.8462486267089844,
+            0.4876355230808258,
+            0.9304178953170776,
+            0.9112482666969299
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8693770170211792,
+          "box": [
+            0.5310254693031311,
+            0.37020477652549744,
+            0.6124938726425171,
+            0.743293285369873
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8670819997787476,
+          "box": [
+            0.3946765959262848,
+            0.3143877685070038,
+            0.4645254909992218,
+            0.661549985408783
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8584556579589844,
+          "box": [
+            0.6873621344566345,
+            0.4331302344799042,
+            0.7753010988235474,
+            0.8156318068504333
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.6380887627601624,
+          "box": [
+            0.018911583349108696,
+            0.13151173293590546,
+            0.08038066327571869,
+            0.46002233028411865
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 33.683667017612606
+    },
+    {
+      "frame_index": 24,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9151347875595093,
+          "box": [
+            0.32254382967948914,
+            0.27075517177581787,
+            0.3986629545688629,
+            0.637401282787323
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9099735617637634,
+          "box": [
+            0.7681689858436584,
+            0.459929883480072,
+            0.8570393323898315,
+            0.8661009073257446
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9076078534126282,
+          "box": [
+            0.6078685522079468,
+            0.3995512127876282,
+            0.6897690892219543,
+            0.7806568741798401
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9030424952507019,
+          "box": [
+            0.45943742990493774,
+            0.3453361988067627,
+            0.5334216952323914,
+            0.7073149085044861
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9029514193534851,
+          "box": [
+            0.206877201795578,
+            0.20770928263664246,
+            0.26768144965171814,
+            0.559154748916626
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.901170551776886,
+          "box": [
+            0.07774931937456131,
+            0.15491153299808502,
+            0.14415264129638672,
+            0.4934735596179962
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8960562944412231,
+          "box": [
+            0.26154863834381104,
+            0.24314719438552856,
+            0.329750657081604,
+            0.6022823452949524
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8809580206871033,
+          "box": [
+            0.846469521522522,
+            0.487030029296875,
+            0.9312641024589539,
+            0.912486732006073
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.878099799156189,
+          "box": [
+            0.14178380370140076,
+            0.1786859780550003,
+            0.21189038455486298,
+            0.5266732573509216
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8758736252784729,
+          "box": [
+            0.3947714567184448,
+            0.31456586718559265,
+            0.46457698941230774,
+            0.6614013910293579
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8714760541915894,
+          "box": [
+            0.531198263168335,
+            0.37083885073661804,
+            0.6126331090927124,
+            0.7432825565338135
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.845444917678833,
+          "box": [
+            0.6872451901435852,
+            0.4321816861629486,
+            0.775384783744812,
+            0.8158820867538452
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.5158171057701111,
+          "box": [
+            0.018501313403248787,
+            0.13226623833179474,
+            0.08024625480175018,
+            0.46027132868766785
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 27.917291037738323
+    },
+    {
+      "frame_index": 36,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9206658601760864,
+          "box": [
+            0.32215583324432373,
+            0.26830050349235535,
+            0.39885953068733215,
+            0.6382654309272766
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9080276489257812,
+          "box": [
+            0.45955124497413635,
+            0.3436437249183655,
+            0.5345697999000549,
+            0.7082684636116028
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9063103199005127,
+          "box": [
+            0.7681840658187866,
+            0.4636765420436859,
+            0.8568816781044006,
+            0.8658422231674194
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9034947156906128,
+          "box": [
+            0.6076756119728088,
+            0.39878323674201965,
+            0.6899764537811279,
+            0.7800077795982361
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.9001255035400391,
+          "box": [
+            0.07757129520177841,
+            0.1559983193874359,
+            0.14425291121006012,
+            0.49371659755706787
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.899391770362854,
+          "box": [
+            0.20660050213336945,
+            0.20594733953475952,
+            0.26783454418182373,
+            0.5595947504043579
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.896325409412384,
+          "box": [
+            0.26109790802001953,
+            0.24213938415050507,
+            0.3299521803855896,
+            0.6029081344604492
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8888435363769531,
+          "box": [
+            0.3945578336715698,
+            0.3156799376010895,
+            0.46492424607276917,
+            0.6612997651100159
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8792897462844849,
+          "box": [
+            0.8459376096725464,
+            0.4882999062538147,
+            0.9304898381233215,
+            0.9120921492576599
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8774890899658203,
+          "box": [
+            0.14176279306411743,
+            0.17563100159168243,
+            0.21185684204101562,
+            0.5260973572731018
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8733502626419067,
+          "box": [
+            0.6872796416282654,
+            0.4312523305416107,
+            0.7753726840019226,
+            0.8161371350288391
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8656984567642212,
+          "box": [
+            0.5310536623001099,
+            0.3718400001525879,
+            0.612695574760437,
+            0.7434589862823486
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.5575187802314758,
+          "box": [
+            0.018641185015439987,
+            0.13258415460586548,
+            0.08030522614717484,
+            0.4590432643890381
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 27.20116701675579
+    },
+    {
+      "frame_index": 48,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.916626513004303,
+          "box": [
+            0.3224491775035858,
+            0.2689363360404968,
+            0.39872899651527405,
+            0.6377488374710083
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9075309634208679,
+          "box": [
+            0.7683936953544617,
+            0.46259695291519165,
+            0.8566986322402954,
+            0.8664191961288452
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.905936062335968,
+          "box": [
+            0.4593941867351532,
+            0.34485331177711487,
+            0.5343741178512573,
+            0.7074222564697266
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9048013687133789,
+          "box": [
+            0.6079013347625732,
+            0.4001583456993103,
+            0.6898316144943237,
+            0.7803743481636047
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.900570809841156,
+          "box": [
+            0.20679409801959991,
+            0.20660579204559326,
+            0.2677549421787262,
+            0.5595304369926453
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8968291282653809,
+          "box": [
+            0.26131999492645264,
+            0.2426675260066986,
+            0.3298380672931671,
+            0.6026837229728699
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8962999582290649,
+          "box": [
+            0.07753937691450119,
+            0.1561264991760254,
+            0.1441490799188614,
+            0.49397045373916626
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8881926536560059,
+          "box": [
+            0.3949032425880432,
+            0.31566593050956726,
+            0.46447405219078064,
+            0.6610947847366333
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8827135562896729,
+          "box": [
+            0.6877211928367615,
+            0.4310557544231415,
+            0.7750316262245178,
+            0.8151905536651611
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8796844482421875,
+          "box": [
+            0.8462144136428833,
+            0.4887738525867462,
+            0.9308485388755798,
+            0.913256824016571
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8793484568595886,
+          "box": [
+            0.14181123673915863,
+            0.17643648386001587,
+            0.2118183821439743,
+            0.5254606604576111
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8690357208251953,
+          "box": [
+            0.5313493013381958,
+            0.37250617146492004,
+            0.6124440431594849,
+            0.7432193756103516
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.6377052664756775,
+          "box": [
+            0.01880512200295925,
+            0.13182157278060913,
+            0.08054739981889725,
+            0.45933836698532104
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 44.5367920328863
+    },
+    {
+      "frame_index": 60,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9182078838348389,
+          "box": [
+            0.3223217725753784,
+            0.26817017793655396,
+            0.3987770676612854,
+            0.6389328837394714
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9082674980163574,
+          "box": [
+            0.7682585120201111,
+            0.4634171426296234,
+            0.856441855430603,
+            0.8658197522163391
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9041140079498291,
+          "box": [
+            0.6085821986198425,
+            0.4009122848510742,
+            0.6895682215690613,
+            0.7798831462860107
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9034964442253113,
+          "box": [
+            0.45927557349205017,
+            0.34461796283721924,
+            0.5339571833610535,
+            0.7062943577766418
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9026938676834106,
+          "box": [
+            0.20686312019824982,
+            0.20623132586479187,
+            0.26772844791412354,
+            0.5596467852592468
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.894723653793335,
+          "box": [
+            0.2614200711250305,
+            0.24229897558689117,
+            0.32963982224464417,
+            0.6036479473114014
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.885553240776062,
+          "box": [
+            0.3951129913330078,
+            0.31567221879959106,
+            0.464523583650589,
+            0.6617864370346069
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.882347822189331,
+          "box": [
+            0.14182458817958832,
+            0.17834149301052094,
+            0.21221797168254852,
+            0.5265140533447266
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8770678639411926,
+          "box": [
+            0.8461663722991943,
+            0.4901040494441986,
+            0.9302894473075867,
+            0.9111410975456238
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8690711259841919,
+          "box": [
+            0.07779070734977722,
+            0.15630851686000824,
+            0.1441747099161148,
+            0.4955512583255768
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8606990575790405,
+          "box": [
+            0.5310962796211243,
+            0.373361736536026,
+            0.612569272518158,
+            0.743448793888092
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8606710433959961,
+          "box": [
+            0.6878064274787903,
+            0.43126580119132996,
+            0.774976372718811,
+            0.8156300187110901
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.7304181456565857,
+          "box": [
+            0.018772665411233902,
+            0.1310938149690628,
+            0.08050210028886795,
+            0.4579536020755768
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 33.117500017397106
+    },
+    {
+      "frame_index": 72,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9188965559005737,
+          "box": [
+            0.3222831189632416,
+            0.26766249537467957,
+            0.3986678421497345,
+            0.6388581991195679
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9082628488540649,
+          "box": [
+            0.7679814100265503,
+            0.4635569751262665,
+            0.8565969467163086,
+            0.8664288520812988
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9041250944137573,
+          "box": [
+            0.6085724234580994,
+            0.4008824825286865,
+            0.689680278301239,
+            0.7799423933029175
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9027174711227417,
+          "box": [
+            0.4591898024082184,
+            0.34478291869163513,
+            0.5339514017105103,
+            0.7057585120201111
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9021456241607666,
+          "box": [
+            0.20682570338249207,
+            0.2055775374174118,
+            0.2677474319934845,
+            0.5594528913497925
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8946617245674133,
+          "box": [
+            0.2616174519062042,
+            0.2433658391237259,
+            0.32961785793304443,
+            0.6027494668960571
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8866346478462219,
+          "box": [
+            0.07773043215274811,
+            0.15633311867713928,
+            0.1441231369972229,
+            0.49492204189300537
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8854026198387146,
+          "box": [
+            0.39489707350730896,
+            0.31514641642570496,
+            0.46454212069511414,
+            0.6611669063568115
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8823090195655823,
+          "box": [
+            0.14194443821907043,
+            0.17917481064796448,
+            0.21204763650894165,
+            0.5270012617111206
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8773617148399353,
+          "box": [
+            0.8461569547653198,
+            0.49091798067092896,
+            0.9306200742721558,
+            0.9118824601173401
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8639459609985352,
+          "box": [
+            0.5309949517250061,
+            0.3730897903442383,
+            0.612652063369751,
+            0.7435117959976196
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8599817752838135,
+          "box": [
+            0.6877304315567017,
+            0.4315560758113861,
+            0.7751162052154541,
+            0.8155458569526672
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.7113216519355774,
+          "box": [
+            0.01872793771326542,
+            0.1308676302433014,
+            0.08060458302497864,
+            0.45823293924331665
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 29.32858298299834
+    },
+    {
+      "frame_index": 84,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9174008369445801,
+          "box": [
+            0.3221060335636139,
+            0.26773393154144287,
+            0.3989616334438324,
+            0.6379523873329163
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.911156415939331,
+          "box": [
+            0.768099844455719,
+            0.4606754183769226,
+            0.8566308617591858,
+            0.8660242557525635
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9049309492111206,
+          "box": [
+            0.608352780342102,
+            0.4008191227912903,
+            0.6902288794517517,
+            0.7801996469497681
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9017300605773926,
+          "box": [
+            0.2062586396932602,
+            0.2054109424352646,
+            0.26770904660224915,
+            0.5603834986686707
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9008673429489136,
+          "box": [
+            0.4596364200115204,
+            0.34458258748054504,
+            0.5340108275413513,
+            0.7069123983383179
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8970266580581665,
+          "box": [
+            0.26114922761917114,
+            0.24163351953029633,
+            0.33008548617362976,
+            0.6048077940940857
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8900339603424072,
+          "box": [
+            0.07780098915100098,
+            0.15518835186958313,
+            0.14433568716049194,
+            0.4949394762516022
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8851449489593506,
+          "box": [
+            0.1415550261735916,
+            0.17759740352630615,
+            0.21171990036964417,
+            0.5274390578269958
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8765145540237427,
+          "box": [
+            0.39475491642951965,
+            0.31349775195121765,
+            0.4648774564266205,
+            0.6624163389205933
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8756815195083618,
+          "box": [
+            0.8460245728492737,
+            0.49150317907333374,
+            0.9305557012557983,
+            0.9117557406425476
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8561388254165649,
+          "box": [
+            0.5309632420539856,
+            0.3742460310459137,
+            0.6128910183906555,
+            0.744372546672821
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8526488542556763,
+          "box": [
+            0.6873788237571716,
+            0.43045780062675476,
+            0.7753795385360718,
+            0.8153379559516907
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.7178074717521667,
+          "box": [
+            0.018600909039378166,
+            0.13041776418685913,
+            0.08088009804487228,
+            0.4587743282318115
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 35.484082996845245
+    },
+    {
+      "frame_index": 96,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9190933704376221,
+          "box": [
+            0.322160542011261,
+            0.2679150700569153,
+            0.39895737171173096,
+            0.6382052898406982
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9100722074508667,
+          "box": [
+            0.7683007121086121,
+            0.46038496494293213,
+            0.8567346334457397,
+            0.8649410605430603
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9048944711685181,
+          "box": [
+            0.6082363128662109,
+            0.4004218578338623,
+            0.6901636719703674,
+            0.7803025245666504
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.903813898563385,
+          "box": [
+            0.4596993625164032,
+            0.3441793918609619,
+            0.5339496731758118,
+            0.7071956992149353
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9019037485122681,
+          "box": [
+            0.206303209066391,
+            0.20443330705165863,
+            0.2680279314517975,
+            0.5589851140975952
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8958964347839355,
+          "box": [
+            0.26126253604888916,
+            0.24133731424808502,
+            0.3299923837184906,
+            0.6046594977378845
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8936973810195923,
+          "box": [
+            0.07779952883720398,
+            0.15472842752933502,
+            0.14419575035572052,
+            0.4953369200229645
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8875023722648621,
+          "box": [
+            0.1416758894920349,
+            0.1777726113796234,
+            0.21157830953598022,
+            0.5265910625457764
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8797025680541992,
+          "box": [
+            0.3948754668235779,
+            0.31294161081314087,
+            0.46470019221305847,
+            0.6625323295593262
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8795677423477173,
+          "box": [
+            0.8461772799491882,
+            0.4910159707069397,
+            0.9305563569068909,
+            0.9111245274543762
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8752623796463013,
+          "box": [
+            0.6872909069061279,
+            0.43010181188583374,
+            0.7754892110824585,
+            0.8154504895210266
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8533427119255066,
+          "box": [
+            0.5309572815895081,
+            0.37351325154304504,
+            0.6127710938453674,
+            0.7446835041046143
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.7338607311248779,
+          "box": [
+            0.018629582598805428,
+            0.13035637140274048,
+            0.08087597042322159,
+            0.4583686292171478
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 36.951207963284105
+    },
+    {
+      "frame_index": 108,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9223567247390747,
+          "box": [
+            0.32239505648612976,
+            0.26849329471588135,
+            0.3990006744861603,
+            0.6375391483306885
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9127917289733887,
+          "box": [
+            0.7681971788406372,
+            0.46184152364730835,
+            0.8565773367881775,
+            0.8646204471588135
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9061838388442993,
+          "box": [
+            0.6081197261810303,
+            0.40075308084487915,
+            0.6899453401565552,
+            0.7800499200820923
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9038591384887695,
+          "box": [
+            0.45949146151542664,
+            0.34400618076324463,
+            0.5339612364768982,
+            0.7068738341331482
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9014683961868286,
+          "box": [
+            0.20662091672420502,
+            0.2050379067659378,
+            0.26801949739456177,
+            0.5588716268539429
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8976151943206787,
+          "box": [
+            0.2615891695022583,
+            0.2422776222229004,
+            0.32992857694625854,
+            0.6026686429977417
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.88914954662323,
+          "box": [
+            0.1420729011297226,
+            0.17856840789318085,
+            0.21207697689533234,
+            0.5276772975921631
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.879944920539856,
+          "box": [
+            0.07786551862955093,
+            0.15531238913536072,
+            0.1445014327764511,
+            0.49531087279319763
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8747797012329102,
+          "box": [
+            0.39511770009994507,
+            0.3127193748950958,
+            0.46460697054862976,
+            0.6630518436431885
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8747178316116333,
+          "box": [
+            0.8462488651275635,
+            0.4914773404598236,
+            0.9308364987373352,
+            0.9131656289100647
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8673798441886902,
+          "box": [
+            0.6875835657119751,
+            0.4310830533504486,
+            0.7750946283340454,
+            0.8161197304725647
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.860883355140686,
+          "box": [
+            0.530953586101532,
+            0.37450703978538513,
+            0.6124604344367981,
+            0.7445071935653687
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.7980889081954956,
+          "box": [
+            0.018443521112203598,
+            0.13053014874458313,
+            0.08102496713399887,
+            0.45983636379241943
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 42.65066696098074
+    },
+    {
+      "frame_index": 120,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.913078248500824,
+          "box": [
+            0.32198747992515564,
+            0.26859524846076965,
+            0.3993830382823944,
+            0.6381193399429321
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9057945013046265,
+          "box": [
+            0.20666790008544922,
+            0.20439308881759644,
+            0.26830846071243286,
+            0.5586856603622437
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9045409560203552,
+          "box": [
+            0.7683616280555725,
+            0.46158644556999207,
+            0.8567991256713867,
+            0.8645868897438049
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9027624130249023,
+          "box": [
+            0.6078794002532959,
+            0.4017942547798157,
+            0.690570592880249,
+            0.7818199396133423
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.901734471321106,
+          "box": [
+            0.45934486389160156,
+            0.3444235324859619,
+            0.53415846824646,
+            0.7069461345672607
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8977527618408203,
+          "box": [
+            0.2610251307487488,
+            0.24137195944786072,
+            0.33027875423431396,
+            0.6041735410690308
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8862768411636353,
+          "box": [
+            0.1420290619134903,
+            0.17816664278507233,
+            0.21276384592056274,
+            0.5295330882072449
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8811564445495605,
+          "box": [
+            0.8468095064163208,
+            0.4906705915927887,
+            0.930752694606781,
+            0.9119417071342468
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8791052103042603,
+          "box": [
+            0.07737497985363007,
+            0.1504696160554886,
+            0.1452185958623886,
+            0.49444544315338135
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8761283159255981,
+          "box": [
+            0.39460596442222595,
+            0.31373003125190735,
+            0.4649887681007385,
+            0.662709653377533
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8687764406204224,
+          "box": [
+            0.6872097253799438,
+            0.42966362833976746,
+            0.774997353553772,
+            0.8151569962501526
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8484710454940796,
+          "box": [
+            0.5307163000106812,
+            0.3740176856517792,
+            0.6129136681556702,
+            0.7451021075248718
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.7013974189758301,
+          "box": [
+            0.018485847860574722,
+            0.12850700318813324,
+            0.08067508041858673,
+            0.4596808850765228
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 36.51549998903647
+    },
+    {
+      "frame_index": 132,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.915477991104126,
+          "box": [
+            0.32211342453956604,
+            0.26951974630355835,
+            0.3991788327693939,
+            0.6376903057098389
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9107269048690796,
+          "box": [
+            0.7684992551803589,
+            0.46741726994514465,
+            0.8568195104598999,
+            0.8658648133277893
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9057302474975586,
+          "box": [
+            0.2066650390625,
+            0.20627620816230774,
+            0.26818034052848816,
+            0.5589240789413452
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9014807343482971,
+          "box": [
+            0.4590667188167572,
+            0.34691160917282104,
+            0.5331322550773621,
+            0.7098101377487183
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.8989659547805786,
+          "box": [
+            0.6083958745002747,
+            0.404836505651474,
+            0.6905680298805237,
+            0.7818689942359924
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8980482816696167,
+          "box": [
+            0.2609177827835083,
+            0.2408980429172516,
+            0.32954126596450806,
+            0.6017479300498962
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8859516382217407,
+          "box": [
+            0.1423216462135315,
+            0.1768590658903122,
+            0.2119857221841812,
+            0.528919517993927
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.880264401435852,
+          "box": [
+            0.8465344905853271,
+            0.49112942814826965,
+            0.9302588105201721,
+            0.9112401604652405
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8758246898651123,
+          "box": [
+            0.07782672345638275,
+            0.1554093360900879,
+            0.1445462852716446,
+            0.4930691123008728
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.874439001083374,
+          "box": [
+            0.39492690563201904,
+            0.3155169188976288,
+            0.46499207615852356,
+            0.6620332598686218
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8624380230903625,
+          "box": [
+            0.6883257627487183,
+            0.43247178196907043,
+            0.7753448486328125,
+            0.8151155114173889
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8387534618377686,
+          "box": [
+            0.5308150053024292,
+            0.3751443326473236,
+            0.612906277179718,
+            0.7433356642723083
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.7001183032989502,
+          "box": [
+            0.01860319823026657,
+            0.12942469120025635,
+            0.08155529946088791,
+            0.4614889621734619
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 29.429125017486513
+    },
+    {
+      "frame_index": 144,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9168865084648132,
+          "box": [
+            0.3222203552722931,
+            0.26988938450813293,
+            0.3990668058395386,
+            0.6369458436965942
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9113664627075195,
+          "box": [
+            0.7685815095901489,
+            0.46799999475479126,
+            0.8567019104957581,
+            0.8654659390449524
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.909227728843689,
+          "box": [
+            0.20664958655834198,
+            0.206812784075737,
+            0.26827648282051086,
+            0.5602691769599915
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9049909114837646,
+          "box": [
+            0.6081361174583435,
+            0.4038771688938141,
+            0.6905900239944458,
+            0.7821946144104004
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.8983778953552246,
+          "box": [
+            0.45937880873680115,
+            0.3441126346588135,
+            0.5340072512626648,
+            0.7071274518966675
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8968700170516968,
+          "box": [
+            0.26110953092575073,
+            0.24055929481983185,
+            0.3296447694301605,
+            0.6028378009796143
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8871411085128784,
+          "box": [
+            0.14227047562599182,
+            0.17686480283737183,
+            0.21207498013973236,
+            0.5280323624610901
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8813165426254272,
+          "box": [
+            0.07781888544559479,
+            0.15564359724521637,
+            0.1446121782064438,
+            0.49351805448532104
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8806637525558472,
+          "box": [
+            0.84635329246521,
+            0.4901783764362335,
+            0.93019700050354,
+            0.9115654230117798
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8794112205505371,
+          "box": [
+            0.3949929475784302,
+            0.31510746479034424,
+            0.4650634825229645,
+            0.6622840166091919
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8511236906051636,
+          "box": [
+            0.6880820989608765,
+            0.43180111050605774,
+            0.775351345539093,
+            0.815479576587677
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8178937435150146,
+          "box": [
+            0.5309107303619385,
+            0.37555649876594543,
+            0.6126946806907654,
+            0.7440838813781738
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.727706789970398,
+          "box": [
+            0.018575461581349373,
+            0.12901180982589722,
+            0.08150413632392883,
+            0.4617503583431244
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 30.576624965760857
+    },
+    {
+      "frame_index": 156,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9081763029098511,
+          "box": [
+            0.322247177362442,
+            0.27138635516166687,
+            0.39921271800994873,
+            0.637208104133606
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9068458080291748,
+          "box": [
+            0.2064812034368515,
+            0.2067440301179886,
+            0.2679198384284973,
+            0.5593646168708801
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.904531717300415,
+          "box": [
+            0.7683565616607666,
+            0.46943432092666626,
+            0.8572548031806946,
+            0.8643576502799988
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9030271768569946,
+          "box": [
+            0.6077388525009155,
+            0.4020976424217224,
+            0.6908712983131409,
+            0.7809338569641113
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9025371074676514,
+          "box": [
+            0.45938530564308167,
+            0.3443449139595032,
+            0.5342894196510315,
+            0.7090737819671631
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8934454917907715,
+          "box": [
+            0.2612883150577545,
+            0.2405776083469391,
+            0.329812616109848,
+            0.6044749617576599
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8876021504402161,
+          "box": [
+            0.07713870704174042,
+            0.15328477323055267,
+            0.14459870755672455,
+            0.4939097762107849
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8773772120475769,
+          "box": [
+            0.39512550830841064,
+            0.31214240193367004,
+            0.46487826108932495,
+            0.6628231406211853
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8766231536865234,
+          "box": [
+            0.14251060783863068,
+            0.1768452376127243,
+            0.21146583557128906,
+            0.5285775661468506
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8731107115745544,
+          "box": [
+            0.8464301824569702,
+            0.4922977089881897,
+            0.9314702153205872,
+            0.9124727249145508
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8691977262496948,
+          "box": [
+            0.6875760555267334,
+            0.4299883544445038,
+            0.7756831049919128,
+            0.8148408532142639
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8590481281280518,
+          "box": [
+            0.5309538245201111,
+            0.37491580843925476,
+            0.6121018528938293,
+            0.7429344654083252
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.7526281476020813,
+          "box": [
+            0.01857655867934227,
+            0.12828530371189117,
+            0.08070042729377747,
+            0.460693895816803
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 28.713250008877367
+    },
+    {
+      "frame_index": 168,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9126611948013306,
+          "box": [
+            0.3219837248325348,
+            0.2729382812976837,
+            0.3987363278865814,
+            0.6373289227485657
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9073128700256348,
+          "box": [
+            0.45961570739746094,
+            0.34604939818382263,
+            0.5342606902122498,
+            0.7084891200065613
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9067197442054749,
+          "box": [
+            0.7686224579811096,
+            0.47040170431137085,
+            0.8563326597213745,
+            0.8636185526847839
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9066342711448669,
+          "box": [
+            0.20690225064754486,
+            0.20716804265975952,
+            0.2677471935749054,
+            0.5580886006355286
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9004088640213013,
+          "box": [
+            0.6083718538284302,
+            0.4041462540626526,
+            0.6906417608261108,
+            0.7819474339485168
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8931992053985596,
+          "box": [
+            0.2612931430339813,
+            0.24198105931282043,
+            0.3294614851474762,
+            0.6021100282669067
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.882480800151825,
+          "box": [
+            0.3945557773113251,
+            0.31399375200271606,
+            0.4644705355167389,
+            0.6625080704689026
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8779299855232239,
+          "box": [
+            0.6876196265220642,
+            0.42996612191200256,
+            0.7754290103912354,
+            0.8143784403800964
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.87615567445755,
+          "box": [
+            0.14158350229263306,
+            0.17893999814987183,
+            0.21170705556869507,
+            0.5232831239700317
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8735388517379761,
+          "box": [
+            0.07744596898555756,
+            0.15326645970344543,
+            0.14380721747875214,
+            0.49251997470855713
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8707749843597412,
+          "box": [
+            0.8462488651275635,
+            0.4950033724308014,
+            0.9310897588729858,
+            0.912158191204071
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8441415429115295,
+          "box": [
+            0.5311825275421143,
+            0.37535184621810913,
+            0.6123962998390198,
+            0.7440332770347595
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.5514095425605774,
+          "box": [
+            0.018935490399599075,
+            0.13091430068016052,
+            0.08063942939043045,
+            0.4584713280200958
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 30.180874979123473
+    },
+    {
+      "frame_index": 180,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9111377000808716,
+          "box": [
+            0.3221067488193512,
+            0.2721794545650482,
+            0.3984130322933197,
+            0.6383113861083984
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9102407693862915,
+          "box": [
+            0.4596334993839264,
+            0.3457593023777008,
+            0.5341446995735168,
+            0.7101614475250244
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9063470363616943,
+          "box": [
+            0.20687443017959595,
+            0.20712119340896606,
+            0.26747968792915344,
+            0.5580216646194458
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9061894416809082,
+          "box": [
+            0.7681872844696045,
+            0.4700019359588623,
+            0.8566834330558777,
+            0.8641626834869385
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9028667211532593,
+          "box": [
+            0.6082757115364075,
+            0.404236376285553,
+            0.6896734833717346,
+            0.7792608141899109
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8916846513748169,
+          "box": [
+            0.26150545477867126,
+            0.24373097717761993,
+            0.32970860600471497,
+            0.6019757390022278
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8815219402313232,
+          "box": [
+            0.39428049325942993,
+            0.3133857250213623,
+            0.46471431851387024,
+            0.6639142036437988
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8777406215667725,
+          "box": [
+            0.14164867997169495,
+            0.18182948231697083,
+            0.21137700974941254,
+            0.5282614231109619
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8723233938217163,
+          "box": [
+            0.8460444211959839,
+            0.4938889443874359,
+            0.9315340518951416,
+            0.9129606485366821
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8681239485740662,
+          "box": [
+            0.6868330836296082,
+            0.43034523725509644,
+            0.7751514315605164,
+            0.8139296770095825
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8623982071876526,
+          "box": [
+            0.07797231525182724,
+            0.1595313549041748,
+            0.1433955878019333,
+            0.492410272359848
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8500520586967468,
+          "box": [
+            0.5311123728752136,
+            0.3754168450832367,
+            0.6123945116996765,
+            0.7434520125389099
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.5272074341773987,
+          "box": [
+            0.01899140700697899,
+            0.13219784200191498,
+            0.08060887455940247,
+            0.4591667652130127
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 29.791667009703815
+    },
+    {
+      "frame_index": 192,
+      "predictions": [
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9089412689208984,
+          "box": [
+            0.7678089141845703,
+            0.46943897008895874,
+            0.8567142486572266,
+            0.8654343485832214
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9053714275360107,
+          "box": [
+            0.45932361483573914,
+            0.34573256969451904,
+            0.5342664122581482,
+            0.7097440958023071
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9051803350448608,
+          "box": [
+            0.3222297728061676,
+            0.27118781208992004,
+            0.39873072504997253,
+            0.6390143632888794
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9025324583053589,
+          "box": [
+            0.6071966886520386,
+            0.40552404522895813,
+            0.6899605989456177,
+            0.7815365195274353
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.900387167930603,
+          "box": [
+            0.20671577751636505,
+            0.20746101438999176,
+            0.2675568759441376,
+            0.5601364970207214
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8870798945426941,
+          "box": [
+            0.2612397372722626,
+            0.2413453906774521,
+            0.32994168996810913,
+            0.604572057723999
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8855701684951782,
+          "box": [
+            0.39425328373908997,
+            0.3128514885902405,
+            0.4646614193916321,
+            0.6634675860404968
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8789912462234497,
+          "box": [
+            0.14129677414894104,
+            0.18148121237754822,
+            0.21155738830566406,
+            0.5277106761932373
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8726286888122559,
+          "box": [
+            0.845529317855835,
+            0.4928373396396637,
+            0.9312913417816162,
+            0.9120325446128845
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8696953058242798,
+          "box": [
+            0.07785170525312424,
+            0.15913444757461548,
+            0.14303718507289886,
+            0.492746502161026
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8693035840988159,
+          "box": [
+            0.6860102415084839,
+            0.43027523159980774,
+            0.7754805088043213,
+            0.8150498270988464
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8545295000076294,
+          "box": [
+            0.5310323238372803,
+            0.3742823004722595,
+            0.6123713254928589,
+            0.7449782490730286
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.4501754939556122,
+          "box": [
+            0.018963655456900597,
+            0.13631483912467957,
+            0.07999531179666519,
+            0.4606449007987976
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 29.029082972556353
+    },
+    {
+      "frame_index": 204,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9112573862075806,
+          "box": [
+            0.3225730359554291,
+            0.2722749710083008,
+            0.39871349930763245,
+            0.6392477750778198
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9069082736968994,
+          "box": [
+            0.7678273916244507,
+            0.46910327672958374,
+            0.856253981590271,
+            0.86688232421875
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9049438238143921,
+          "box": [
+            0.6072278618812561,
+            0.404754638671875,
+            0.6895754337310791,
+            0.7802170515060425
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9032731652259827,
+          "box": [
+            0.45918235182762146,
+            0.34725844860076904,
+            0.5329911708831787,
+            0.7089642882347107
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8986121416091919,
+          "box": [
+            0.20694389939308167,
+            0.20798896253108978,
+            0.267315536737442,
+            0.5594419836997986
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.897284209728241,
+          "box": [
+            0.2609390318393707,
+            0.24245209991931915,
+            0.3296085298061371,
+            0.6040200591087341
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8836445808410645,
+          "box": [
+            0.39489707350730896,
+            0.3138844072818756,
+            0.4646625518798828,
+            0.6629588603973389
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8825885057449341,
+          "box": [
+            0.14130370318889618,
+            0.1796271800994873,
+            0.21156705915927887,
+            0.5264817476272583
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8708032965660095,
+          "box": [
+            0.8457067012786865,
+            0.4933224022388458,
+            0.9309832453727722,
+            0.9121962785720825
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8683960437774658,
+          "box": [
+            0.6865233182907104,
+            0.43040770292282104,
+            0.7751628756523132,
+            0.8144294023513794
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8650485277175903,
+          "box": [
+            0.07805641740560532,
+            0.15908166766166687,
+            0.14295317232608795,
+            0.49243631958961487
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8428757190704346,
+          "box": [
+            0.531185507774353,
+            0.3748226463794708,
+            0.6112852692604065,
+            0.745068371295929
+          ]
+        },
+        {
+          "tile": "1s",
+          "tile_index": 18,
+          "red_five": false,
+          "model_class_id": 0,
+          "model_class_name": "1s",
+          "confidence": 0.40481141209602356,
+          "box": [
+            0.018843015655875206,
+            0.13652721047401428,
+            0.0806645080447197,
+            0.46164029836654663
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 12,
+      "extra": 1,
+      "missed": 1,
+      "pipeline_ms": 32.05670800525695
+    },
+    {
+      "frame_index": 216,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9132726192474365,
+          "box": [
+            0.3226383328437805,
+            0.271291583776474,
+            0.3986026644706726,
+            0.6387224793434143
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9079738855361938,
+          "box": [
+            0.6070407032966614,
+            0.40522029995918274,
+            0.6897415518760681,
+            0.7804173827171326
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9049999117851257,
+          "box": [
+            0.7678400874137878,
+            0.46913614869117737,
+            0.8566696047782898,
+            0.8663292527198792
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9038658142089844,
+          "box": [
+            0.45908400416374207,
+            0.3474092483520508,
+            0.5330671072006226,
+            0.7087104320526123
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8988093137741089,
+          "box": [
+            0.2070799469947815,
+            0.2065131664276123,
+            0.2672309875488281,
+            0.5595333576202393
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8941570520401001,
+          "box": [
+            0.26090970635414124,
+            0.24173548817634583,
+            0.3297288119792938,
+            0.603003978729248
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8876476287841797,
+          "box": [
+            0.39475783705711365,
+            0.31381261348724365,
+            0.46467310190200806,
+            0.6626055836677551
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8815092444419861,
+          "box": [
+            0.1417355239391327,
+            0.1826074868440628,
+            0.2113932967185974,
+            0.5288261771202087
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.871013879776001,
+          "box": [
+            0.845901370048523,
+            0.4923996925354004,
+            0.9316999912261963,
+            0.9136492609977722
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8707351684570312,
+          "box": [
+            0.6864822506904602,
+            0.43031132221221924,
+            0.7752090692520142,
+            0.8142141699790955
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8618985414505005,
+          "box": [
+            0.07820504158735275,
+            0.1597900390625,
+            0.143037348985672,
+            0.4924768805503845
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8480991721153259,
+          "box": [
+            0.5312315821647644,
+            0.37493231892585754,
+            0.611136257648468,
+            0.7450473308563232
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.49373874068260193,
+          "box": [
+            0.018894990906119347,
+            0.1362283080816269,
+            0.0803321823477745,
+            0.46113425493240356
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 28.217167011462152
+    },
+    {
+      "frame_index": 228,
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9068914651870728,
+          "box": [
+            0.3225487470626831,
+            0.2715620994567871,
+            0.39882373809814453,
+            0.6386821269989014
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9043014645576477,
+          "box": [
+            0.7681025266647339,
+            0.46990445256233215,
+            0.8565264344215393,
+            0.8643509745597839
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9029642343521118,
+          "box": [
+            0.459161639213562,
+            0.34872686862945557,
+            0.5326258540153503,
+            0.7092270851135254
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9021664261817932,
+          "box": [
+            0.6073986291885376,
+            0.4060212969779968,
+            0.6892767548561096,
+            0.7799248099327087
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.901886522769928,
+          "box": [
+            0.20705293118953705,
+            0.20724380016326904,
+            0.26765626668930054,
+            0.5591473579406738
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8934513330459595,
+          "box": [
+            0.2616601884365082,
+            0.24303463101387024,
+            0.32975444197654724,
+            0.6027101278305054
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8817369937896729,
+          "box": [
+            0.39466774463653564,
+            0.31354549527168274,
+            0.46464112401008606,
+            0.662615954875946
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.880133330821991,
+          "box": [
+            0.1415882110595703,
+            0.17856301367282867,
+            0.211476132273674,
+            0.5242338180541992
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.8763124942779541,
+          "box": [
+            0.8459672331809998,
+            0.49134987592697144,
+            0.9314854741096497,
+            0.9130985140800476
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.870945930480957,
+          "box": [
+            0.6862748861312866,
+            0.43090498447418213,
+            0.775273859500885,
+            0.8141626715660095
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8634003400802612,
+          "box": [
+            0.07839878648519516,
+            0.1595340520143509,
+            0.1427733153104782,
+            0.4912428855895996
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8258153796195984,
+          "box": [
+            0.5307833552360535,
+            0.37451568245887756,
+            0.6111035943031311,
+            0.7443556785583496
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.6280298233032227,
+          "box": [
+            0.018937842920422554,
+            0.13438540697097778,
+            0.08047011494636536,
+            0.4591732323169708
+          ]
+        }
+      ],
+      "exact_row": false,
+      "correct": 11,
+      "extra": 2,
+      "missed": 2,
+      "pipeline_ms": 29.50125001370907
+    }
+  ],
+  "photo_regions": [
+    {
+      "id": "orphans-close-two-rows",
+      "predictions": [
+        {
+          "tile": "9s",
+          "tile_index": 26,
+          "red_five": false,
+          "model_class_id": 32,
+          "model_class_name": "9s",
+          "confidence": 0.9188134670257568,
+          "box": [
+            0.6896568536758423,
+            0.14606526494026184,
+            0.8225762844085693,
+            0.4780741333961487
+          ]
+        },
+        {
+          "tile": "1m",
+          "tile_index": 0,
+          "red_five": false,
+          "model_class_id": 1,
+          "model_class_name": "1m",
+          "confidence": 0.9143701791763306,
+          "box": [
+            0.2914493680000305,
+            0.13957132399082184,
+            0.42269134521484375,
+            0.46646398305892944
+          ]
+        },
+        {
+          "tile": "6z",
+          "tile_index": 32,
+          "red_five": false,
+          "model_class_id": 36,
+          "model_class_name": "6z",
+          "confidence": 0.9104132056236267,
+          "box": [
+            0.6952753067016602,
+            0.48025816679000854,
+            0.8351563215255737,
+            0.8404601812362671
+          ]
+        },
+        {
+          "tile": "1s",
+          "tile_index": 18,
+          "red_five": false,
+          "model_class_id": 0,
+          "model_class_name": "1s",
+          "confidence": 0.9091157913208008,
+          "box": [
+            0.5557814240455627,
+            0.16211757063865662,
+            0.6883871555328369,
+            0.4841451048851013
+          ]
+        },
+        {
+          "tile": "9m",
+          "tile_index": 8,
+          "red_five": false,
+          "model_class_id": 33,
+          "model_class_name": "9m",
+          "confidence": 0.9079933166503906,
+          "box": [
+            0.42207223176956177,
+            0.1436552107334137,
+            0.5546281337738037,
+            0.46975579857826233
+          ]
+        },
+        {
+          "tile": "2z",
+          "tile_index": 28,
+          "red_five": false,
+          "model_class_id": 39,
+          "model_class_name": "2z",
+          "confidence": 0.9078564047813416,
+          "box": [
+            0.15421225130558014,
+            0.4676063656806946,
+            0.2905139923095703,
+            0.8190422058105469
+          ]
+        },
+        {
+          "tile": "9p",
+          "tile_index": 17,
+          "red_five": false,
+          "model_class_id": 34,
+          "model_class_name": "9p",
+          "confidence": 0.9056339263916016,
+          "box": [
+            0.16060052812099457,
+            0.13925348222255707,
+            0.29566827416419983,
+            0.4740005433559418
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.9045097827911377,
+          "box": [
+            0.024283630773425102,
+            0.43714410066604614,
+            0.1576891839504242,
+            0.7949894070625305
+          ]
+        },
+        {
+          "tile": "1p",
+          "tile_index": 9,
+          "red_five": false,
+          "model_class_id": 2,
+          "model_class_name": "1p",
+          "confidence": 0.9027366638183594,
+          "box": [
+            0.02747049368917942,
+            0.11485932767391205,
+            0.16637283563613892,
+            0.44581732153892517
+          ]
+        },
+        {
+          "tile": "7z",
+          "tile_index": 33,
+          "red_five": false,
+          "model_class_id": 38,
+          "model_class_name": "7z",
+          "confidence": 0.8962051868438721,
+          "box": [
+            0.5609229803085327,
+            0.4902333617210388,
+            0.6948277950286865,
+            0.8408442139625549
+          ]
+        },
+        {
+          "tile": "4z",
+          "tile_index": 30,
+          "red_five": false,
+          "model_class_id": 37,
+          "model_class_name": "4z",
+          "confidence": 0.889633297920227,
+          "box": [
+            0.4259175658226013,
+            0.47652435302734375,
+            0.5568901300430298,
+            0.8203343749046326
+          ]
+        },
+        {
+          "tile": "5z",
+          "tile_index": 31,
+          "red_five": false,
+          "model_class_id": 40,
+          "model_class_name": "5z",
+          "confidence": 0.8754837512969971,
+          "box": [
+            0.8350213170051575,
+            0.4900822937488556,
+            0.9696783423423767,
+            0.8455113768577576
+          ]
+        },
+        {
+          "tile": "5z",
+          "tile_index": 31,
+          "red_five": false,
+          "model_class_id": 40,
+          "model_class_name": "5z",
+          "confidence": 0.8628031611442566,
+          "box": [
+            0.8239556550979614,
+            0.14859797060489655,
+            0.9580248594284058,
+            0.4847267270088196
+          ]
+        },
+        {
+          "tile": "3z",
+          "tile_index": 29,
+          "red_five": false,
+          "model_class_id": 41,
+          "model_class_name": "3z",
+          "confidence": 0.8622238636016846,
+          "box": [
+            0.28927117586135864,
+            0.4678732454776764,
+            0.4250553250312805,
+            0.8136284947395325
+          ]
+        }
+      ],
+      "correct": 14,
+      "exact_region": true,
+      "pipeline_ms": 26.453584025148302
+    },
+    {
+      "id": "ting-row-1",
+      "predictions": [
+        {
+          "tile": "7s",
+          "tile_index": 24,
+          "red_five": false,
+          "model_class_id": 26,
+          "model_class_name": "7s",
+          "confidence": 0.921168327331543,
+          "box": [
+            0.49828898906707764,
+            0.22662250697612762,
+            0.5546483397483826,
+            0.8173600435256958
+          ]
+        },
+        {
+          "tile": "3s",
+          "tile_index": 20,
+          "red_five": false,
+          "model_class_id": 10,
+          "model_class_name": "3s",
+          "confidence": 0.9210104942321777,
+          "box": [
+            0.5606310367584229,
+            0.23319515585899353,
+            0.6169108152389526,
+            0.8175064325332642
+          ]
+        },
+        {
+          "tile": "3p",
+          "tile_index": 11,
+          "red_five": false,
+          "model_class_id": 12,
+          "model_class_name": "3p",
+          "confidence": 0.912257194519043,
+          "box": [
+            0.14386463165283203,
+            0.2214810699224472,
+            0.20273444056510925,
+            0.8118906617164612
+          ]
+        },
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.9111323952674866,
+          "box": [
+            0.2651076018810272,
+            0.21846240758895874,
+            0.32273387908935547,
+            0.8074620366096497
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.909804105758667,
+          "box": [
+            0.38338521122932434,
+            0.22369591891765594,
+            0.44072431325912476,
+            0.8156189918518066
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.905415415763855,
+          "box": [
+            0.4413693845272064,
+            0.22440661489963531,
+            0.496975839138031,
+            0.8138417601585388
+          ]
+        },
+        {
+          "tile": "3s",
+          "tile_index": 20,
+          "red_five": false,
+          "model_class_id": 10,
+          "model_class_name": "3s",
+          "confidence": 0.9042923450469971,
+          "box": [
+            0.6183391213417053,
+            0.21681497991085052,
+            0.673192024230957,
+            0.7914382219314575
+          ]
+        },
+        {
+          "tile": "3m",
+          "tile_index": 2,
+          "red_five": false,
+          "model_class_id": 11,
+          "model_class_name": "3m",
+          "confidence": 0.9041576385498047,
+          "box": [
+            0.20876376330852509,
+            0.21374408900737762,
+            0.2651989758014679,
+            0.8089754581451416
+          ]
+        },
+        {
+          "tile": "3s",
+          "tile_index": 20,
+          "red_five": false,
+          "model_class_id": 10,
+          "model_class_name": "3s",
+          "confidence": 0.893540620803833,
+          "box": [
+            0.6748756170272827,
+            0.20913231372833252,
+            0.730391800403595,
+            0.7870835065841675
+          ]
+        },
+        {
+          "tile": "1p",
+          "tile_index": 9,
+          "red_five": false,
+          "model_class_id": 2,
+          "model_class_name": "1p",
+          "confidence": 0.891625165939331,
+          "box": [
+            0.028018761426210403,
+            0.20730538666248322,
+            0.08709961920976639,
+            0.7904197573661804
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8859105706214905,
+          "box": [
+            0.3226643204689026,
+            0.21700997650623322,
+            0.379634290933609,
+            0.8100430965423584
+          ]
+        },
+        {
+          "tile": "8m",
+          "tile_index": 7,
+          "red_five": false,
+          "model_class_id": 30,
+          "model_class_name": "8m",
+          "confidence": 0.8841564059257507,
+          "box": [
+            0.7406196594238281,
+            0.1843416839838028,
+            0.7969810366630554,
+            0.7695664167404175
+          ]
+        },
+        {
+          "tile": "2p",
+          "tile_index": 10,
+          "red_five": false,
+          "model_class_id": 7,
+          "model_class_name": "2p",
+          "confidence": 0.8712619543075562,
+          "box": [
+            0.0864638015627861,
+            0.21819241344928741,
+            0.1423090547323227,
+            0.8001077771186829
+          ]
+        },
+        {
+          "tile": "8m",
+          "tile_index": 7,
+          "red_five": false,
+          "model_class_id": 30,
+          "model_class_name": "8m",
+          "confidence": 0.7387485504150391,
+          "box": [
+            0.889353334903717,
+            0.17996785044670105,
+            0.9518700838088989,
+            0.7834959030151367
+          ]
+        }
+      ],
+      "correct": 14,
+      "exact_region": true,
+      "pipeline_ms": 20.3371659736149
+    },
+    {
+      "id": "ting-row-2",
+      "predictions": [
+        {
+          "tile": "8s",
+          "tile_index": 25,
+          "red_five": false,
+          "model_class_id": 29,
+          "model_class_name": "8s",
+          "confidence": 0.911277174949646,
+          "box": [
+            0.6733843088150024,
+            0.14352689683437347,
+            0.7345753312110901,
+            0.7906368970870972
+          ]
+        },
+        {
+          "tile": "3m",
+          "tile_index": 2,
+          "red_five": false,
+          "model_class_id": 11,
+          "model_class_name": "3m",
+          "confidence": 0.9070158004760742,
+          "box": [
+            0.49932289123535156,
+            0.17587116360664368,
+            0.5560919642448425,
+            0.8228536248207092
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.9065988063812256,
+          "box": [
+            0.442297101020813,
+            0.17863790690898895,
+            0.4975344240665436,
+            0.822661280632019
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8982574343681335,
+          "box": [
+            0.5624674558639526,
+            0.16445377469062805,
+            0.6198496222496033,
+            0.8061076402664185
+          ]
+        },
+        {
+          "tile": "5p",
+          "tile_index": 13,
+          "red_five": false,
+          "model_class_id": 22,
+          "model_class_name": "5p",
+          "confidence": 0.8875703811645508,
+          "box": [
+            0.26230117678642273,
+            0.2052132785320282,
+            0.31776270270347595,
+            0.8326917290687561
+          ]
+        },
+        {
+          "tile": "1m",
+          "tile_index": 0,
+          "red_five": false,
+          "model_class_id": 1,
+          "model_class_name": "1m",
+          "confidence": 0.8843235969543457,
+          "box": [
+            0.3841668367385864,
+            0.17955997586250305,
+            0.43980929255485535,
+            0.824950098991394
+          ]
+        },
+        {
+          "tile": "2z",
+          "tile_index": 28,
+          "red_five": false,
+          "model_class_id": 39,
+          "model_class_name": "2z",
+          "confidence": 0.8830913305282593,
+          "box": [
+            0.13906195759773254,
+            0.21349334716796875,
+            0.1969147026538849,
+            0.8565248847007751
+          ]
+        },
+        {
+          "tile": "6p",
+          "tile_index": 14,
+          "red_five": false,
+          "model_class_id": 25,
+          "model_class_name": "6p",
+          "confidence": 0.881591796875,
+          "box": [
+            0.3195229768753052,
+            0.18856538832187653,
+            0.3754643201828003,
+            0.8335990905761719
+          ]
+        },
+        {
+          "tile": "7s",
+          "tile_index": 24,
+          "red_five": false,
+          "model_class_id": 26,
+          "model_class_name": "7s",
+          "confidence": 0.8742518424987793,
+          "box": [
+            0.8973525762557983,
+            0.10722895711660385,
+            0.961144745349884,
+            0.7576392292976379
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.8709188103675842,
+          "box": [
+            0.0812583938241005,
+            0.2079554945230484,
+            0.1375613510608673,
+            0.8421816229820251
+          ]
+        },
+        {
+          "tile": "4p",
+          "tile_index": 12,
+          "red_five": false,
+          "model_class_id": 17,
+          "model_class_name": "4p",
+          "confidence": 0.8644420504570007,
+          "box": [
+            0.20364385843276978,
+            0.2042672336101532,
+            0.2601121962070465,
+            0.8325642347335815
+          ]
+        },
+        {
+          "tile": "4p",
+          "tile_index": 12,
+          "red_five": false,
+          "model_class_id": 17,
+          "model_class_name": "4p",
+          "confidence": 0.8641279339790344,
+          "box": [
+            0.740084707736969,
+            0.1443219929933548,
+            0.796707272529602,
+            0.7641514539718628
+          ]
+        },
+        {
+          "tile": "4p",
+          "tile_index": 12,
+          "red_five": false,
+          "model_class_id": 17,
+          "model_class_name": "4p",
+          "confidence": 0.8517892360687256,
+          "box": [
+            0.7986577153205872,
+            0.11754117906093597,
+            0.8552009463310242,
+            0.7586871385574341
+          ]
+        },
+        {
+          "tile": "4z",
+          "tile_index": 30,
+          "red_five": false,
+          "model_class_id": 37,
+          "model_class_name": "4z",
+          "confidence": 0.8475463390350342,
+          "box": [
+            0.021592872217297554,
+            0.20244161784648895,
+            0.07965825498104095,
+            0.8241915106773376
+          ]
+        }
+      ],
+      "correct": 14,
+      "exact_region": true,
+      "pipeline_ms": 23.67770904675126
+    },
+    {
+      "id": "ting-row-3",
+      "predictions": [
+        {
+          "tile": "6m",
+          "tile_index": 5,
+          "red_five": false,
+          "model_class_id": 24,
+          "model_class_name": "6m",
+          "confidence": 0.9246906042098999,
+          "box": [
+            0.19744746387004852,
+            0.0690295398235321,
+            0.257402241230011,
+            0.7855700850486755
+          ]
+        },
+        {
+          "tile": "3s",
+          "tile_index": 20,
+          "red_five": false,
+          "model_class_id": 10,
+          "model_class_name": "3s",
+          "confidence": 0.909539520740509,
+          "box": [
+            0.07507308572530746,
+            0.07537231594324112,
+            0.13445094227790833,
+            0.7866955399513245
+          ]
+        },
+        {
+          "tile": "3p",
+          "tile_index": 11,
+          "red_five": false,
+          "model_class_id": 12,
+          "model_class_name": "3p",
+          "confidence": 0.9089581966400146,
+          "box": [
+            0.44179192185401917,
+            0.062297362834215164,
+            0.4989358186721802,
+            0.783374011516571
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9083981513977051,
+          "box": [
+            0.25746315717697144,
+            0.06067260727286339,
+            0.3147200047969818,
+            0.7832189798355103
+          ]
+        },
+        {
+          "tile": "5z",
+          "tile_index": 31,
+          "red_five": false,
+          "model_class_id": 40,
+          "model_class_name": "5z",
+          "confidence": 0.893324613571167,
+          "box": [
+            0.6779477596282959,
+            0.05009765550494194,
+            0.7362053990364075,
+            0.7774267792701721
+          ]
+        },
+        {
+          "tile": "4p",
+          "tile_index": 12,
+          "red_five": false,
+          "model_class_id": 17,
+          "model_class_name": "4p",
+          "confidence": 0.8884658813476562,
+          "box": [
+            0.49963733553886414,
+            0.06029907241463661,
+            0.5571666955947876,
+            0.7992687821388245
+          ]
+        },
+        {
+          "tile": "4s",
+          "tile_index": 21,
+          "red_five": false,
+          "model_class_id": 15,
+          "model_class_name": "4s",
+          "confidence": 0.8839057683944702,
+          "box": [
+            0.13410218060016632,
+            0.07415222376585007,
+            0.19530601799488068,
+            0.7970818877220154
+          ]
+        },
+        {
+          "tile": "1m",
+          "tile_index": 0,
+          "red_five": false,
+          "model_class_id": 1,
+          "model_class_name": "1m",
+          "confidence": 0.8796160221099854,
+          "box": [
+            0.801942765712738,
+            0.02039184607565403,
+            0.8594484329223633,
+            0.7430529594421387
+          ]
+        },
+        {
+          "tile": "8m",
+          "tile_index": 7,
+          "red_five": false,
+          "model_class_id": 30,
+          "model_class_name": "8m",
+          "confidence": 0.8720639944076538,
+          "box": [
+            0.3156869113445282,
+            0.05696411058306694,
+            0.37290504574775696,
+            0.7802209258079529
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.8683608770370483,
+          "box": [
+            0.014570585452020168,
+            0.05410400405526161,
+            0.07555443793535233,
+            0.7744274735450745
+          ]
+        },
+        {
+          "tile": "1m",
+          "tile_index": 0,
+          "red_five": false,
+          "model_class_id": 1,
+          "model_class_name": "1m",
+          "confidence": 0.8679890632629395,
+          "box": [
+            0.7426170110702515,
+            0.04718993976712227,
+            0.8031004667282104,
+            0.7661401629447937
+          ]
+        },
+        {
+          "tile": "2p",
+          "tile_index": 10,
+          "red_five": false,
+          "model_class_id": 7,
+          "model_class_name": "2p",
+          "confidence": 0.8661834001541138,
+          "box": [
+            0.3825032413005829,
+            0.062339477241039276,
+            0.4409380555152893,
+            0.7775274515151978
+          ]
+        },
+        {
+          "tile": "7z",
+          "tile_index": 33,
+          "red_five": false,
+          "model_class_id": 38,
+          "model_class_name": "7z",
+          "confidence": 0.8661401867866516,
+          "box": [
+            0.619930624961853,
+            0.06558898836374283,
+            0.6778901219367981,
+            0.7829522490501404
+          ]
+        },
+        {
+          "tile": "6z",
+          "tile_index": 32,
+          "red_five": false,
+          "model_class_id": 36,
+          "model_class_name": "6z",
+          "confidence": 0.8442140817642212,
+          "box": [
+            0.9020940065383911,
+            0.042439576238393784,
+            0.9653370976448059,
+            0.788254976272583
+          ]
+        }
+      ],
+      "correct": 14,
+      "exact_region": true,
+      "pipeline_ms": 22.94558403082192
+    },
+    {
+      "id": "ting-row-4",
+      "predictions": [
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9229291677474976,
+          "box": [
+            0.3766225278377533,
+            0.12980006635189056,
+            0.4344083070755005,
+            0.8090673685073853
+          ]
+        },
+        {
+          "tile": "9s",
+          "tile_index": 26,
+          "red_five": false,
+          "model_class_id": 32,
+          "model_class_name": "9s",
+          "confidence": 0.917288064956665,
+          "box": [
+            0.561818540096283,
+            0.10547813773155212,
+            0.6193585991859436,
+            0.7918818593025208
+          ]
+        },
+        {
+          "tile": "7s",
+          "tile_index": 24,
+          "red_five": false,
+          "model_class_id": 26,
+          "model_class_name": "7s",
+          "confidence": 0.9057317972183228,
+          "box": [
+            0.43602779507637024,
+            0.12536796927452087,
+            0.49218064546585083,
+            0.8032713532447815
+          ]
+        },
+        {
+          "tile": "9s",
+          "tile_index": 26,
+          "red_five": false,
+          "model_class_id": 32,
+          "model_class_name": "9s",
+          "confidence": 0.8980573415756226,
+          "box": [
+            0.6211778521537781,
+            0.10751812160015106,
+            0.6774292588233948,
+            0.7744175791740417
+          ]
+        },
+        {
+          "tile": "4s",
+          "tile_index": 21,
+          "red_five": false,
+          "model_class_id": 15,
+          "model_class_name": "4s",
+          "confidence": 0.8954488039016724,
+          "box": [
+            0.12936033308506012,
+            0.15508446097373962,
+            0.18851159512996674,
+            0.826790452003479
+          ]
+        },
+        {
+          "tile": "5s",
+          "tile_index": 22,
+          "red_five": false,
+          "model_class_id": 20,
+          "model_class_name": "5s",
+          "confidence": 0.8926090002059937,
+          "box": [
+            0.19378605484962463,
+            0.1372099667787552,
+            0.2509017288684845,
+            0.805561363697052
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.8869544267654419,
+          "box": [
+            0.253086656332016,
+            0.1358061581850052,
+            0.3099946975708008,
+            0.7972851991653442
+          ]
+        },
+        {
+          "tile": "8s",
+          "tile_index": 25,
+          "red_five": false,
+          "model_class_id": 29,
+          "model_class_name": "8s",
+          "confidence": 0.8842436671257019,
+          "box": [
+            0.4945107698440552,
+            0.10894071310758591,
+            0.5505921840667725,
+            0.8048917055130005
+          ]
+        },
+        {
+          "tile": "4s",
+          "tile_index": 21,
+          "red_five": false,
+          "model_class_id": 15,
+          "model_class_name": "4s",
+          "confidence": 0.8836064338684082,
+          "box": [
+            0.009398587979376316,
+            0.15588906407356262,
+            0.06842568516731262,
+            0.8321081399917603
+          ]
+        },
+        {
+          "tile": "9s",
+          "tile_index": 26,
+          "red_five": false,
+          "model_class_id": 32,
+          "model_class_name": "9s",
+          "confidence": 0.8813948631286621,
+          "box": [
+            0.6786275506019592,
+            0.09387031197547913,
+            0.7368202209472656,
+            0.7709802389144897
+          ]
+        },
+        {
+          "tile": "4z",
+          "tile_index": 30,
+          "red_five": false,
+          "model_class_id": 37,
+          "model_class_name": "4z",
+          "confidence": 0.8754218816757202,
+          "box": [
+            0.7414418458938599,
+            0.11696683615446091,
+            0.8004748225212097,
+            0.791259765625
+          ]
+        },
+        {
+          "tile": "7s",
+          "tile_index": 24,
+          "red_five": false,
+          "model_class_id": 26,
+          "model_class_name": "7s",
+          "confidence": 0.874332070350647,
+          "box": [
+            0.31099796295166016,
+            0.13473159074783325,
+            0.36888980865478516,
+            0.816542387008667
+          ]
+        },
+        {
+          "tile": "4s",
+          "tile_index": 21,
+          "red_five": false,
+          "model_class_id": 15,
+          "model_class_name": "4s",
+          "confidence": 0.8606430292129517,
+          "box": [
+            0.07024272531270981,
+            0.15242122113704681,
+            0.12680965662002563,
+            0.812835693359375
+          ]
+        },
+        {
+          "tile": "4z",
+          "tile_index": 30,
+          "red_five": false,
+          "model_class_id": 37,
+          "model_class_name": "4z",
+          "confidence": 0.8026584386825562,
+          "box": [
+            0.9044212102890015,
+            0.07228323072195053,
+            0.9678947329521179,
+            0.761510968208313
+          ]
+        }
+      ],
+      "correct": 14,
+      "exact_region": true,
+      "pipeline_ms": 23.178500006906688
+    },
+    {
+      "id": "six-groups",
+      "predictions": [
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.9338548183441162,
+          "box": [
+            0.4456741213798523,
+            0.16486747562885284,
+            0.5248146057128906,
+            0.3749984800815582
+          ]
+        },
+        {
+          "tile": "6z",
+          "tile_index": 32,
+          "red_five": false,
+          "model_class_id": 36,
+          "model_class_name": "6z",
+          "confidence": 0.9287157654762268,
+          "box": [
+            0.805652916431427,
+            0.6423697471618652,
+            0.887221097946167,
+            0.868933916091919
+          ]
+        },
+        {
+          "tile": "6s",
+          "tile_index": 23,
+          "red_five": false,
+          "model_class_id": 23,
+          "model_class_name": "6s",
+          "confidence": 0.9236217737197876,
+          "box": [
+            0.3687514662742615,
+            0.6396761536598206,
+            0.4480977952480316,
+            0.8610906600952148
+          ]
+        },
+        {
+          "tile": "3s",
+          "tile_index": 20,
+          "red_five": false,
+          "model_class_id": 10,
+          "model_class_name": "3s",
+          "confidence": 0.9224525690078735,
+          "box": [
+            0.12498601526021957,
+            0.6384700536727905,
+            0.2070886641740799,
+            0.8589739799499512
+          ]
+        },
+        {
+          "tile": "2s",
+          "tile_index": 19,
+          "red_five": false,
+          "model_class_id": 5,
+          "model_class_name": "2s",
+          "confidence": 0.9200184941291809,
+          "box": [
+            0.042372703552246094,
+            0.6356911659240723,
+            0.12381499260663986,
+            0.8558804392814636
+          ]
+        },
+        {
+          "tile": "8m",
+          "tile_index": 7,
+          "red_five": false,
+          "model_class_id": 30,
+          "model_class_name": "8m",
+          "confidence": 0.9197161197662354,
+          "box": [
+            0.5261127948760986,
+            0.16588890552520752,
+            0.6051431894302368,
+            0.37863409519195557
+          ]
+        },
+        {
+          "tile": "3m",
+          "tile_index": 2,
+          "red_five": false,
+          "model_class_id": 11,
+          "model_class_name": "3m",
+          "confidence": 0.9176337122917175,
+          "box": [
+            0.8798350095748901,
+            0.18565264344215393,
+            0.9597854614257812,
+            0.39739686250686646
+          ]
+        },
+        {
+          "tile": "5z",
+          "tile_index": 31,
+          "red_five": false,
+          "model_class_id": 40,
+          "model_class_name": "5z",
+          "confidence": 0.9147149324417114,
+          "box": [
+            0.8881034851074219,
+            0.644485592842102,
+            0.9686596989631653,
+            0.8667298555374146
+          ]
+        },
+        {
+          "tile": "8s",
+          "tile_index": 25,
+          "red_five": false,
+          "model_class_id": 29,
+          "model_class_name": "8s",
+          "confidence": 0.9082136750221252,
+          "box": [
+            0.5334335565567017,
+            0.6400924921035767,
+            0.6144485473632812,
+            0.8633213639259338
+          ]
+        },
+        {
+          "tile": "6m",
+          "tile_index": 5,
+          "red_five": false,
+          "model_class_id": 24,
+          "model_class_name": "6m",
+          "confidence": 0.9070115089416504,
+          "box": [
+            0.36613497138023376,
+            0.16100963950157166,
+            0.44548067450523376,
+            0.373504638671875
+          ]
+        },
+        {
+          "tile": "4s",
+          "tile_index": 21,
+          "red_five": false,
+          "model_class_id": 15,
+          "model_class_name": "4s",
+          "confidence": 0.9062290787696838,
+          "box": [
+            0.20733541250228882,
+            0.6452191472053528,
+            0.2893751859664917,
+            0.8681750297546387
+          ]
+        },
+        {
+          "tile": "7z",
+          "tile_index": 33,
+          "red_five": false,
+          "model_class_id": 38,
+          "model_class_name": "7z",
+          "confidence": 0.904462456703186,
+          "box": [
+            0.7216111421585083,
+            0.6425373554229736,
+            0.8049618005752563,
+            0.8682370185852051
+          ]
+        },
+        {
+          "tile": "2p",
+          "tile_index": 10,
+          "red_five": false,
+          "model_class_id": 7,
+          "model_class_name": "2p",
+          "confidence": 0.89923095703125,
+          "box": [
+            0.055686283856630325,
+            0.15964722633361816,
+            0.13521519303321838,
+            0.36890897154808044
+          ]
+        },
+        {
+          "tile": "7s",
+          "tile_index": 24,
+          "red_five": false,
+          "model_class_id": 26,
+          "model_class_name": "7s",
+          "confidence": 0.8963168263435364,
+          "box": [
+            0.4507087767124176,
+            0.6382917761802673,
+            0.530752420425415,
+            0.8577309250831604
+          ]
+        },
+        {
+          "tile": "3p",
+          "tile_index": 11,
+          "red_five": false,
+          "model_class_id": 12,
+          "model_class_name": "3p",
+          "confidence": 0.8918437957763672,
+          "box": [
+            0.13594579696655273,
+            0.16175897419452667,
+            0.2155517190694809,
+            0.3709297776222229
+          ]
+        },
+        {
+          "tile": "1m",
+          "tile_index": 0,
+          "red_five": false,
+          "model_class_id": 1,
+          "model_class_name": "1m",
+          "confidence": 0.8875231146812439,
+          "box": [
+            0.7173501253128052,
+            0.17698732018470764,
+            0.7969463467597961,
+            0.3910098075866699
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8869806528091431,
+          "box": [
+            0.7995074987411499,
+            0.1805073767900467,
+            0.8781607151031494,
+            0.3909382224082947
+          ]
+        },
+        {
+          "tile": "4p",
+          "tile_index": 12,
+          "red_five": false,
+          "model_class_id": 17,
+          "model_class_name": "4p",
+          "confidence": 0.8868780136108398,
+          "box": [
+            0.21605511009693146,
+            0.16430026292800903,
+            0.2950521409511566,
+            0.3728143870830536
+          ]
+        }
+      ],
+      "correct": 18,
+      "exact_region": true,
+      "pipeline_ms": 23.75975000904873
+    },
+    {
+      "id": "three-pungs",
+      "predictions": [
+        {
+          "tile": "7z",
+          "tile_index": 33,
+          "red_five": false,
+          "model_class_id": 38,
+          "model_class_name": "7z",
+          "confidence": 0.9376524686813354,
+          "box": [
+            0.19215093553066254,
+            0.5870038270950317,
+            0.31597384810447693,
+            0.8772774934768677
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.9240331649780273,
+          "box": [
+            0.4671598970890045,
+            0.10186948627233505,
+            0.5880448818206787,
+            0.3709852397441864
+          ]
+        },
+        {
+          "tile": "7z",
+          "tile_index": 33,
+          "red_five": false,
+          "model_class_id": 38,
+          "model_class_name": "7z",
+          "confidence": 0.9230202436447144,
+          "box": [
+            0.061110448092222214,
+            0.5892462730407715,
+            0.1866380125284195,
+            0.8825694918632507
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.921551525592804,
+          "box": [
+            0.596169114112854,
+            0.09958495944738388,
+            0.719420313835144,
+            0.374502569437027
+          ]
+        },
+        {
+          "tile": "7z",
+          "tile_index": 33,
+          "red_five": false,
+          "model_class_id": 38,
+          "model_class_name": "7z",
+          "confidence": 0.9126690626144409,
+          "box": [
+            0.32332324981689453,
+            0.5912387371063232,
+            0.44650936126708984,
+            0.8831043243408203
+          ]
+        },
+        {
+          "tile": "8s",
+          "tile_index": 25,
+          "red_five": false,
+          "model_class_id": 29,
+          "model_class_name": "8s",
+          "confidence": 0.910980224609375,
+          "box": [
+            0.5684619545936584,
+            0.5953877568244934,
+            0.6913579702377319,
+            0.886624276638031
+          ]
+        },
+        {
+          "tile": "8s",
+          "tile_index": 25,
+          "red_five": false,
+          "model_class_id": 29,
+          "model_class_name": "8s",
+          "confidence": 0.9099009037017822,
+          "box": [
+            0.8348827362060547,
+            0.6085575819015503,
+            0.955658495426178,
+            0.8953197598457336
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.9009373188018799,
+          "box": [
+            0.3372552990913391,
+            0.09930159896612167,
+            0.4584667980670929,
+            0.367887020111084
+          ]
+        },
+        {
+          "tile": "8s",
+          "tile_index": 25,
+          "red_five": false,
+          "model_class_id": 29,
+          "model_class_name": "8s",
+          "confidence": 0.8951550722122192,
+          "box": [
+            0.7021777629852295,
+            0.5992840528488159,
+            0.8237941265106201,
+            0.8914421796798706
+          ]
+        }
+      ],
+      "correct": 9,
+      "exact_region": true,
+      "pipeline_ms": 21.769124956335872
+    },
+    {
+      "id": "orphans-table-hand",
+      "predictions": [
+        {
+          "tile": "5z",
+          "tile_index": 31,
+          "red_five": false,
+          "model_class_id": 40,
+          "model_class_name": "5z",
+          "confidence": 0.9137048721313477,
+          "box": [
+            0.7968250513076782,
+            0.46842265129089355,
+            0.8601551055908203,
+            0.7007224559783936
+          ]
+        },
+        {
+          "tile": "9s",
+          "tile_index": 26,
+          "red_five": false,
+          "model_class_id": 32,
+          "model_class_name": "9s",
+          "confidence": 0.8947685956954956,
+          "box": [
+            0.1191771849989891,
+            0.4885575473308563,
+            0.18312104046344757,
+            0.7122359275817871
+          ]
+        },
+        {
+          "tile": "9p",
+          "tile_index": 17,
+          "red_five": false,
+          "model_class_id": 34,
+          "model_class_name": "9p",
+          "confidence": 0.8842830061912537,
+          "box": [
+            0.32476431131362915,
+            0.4896268844604492,
+            0.38733184337615967,
+            0.7134936451911926
+          ]
+        },
+        {
+          "tile": "3z",
+          "tile_index": 29,
+          "red_five": false,
+          "model_class_id": 41,
+          "model_class_name": "3z",
+          "confidence": 0.8814365267753601,
+          "box": [
+            0.531842827796936,
+            0.4893876016139984,
+            0.585803747177124,
+            0.6998636722564697
+          ]
+        },
+        {
+          "tile": "1m",
+          "tile_index": 0,
+          "red_five": false,
+          "model_class_id": 1,
+          "model_class_name": "1m",
+          "confidence": 0.8788729310035706,
+          "box": [
+            0.18763688206672668,
+            0.4953303933143616,
+            0.25037315487861633,
+            0.7183459401130676
+          ]
+        },
+        {
+          "tile": "9m",
+          "tile_index": 8,
+          "red_five": false,
+          "model_class_id": 33,
+          "model_class_name": "9m",
+          "confidence": 0.8786050081253052,
+          "box": [
+            0.25700053572654724,
+            0.49638670682907104,
+            0.3162473738193512,
+            0.7169506549835205
+          ]
+        },
+        {
+          "tile": "1z",
+          "tile_index": 27,
+          "red_five": false,
+          "model_class_id": 35,
+          "model_class_name": "1z",
+          "confidence": 0.8760509490966797,
+          "box": [
+            0.3949938416481018,
+            0.4856722056865692,
+            0.4525294005870819,
+            0.7041585445404053
+          ]
+        },
+        {
+          "tile": "6z",
+          "tile_index": 32,
+          "red_five": false,
+          "model_class_id": 36,
+          "model_class_name": "6z",
+          "confidence": 0.8619763851165771,
+          "box": [
+            0.7331520318984985,
+            0.4791336953639984,
+            0.7890271544456482,
+            0.6885128021240234
+          ]
+        },
+        {
+          "tile": "3z",
+          "tile_index": 29,
+          "red_five": false,
+          "model_class_id": 41,
+          "model_class_name": "3z",
+          "confidence": 0.8603508472442627,
+          "box": [
+            0.5987347960472107,
+            0.4801066219806671,
+            0.6522367000579834,
+            0.6949320435523987
+          ]
+        },
+        {
+          "tile": "4z",
+          "tile_index": 30,
+          "red_five": false,
+          "model_class_id": 37,
+          "model_class_name": "4z",
+          "confidence": 0.8601620197296143,
+          "box": [
+            0.6680347323417664,
+            0.4899939000606537,
+            0.7208238244056702,
+            0.6969096064567566
+          ]
+        },
+        {
+          "tile": "1s",
+          "tile_index": 18,
+          "red_five": false,
+          "model_class_id": 0,
+          "model_class_name": "1s",
+          "confidence": 0.8483833074569702,
+          "box": [
+            0.04962024837732315,
+            0.4948351979255676,
+            0.11647726595401764,
+            0.7221317291259766
+          ]
+        },
+        {
+          "tile": "2z",
+          "tile_index": 28,
+          "red_five": false,
+          "model_class_id": 39,
+          "model_class_name": "2z",
+          "confidence": 0.8474087715148926,
+          "box": [
+            0.46271196007728577,
+            0.48615071177482605,
+            0.5192518830299377,
+            0.70255047082901
+          ]
+        },
+        {
+          "tile": "7z",
+          "tile_index": 33,
+          "red_five": false,
+          "model_class_id": 38,
+          "model_class_name": "7z",
+          "confidence": 0.83256995677948,
+          "box": [
+            0.8700791597366333,
+            0.4680289626121521,
+            0.9321407079696655,
+            0.6855281591415405
+          ]
+        },
+        {
+          "tile": "1p",
+          "tile_index": 9,
+          "red_five": false,
+          "model_class_id": 2,
+          "model_class_name": "1p",
+          "confidence": 0.6184408664703369,
+          "box": [
+            0.37069714069366455,
+            0.24210083484649658,
+            0.43258172273635864,
+            0.4455196261405945
+          ]
+        }
+      ],
+      "correct": 14,
+      "exact_region": true,
+      "pipeline_ms": 22.89033296983689
+    },
+    {
+      "id": "chinitsu-table-hand",
+      "predictions": [
+        {
+          "tile": "6p",
+          "tile_index": 14,
+          "red_five": false,
+          "model_class_id": 25,
+          "model_class_name": "6p",
+          "confidence": 0.9324914216995239,
+          "box": [
+            0.4272829592227936,
+            0.5698038935661316,
+            0.47771987318992615,
+            0.7870694994926453
+          ]
+        },
+        {
+          "tile": "9p",
+          "tile_index": 17,
+          "red_five": false,
+          "model_class_id": 34,
+          "model_class_name": "9p",
+          "confidence": 0.9193154573440552,
+          "box": [
+            0.6947357058525085,
+            0.5696913599967957,
+            0.7504521608352661,
+            0.7865082025527954
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.9059740900993347,
+          "box": [
+            0.5352979302406311,
+            0.5732763409614563,
+            0.5853251218795776,
+            0.7893131375312805
+          ]
+        },
+        {
+          "tile": "9p",
+          "tile_index": 17,
+          "red_five": false,
+          "model_class_id": 34,
+          "model_class_name": "9p",
+          "confidence": 0.9048165082931519,
+          "box": [
+            0.641800045967102,
+            0.5689992308616638,
+            0.695943295955658,
+            0.7838792204856873
+          ]
+        },
+        {
+          "tile": "5p",
+          "tile_index": 13,
+          "red_five": false,
+          "model_class_id": 22,
+          "model_class_name": "5p",
+          "confidence": 0.9005190134048462,
+          "box": [
+            0.31754639744758606,
+            0.5822582840919495,
+            0.3699150085449219,
+            0.8007869720458984
+          ]
+        },
+        {
+          "tile": "7p",
+          "tile_index": 15,
+          "red_five": false,
+          "model_class_id": 28,
+          "model_class_name": "7p",
+          "confidence": 0.8960369825363159,
+          "box": [
+            0.48194757103919983,
+            0.5747381448745728,
+            0.5321189761161804,
+            0.7875624299049377
+          ]
+        },
+        {
+          "tile": "9p",
+          "tile_index": 17,
+          "red_five": false,
+          "model_class_id": 34,
+          "model_class_name": "9p",
+          "confidence": 0.8938165903091431,
+          "box": [
+            0.588720977306366,
+            0.5757157206535339,
+            0.6412729620933533,
+            0.7869242429733276
+          ]
+        },
+        {
+          "tile": "3p",
+          "tile_index": 11,
+          "red_five": false,
+          "model_class_id": 12,
+          "model_class_name": "3p",
+          "confidence": 0.8922833204269409,
+          "box": [
+            0.2040608674287796,
+            0.5903926491737366,
+            0.2589079439640045,
+            0.8114302754402161
+          ]
+        },
+        {
+          "tile": "5p",
+          "tile_index": 13,
+          "red_five": false,
+          "model_class_id": 22,
+          "model_class_name": "5p",
+          "confidence": 0.8914979696273804,
+          "box": [
+            0.3720078766345978,
+            0.5728241205215454,
+            0.4251028597354889,
+            0.7909637689590454
+          ]
+        },
+        {
+          "tile": "4p",
+          "tile_index": 12,
+          "red_five": false,
+          "model_class_id": 17,
+          "model_class_name": "4p",
+          "confidence": 0.8900492191314697,
+          "box": [
+            0.1475522369146347,
+            0.5913385152816772,
+            0.20226414501667023,
+            0.8146616816520691
+          ]
+        },
+        {
+          "tile": "4p",
+          "tile_index": 12,
+          "red_five": false,
+          "model_class_id": 17,
+          "model_class_name": "4p",
+          "confidence": 0.8819152116775513,
+          "box": [
+            0.261764794588089,
+            0.5837190747261047,
+            0.31561335921287537,
+            0.8051570653915405
+          ]
+        },
+        {
+          "tile": "2p",
+          "tile_index": 10,
+          "red_five": false,
+          "model_class_id": 7,
+          "model_class_name": "2p",
+          "confidence": 0.8809152841567993,
+          "box": [
+            0.03483613207936287,
+            0.5947298407554626,
+            0.0905986800789833,
+            0.8128499388694763
+          ]
+        },
+        {
+          "tile": "3p",
+          "tile_index": 11,
+          "red_five": false,
+          "model_class_id": 12,
+          "model_class_name": "3p",
+          "confidence": 0.8766037821769714,
+          "box": [
+            0.0919276550412178,
+            0.5924711227416992,
+            0.14624468982219696,
+            0.8143550753593445
+          ]
+        },
+        {
+          "tile": "8p",
+          "tile_index": 16,
+          "red_five": false,
+          "model_class_id": 31,
+          "model_class_name": "8p",
+          "confidence": 0.5733156800270081,
+          "box": [
+            0.921444833278656,
+            0.22456197440624237,
+            0.9848588109016418,
+            0.4380023181438446
+          ]
+        }
+      ],
+      "correct": 14,
+      "exact_region": true,
+      "pipeline_ms": 24.252708011772484
+    },
+    {
+      "id": "ron-concealed-row",
+      "predictions": [
+        {
+          "tile": "4m",
+          "tile_index": 3,
+          "red_five": false,
+          "model_class_id": 16,
+          "model_class_name": "4m",
+          "confidence": 0.8980897665023804,
+          "box": [
+            0.2727023959159851,
+            0.46081170439720154,
+            0.3336274325847626,
+            0.6958651542663574
+          ]
+        },
+        {
+          "tile": "6m",
+          "tile_index": 5,
+          "red_five": false,
+          "model_class_id": 24,
+          "model_class_name": "6m",
+          "confidence": 0.8954434394836426,
+          "box": [
+            0.5312057733535767,
+            0.4026227593421936,
+            0.5900045037269592,
+            0.6362038850784302
+          ]
+        },
+        {
+          "tile": "6m",
+          "tile_index": 5,
+          "red_five": false,
+          "model_class_id": 24,
+          "model_class_name": "6m",
+          "confidence": 0.8929764032363892,
+          "box": [
+            0.5970591306686401,
+            0.4458157420158386,
+            0.6562528014183044,
+            0.6856224536895752
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.8857822418212891,
+          "box": [
+            0.4656238555908203,
+            0.4027797281742096,
+            0.5244848728179932,
+            0.6392722725868225
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.8756383657455444,
+          "box": [
+            0.661270797252655,
+            0.4306042790412903,
+            0.7211399078369141,
+            0.6682544350624084
+          ]
+        },
+        {
+          "tile": "7m",
+          "tile_index": 6,
+          "red_five": false,
+          "model_class_id": 27,
+          "model_class_name": "7m",
+          "confidence": 0.8716717958450317,
+          "box": [
+            0.7262659668922424,
+            0.4094257056713104,
+            0.7878062129020691,
+            0.65735924243927
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.861125648021698,
+          "box": [
+            0.3383506238460541,
+            0.429130494594574,
+            0.39661911129951477,
+            0.6659979820251465
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.8565102815628052,
+          "box": [
+            0.1461273580789566,
+            0.5047204494476318,
+            0.20330794155597687,
+            0.7304949164390564
+          ]
+        },
+        {
+          "tile": "1m",
+          "tile_index": 0,
+          "red_five": false,
+          "model_class_id": 1,
+          "model_class_name": "1m",
+          "confidence": 0.8297644257545471,
+          "box": [
+            0.07947549968957901,
+            0.5402740836143494,
+            0.1364235281944275,
+            0.7702043056488037
+          ]
+        },
+        {
+          "tile": "5m",
+          "tile_index": 4,
+          "red_five": false,
+          "model_class_id": 21,
+          "model_class_name": "5m",
+          "confidence": 0.807148814201355,
+          "box": [
+            0.40150973200798035,
+            0.4147077202796936,
+            0.45911139249801636,
+            0.6477536559104919
+          ]
+        },
+        {
+          "tile": "2m",
+          "tile_index": 1,
+          "red_five": false,
+          "model_class_id": 6,
+          "model_class_name": "2m",
+          "confidence": 0.79018235206604,
+          "box": [
+            0.2099630981683731,
+            0.521024763584137,
+            0.2668856382369995,
+            0.7541782259941101
+          ]
+        },
+        {
+          "tile": "8m",
+          "tile_index": 7,
+          "red_five": false,
+          "model_class_id": 30,
+          "model_class_name": "8m",
+          "confidence": 0.7890372276306152,
+          "box": [
+            0.7882882356643677,
+            0.36111512780189514,
+            0.8512659668922424,
+            0.600628674030304
+          ]
+        },
+        {
+          "tile": "9m",
+          "tile_index": 8,
+          "red_five": false,
+          "model_class_id": 33,
+          "model_class_name": "9m",
+          "confidence": 0.7456313967704773,
+          "box": [
+            0.866773247718811,
+            0.4109700620174408,
+            0.9259924292564392,
+            0.6491524577140808
+          ]
+        }
+      ],
+      "correct": 12,
+      "exact_region": false,
+      "pipeline_ms": 22.753208002541214
+    }
+  ],
+  "limitations": [
+    "Previously exposed development material, not independent trials or a fresh holdout.",
+    "One model call per scaled row; no phone performance claim.",
+    "Video uses identity multisets; photos use class-aware IoU matching."
+  ]
+}

@@ -1,0 +1,1839 @@
+{
+  "sha": "e6bc06cbdbc22ab53f40b1ef5ebeca6dc49f8299",
+  "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/e6bc06cbdbc22ab53f40b1ef5ebeca6dc49f8299",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a06e4726d59675378662b7bbd2a3b1082c38df9",
+      "size": 714,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2a06e4726d59675378662b7bbd2a3b1082c38df9"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b827c80374fcc70bf0c1852610a469bb5e35b29b",
+      "size": 459,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/b827c80374fcc70bf0c1852610a469bb5e35b29b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c05892604fa25d36263155ddccce213adca8af6c",
+      "size": 10565,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/c05892604fa25d36263155ddccce213adca8af6c"
+    },
+    {
+      "path": "app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "daf25a69612bde62b68f8240e14d5dc7097b92b3",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/daf25a69612bde62b68f8240e14d5dc7097b92b3"
+    },
+    {
+      "path": "app/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42afabfd2abebf31384ca7797186a27a4b7dbee8",
+      "size": 6,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/42afabfd2abebf31384ca7797186a27a4b7dbee8"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa80c518b03fa86d2945c9c7961c73ba4e349db3",
+      "size": 2622,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/fa80c518b03fa86d2945c9c7961c73ba4e349db3"
+    },
+    {
+      "path": "app/libs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c230beabba03469d2c48406aaaf60f984822ad9a",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/c230beabba03469d2c48406aaaf60f984822ad9a"
+    },
+    {
+      "path": "app/libs/MercuryAndroidSDK-v0.2.3-20260104184638_9002bcc8.aar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38767514cf861b0bdb16a3dc8a8c9a1dcbce078e",
+      "size": 208220,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/38767514cf861b0bdb16a3dc8a8c9a1dcbce078e"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "481bb434814107eb79d7a30b676d344b0df2f8ce",
+      "size": 750,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/481bb434814107eb79d7a30b676d344b0df2f8ce"
+    },
+    {
+      "path": "app/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "452c7686df9b6e1bc555efe9c4a1fd3ae7b16bd8",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/452c7686df9b6e1bc555efe9c4a1fd3ae7b16bd8"
+    },
+    {
+      "path": "app/src/androidTest",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f662eff1ebbb4fff590a2d03b659fe22c3dc10d",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/7f662eff1ebbb4fff590a2d03b659fe22c3dc10d"
+    },
+    {
+      "path": "app/src/androidTest/java",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4db6b75ad03fca5f617f2a37c08889cc98a24cd1",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/4db6b75ad03fca5f617f2a37c08889cc98a24cd1"
+    },
+    {
+      "path": "app/src/androidTest/java/com",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d383a7c22c4a65e5d571ee8b8616840e0d576396",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/d383a7c22c4a65e5d571ee8b8616840e0d576396"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8459e85a4635064d7a31a5e5adaa0acb8288e63a",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/8459e85a4635064d7a31a5e5adaa0acb8288e63a"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/ai_assist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3754e71723ffd45b39edbb0696a6d62f5d1534c",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/b3754e71723ffd45b39edbb0696a6d62f5d1534c"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/ai_assist/ExampleInstrumentedTest.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1665c74e49bae4084eccc2d467e689b88832414",
+      "size": 669,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/a1665c74e49bae4084eccc2d467e689b88832414"
+    },
+    {
+      "path": "app/src/main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1216cf7f7bea846ceb585503a95892f3c0edd583",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/1216cf7f7bea846ceb585503a95892f3c0edd583"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e8adb1fe02d4ea424e9b5d779bea53939797475",
+      "size": 1800,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/4e8adb1fe02d4ea424e9b5d779bea53939797475"
+    },
+    {
+      "path": "app/src/main/java",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49d2efda9aef334dad0b6d54ed530c2020992c45",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/49d2efda9aef334dad0b6d54ed530c2020992c45"
+    },
+    {
+      "path": "app/src/main/java/com",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7dd355e69bafc8971a17660fa59d35281ff3a62",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/c7dd355e69bafc8971a17660fa59d35281ff3a62"
+    },
+    {
+      "path": "app/src/main/java/com/example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff3fd9e82e2999aaaf82480d0124e21621d4fc3c",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/ff3fd9e82e2999aaaf82480d0124e21621d4fc3c"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1d238a0dcfe2905875ece0e5e241d4bdef80a86",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/a1d238a0dcfe2905875ece0e5e241d4bdef80a86"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/AppConfig.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a59cc1c93e12a1709ab9cab9f7faf057af63998",
+      "size": 226,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/9a59cc1c93e12a1709ab9cab9f7faf057af63998"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/MainActivity.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc81ac5e5c7327fc213e798a560cdd89f583896d",
+      "size": 30652,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/dc81ac5e5c7327fc213e798a560cdd89f583896d"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/MercuryApplication.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3454646515501b69f16cc0423a6bd2f9f78eaceb",
+      "size": 248,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/3454646515501b69f16cc0423a6bd2f9f78eaceb"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a2697d3c18b6d7fa73da359f529dbff07c1c18c",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/2a2697d3c18b6d7fa73da359f529dbff07c1c18c"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/model/AnalyzeResponse.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cf37353c70808d68a49115dfb31a54357f0846f",
+      "size": 324,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5cf37353c70808d68a49115dfb31a54357f0846f"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/model/Message.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69ee8529969c3550e94d737fe44acca102835837",
+      "size": 163,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/69ee8529969c3550e94d737fe44acca102835837"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/model/SessionModels.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af7b4b36f1260ea1f292eacf60b0d5f8502e8cdf",
+      "size": 465,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/af7b4b36f1260ea1f292eacf60b0d5f8502e8cdf"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/repository",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "128d4559b3207c5610965d8c4de3cde83b6ec7e1",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/128d4559b3207c5610965d8c4de3cde83b6ec7e1"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/repository/ChatRepository.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2292198763f65daa0171ec21d9c49b109955ba7",
+      "size": 2369,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/d2292198763f65daa0171ec21d9c49b109955ba7"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69e19ec7633993d41cab71917a49214c6c128e78",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/69e19ec7633993d41cab71917a49214c6c128e78"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/service/GameApiService.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eef7bb98b62253dbf71e5f8570235a8a3fe710a",
+      "size": 1143,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/1eef7bb98b62253dbf71e5f8570235a8a3fe710a"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/service/RayNeoDeviceManager.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c041a4e66bf863756290f0ca4b7c173590e26707",
+      "size": 1894,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/c041a4e66bf863756290f0ca4b7c173590e26707"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9aeedc4660e9bc42c347334b4d05e1d8c664a975",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/9aeedc4660e9bc42c347334b4d05e1d8c664a975"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/utils/MahjongMapper.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b27d8ad9988ba8a0eaf9e5fab3a2e223c8e46cda",
+      "size": 1843,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/b27d8ad9988ba8a0eaf9e5fab3a2e223c8e46cda"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/utils/RayNeoAudioRecorder.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3475cb1245f4348fd126a199ead26b66e68daac8",
+      "size": 8906,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/3475cb1245f4348fd126a199ead26b66e68daac8"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/viewmodel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53dda985773d38d56771c0126778c29f58a6c1a0",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/53dda985773d38d56771c0126778c29f58a6c1a0"
+    },
+    {
+      "path": "app/src/main/java/com/example/ai_assist/viewmodel/ChatViewModel.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "472b8ba8f18b4abc6c14c663253f2ca318685362",
+      "size": 2889,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/472b8ba8f18b4abc6c14c663253f2ca318685362"
+    },
+    {
+      "path": "app/src/main/res",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00353579be28c57cc30a489407ad88c38baea94f",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/00353579be28c57cc30a489407ad88c38baea94f"
+    },
+    {
+      "path": "app/src/main/res/drawable",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad1f9bfe672af1118404c03dc467ac56d6480668",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/ad1f9bfe672af1118404c03dc467ac56d6480668"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_bubble_ai.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3c669e8ea285e562ac2b6befa2109c97247ee22",
+      "size": 415,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/d3c669e8ea285e562ac2b6befa2109c97247ee22"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_bubble_user.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6a0bd15661462abe09db81dee562eccebc92d07",
+      "size": 365,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/c6a0bd15661462abe09db81dee562eccebc92d07"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_capsule_border.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fe8e410be5763928903745c5bb2ec0ea4ad92d1",
+      "size": 317,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/3fe8e410be5763928903745c5bb2ec0ea4ad92d1"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_capsule_border_blue.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3d91249bd0019c342209795ba87363f2dbfc89a",
+      "size": 318,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/d3d91249bd0019c342209795ba87363f2dbfc89a"
+    },
+    {
+      "path": "app/src/main/res/drawable/bg_mahjong_border.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2ac0eef09b8164edf6f6eab60ed86f9d2959682",
+      "size": 316,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/c2ac0eef09b8164edf6f6eab60ed86f9d2959682"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07d5da9cbf141911847041df5d7b87f0dd5ef9d4",
+      "size": 5606,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/07d5da9cbf141911847041df5d7b87f0dd5ef9d4"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b068d11462a4b96669193de13a711a3a36220a0",
+      "size": 1702,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_m1.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f27b140973dd038699dc42d4b2e5f962ae5a19a",
+      "size": 6446,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/9f27b140973dd038699dc42d4b2e5f962ae5a19a"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_m2.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fac33030c75aa04008778074bc7e5e83e1fc643",
+      "size": 6681,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2fac33030c75aa04008778074bc7e5e83e1fc643"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_m3.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a63963fdd4f85c3af4de03f244b4d9b5ad5ee03",
+      "size": 7074,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/6a63963fdd4f85c3af4de03f244b4d9b5ad5ee03"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_m4.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ae2a18cbc218de427c1477992465a23eaaeebe0",
+      "size": 8658,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/1ae2a18cbc218de427c1477992465a23eaaeebe0"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_m5.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e4a784c588891ce38e2272a07b550f8bd72fc",
+      "size": 10075,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/d45e4a784c588891ce38e2272a07b550f8bd72fc"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_m5_dora.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2725653e88f1777089bd10060564a56f1490f9cc",
+      "size": 10296,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2725653e88f1777089bd10060564a56f1490f9cc"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_m6.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3beea43febf9cbca29aa3820cab4603d2b3b8fd0",
+      "size": 7584,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/3beea43febf9cbca29aa3820cab4603d2b3b8fd0"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_m7.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bca3ad51cde3a14dec407b5976536f44e0b5a3c",
+      "size": 7164,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/6bca3ad51cde3a14dec407b5976536f44e0b5a3c"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_m8.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54af9b2b35c9029160a0d20795226eb2ce11bffd",
+      "size": 7278,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/54af9b2b35c9029160a0d20795226eb2ce11bffd"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_m9.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26a5071969affdd25cb9b95ade260838f0a4f504",
+      "size": 7233,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/26a5071969affdd25cb9b95ade260838f0a4f504"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_p1.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ba0d81acf80645981d98c058013f868bebc366",
+      "size": 3601,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/01ba0d81acf80645981d98c058013f868bebc366"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_p2.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d93df9fcbd8ee2a0e70453dd58770b13c7a8c53",
+      "size": 2779,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/4d93df9fcbd8ee2a0e70453dd58770b13c7a8c53"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_p3.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738c9f75987acb311606910e8ec45c6a2c4c3efa",
+      "size": 5847,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/738c9f75987acb311606910e8ec45c6a2c4c3efa"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_p4.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e4c3258349c5e486f7910e9bb6997d713f13a33",
+      "size": 7202,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/0e4c3258349c5e486f7910e9bb6997d713f13a33"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_p5.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adaafa7c36ef75475862969fdf0089f20544e2be",
+      "size": 8621,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/adaafa7c36ef75475862969fdf0089f20544e2be"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_p5_dora.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40985a197bbfb174b00802806c7d6fa0882c932c",
+      "size": 8828,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/40985a197bbfb174b00802806c7d6fa0882c932c"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_p6.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "940dab28c50471e844557cc538e7944738844676",
+      "size": 8672,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/940dab28c50471e844557cc538e7944738844676"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_p7.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2413a2c9f1a602bdf47cd90970eb7319135ff64e",
+      "size": 11766,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2413a2c9f1a602bdf47cd90970eb7319135ff64e"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_p8.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c1c201f9121913a4f8401a6c0077a5a1fd1fb1e",
+      "size": 11036,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/1c1c201f9121913a4f8401a6c0077a5a1fd1fb1e"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_p9.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "839f26cc2a62ff178b6b56cf8ccf4160d2193723",
+      "size": 12631,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/839f26cc2a62ff178b6b56cf8ccf4160d2193723"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_s1.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fc8faf4cf3c4cbf8e55c85952bed5c8d0be08cb",
+      "size": 56154,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/7fc8faf4cf3c4cbf8e55c85952bed5c8d0be08cb"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_s2.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2af87685b8218b467d846d5cae6d3763732771f",
+      "size": 5643,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/b2af87685b8218b467d846d5cae6d3763732771f"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_s3.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c47f10d02db4c5c985becb3bce1492138e68e581",
+      "size": 7626,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/c47f10d02db4c5c985becb3bce1492138e68e581"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_s4.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56b3309175c37d5c5b8e3ca1c6d95a59851a7529",
+      "size": 9618,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/56b3309175c37d5c5b8e3ca1c6d95a59851a7529"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_s5.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "769f069ff6bca62f15094df5d9593de5fdbd7743",
+      "size": 11559,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/769f069ff6bca62f15094df5d9593de5fdbd7743"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_s5_dora.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0621e412337725a8082e78df3912e6caa11ebfb9",
+      "size": 11787,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/0621e412337725a8082e78df3912e6caa11ebfb9"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_s6.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "913de67cb10838f0598aec775677950030eb2c69",
+      "size": 13566,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/913de67cb10838f0598aec775677950030eb2c69"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_s7.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a629f40e6b3b9e9af9e209df2270d5389d21dd8",
+      "size": 12922,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5a629f40e6b3b9e9af9e209df2270d5389d21dd8"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_s8.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64f9b033cf4eb950b46fc8d71543284df86b8a3e",
+      "size": 8379,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/64f9b033cf4eb950b46fc8d71543284df86b8a3e"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_s9.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22752cd73ad0eabda4a6955d5b236d3f818f8dcc",
+      "size": 16140,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/22752cd73ad0eabda4a6955d5b236d3f818f8dcc"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_z1.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e21d1c93681a4d96056300793348139d0ccaba0",
+      "size": 7324,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2e21d1c93681a4d96056300793348139d0ccaba0"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_z2.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dde119b6a82cecbb3e6620e41cfbb2f30f0db0e",
+      "size": 7825,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/9dde119b6a82cecbb3e6620e41cfbb2f30f0db0e"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_z3.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f534d61b4bc4797c0aae1ece0748f027077b3b66",
+      "size": 5960,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/f534d61b4bc4797c0aae1ece0748f027077b3b66"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_z4.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5f18694b04afaf35931f5e657e83e174616a09",
+      "size": 5693,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5f5f18694b04afaf35931f5e657e83e174616a09"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_z5.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a5f2ac0b137f47b65a9e009f245de10ded1dab6",
+      "size": 1680,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2a5f2ac0b137f47b65a9e009f245de10ded1dab6"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_z6.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3f174d4265f3fb23f3e5c58e5a01fa328ddab42",
+      "size": 11580,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/a3f174d4265f3fb23f3e5c58e5a01fa328ddab42"
+    },
+    {
+      "path": "app/src/main/res/drawable/mj_z7.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb3cda95b9f8cfcc426cef3318d5a8f4777a1db3",
+      "size": 5069,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/bb3cda95b9f8cfcc426cef3318d5a8f4777a1db3"
+    },
+    {
+      "path": "app/src/main/res/font",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fcbccf4092d615a7bd8f2b896bb936de58b88631",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/fcbccf4092d615a7bd8f2b896bb936de58b88631"
+    },
+    {
+      "path": "app/src/main/res/font/mahjong_color.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aca82c19e94e5216853d59cefc36e19453ebb31",
+      "size": 59776,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2aca82c19e94e5216853d59cefc36e19453ebb31"
+    },
+    {
+      "path": "app/src/main/res/layout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eda3d7db9df5be90c78418cd73710a2cee5d2d15",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/eda3d7db9df5be90c78418cd73710a2cee5d2d15"
+    },
+    {
+      "path": "app/src/main/res/layout/activity_main.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66f7805783e986d1002644ac6e96fd8582305f92",
+      "size": 15645,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/66f7805783e986d1002644ac6e96fd8582305f92"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f040d90f917487621ed03e086c746df691b15544",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/f040d90f917487621ed03e086c746df691b15544"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "033bd78496df3155c8ab8b06d7bcd0511d4f7581",
+      "size": 339,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/033bd78496df3155c8ab8b06d7bcd0511d4f7581"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher_round.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "033bd78496df3155c8ab8b06d7bcd0511d4f7581",
+      "size": 339,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/033bd78496df3155c8ab8b06d7bcd0511d4f7581"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31eebbb2786d63d8fa7ac715c8e52a56eed2f483",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/31eebbb2786d63d8fa7ac715c8e52a56eed2f483"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b254d2ab3b0daab6b777648d487a0977e923ca1",
+      "size": 6223,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2b254d2ab3b0daab6b777648d487a0977e923ca1"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3bb69b191a4093e30d1524ae9ae39ddcb30ad9d",
+      "size": 17781,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/a3bb69b191a4093e30d1524ae9ae39ddcb30ad9d"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b254d2ab3b0daab6b777648d487a0977e923ca1",
+      "size": 6223,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2b254d2ab3b0daab6b777648d487a0977e923ca1"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3554b53f0ce03657f608f6269694e22f92544c3a",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/3554b53f0ce03657f608f6269694e22f92544c3a"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fb9a9c2936f996a10fc065c172ab91eafb1413f",
+      "size": 3141,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/9fb9a9c2936f996a10fc065c172ab91eafb1413f"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6e10a842b5c93ec852970c917147c844a3447e1",
+      "size": 8882,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/a6e10a842b5c93ec852970c917147c844a3447e1"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fb9a9c2936f996a10fc065c172ab91eafb1413f",
+      "size": 3141,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/9fb9a9c2936f996a10fc065c172ab91eafb1413f"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a2f5a6692ffe05f8e280abdbd3070c98784cf37",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/4a2f5a6692ffe05f8e280abdbd3070c98784cf37"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b2c3ca02abe0c00db21b6cd627a698ff25bb7b4",
+      "size": 9765,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/6b2c3ca02abe0c00db21b6cd627a698ff25bb7b4"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09a68225d47b6f514ee6dab9a59981c10fd9d206",
+      "size": 29767,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/09a68225d47b6f514ee6dab9a59981c10fd9d206"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b2c3ca02abe0c00db21b6cd627a698ff25bb7b4",
+      "size": 9765,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/6b2c3ca02abe0c00db21b6cd627a698ff25bb7b4"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3b403ef0674c4f5256c6c3335eff664f1f21d09",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/e3b403ef0674c4f5256c6c3335eff664f1f21d09"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e19e150c90eb01ad717765abbcff98dd8ff114c",
+      "size": 19896,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5e19e150c90eb01ad717765abbcff98dd8ff114c"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d8e7023736c5419882214e5b18df0d349d069d6",
+      "size": 63802,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/1d8e7023736c5419882214e5b18df0d349d069d6"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e19e150c90eb01ad717765abbcff98dd8ff114c",
+      "size": 19896,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5e19e150c90eb01ad717765abbcff98dd8ff114c"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1edbd7bbb21902edb8ec68af39e431bb6596c91",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/e1edbd7bbb21902edb8ec68af39e431bb6596c91"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97fa9c3122bff5f68c290401b5aa534ce7bc0a41",
+      "size": 33670,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/97fa9c3122bff5f68c290401b5aa534ce7bc0a41"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d92e4989979ab71f8d93a48bff2816f2fc680ff1",
+      "size": 113599,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/d92e4989979ab71f8d93a48bff2816f2fc680ff1"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97fa9c3122bff5f68c290401b5aa534ce7bc0a41",
+      "size": 33670,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/97fa9c3122bff5f68c290401b5aa534ce7bc0a41"
+    },
+    {
+      "path": "app/src/main/res/values-night",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75c589ad2bf0e5841a09c78271621e7e0abbceaa",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/75c589ad2bf0e5841a09c78271621e7e0abbceaa"
+    },
+    {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec05e08776cef187d51dc60a8e2c2cace8d0eefc",
+      "size": 583,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/ec05e08776cef187d51dc60a8e2c2cace8d0eefc"
+    },
+    {
+      "path": "app/src/main/res/values",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "146dd06f280211393801ee3d555dee82175968c3",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/146dd06f280211393801ee3d555dee82175968c3"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6de8e67a15ba8d9a86c5fb8236d2de44058bfe8f",
+      "size": 369,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/6de8e67a15ba8d9a86c5fb8236d2de44058bfe8f"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c237aba3753658579bdd942bc8ed006b5bbe26f5",
+      "size": 76,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/c237aba3753658579bdd942bc8ed006b5bbe26f5"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec05e08776cef187d51dc60a8e2c2cace8d0eefc",
+      "size": 583,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/ec05e08776cef187d51dc60a8e2c2cace8d0eefc"
+    },
+    {
+      "path": "app/src/main/res/xml",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "811ac2bed6146ea9e983457b241056840e7b8370",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/811ac2bed6146ea9e983457b241056840e7b8370"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4df925582478cf0d469c4cff9a4bb50859f3230a",
+      "size": 478,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/4df925582478cf0d469c4cff9a4bb50859f3230a"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ee9997b0b4726e57c27b2f7b21462b604ff8a88",
+      "size": 551,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/9ee9997b0b4726e57c27b2f7b21462b604ff8a88"
+    },
+    {
+      "path": "app/src/main/res/xml/network_security_config.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2439f15c2cb7d1046af45236a2fe03358d2153ca",
+      "size": 145,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/2439f15c2cb7d1046af45236a2fe03358d2153ca"
+    },
+    {
+      "path": "app/src/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "880d236da7e9961877f3205217a3cfa16b408820",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/880d236da7e9961877f3205217a3cfa16b408820"
+    },
+    {
+      "path": "app/src/test/java",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8756aeb7c2754076276391439149e9039b524fef",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/8756aeb7c2754076276391439149e9039b524fef"
+    },
+    {
+      "path": "app/src/test/java/com",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a958393458bca15a99d926177e51f5825a98994",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/9a958393458bca15a99d926177e51f5825a98994"
+    },
+    {
+      "path": "app/src/test/java/com/example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3145bb5e635cd195863b0616612df0359da52d8",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/c3145bb5e635cd195863b0616612df0359da52d8"
+    },
+    {
+      "path": "app/src/test/java/com/example/ai_assist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a60facdf015f3377042feda7ca3922562f956f8a",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/a60facdf015f3377042feda7ca3922562f956f8a"
+    },
+    {
+      "path": "app/src/test/java/com/example/ai_assist/ExampleUnitTest.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "246ab1f03bce65f0a847e8d4c17e000fe1a0ca83",
+      "size": 345,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/246ab1f03bce65f0a847e8d4c17e000fe1a0ca83"
+    },
+    {
+      "path": "build.gradle.kts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "922f551105e1b8c176391b38c9436d45f172b546",
+      "size": 218,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/922f551105e1b8c176391b38c9436d45f172b546"
+    },
+    {
+      "path": "build_source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b92de1b6c44e715d6ee7141904aa34ce1c9ceef3",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/b92de1b6c44e715d6ee7141904aa34ce1c9ceef3"
+    },
+    {
+      "path": "build_source/u1F000.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bd6bb1b741b81271f30d72dc59ce4c3f969b690",
+      "size": 59641,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/9bd6bb1b741b81271f30d72dc59ce4c3f969b690"
+    },
+    {
+      "path": "build_source/u1F001.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abf5e97df9368a1c961d56c8fc7953d80f994116",
+      "size": 64645,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/abf5e97df9368a1c961d56c8fc7953d80f994116"
+    },
+    {
+      "path": "build_source/u1F002.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "023a963716455e15295910587c940c87e50775f9",
+      "size": 54397,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/023a963716455e15295910587c940c87e50775f9"
+    },
+    {
+      "path": "build_source/u1F003.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "966ad7682c9046f2421f0526080082ab7b5d04b2",
+      "size": 51045,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/966ad7682c9046f2421f0526080082ab7b5d04b2"
+    },
+    {
+      "path": "build_source/u1F004.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f51f6c8367f2c256935b780be76210e8b9896e6e",
+      "size": 41169,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/f51f6c8367f2c256935b780be76210e8b9896e6e"
+    },
+    {
+      "path": "build_source/u1F005.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b7c17ab311447c17c2058e91eb17731109fa7dd",
+      "size": 73513,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/8b7c17ab311447c17c2058e91eb17731109fa7dd"
+    },
+    {
+      "path": "build_source/u1F006.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b17fcda265c8717399c5b1a8bfc26772c95c4b75",
+      "size": 18045,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/b17fcda265c8717399c5b1a8bfc26772c95c4b75"
+    },
+    {
+      "path": "build_source/u1F007.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52b5b69f7595cfa31b4236d9820e6f7345a79a71",
+      "size": 53833,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/52b5b69f7595cfa31b4236d9820e6f7345a79a71"
+    },
+    {
+      "path": "build_source/u1F008.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a66e2a09d9bd7e640c53a510c8dde4551329b94",
+      "size": 56997,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/3a66e2a09d9bd7e640c53a510c8dde4551329b94"
+    },
+    {
+      "path": "build_source/u1F009.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f27600c4fed2e5b4680a2704dda882d4c4eab3a",
+      "size": 61045,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/7f27600c4fed2e5b4680a2704dda882d4c4eab3a"
+    },
+    {
+      "path": "build_source/u1F00A.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ba188171b563f881339b10bd5333c1ae09a3705",
+      "size": 64813,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/4ba188171b563f881339b10bd5333c1ae09a3705"
+    },
+    {
+      "path": "build_source/u1F00B.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327ab59960840b4c69944afdb3bef58760e9b4da",
+      "size": 67193,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/327ab59960840b4c69944afdb3bef58760e9b4da"
+    },
+    {
+      "path": "build_source/u1F00C.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e713f6ac51ed5325b6e5b3ad712eaba946952081",
+      "size": 64797,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/e713f6ac51ed5325b6e5b3ad712eaba946952081"
+    },
+    {
+      "path": "build_source/u1F00D.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b73509653de9747b7fe607b91845cae3fac7439e",
+      "size": 60449,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/b73509653de9747b7fe607b91845cae3fac7439e"
+    },
+    {
+      "path": "build_source/u1F00E.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44b8c92dad28564e76aa3a697e8d34027215b020",
+      "size": 60069,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/44b8c92dad28564e76aa3a697e8d34027215b020"
+    },
+    {
+      "path": "build_source/u1F00F.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e294ad843aae4dafe69644a1e848ab13ea09e2",
+      "size": 63205,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/66e294ad843aae4dafe69644a1e848ab13ea09e2"
+    },
+    {
+      "path": "build_source/u1F010.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21aa188690e4126e26765c00bba4c483e9ff17ff",
+      "size": 133897,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/21aa188690e4126e26765c00bba4c483e9ff17ff"
+    },
+    {
+      "path": "build_source/u1F011.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d60187a59c96ff3a29c952c833cfbfe76756795c",
+      "size": 42817,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/d60187a59c96ff3a29c952c833cfbfe76756795c"
+    },
+    {
+      "path": "build_source/u1F012.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3700715fcdd3ff58560b54f1084213ba40df30a9",
+      "size": 51181,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/3700715fcdd3ff58560b54f1084213ba40df30a9"
+    },
+    {
+      "path": "build_source/u1F013.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "728258e8c2d3bb260e0ee369baeb723de5f45c43",
+      "size": 61569,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/728258e8c2d3bb260e0ee369baeb723de5f45c43"
+    },
+    {
+      "path": "build_source/u1F014.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd76a597ee50caeebcadf789684a1d57efcd1b9b",
+      "size": 70433,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/fd76a597ee50caeebcadf789684a1d57efcd1b9b"
+    },
+    {
+      "path": "build_source/u1F015.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a962b20cb716fab5e4e9ad674560706bfa2ac1a7",
+      "size": 76841,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/a962b20cb716fab5e4e9ad674560706bfa2ac1a7"
+    },
+    {
+      "path": "build_source/u1F016.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be6eebcd88eb20772885aabac56f58565b493784",
+      "size": 71285,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/be6eebcd88eb20772885aabac56f58565b493784"
+    },
+    {
+      "path": "build_source/u1F017.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "106d03228608493a08cce06a526024070197b18a",
+      "size": 85225,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/106d03228608493a08cce06a526024070197b18a"
+    },
+    {
+      "path": "build_source/u1F018.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e977b714cdd661fb36a06f6e9bd256b0e13d1ef",
+      "size": 86065,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/1e977b714cdd661fb36a06f6e9bd256b0e13d1ef"
+    },
+    {
+      "path": "build_source/u1F019.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e91dfa605035494b63bb7b01db1f7f05c418679",
+      "size": 146413,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/7e91dfa605035494b63bb7b01db1f7f05c418679"
+    },
+    {
+      "path": "build_source/u1F01A.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fdfdba876b94d168e3346f3b23fbd3cf9a15cbd",
+      "size": 100217,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/1fdfdba876b94d168e3346f3b23fbd3cf9a15cbd"
+    },
+    {
+      "path": "build_source/u1F01B.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a50a7d91de4207b6f8a9f54e1e3a69fe649b8994",
+      "size": 79477,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/a50a7d91de4207b6f8a9f54e1e3a69fe649b8994"
+    },
+    {
+      "path": "build_source/u1F01C.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa4c15c59a1a669df49e5bf332120b1e788be3b5",
+      "size": 96157,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/fa4c15c59a1a669df49e5bf332120b1e788be3b5"
+    },
+    {
+      "path": "build_source/u1F01D.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce18e48bade7d1b51cb351382c0ff5f8db939e17",
+      "size": 115697,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/ce18e48bade7d1b51cb351382c0ff5f8db939e17"
+    },
+    {
+      "path": "build_source/u1F01E.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "839f99c4a492fa0b95fc0c6921b76c2d0d619fc9",
+      "size": 118857,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/839f99c4a492fa0b95fc0c6921b76c2d0d619fc9"
+    },
+    {
+      "path": "build_source/u1F01F.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c59403b56633748feb74930616f7e33ac6ec87c2",
+      "size": 133889,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/c59403b56633748feb74930616f7e33ac6ec87c2"
+    },
+    {
+      "path": "build_source/u1F020.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df84f6570fac3a199595e190c310b45a1b86d45a",
+      "size": 143661,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/df84f6570fac3a199595e190c310b45a1b86d45a"
+    },
+    {
+      "path": "build_source/u1F021.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbe1e872056bc92a6ef85b91f798cb251c134219",
+      "size": 153457,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/dbe1e872056bc92a6ef85b91f798cb251c134219"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bab8863045f4353813017203f044f2870cc7694d",
+      "size": 316,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/bab8863045f4353813017203f044f2870cc7694d"
+    },
+    {
+      "path": "gradle.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20e2a01520742aff4ec9ce578ed4fe5f3a76fe77",
+      "size": 1346,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/20e2a01520742aff4ec9ce578ed4fe5f3a76fe77"
+    },
+    {
+      "path": "gradle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b7bb7b321cce4b5135d732f5ea32e5de4e30802",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/3b7bb7b321cce4b5135d732f5ea32e5de4e30802"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3357683dedcd69db8dee7af3f1f29ae4e3221b0",
+      "size": 919,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/b3357683dedcd69db8dee7af3f1f29ae4e3221b0"
+    },
+    {
+      "path": "gradle/wrapper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d7a77eaca1a4f6f3843c2b43e6dfbfab68e2ee28",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/d7a77eaca1a4f6f3843c2b43e6dfbfab68e2ee28"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bdaf60c75ab801e22807dde59e12a8735a34077",
+      "size": 45457,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/8bdaf60c75ab801e22807dde59e12a8735a34077"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c1e8c92622620c7eaae45026b0a085ec35788f9",
+      "size": 281,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/0c1e8c92622620c7eaae45026b0a085ec35788f9"
+    },
+    {
+      "path": "gradlew",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ef07e0162b183eb9d19a2c9ba7035c283af9f8dd",
+      "size": 8728,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/ef07e0162b183eb9d19a2c9ba7035c283af9f8dd"
+    },
+    {
+      "path": "gradlew.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eed7ee8452842305a18a4eb967442683808226a",
+      "size": 2937,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5eed7ee8452842305a18a4eb967442683808226a"
+    },
+    {
+      "path": "rayneo arsdk for android doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5250d8986ceb1fc0817c3f132919b94649b1086b",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/5250d8986ceb1fc0817c3f132919b94649b1086b"
+    },
+    {
+      "path": "rayneo arsdk for android doc/AR眼镜的设计规范.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46673524363b35ac8860c5c479f03f2b4449da7a",
+      "size": 38707135,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/46673524363b35ac8860c5c479f03f2b4449da7a"
+    },
+    {
+      "path": "rayneo arsdk for android doc/Camera_sample_code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecb464a405bfa2eea96a8fdc75455ac50615f4a5",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/ecb464a405bfa2eea96a8fdc75455ac50615f4a5"
+    },
+    {
+      "path": "rayneo arsdk for android doc/Camera_sample_code/CameraActivity.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8cc433cdf117670c4751cbd96982ce9baa1b73b",
+      "size": 9462,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/c8cc433cdf117670c4751cbd96982ce9baa1b73b"
+    },
+    {
+      "path": "rayneo arsdk for android doc/Camera_sample_code/activity_camera.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc12f46bb0f5b005a9eef5c329aa61d5c35b9b0",
+      "size": 1589,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/3cc12f46bb0f5b005a9eef5c329aa61d5c35b9b0"
+    },
+    {
+      "path": "rayneo arsdk for android doc/ExampleRecordTranslation.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7144467b4b2ec292aea6ba1abcf9c45cb0da7033",
+      "size": 3554,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/7144467b4b2ec292aea6ba1abcf9c45cb0da7033"
+    },
+    {
+      "path": "rayneo arsdk for android doc/RayNeo-ARSDK集成.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d81a4c7956324f35aba6cca40cb40abf3483fa6f",
+      "size": 35254,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/d81a4c7956324f35aba6cca40cb40abf3483fa6f"
+    },
+    {
+      "path": "rayneo arsdk for android doc/能力介绍 & API.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df5c205bdd63f386bb89772421c318b476db5eeb",
+      "size": 686733,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/df5c205bdd63f386bb89772421c318b476db5eeb"
+    },
+    {
+      "path": "reproduce_issue.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28b2315cc632d697117cac68750149153891d9f6",
+      "size": 1887,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/28b2315cc632d697117cac68750149153891d9f6"
+    },
+    {
+      "path": "server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "593f11d170cdf631e9180ed9fd6456b29576157e",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/593f11d170cdf631e9180ed9fd6456b29576157e"
+    },
+    {
+      "path": "server/.env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88bf6f9ba26f3b54476ddd0a7164b9ca1a16e535",
+      "size": 333,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/88bf6f9ba26f3b54476ddd0a7164b9ca1a16e535"
+    },
+    {
+      "path": "server/3467m2356d5578s11z.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e601227cd25ef8359dc60bc07a45272eec5fc3f",
+      "size": 121426,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5e601227cd25ef8359dc60bc07a45272eec5fc3f"
+    },
+    {
+      "path": "server/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7e21207cbcab7ee24165a708bd5f0f28238e9ba",
+      "size": 1401,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/c7e21207cbcab7ee24165a708bd5f0f28238e9ba"
+    },
+    {
+      "path": "server/camera_demo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c2d1b94f0340cdea605be10946f9d05becacdd6",
+      "size": 3347,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5c2d1b94f0340cdea605be10946f9d05becacdd6"
+    },
+    {
+      "path": "server/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a2ff0994db1cfd9c447d0853c3561d95456732a",
+      "size": 939,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5a2ff0994db1cfd9c447d0853c3561d95456732a"
+    },
+    {
+      "path": "server/database.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "712e066b03d29514c02b70569d308c9a1b7a46e5",
+      "size": 5693,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/712e066b03d29514c02b70569d308c9a1b7a46e5"
+    },
+    {
+      "path": "server/efficiency_engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94034b3c66edeb1921143c3e1b89915752a68a4a",
+      "size": 24358,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/94034b3c66edeb1921143c3e1b89915752a68a4a"
+    },
+    {
+      "path": "server/llm_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43e2e8481ea04baf5fbfd501edb7bf9741173b99",
+      "size": 4667,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/43e2e8481ea04baf5fbfd501edb7bf9741173b99"
+    },
+    {
+      "path": "server/mahjong_state_tracker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d60aec08f7a1d9412986517e29e29737854c8cb",
+      "size": 15887,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/3d60aec08f7a1d9412986517e29e29737854c8cb"
+    },
+    {
+      "path": "server/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef4367c02254da5dc6d95261af48faf0a967f052",
+      "size": 18088,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/ef4367c02254da5dc6d95261af48faf0a967f052"
+    },
+    {
+      "path": "server/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eddec872158505050a011b3b476b2c6ff1ba346d",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/eddec872158505050a011b3b476b2c6ff1ba346d"
+    },
+    {
+      "path": "server/models/yolo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4263f4e988c440e328c4ff17fabea5269507c4b",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/c4263f4e988c440e328c4ff17fabea5269507c4b"
+    },
+    {
+      "path": "server/models/yolo/class_names.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20fb87a3b2b9d1cb243d80887a5dc713d124b121",
+      "size": 125,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/20fb87a3b2b9d1cb243d80887a5dc713d124b121"
+    },
+    {
+      "path": "server/models/yolo/weights.onnx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bfac8014b41ccb13f613c1262cbc030eadc7433",
+      "size": 12270403,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/3bfac8014b41ccb13f613c1262cbc030eadc7433"
+    },
+    {
+      "path": "server/performance_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2977b9871740838770fefaf1f63b637a4063c8d",
+      "size": 4062,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/f2977b9871740838770fefaf1f63b637a4063c8d"
+    },
+    {
+      "path": "server/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "185d2370008df645e87fbf0ac7f76c4eba090b6f",
+      "size": 188,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/185d2370008df645e87fbf0ac7f76c4eba090b6f"
+    },
+    {
+      "path": "server/schemas.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e501a730ccd20c1ddc656ab398542d9d3c7fb88",
+      "size": 607,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/4e501a730ccd20c1ddc656ab398542d9d3c7fb88"
+    },
+    {
+      "path": "server/static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce00974727cb544e4d997437341059ce813b1969",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/ce00974727cb544e4d997437341059ce813b1969"
+    },
+    {
+      "path": "server/static/dashboard.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fdeb55a12c2855dcfae1d439f3a685a2bbbc24b",
+      "size": 19583,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/3fdeb55a12c2855dcfae1d439f3a685a2bbbc24b"
+    },
+    {
+      "path": "server/static/yolo_debug.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f579fa03805d3c1349bcf1af9c0ac2ac3747ce6",
+      "size": 6355,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/6f579fa03805d3c1349bcf1af9c0ac2ac3747ce6"
+    },
+    {
+      "path": "server/stt_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "214237346730574722e9abbec6fe66b0f0dab6e5",
+      "size": 2468,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/214237346730574722e9abbec6fe66b0f0dab6e5"
+    },
+    {
+      "path": "server/test_output.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b958358df1b2d1d6794104afa1ea24c968241b16",
+      "size": 7198,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/b958358df1b2d1d6794104afa1ea24c968241b16"
+    },
+    {
+      "path": "server/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92c83a59164ab6fa931b0fade55d5401bfc8d38b",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/92c83a59164ab6fa931b0fade55d5401bfc8d38b"
+    },
+    {
+      "path": "server/tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a2dbefca554a9942929ede58792b08ee7838aa0",
+      "size": 156,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/9a2dbefca554a9942929ede58792b08ee7838aa0"
+    },
+    {
+      "path": "server/tests/test_api_conversion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d0123e62761ac782637ffa92a4caca17671c7c6",
+      "size": 1502,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/6d0123e62761ac782637ffa92a4caca17671c7c6"
+    },
+    {
+      "path": "server/tests/test_chi_details.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73ea8830e54e64555656af78fc72b67af01100fb",
+      "size": 1765,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/73ea8830e54e64555656af78fc72b67af01100fb"
+    },
+    {
+      "path": "server/tests/test_chi_kan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78f5abd45853dfc1a8848e505d48e09d76dd557b",
+      "size": 2477,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/78f5abd45853dfc1a8848e505d48e09d76dd557b"
+    },
+    {
+      "path": "server/tests/test_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80b4062d8535f055fe7a0aefd5b4bc45e4bb7e8c",
+      "size": 713,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/80b4062d8535f055fe7a0aefd5b4bc45e4bb7e8c"
+    },
+    {
+      "path": "server/tests/test_drawing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4950943ca9e296aed468695e4f52177e33257019",
+      "size": 1856,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/4950943ca9e296aed468695e4f52177e33257019"
+    },
+    {
+      "path": "server/tests/test_efficiency_simulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e3db32e6d2546b0e552f1b99e8f44cc55d26f5a",
+      "size": 6371,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/1e3db32e6d2546b0e552f1b99e8f44cc55d26f5a"
+    },
+    {
+      "path": "server/tests/test_imports.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c13c9e93523bdfc24bf9bcbaafa6a60f3462dbc",
+      "size": 448,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/6c13c9e93523bdfc24bf9bcbaafa6a60f3462dbc"
+    },
+    {
+      "path": "server/tests/test_integration_melds.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cea009391a2df7ff55b39e974071b6f669976867",
+      "size": 3973,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/cea009391a2df7ff55b39e974071b6f669976867"
+    },
+    {
+      "path": "server/tests/test_llm_connection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34233c3a331eb0b7d27b170ce26884f89d646d43",
+      "size": 3405,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/34233c3a331eb0b7d27b170ce26884f89d646d43"
+    },
+    {
+      "path": "server/tests/test_mahjong_tracker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f22b1485af648579eaf1206f5f56800e7031950",
+      "size": 6982,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5f22b1485af648579eaf1206f5f56800e7031950"
+    },
+    {
+      "path": "server/tests/test_mahjong_tracker_advanced.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe896df9361d14c184da7606f23d74acee426ed6",
+      "size": 4443,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/fe896df9361d14c184da7606f23d74acee426ed6"
+    },
+    {
+      "path": "server/tests/test_mpsz_conversion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31f7858ffb865f011342d7ec019026a07ecb2385",
+      "size": 515,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/31f7858ffb865f011342d7ec019026a07ecb2385"
+    },
+    {
+      "path": "server/tests/test_tracker_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc1a18d2826a7ba02c5d417996e1587f225130e2",
+      "size": 4279,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/cc1a18d2826a7ba02c5d417996e1587f225130e2"
+    },
+    {
+      "path": "server/tests/test_tracker_logic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be615e452252077ccabc3265124bf144034624d3",
+      "size": 2129,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/be615e452252077ccabc3265124bf144034624d3"
+    },
+    {
+      "path": "server/verify_changes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b8203b8509651e1e7dce6b3312340a56b0d456",
+      "size": 1453,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/45b8203b8509651e1e7dce6b3312340a56b0d456"
+    },
+    {
+      "path": "server/verify_hand.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42608a1cd250687515620349b27d739a1140e359",
+      "size": 3843,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/42608a1cd250687515620349b27d739a1140e359"
+    },
+    {
+      "path": "server/verify_sample_2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98a0ddf6c57c4c2ea2954ec49e9d564758c5e352",
+      "size": 1266,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/98a0ddf6c57c4c2ea2954ec49e9d564758c5e352"
+    },
+    {
+      "path": "server/vision_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e329fc4b087eee4b3d7f69b0e8cf662bdd76f32c",
+      "size": 4898,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/e329fc4b087eee4b3d7f69b0e8cf662bdd76f32c"
+    },
+    {
+      "path": "server/yolo_inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9624e2f0278da98e743f3f1a0c2c79187155ea94",
+      "size": 6481,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/9624e2f0278da98e743f3f1a0c2c79187155ea94"
+    },
+    {
+      "path": "server/麻将样本2.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53647f22ed0235c3ea0624d9a863428cb2e79626",
+      "size": 241163,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/53647f22ed0235c3ea0624d9a863428cb2e79626"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9020f00704e4348070edfd9db8fc37efbb92c89",
+      "size": 539,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/b9020f00704e4348070edfd9db8fc37efbb92c89"
+    },
+    {
+      "path": "test_efficiency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ff0587e3e47dcbe6d0e0c8d79bb32a0eb6a6123",
+      "size": 5962,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/5ff0587e3e47dcbe6d0e0c8d79bb32a0eb6a6123"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb3e73cb55213c97ff6a2f80b53427c1fbabbda1",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/eb3e73cb55213c97ff6a2f80b53427c1fbabbda1"
+    },
+    {
+      "path": "tests/test_unstable_melds.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e43a8b05fd4002de01d5b767d418f5f1203304a0",
+      "size": 3996,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/e43a8b05fd4002de01d5b767d418f5f1203304a0"
+    },
+    {
+      "path": "tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50b42bee2ed0b19ee06efa1576f049c97ed7143f",
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/50b42bee2ed0b19ee06efa1576f049c97ed7143f"
+    },
+    {
+      "path": "tools/build_font.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3b1c91e10ccff4ec127471d0cccd96f1aa6f5a",
+      "size": 1223,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/7f3b1c91e10ccff4ec127471d0cccd96f1aa6f5a"
+    },
+    {
+      "path": "tools/check_alpha.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a0c7f3542f86a8acb937ec2ee39c8bcc6933735",
+      "size": 611,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/6a0c7f3542f86a8acb937ec2ee39c8bcc6933735"
+    },
+    {
+      "path": "tools/prepare_mahjong_svgs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d582f1aa82624601c532583f222a3db43d4cacf",
+      "size": 4158,
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/blobs/0d582f1aa82624601c532583f222a3db43d4cacf"
+    }
+  ],
+  "truncated": false
+}

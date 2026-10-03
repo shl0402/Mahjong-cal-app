@@ -1,0 +1,155 @@
+{
+  "recorded_at": "2026-10-02T16:14:23.690497+00:00",
+  "implementation": "app/lib/vision/scan_consensus.dart",
+  "gate_source_sha256": "ca5173ba39a2b52dfe82beaf8fc636fa945aea8104ffef2a11f119d9187a6550",
+  "test": "app/test/vision/real_hand_video_replay_test.dart",
+  "result": "passed",
+  "summaries": [
+    {
+      "candidate": "ar42",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "expected_count": 2,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "ar42",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "expected_count": 5,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "ar42",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "expected_count": 8,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "ar42",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "expected_count": 11,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "ar42",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "expected_count": 14,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "ar42",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "expected_count": 17,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "ar42",
+      "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+      "expected_count": 13,
+      "app_count_option": false,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "confidence": 17,
+        "count": 3
+      }
+    },
+    {
+      "candidate": "baseline",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+      "expected_count": 2,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "baseline",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+      "expected_count": 5,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "baseline",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+      "expected_count": 8,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "baseline",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+      "expected_count": 11,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 11,
+        "confidence": 9
+      }
+    },
+    {
+      "candidate": "baseline",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+      "expected_count": 14,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "baseline",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+      "expected_count": 17,
+      "app_count_option": true,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    },
+    {
+      "candidate": "baseline",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+      "expected_count": 13,
+      "app_count_option": false,
+      "first_accepted_timestamp_ms": null,
+      "issues": {
+        "count": 20
+      }
+    }
+  ],
+  "limitations": [
+    "One13tile broadcastrow; no independently successful winninghand lock.",
+    "20adjacent realframes arecorrelated, not20independentattempts."
+  ]
+}

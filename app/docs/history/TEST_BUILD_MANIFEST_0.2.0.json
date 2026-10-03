@@ -1,0 +1,62 @@
+{
+  "app_version": "0.2.0+2",
+  "engine_version": "0.1.1",
+  "date": "2026-10-02",
+  "flutter_tests_passed": 196,
+  "analysis": "no issues",
+  "direct_xcode_workspace_build": "passed unsigned Profile",
+  "artifacts": [
+    {
+      "artifact": "app/build/ios/iphoneos/Runner.app",
+      "version": "0.2.0",
+      "build": "2",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+      "runner_sha256": "d1c48e303a60016e36c9c40f1cbab6e6d097915e62a68ab40088591c8c57c23f",
+      "flutter_app_sha256": "858dd414ef01c01fac732cbb16cbc9544f8d497a27bc47ebb87d0854c85356ea"
+    },
+    {
+      "artifact": "app/build/ios/iphonesimulator/Runner.app",
+      "version": "0.2.0",
+      "build": "2",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+      "runner_sha256": "6f2d9428addba0e695921c4a57f274738f8f30f86229a806c3aae0e5924a7017",
+      "flutter_app_sha256": "c55511b5aabe1d3271234cc653bbba60d408bb7eee31c11e3835b401d3665780"
+    },
+    {
+      "artifact": "app/build/xcode-phone-test/Build/Products/Profile-iphoneos/Runner.app",
+      "version": "0.2.0",
+      "build": "2",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+      "runner_sha256": "c958349cb1fbbf3110fddcd9a167fa40f45416b26eee87f52d2bd37c88bedefb",
+      "flutter_app_sha256": "858dd414ef01c01fac732cbb16cbc9544f8d497a27bc47ebb87d0854c85356ea"
+    },
+    {
+      "artifact": "app/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk",
+      "bytes": 56231544,
+      "sha256": "f0c1adafcedd17a0b2c2a57e3c30dab62ff6790a29abe0f2abf34cf11c5a79f3",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a"
+    },
+    {
+      "artifact": "app/build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk",
+      "bytes": 48316652,
+      "sha256": "15767c6bfb8738d04c55560b270152baf411313f648b6b6cd1222baf67f28a70",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a"
+    },
+    {
+      "artifact": "app/build/app/outputs/flutter-apk/app-debug.apk",
+      "bytes": 246492902,
+      "sha256": "6d57b1131f153755a269e0c4a3de65f3e7032e0ef44753596489b0bb6b960a9a",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a"
+    },
+    {
+      "artifact": "app/build/app/outputs/flutter-apk/app-x86_64-release.apk",
+      "bytes": 61539952,
+      "sha256": "93dd81298fa568b5a775abf2fff6df7c83c1460674b06a150a2e9a8bc543ef33",
+      "model_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a"
+    }
+  ],
+  "dart_source_sha256": "803f5198218780b731b63c96eb88deadf5c84dcecbd68ad37fdff6bf26265da7",
+  "source_digest_method": "SHA256 of sorted relative app/lib/*.dart paths + NUL + file bytes + NUL (recursive)",
+  "web_build": "passed release, manual/scoring preview",
+  "web_main_js_sha256": "0eae4ee05705df7d36d98875bd3bb0cec906cdd010f53247c8b61bdb263a5d83"
+}

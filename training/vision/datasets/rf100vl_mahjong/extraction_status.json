@@ -1,0 +1,9 @@
+{
+  "archive": "sources/mahjong.tar",
+  "archive_bytes_at_start": 1911848960,
+  "expected_sha256": "f2352bc102a8f177b886d57e1acfe2d5b53c27b137e6f2f79fe9a6c010db598e",
+  "verified_sha256": "f2352bc102a8f177b886d57e1acfe2d5b53c27b137e6f2f79fe9a6c010db598e",
+  "partial": false,
+  "files_extracted": 2140,
+  "extracted_bytes": 1908010630
+}

@@ -1,0 +1,14 @@
+{
+  "selected_epoch": 20,
+  "fitness": 0.42171,
+  "metrics": {
+    "metrics/precision(B)": 0.69597,
+    "metrics/recall(B)": 0.54538,
+    "metrics/mAP50(B)": 0.56155,
+    "metrics/mAP50-95(B)": 0.40618,
+    "val/box_loss": 0.98507,
+    "val/cls_loss": 1.2151,
+    "val/dfl_loss": 1.08316
+  },
+  "criterion": "Ultralytics dev fitness; same equality/tie behavior as save_model"
+}

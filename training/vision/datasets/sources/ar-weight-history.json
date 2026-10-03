@@ -1,0 +1,40 @@
+[
+  {
+    "sha": "e6bc06cbdbc22ab53f40b1ef5ebeca6dc49f8299",
+    "node_id": "C_kwDORPgml9oAKGU2YmMwNmNiZGJjMjJhYjUzZjQwYjFlZjVlYmVjYTZkYzQ5ZjgyOTk",
+    "commit": {
+      "author": {
+        "name": "farest",
+        "email": "farest@Farest-MacBook-Pro-M5.local",
+        "date": "2026-02-13T13:02:24Z"
+      },
+      "committer": {
+        "name": "farest",
+        "email": "farest@Farest-MacBook-Pro-M5.local",
+        "date": "2026-02-13T13:02:24Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "dc74e7c16165d7457fdacbbe5f20507ad6c58b8f",
+        "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/trees/dc74e7c16165d7457fdacbbe5f20507ad6c58b8f"
+      },
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/git/commits/e6bc06cbdbc22ab53f40b1ef5ebeca6dc49f8299",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/commits/e6bc06cbdbc22ab53f40b1ef5ebeca6dc49f8299",
+    "html_url": "https://github.com/LYiHub/AR-Mahjong-Assistant-preview/commit/e6bc06cbdbc22ab53f40b1ef5ebeca6dc49f8299",
+    "comments_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/commits/e6bc06cbdbc22ab53f40b1ef5ebeca6dc49f8299/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+
+    ]
+  }
+]

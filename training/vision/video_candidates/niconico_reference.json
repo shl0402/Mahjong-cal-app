@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "video_path": "vision/video_candidates/niconico-188-196-lossless.mkv",
+  "video_sha256": "ae0c95344f211df8f978f478ff4fd0deece69e4a5a9508d490ef05ee9fa05d6f",
+  "source_start_ms": 188000,
+  "roi": [
+    365,
+    725,
+    900,
+    915
+  ],
+  "roi_format": "xyxy pixels in full decoded 1920x1080 frames",
+  "sample_period_ms": 400,
+  "expected_tiles": [
+    "1s",
+    "2s",
+    "5s",
+    "6s",
+    "6s",
+    "6s",
+    "2m",
+    "4m",
+    "0m",
+    "7m",
+    "5p",
+    "7p",
+    "8p"
+  ],
+  "valid_intervals_ms": [
+    [
+      0,
+      7975
+    ]
+  ],
+  "reviewed_frames": [
+    {
+      "frame_index": 0,
+      "clip_pts_ms": 33
+    },
+    {
+      "frame_index": 12,
+      "clip_pts_ms": 434
+    },
+    {
+      "frame_index": 24,
+      "clip_pts_ms": 834
+    },
+    {
+      "frame_index": 36,
+      "clip_pts_ms": 1235
+    },
+    {
+      "frame_index": 48,
+      "clip_pts_ms": 1635
+    },
+    {
+      "frame_index": 60,
+      "clip_pts_ms": 2035
+    },
+    {
+      "frame_index": 72,
+      "clip_pts_ms": 2436
+    },
+    {
+      "frame_index": 84,
+      "clip_pts_ms": 2836
+    },
+    {
+      "frame_index": 96,
+      "clip_pts_ms": 3237
+    },
+    {
+      "frame_index": 108,
+      "clip_pts_ms": 3637
+    },
+    {
+      "frame_index": 120,
+      "clip_pts_ms": 4037
+    },
+    {
+      "frame_index": 132,
+      "clip_pts_ms": 4438
+    },
+    {
+      "frame_index": 144,
+      "clip_pts_ms": 4838
+    },
+    {
+      "frame_index": 156,
+      "clip_pts_ms": 5239
+    },
+    {
+      "frame_index": 168,
+      "clip_pts_ms": 5639
+    },
+    {
+      "frame_index": 180,
+      "clip_pts_ms": 6039
+    },
+    {
+      "frame_index": 192,
+      "clip_pts_ms": 6440
+    },
+    {
+      "frame_index": 204,
+      "clip_pts_ms": 6840
+    },
+    {
+      "frame_index": 216,
+      "clip_pts_ms": 7241
+    },
+    {
+      "frame_index": 228,
+      "clip_pts_ms": 7641
+    }
+  ],
+  "uncertain_positions": [],
+  "frozen_at_utc": "2026-10-02T16:09:27.297663+00:00",
+  "notes": [
+    "Manual label sequence independently agreed by platform_build and root before inference.",
+    "All20 samples at frames0,12,...228 were visually checked; row unchanged and unoccluded.",
+    "0m denotes red5m. AR42 model only has5m, so report normalized-face accuracy separately from red-tile identity.",
+    "13tiles, with a tilted row: not a complete14/17tile hand and not a positive app-lock example.",
+    "Actual broadcast camera footage, not a handheld phone scan.",
+    "Source seek188s; local framePTS is authoritative; source188000+PTS only approximate to one frame.",
+    "Continuous interval is supported by20manualsamples, not dense239frame occlusion annotation.",
+    "This is a development diagnostic chosen by manual inspection; upstream training overlap unknown."
+  ]
+}

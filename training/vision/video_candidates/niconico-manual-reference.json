@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "id": "nicopro-2018-row-188-196-manual-v1",
+  "created_at_utc": "2026-10-02T16:07:46.937531+00:00",
+  "annotation_method": "Manual visual reading of real source frames and row crops before model inference. No detector outputs used.",
+  "status": "manual_single_reviewer_pending_independent_review",
+  "clip_path": "vision/video_candidates/niconico-188-196-lossless.mkv",
+  "clip_sha256": "ae0c95344f211df8f978f478ff4fd0deece69e4a5a9508d490ef05ee9fa05d6f",
+  "clip_frame_count": 239,
+  "clip_fps": "30000/1001",
+  "clip_dimensions": [
+    1920,
+    1080
+  ],
+  "fixed_roi_xywh": [
+    364,
+    724,
+    536,
+    192
+  ],
+  "roi_coordinate_system": "full decoded clip pixels; even coordinates for YUV420 crop",
+  "ordered_labels_left_to_right": [
+    "1s",
+    "2s",
+    "5s",
+    "6s",
+    "6s",
+    "6s",
+    "2m",
+    "4m",
+    "5m",
+    "7m",
+    "5p",
+    "7p",
+    "8p"
+  ],
+  "red_tile_positions_zero_based": [
+    8
+  ],
+  "uncertain_label_positions_zero_based": [],
+  "notes": [
+    "Positions 3,4,5 each show three upper and three lower bamboo marks: 6s.",
+    "Position 8 is red five characters; normalized label5m plus red flag.",
+    "Labels are references for the selected front-left row only; other rows/walls/discards are outside evaluation ROI.",
+    "Eight one-second contact-sheet samples show a stable row; dense per-frame occlusion labels have not been manually audited."
+  ],
+  "reviewed_sample_frames": [
+    {
+      "frame_index": 0,
+      "clip_pts_seconds": 0.033,
+      "labels": [
+        "1s",
+        "2s",
+        "5s",
+        "6s",
+        "6s",
+        "6s",
+        "2m",
+        "4m",
+        "5m",
+        "7m",
+        "5p",
+        "7p",
+        "8p"
+      ],
+      "red_positions_zero_based": [
+        8
+      ]
+    },
+    {
+      "frame_index": 30,
+      "clip_pts_seconds": 1.034,
+      "labels": [
+        "1s",
+        "2s",
+        "5s",
+        "6s",
+        "6s",
+        "6s",
+        "2m",
+        "4m",
+        "5m",
+        "7m",
+        "5p",
+        "7p",
+        "8p"
+      ],
+      "red_positions_zero_based": [
+        8
+      ]
+    },
+    {
+      "frame_index": 60,
+      "clip_pts_seconds": 2.035,
+      "labels": [
+        "1s",
+        "2s",
+        "5s",
+        "6s",
+        "6s",
+        "6s",
+        "2m",
+        "4m",
+        "5m",
+        "7m",
+        "5p",
+        "7p",
+        "8p"
+      ],
+      "red_positions_zero_based": [
+        8
+      ]
+    },
+    {
+      "frame_index": 90,
+      "clip_pts_seconds": 3.036,
+      "labels": [
+        "1s",
+        "2s",
+        "5s",
+        "6s",
+        "6s",
+        "6s",
+        "2m",
+        "4m",
+        "5m",
+        "7m",
+        "5p",
+        "7p",
+        "8p"
+      ],
+      "red_positions_zero_based": [
+        8
+      ]
+    },
+    {
+      "frame_index": 120,
+      "clip_pts_seconds": 4.037,
+      "labels": [
+        "1s",
+        "2s",
+        "5s",
+        "6s",
+        "6s",
+        "6s",
+        "2m",
+        "4m",
+        "5m",
+        "7m",
+        "5p",
+        "7p",
+        "8p"
+      ],
+      "red_positions_zero_based": [
+        8
+      ]
+    },
+    {
+      "frame_index": 150,
+      "clip_pts_seconds": 5.038,
+      "labels": [
+        "1s",
+        "2s",
+        "5s",
+        "6s",
+        "6s",
+        "6s",
+        "2m",
+        "4m",
+        "5m",
+        "7m",
+        "5p",
+        "7p",
+        "8p"
+      ],
+      "red_positions_zero_based": [
+        8
+      ]
+    },
+    {
+      "frame_index": 180,
+      "clip_pts_seconds": 6.039,
+      "labels": [
+        "1s",
+        "2s",
+        "5s",
+        "6s",
+        "6s",
+        "6s",
+        "2m",
+        "4m",
+        "5m",
+        "7m",
+        "5p",
+        "7p",
+        "8p"
+      ],
+      "red_positions_zero_based": [
+        8
+      ]
+    },
+    {
+      "frame_index": 210,
+      "clip_pts_seconds": 7.04,
+      "labels": [
+        "1s",
+        "2s",
+        "5s",
+        "6s",
+        "6s",
+        "6s",
+        "2m",
+        "4m",
+        "5m",
+        "7m",
+        "5p",
+        "7p",
+        "8p"
+      ],
+      "red_positions_zero_based": [
+        8
+      ]
+    }
+  ],
+  "exposure": "development_manual_inspection",
+  "upstream_training_status": "unknown",
+  "session_id": null,
+  "physical_tile_set": null,
+  "source_video_identity": "commons:74794134:2018-12-02T03:15:30Z",
+  "source_requested_seek_seconds": 188,
+  "source_timestamp_note": "Clip PTS is authoritative. Requested accurate input seek188s; source time approximately188+clipPTS, within one frame; original compressed stream start offsets not independently calibrated."
+}

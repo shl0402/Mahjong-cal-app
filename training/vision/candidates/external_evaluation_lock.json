@@ -1,0 +1,23 @@
+{
+  "frozen_at": "2026-10-02T15:39:38.235782+00:00",
+  "basis": "existing ten Commons development regions only, before any RF100 grouped internal-test inference",
+  "primary_research_candidate": "ar-yolov8-42",
+  "secondary_candidate": "yolo11s-v2",
+  "control": "yolo11n-v2",
+  "models": {
+    "ar-yolov8-42": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+    "yolo11s-v2": "b1b1f0d635033345aa8842ca7d7e9cb94baacea5f37c8a096f272bcc0a35185f",
+    "yolo11n-v2": "f328eeed0dda7fa01fb1f059a1b1a988fae43ba2ea67c76103284f2e8f50090b"
+  },
+  "preprocessing": "fixed RGB640letterbox114, /255",
+  "confidence_threshold": 0.25,
+  "nms_iou": 0.45,
+  "iou_matching": 0.5,
+  "tuning_on_external_test": false,
+  "external_test_status": "not yet inferred",
+  "external_training_overlap": "unknown, even with provenance-group split; cannot claim guaranteed unseen data",
+  "excluded": {
+    "yolo11m-v2": "cost increase without development improvement",
+    "ViT": "oracle-crop57/138; poor development accuracy and343MB, unspecified license"
+  }
+}

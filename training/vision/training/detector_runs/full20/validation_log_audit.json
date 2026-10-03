@@ -1,0 +1,45 @@
+{
+  "logs": [
+    {
+      "log": "detector_full20.log",
+      "nms_timeout_warning_count": 73,
+      "nms_timeout_warnings_by_stage": {
+        "epoch_1": 2,
+        "epoch_2": 14,
+        "epoch_3": 23,
+        "epoch_4": 15,
+        "epoch_5": 19
+      }
+    },
+    {
+      "log": "detector_resume_batch4.log",
+      "nms_timeout_warning_count": 71,
+      "nms_timeout_warnings_by_stage": {
+        "epoch_7": 3,
+        "epoch_8": 7,
+        "epoch_9": 12,
+        "epoch_10": 14,
+        "epoch_11": 35
+      }
+    },
+    {
+      "log": "detector_resume_workers0.log",
+      "nms_timeout_warning_count": 43,
+      "nms_timeout_warnings_by_stage": {
+        "epoch_20": 43
+      }
+    }
+  ],
+  "validation_explicitly_skipped_epochs": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "selection_source": "timeout_free_selection.json",
+  "warning": "A timeout can truncate batch predictions. Standard MPS validation and raw results.csv are not the final selection or accuracy evidence. Skipped validation metrics are unavailable, not measured zeros."
+}

@@ -1,0 +1,13 @@
+{
+  "epoch": 20,
+  "checkpoint_sha256": "a1d4ed8fb0427ddf77ba63f06a391e852c4816f1b7a0d21af3382bb883c8f701",
+  "optimizer_snapshot_sha256": "af1d2f6494ba1d17efaee288a2e655280d69ca0f2142e7836356b7d673078364",
+  "optimizer_state_entries": 255,
+  "checkpoint_internal_epoch": 19,
+  "captured_at": "2026-10-02T17:35:34.653985+00:00",
+  "pid": 62334,
+  "command": "/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python vision/training/detector_train.py --resume --batch-override 4 --workers-override 0 --skip-intermediate-validation",
+  "reason": "All20 training epochs and final in-loop validation completed; omit redundant library best.pt MPS validation, replaced by precommitted timeout-free CPU dev selection",
+  "normal_training_function_return": false,
+  "termination_signal": "SIGINT"
+}

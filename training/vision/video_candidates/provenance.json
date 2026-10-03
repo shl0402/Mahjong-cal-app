@@ -1,0 +1,66 @@
+{
+  "source_page": "https://commons.wikimedia.org/wiki/File:11%E6%9C%8820%E6%97%A5%E6%94%BE%E9%80%81%E3%80%8C%E7%AC%AC%EF%BC%91%E5%9B%9E_%E3%83%8B%E3%82%B3%E3%83%97%E3%83%AD%E9%BA%BB%E9%9B%80%E7%8E%8B%E6%B1%BA%E5%AE%9A%E6%88%A6%E3%80%8D%E5%92%8C%E7%94%B0%E4%BA%AC%E5%B9%B3%E3%83%AC%E3%83%95%E3%82%A7%E3%83%AA%E3%83%BC%E5%9C%A7%E5%B7%BB%E3%81%AE%E5%9B%9B%E6%9A%97%E5%88%BB%E5%8D%98%E9%A8%8E%E5%92%8C%E4%BA%86%EF%BC%81.webm",
+  "source_page_revision": 1032109094,
+  "source_page_revision_timestamp": "2025-05-16T01:15:13Z",
+  "source_original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/11%E6%9C%8820%E6%97%A5%E6%94%BE%E9%80%81%E3%80%8C%E7%AC%AC%EF%BC%91%E5%9B%9E_%E3%83%8B%E3%82%B3%E3%83%97%E3%83%AD%E9%BA%BB%E9%9B%80%E7%8E%8B%E6%B1%BA%E5%AE%9A%E6%88%A6%E3%80%8D%E5%92%8C%E7%94%B0%E4%BA%AC%E5%B9%B3%E3%83%AC%E3%83%95%E3%82%A7%E3%83%AA%E3%83%BC%E5%9C%A7%E5%B7%BB%E3%81%AE%E5%9B%9B%E6%9A%97%E5%88%BB%E5%8D%98%E9%A8%8E%E5%92%8C%E4%BA%86%EF%BC%81.webm",
+  "source_original_bytes": 248832432,
+  "source_original_sha1_as_reported_by_commons": "88e410f91755f1abd0475771b32eadb95931ae37",
+  "original_full_file_downloaded": false,
+  "full_original_hash_locally_verified": false,
+  "creator": "ニコプロ -ニコニコプロレスチャンネル-",
+  "creator_channel": "https://www.youtube.com/channel/UC5W3LV5-26vb5b668YXzgLw",
+  "original_youtube": "https://www.youtube.com/watch?v=s9g9TGOxxq8",
+  "license": "CC-BY-3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "license_evidence": "Commons pinned page revision1032109094: YouTube CC-BY template and YouTubeReview dated2020-02-13; extmetadata confirmsCC BY3.0.",
+  "source_date": "2018-11-23",
+  "research_inspected_at_utc": "2026-10-02T16:07:46.995029+00:00",
+  "derived_clip": {
+    "path": "vision/video_candidates/niconico-188-196-lossless.mkv",
+    "sha256": "ae0c95344f211df8f978f478ff4fd0deece69e4a5a9508d490ef05ee9fa05d6f",
+    "size": 151603816,
+    "requested_original_interval_seconds": [
+      188,
+      196
+    ],
+    "transform": "Accurate input seek, FFV1 lossless re-encoding of decoded 1920x1080YUV420 frames, audio removed; no synthetic frames or motion.239frames preserved."
+  },
+  "use_limitations": [
+    "Real broadcast camera, not handheld phone scanning.",
+    "One photographed scene; known capture-session/physical-set identities absent.",
+    "Pretrained-model overlap unknown; no independent or unseen-set accuracy claim.",
+    "Selected after manual suitability inspection, so development source, not untouched holdout.",
+    "Retain creator/source/license and indicate trim/crop/audio removal when sharing."
+  ],
+  "rejected_or_secondary_candidates": [
+    {
+      "id": "Miyalinsky/mahjong",
+      "revision": "34f25b4f4b1960cc92d55a9a140f2bc5dbe301e8",
+      "license_declaration": "apache-2.0",
+      "path": "vision/video_candidates/miyalinsky-birdseye-000.mp4",
+      "sha256": "0e641cd798c0822bfebf3ce244fc6928280c3ce4d78363c646dcf281b180abb4",
+      "reason": "Real robotics camera but selected birdseye clip is grayscale and strongly defocused; insufficient confidently readable full row. Not used for positive sequence accuracy."
+    },
+    {
+      "id": "commons:19468153",
+      "license": "CC-BY-SA-3.0",
+      "reason": "Thumbnail shows real tableplay but low720x406 source resolution and obstructed/oblique rows; not downloaded after stronger candidate found."
+    }
+  ],
+  "cropped_derivative": {
+    "path": "vision/video_candidates/niconico-row-188-196-lossless.mkv",
+    "sha256": "735a6e5df0ed98a76e1759eb0f3f8a55649ce639dfa0ac0cdaebd0ac6e2e718e",
+    "roi_xywh": [
+      364,
+      724,
+      536,
+      192
+    ],
+    "note": "Auxiliary even-coordinate YUV420 crop; primary evaluation reference uses fullvideo androiXYXY[365,725,900,915]."
+  },
+  "reference": {
+    "path": "vision/video_candidates/niconico_reference.json",
+    "sha256": "8b49ac8b4aa4ae5491f721c06ebe47e7e53f903a7e4e2f1588e016e4c8f4f940",
+    "frozen_before_any_model_inference": true
+  }
+}

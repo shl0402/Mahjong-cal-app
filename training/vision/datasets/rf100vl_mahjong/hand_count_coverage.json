@@ -1,0 +1,27 @@
+{
+  "source_manifest_sha256": "1d6208e43e8e714fe3918cf7c4b3fa1e34974849a3a0310e7df660d09ce3e12b",
+  "splits": {
+    "train": {
+      "images": 1619,
+      "images_with_one_annotation": 242,
+      "images_with_14_annotations": 8,
+      "images_with_17_annotations": 8,
+      "annotations": 10700
+    },
+    "dev": {
+      "images": 360,
+      "images_with_one_annotation": 52,
+      "images_with_14_annotations": 6,
+      "images_with_17_annotations": 2,
+      "annotations": 2748
+    },
+    "internal_test": {
+      "images": 156,
+      "images_with_one_annotation": 19,
+      "images_with_14_annotations": 0,
+      "images_with_17_annotations": 1,
+      "annotations": 1589
+    }
+  },
+  "limitation": "Annotation count does not establish a complete legal hand, single row, physical tile set or capture-session independence."
+}

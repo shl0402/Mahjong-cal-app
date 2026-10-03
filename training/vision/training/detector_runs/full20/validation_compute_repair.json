@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-02T17:07:19.919127+00:00",
+  "skipped_validation_epochs": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "reason": "Avoid repeated truncated MPS validation; all preserved epochs8-20 receive timeout-free CPU development validation after training",
+  "final_epoch_validation": true,
+  "raw_results_csv_warning": "Skipped epoch validation columns are stale/default library bookkeeping, not measured validation results; progress.json explicitly marks them unavailable",
+  "verified_in_local_trainer": "Scheduler uses epoch LambdaLR; backward/optimizer_step unaffected; patience100 cannot early-stop a20-epoch run; save=True retains every checkpoint",
+  "selection_policy": "detector_SELECTION_REPAIR.json"
+}

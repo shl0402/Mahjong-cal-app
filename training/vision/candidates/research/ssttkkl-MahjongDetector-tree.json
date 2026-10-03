@@ -1,0 +1,1225 @@
+{
+  "sha": "82ffafced371ddc22a20b2bc504fd49f1d114e14",
+  "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/82ffafced371ddc22a20b2bc504fd49f1d114e14",
+  "tree": [
+    {
+      "path": ".fleet",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78b1d6b9f7f845c19416acdc37979440132c1c71",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/78b1d6b9f7f845c19416acdc37979440132c1c71"
+    },
+    {
+      "path": ".fleet/receipt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eabe7035dc3b1d0f83b70fc4540e77c672a6338f",
+      "size": 626,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/eabe7035dc3b1d0f83b70fc4540e77c672a6338f"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6986f8e93fa53815bde865023cbcc5f9e921abd5",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/6986f8e93fa53815bde865023cbcc5f9e921abd5"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d84f84adbd6a1017138f03d8356913e1f1ac76f1",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/d84f84adbd6a1017138f03d8356913e1f1ac76f1"
+    },
+    {
+      "path": ".github/workflows/build-apk.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b583747defa5ceabe8950f60a280ae630c05cd05",
+      "size": 2188,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/b583747defa5ceabe8950f60a280ae630c05cd05"
+    },
+    {
+      "path": ".github/workflows/build-desktop-distribution.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20b26bc067bf82d95bd9d36fdc4362ce39b677da",
+      "size": 6776,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/20b26bc067bf82d95bd9d36fdc4362ce39b677da"
+    },
+    {
+      "path": ".github/workflows/build-ipa.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11966fb2dc9491bc9b86e0b919aed10115b040e6",
+      "size": 1565,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/11966fb2dc9491bc9b86e0b919aed10115b040e6"
+    },
+    {
+      "path": ".github/workflows/ghpages-deploy.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c7627fd178af9792604f4b56f3c1a08a55e06af",
+      "size": 791,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/5c7627fd178af9792604f4b56f3c1a08a55e06af"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d9c0e482c1b0bcc4826668dec9d880c9496ca9a",
+      "size": 315,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/7d9c0e482c1b0bcc4826668dec9d880c9496ca9a"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2d8f27e03aed3a3ec66866ab30660e386b3ce98",
+      "size": 82,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/c2d8f27e03aed3a3ec66866ab30660e386b3ce98"
+    },
+    {
+      "path": "build.gradle.kts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf780d5a6099a3d2830c84c4d8a5a16dee7d6a01",
+      "size": 396,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/cf780d5a6099a3d2830c84c4d8a5a16dee7d6a01"
+    },
+    {
+      "path": "buildSrc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "893f7d4d7a769a2c09174008ffbc3664e9e97412",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/893f7d4d7a769a2c09174008ffbc3664e9e97412"
+    },
+    {
+      "path": "buildSrc/build.gradle.kts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f9c3f71d94bc02cd27daec0a491b82a60b27b6",
+      "size": 28,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/46f9c3f71d94bc02cd27daec0a491b82a60b27b6"
+    },
+    {
+      "path": "buildSrc/settings.gradle.kts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee0904e80f0d609912e107cb0b9a64db942b543d",
+      "size": 698,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/ee0904e80f0d609912e107cb0b9a64db942b543d"
+    },
+    {
+      "path": "buildSrc/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c2b5a5a06ce6006aa5882576104fd8a01571495",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/6c2b5a5a06ce6006aa5882576104fd8a01571495"
+    },
+    {
+      "path": "buildSrc/src/main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "377b0a5c1ac97578f5112d17e92057d87c52124f",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/377b0a5c1ac97578f5112d17e92057d87c52124f"
+    },
+    {
+      "path": "buildSrc/src/main/kotlin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e481f215d3d56a624da3f51e243131c5e9fbafbb",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/e481f215d3d56a624da3f51e243131c5e9fbafbb"
+    },
+    {
+      "path": "buildSrc/src/main/kotlin/OnnxRuntimeLibraryFilter.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7c1a1563ec0c09534c71f2021eb6e00dbbe2cba",
+      "size": 1963,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/b7c1a1563ec0c09534c71f2021eb6e00dbbe2cba"
+    },
+    {
+      "path": "composeApp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "836d3554971db6068d46cdf4586371972f32e9f9",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/836d3554971db6068d46cdf4586371972f32e9f9"
+    },
+    {
+      "path": "composeApp/build.gradle.kts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06c5bfed7c3a9bfafd14829103d560cc6de74da3",
+      "size": 5518,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/06c5bfed7c3a9bfafd14829103d560cc6de74da3"
+    },
+    {
+      "path": "composeApp/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98eafa244535a4828553d3b8d61580fa23d5e8ff",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/98eafa244535a4828553d3b8d61580fa23d5e8ff"
+    },
+    {
+      "path": "composeApp/src/androidMain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cf95ecb24414f1f204a4eb5b0e69bdfd6c675f3",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/6cf95ecb24414f1f204a4eb5b0e69bdfd6c675f3"
+    },
+    {
+      "path": "composeApp/src/androidMain/AndroidManifest.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e50c87e940497393581398a48faa630582d9fef",
+      "size": 1425,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/8e50c87e940497393581398a48faa630582d9fef"
+    },
+    {
+      "path": "composeApp/src/androidMain/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a2030fbeccfd12c5dd956e48f0d5359ea995354",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/9a2030fbeccfd12c5dd956e48f0d5359ea995354"
+    },
+    {
+      "path": "composeApp/src/androidMain/assets/best.fp16.onnx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd72eb0f30e53e68c2191f3d84040b0bfd561643",
+      "size": 5348843,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/fd72eb0f30e53e68c2191f3d84040b0bfd561643"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aecacd8a46f24e2840553f888c80faeb684c553d",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/aecacd8a46f24e2840553f888c80faeb684c553d"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin/io",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44b589d7d130d4e1aee3a2b233760fc1e88eb8a5",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/44b589d7d130d4e1aee3a2b233760fc1e88eb8a5"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin/io/ssttkkl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68ba1c9ed4a70ebc16cec8dc87d223278d266acb",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/68ba1c9ed4a70ebc16cec8dc87d223278d266acb"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin/io/ssttkkl/mahjongdetector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb7a18bedc838a2770a9a2d199ad4ab94c1b94dd",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/fb7a18bedc838a2770a9a2d199ad4ab94c1b94dd"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin/io/ssttkkl/mahjongdetector/ImageLoader.android.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3922cd5a7520783d11c0e5d413af79b5febaa8b",
+      "size": 933,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/d3922cd5a7520783d11c0e5d413af79b5febaa8b"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin/io/ssttkkl/mahjongdetector/ImagePreprocessor.android.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f81df79bde4e212752f3c28c7074641bfd05cd74",
+      "size": 4052,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/f81df79bde4e212752f3c28c7074641bfd05cd74"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin/io/ssttkkl/mahjongdetector/MahjongDetector.android.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44292f54de2da27f3e7c3b932fc39382395c1e08",
+      "size": 3314,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/44292f54de2da27f3e7c3b932fc39382395c1e08"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin/io/ssttkkl/mahjongdetector/MainActivity.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e876fac6d98bdfc38bbb2a99f3c6db8caa5dbac",
+      "size": 650,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/8e876fac6d98bdfc38bbb2a99f3c6db8caa5dbac"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin/io/ssttkkl/mahjongdetector/MyApp.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b374f6f9b9bcceedce32c6c906f06a298a102f4",
+      "size": 370,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/3b374f6f9b9bcceedce32c6c906f06a298a102f4"
+    },
+    {
+      "path": "composeApp/src/androidMain/res",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f53d5735979e64f01f078adbc6d8d838a89a77c",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/9f53d5735979e64f01f078adbc6d8d838a89a77c"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/drawable-v24",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee5502e6ebc8a4abdc0ee42e0846ee7e606f9016",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/ee5502e6ebc8a4abdc0ee42e0846ee7e606f9016"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/drawable-v24/ic_launcher_foreground.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b068d11462a4b96669193de13a711a3a36220a0",
+      "size": 1702,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/2b068d11462a4b96669193de13a711a3a36220a0"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/drawable",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "714d925f2b7e8274ad4c5e8bcc86e28d1d4ab711",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/714d925f2b7e8274ad4c5e8bcc86e28d1d4ab711"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/drawable/ic_launcher_background.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e93e11adef987661133b682dd81511dc921d7733",
+      "size": 5605,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/e93e11adef987661133b682dd81511dc921d7733"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-anydpi-v26",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82a5c352420d748e55a96b8f576bc0f0688a8469",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/82a5c352420d748e55a96b8f576bc0f0688a8469"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eca70cfe52eac1ba66ba280a68ca7be8fcf88a16",
+      "size": 272,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/eca70cfe52eac1ba66ba280a68ca7be8fcf88a16"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eca70cfe52eac1ba66ba280a68ca7be8fcf88a16",
+      "size": 272,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/eca70cfe52eac1ba66ba280a68ca7be8fcf88a16"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-hdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe98dc7bf84769572a3d5c5a8cdb71142b09f64a",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/fe98dc7bf84769572a3d5c5a8cdb71142b09f64a"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a571e60098c92c2baca8a5df62f2929cbff01b52",
+      "size": 3593,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/a571e60098c92c2baca8a5df62f2929cbff01b52"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-hdpi/ic_launcher_round.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61da551c5594a1f9d26193983d2cd69189014603",
+      "size": 5339,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/61da551c5594a1f9d26193983d2cd69189014603"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-mdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c5f707e8f9b78712826ab8809cb0dfe41e593ab",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/3c5f707e8f9b78712826ab8809cb0dfe41e593ab"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c41dd28531901b2c23927768c84bb6765ebcc1db",
+      "size": 2636,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/c41dd28531901b2c23927768c84bb6765ebcc1db"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-mdpi/ic_launcher_round.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db5080a752731b34d38d7c634732b2cd999125d0",
+      "size": 3388,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/db5080a752731b34d38d7c634732b2cd999125d0"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-xhdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c94a701d1e95011fed12380cbe9075b41eaeb710",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/c94a701d1e95011fed12380cbe9075b41eaeb710"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-xhdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dba46dab19242bf475ddf2e0a10042de6a0be16",
+      "size": 4926,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/6dba46dab19242bf475ddf2e0a10042de6a0be16"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-xhdpi/ic_launcher_round.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da31a871c8dc461a1ea114510bfac640307b0a90",
+      "size": 7472,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/da31a871c8dc461a1ea114510bfac640307b0a90"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-xxhdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48e99cd17a5218137c787d2de047e8d0a8afb0a4",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/48e99cd17a5218137c787d2de047e8d0a8afb0a4"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15ac681720f3df43c647bf0c081f0314ee34eae1",
+      "size": 7909,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/15ac681720f3df43c647bf0c081f0314ee34eae1"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b216f2d313cc673d8b8c4da591c174ebed52795c",
+      "size": 11873,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/b216f2d313cc673d8b8c4da591c174ebed52795c"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-xxxhdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b078269ec0cdba0c7225130b7ce8dffab20ba40e",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/b078269ec0cdba0c7225130b7ce8dffab20ba40e"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f25a419744727fb48b4b4137b6c6a3a8f2620d51",
+      "size": 10652,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/f25a419744727fb48b4b4137b6c6a3a8f2620d51"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e96783ccce844001359f968f5cd9d85b341bd3fb",
+      "size": 16570,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/e96783ccce844001359f968f5cd9d85b341bd3fb"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/values",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11f59a210b8e8f9b5b476acf4f7b053360d5806a",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/11f59a210b8e8f9b5b476acf4f7b053360d5806a"
+    },
+    {
+      "path": "composeApp/src/androidMain/res/values/strings.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389fe09b68f0e684da4fd97263e3f5a6ebc0475c",
+      "size": 77,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/389fe09b68f0e684da4fd97263e3f5a6ebc0475c"
+    },
+    {
+      "path": "composeApp/src/commonMain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f3a4500b633193ef1efa4b0c4d1c618bc5f8dad",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/8f3a4500b633193ef1efa4b0c4d1c618bc5f8dad"
+    },
+    {
+      "path": "composeApp/src/commonMain/composeResources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef1375d518d2e8409b0f6c4a5027b8a7a73bb486",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/ef1375d518d2e8409b0f6c4a5027b8a7a73bb486"
+    },
+    {
+      "path": "composeApp/src/commonMain/composeResources/drawable",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db5fea7b0b208dc1c62376e5c9731d6eb93feadf",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/db5fea7b0b208dc1c62376e5c9731d6eb93feadf"
+    },
+    {
+      "path": "composeApp/src/commonMain/composeResources/drawable/compose-multiplatform.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0bcfb28c2cbbcdf79dcff156acde4c06ec0e107",
+      "size": 4513,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/c0bcfb28c2cbbcdf79dcff156acde4c06ec0e107"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b296aad27e546a5f1d66062bbebbb9445d733819",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/b296aad27e546a5f1d66062bbebbb9445d733819"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/io",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4a46198c4e71ca4ad5fcd59c12e84677d9ea6a2",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/a4a46198c4e71ca4ad5fcd59c12e84677d9ea6a2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/io/ssttkkl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59a82141bdebb7b58af24450972064af603977ae",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/59a82141bdebb7b58af24450972064af603977ae"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/io/ssttkkl/mahjongdetector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f537f2e123addbbae8c23d33c80e60544ab9d0f",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/9f537f2e123addbbae8c23d33c80e60544ab9d0f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/io/ssttkkl/mahjongdetector/App.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ac6ae23ddb23a95f083dc9524108445926decab",
+      "size": 3864,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/2ac6ae23ddb23a95f083dc9524108445926decab"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/io/ssttkkl/mahjongdetector/ImageLoader.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6cafad0acb8c4351cecc325025bf8a780a33ea5",
+      "size": 190,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/f6cafad0acb8c4351cecc325025bf8a780a33ea5"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/io/ssttkkl/mahjongdetector/ImagePreprocessor.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "231a890a6c5a0acef48738a4ab5d6acc2733d9ae",
+      "size": 196,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/231a890a6c5a0acef48738a4ab5d6acc2733d9ae"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/io/ssttkkl/mahjongdetector/MahjongDetector.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a7cb0567f7baba760ab05f5b37950e2edb109b3",
+      "size": 536,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/6a7cb0567f7baba760ab05f5b37950e2edb109b3"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/io/ssttkkl/mahjongdetector/YoloV8PostProcessor.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "477c13021d8f6904a4fc0d3d9cbcb1c4e985d865",
+      "size": 3858,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/477c13021d8f6904a4fc0d3d9cbcb1c4e985d865"
+    },
+    {
+      "path": "composeApp/src/desktopMain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e837501335b92df01be8f3df531ce40b3c8f6df8",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/e837501335b92df01be8f3df531ce40b3c8f6df8"
+    },
+    {
+      "path": "composeApp/src/desktopMain/kotlin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92fa1a3d86cb873eb0d90cdc1e2cee5a8bc4efe7",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/92fa1a3d86cb873eb0d90cdc1e2cee5a8bc4efe7"
+    },
+    {
+      "path": "composeApp/src/desktopMain/kotlin/io",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dda26cf6a91ebbb22acac0e188a8119433e5efaa",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/dda26cf6a91ebbb22acac0e188a8119433e5efaa"
+    },
+    {
+      "path": "composeApp/src/desktopMain/kotlin/io/ssttkkl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27cdcc87f08ec8942dde5eac3d3db4c83bb75caa",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/27cdcc87f08ec8942dde5eac3d3db4c83bb75caa"
+    },
+    {
+      "path": "composeApp/src/desktopMain/kotlin/io/ssttkkl/mahjongdetector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a6ffab5db0dc9b5a5e24e84d4177d6fc1a8bec0",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/4a6ffab5db0dc9b5a5e24e84d4177d6fc1a8bec0"
+    },
+    {
+      "path": "composeApp/src/desktopMain/kotlin/io/ssttkkl/mahjongdetector/ImageLoader.desktop.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18a3bcbd40c7df3ef971971b0f3256cb2c7aa500",
+      "size": 552,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/18a3bcbd40c7df3ef971971b0f3256cb2c7aa500"
+    },
+    {
+      "path": "composeApp/src/desktopMain/kotlin/io/ssttkkl/mahjongdetector/MahjongDetector.desktop.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5da88af813776c00af5f68e345a1324c5b04fcf",
+      "size": 3269,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/d5da88af813776c00af5f68e345a1324c5b04fcf"
+    },
+    {
+      "path": "composeApp/src/desktopMain/kotlin/io/ssttkkl/mahjongdetector/main.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae4b5c20c40f03caabf79049021bf57cbb59d2e0",
+      "size": 382,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/ae4b5c20c40f03caabf79049021bf57cbb59d2e0"
+    },
+    {
+      "path": "composeApp/src/desktopMain/resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a1cf66c85be16b45e997cd1e74d4513f0c6069f",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/9a1cf66c85be16b45e997cd1e74d4513f0c6069f"
+    },
+    {
+      "path": "composeApp/src/desktopMain/resources/best.onnx",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5e980da3f924d640606fcdd64856da7e4aee6672",
+      "size": 10611399,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/5e980da3f924d640606fcdd64856da7e4aee6672"
+    },
+    {
+      "path": "composeApp/src/iosMain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd050b4f84406c409ea11a4ac3a94f1aee7a4928",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/dd050b4f84406c409ea11a4ac3a94f1aee7a4928"
+    },
+    {
+      "path": "composeApp/src/iosMain/kotlin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3deb12b2f8fb245dd4554c2e85d33b8dc625aba4",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/3deb12b2f8fb245dd4554c2e85d33b8dc625aba4"
+    },
+    {
+      "path": "composeApp/src/iosMain/kotlin/io",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55985d1cd20104a295bfe15e83a1b322462f8a7c",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/55985d1cd20104a295bfe15e83a1b322462f8a7c"
+    },
+    {
+      "path": "composeApp/src/iosMain/kotlin/io/ssttkkl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d6028b1d0fcb223069f6705e477478c96f13f03",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/0d6028b1d0fcb223069f6705e477478c96f13f03"
+    },
+    {
+      "path": "composeApp/src/iosMain/kotlin/io/ssttkkl/mahjongdetector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af0d8eb696a62181820e161945eec70d0fb4b2d9",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/af0d8eb696a62181820e161945eec70d0fb4b2d9"
+    },
+    {
+      "path": "composeApp/src/iosMain/kotlin/io/ssttkkl/mahjongdetector/ImageLoader.ios.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8320918c1a51fc560e208b255a4412181f10d00f",
+      "size": 218,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/8320918c1a51fc560e208b255a4412181f10d00f"
+    },
+    {
+      "path": "composeApp/src/iosMain/kotlin/io/ssttkkl/mahjongdetector/MahjongDetector.ios.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48ef4e9a663c85662d27a487a50fa1ea83931bae",
+      "size": 219,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/48ef4e9a663c85662d27a487a50fa1ea83931bae"
+    },
+    {
+      "path": "composeApp/src/iosMain/kotlin/io/ssttkkl/mahjongdetector/MainViewController.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09574e4a3fe7543937b66d82de8b857b35ac39c8",
+      "size": 155,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/09574e4a3fe7543937b66d82de8b857b35ac39c8"
+    },
+    {
+      "path": "composeApp/src/skiaMain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4b599339ce4f9714a8aff3d8fb6ec974a58ba41",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/b4b599339ce4f9714a8aff3d8fb6ec974a58ba41"
+    },
+    {
+      "path": "composeApp/src/skiaMain/kotlin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3297f2188af2602d5e3f0d2c370f3f374e049e36",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/3297f2188af2602d5e3f0d2c370f3f374e049e36"
+    },
+    {
+      "path": "composeApp/src/skiaMain/kotlin/io",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16c304adca4b3a60617b02f0c05c71c7731fdd7e",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/16c304adca4b3a60617b02f0c05c71c7731fdd7e"
+    },
+    {
+      "path": "composeApp/src/skiaMain/kotlin/io/ssttkkl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a38fc84f271b41f41c1a738529551bb090def4df",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/a38fc84f271b41f41c1a738529551bb090def4df"
+    },
+    {
+      "path": "composeApp/src/skiaMain/kotlin/io/ssttkkl/mahjongdetector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0595bb4bee1514ec88538a9fb271441685812aaf",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/0595bb4bee1514ec88538a9fb271441685812aaf"
+    },
+    {
+      "path": "composeApp/src/skiaMain/kotlin/io/ssttkkl/mahjongdetector/ImagePreprocessor.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fb9b703443ccb88544139dbdbd95f2f972dead3",
+      "size": 3957,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/0fb9b703443ccb88544139dbdbd95f2f972dead3"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56f622c1c915452d3c66430c5b6dfea0e980bba5",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/56f622c1c915452d3c66430c5b6dfea0e980bba5"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba879b170571dff9aca9025f97a30780b4a20e4d",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/ba879b170571dff9aca9025f97a30780b4a20e4d"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/io",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cd0c872ce2e3be6b50691f1690cf49e77b5a9d9",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/0cd0c872ce2e3be6b50691f1690cf49e77b5a9d9"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/io/ssttkkl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a8b6f3840b786d6dd18d5aa33a33293f534395e",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/5a8b6f3840b786d6dd18d5aa33a33293f534395e"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/io/ssttkkl/mahjongdetector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b6f48e0cd455d9ef0a3ab34ace3333017975d95",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/8b6f48e0cd455d9ef0a3ab34ace3333017975d95"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/io/ssttkkl/mahjongdetector/+ImageData.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c981195c0e7cc3a95b5730644b1f6812e368758",
+      "size": 737,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/3c981195c0e7cc3a95b5730644b1f6812e368758"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/io/ssttkkl/mahjongdetector/+Uint8ClampedArray.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d83d222d536e0a99ff2dbe231b33d2eff1197c8",
+      "size": 766,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/2d83d222d536e0a99ff2dbe231b33d2eff1197c8"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/io/ssttkkl/mahjongdetector/ImageLoader.wasmJs.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6dffb2370e304c89ea914be33579591cc3a6daf",
+      "size": 1119,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/d6dffb2370e304c89ea914be33579591cc3a6daf"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/io/ssttkkl/mahjongdetector/MahjongDetector.wasmJs.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1517927e5b307d886e133494947a978cc617a4ad",
+      "size": 2299,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/1517927e5b307d886e133494947a978cc617a4ad"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/io/ssttkkl/mahjongdetector/TfjsBindings.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbf02333763f4e01ae3b9dc9dd99b82977e07a25",
+      "size": 1777,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/fbf02333763f4e01ae3b9dc9dd99b82977e07a25"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/io/ssttkkl/mahjongdetector/main.kt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43e3f674a4be4d55296b9d0816467fdb59d7b039",
+      "size": 284,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/43e3f674a4be4d55296b9d0816467fdb59d7b039"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc7ee6ae6c87d49b6c157fd800f769f932f46a44",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/fc7ee6ae6c87d49b6c157fd800f769f932f46a44"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources/best_web_model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65b313a4057d6289110e557c9251d66feacaba74",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/65b313a4057d6289110e557c9251d66feacaba74"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources/best_web_model/group1-shard1of1.bin",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fddeb435e24447a91187d6c2e41800de56a8a474",
+      "size": 2632440,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/fddeb435e24447a91187d6c2e41800de56a8a474"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources/best_web_model/group1-shard1of2.bin",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e7c3470e23314049a87835a77c147b0188765e65",
+      "size": 4194304,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/e7c3470e23314049a87835a77c147b0188765e65"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources/best_web_model/group1-shard2of2.bin",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1016d51ac82d97006a79d652009badb2d758e799",
+      "size": 1068920,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/1016d51ac82d97006a79d652009badb2d758e799"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources/best_web_model/metadata.yaml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "50c6d776a5b77210edd79279467e7c2367ae178a",
+      "size": 600,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/50c6d776a5b77210edd79279467e7c2367ae178a"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources/best_web_model/model.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ed932bec4d1178680c8e3c6bc17b6955f4f4a449",
+      "size": 1001336,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/ed932bec4d1178680c8e3c6bc17b6955f4f4a449"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b12022c4fc02e262466dd8a26ae3b776e3dc03b",
+      "size": 341,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/4b12022c4fc02e262466dd8a26ae3b776e3dc03b"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0549b10f86d8d0be094db29aadd87b9ba002d33e",
+      "size": 102,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/0549b10f86d8d0be094db29aadd87b9ba002d33e"
+    },
+    {
+      "path": "gradle.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "964007c5a24a23e2457f31325ed41f0dc06996e2",
+      "size": 194,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/964007c5a24a23e2457f31325ed41f0dc06996e2"
+    },
+    {
+      "path": "gradle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c5aa52783e551501f5064cd50d3a665f4647b4d",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/4c5aa52783e551501f5064cd50d3a665f4647b4d"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fdca711094f96c1f506e525e02ac10c29e017bf",
+      "size": 3155,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/4fdca711094f96c1f506e525e02ac10c29e017bf"
+    },
+    {
+      "path": "gradle/wrapper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4793cb26015909c07a01a30b8b16e608ed0b070",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/a4793cb26015909c07a01a30b8b16e608ed0b070"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c3521197d7c4586c843d1d3e9090525f1898cde",
+      "size": 43504,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/2c3521197d7c4586c843d1d3e9090525f1898cde"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09523c0e5490700d1a647ecf95309b5f7f9a8199",
+      "size": 250,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/09523c0e5490700d1a647ecf95309b5f7f9a8199"
+    },
+    {
+      "path": "gradlew",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f5feea6d6b116baaca5a2642d4d9fa1f47d574a7",
+      "size": 8762,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/f5feea6d6b116baaca5a2642d4d9fa1f47d574a7"
+    },
+    {
+      "path": "gradlew.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b42019c7915b971238526075306ffba3b666dd5",
+      "size": 2966,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/9b42019c7915b971238526075306ffba3b666dd5"
+    },
+    {
+      "path": "img.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d465e38778c2f98b590da6bb5c7acc72700b7182",
+      "size": 296120,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/d465e38778c2f98b590da6bb5c7acc72700b7182"
+    },
+    {
+      "path": "iosApp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fed2a059288d0fa515121ce57802bd13963925f9",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/fed2a059288d0fa515121ce57802bd13963925f9"
+    },
+    {
+      "path": "iosApp/Configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e9db3297f83c42e9ad4f35c6bd6df6aacca0e91",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/2e9db3297f83c42e9ad4f35c6bd6df6aacca0e91"
+    },
+    {
+      "path": "iosApp/Configuration/Config.xcconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ba21777883f324f89064593ec63f57dbc550fa9",
+      "size": 86,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/1ba21777883f324f89064593ec63f57dbc550fa9"
+    },
+    {
+      "path": "iosApp/iosApp.xcodeproj",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9916aaecf9a64e8e2c9d71149de28c1e11a7bf7c",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/9916aaecf9a64e8e2c9d71149de28c1e11a7bf7c"
+    },
+    {
+      "path": "iosApp/iosApp.xcodeproj/project.pbxproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44ff8ee3ba0d7cdc116bf847955709cde4262695",
+      "size": 14385,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/44ff8ee3ba0d7cdc116bf847955709cde4262695"
+    },
+    {
+      "path": "iosApp/iosApp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dee725534cd2d0a564a76c3643c02da4ff96afba",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/dee725534cd2d0a564a76c3643c02da4ff96afba"
+    },
+    {
+      "path": "iosApp/iosApp/Assets.xcassets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09060b62e79483817927bcf77c380d84c938d34a",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/09060b62e79483817927bcf77c380d84c938d34a"
+    },
+    {
+      "path": "iosApp/iosApp/Assets.xcassets/AccentColor.colorset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "afbb7ddb8e6de394a960e02c69b886bc54be1da7",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/afbb7ddb8e6de394a960e02c69b886bc54be1da7"
+    },
+    {
+      "path": "iosApp/iosApp/Assets.xcassets/AccentColor.colorset/Contents.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee7e3ca03f87013a3835b316ffc76d35eb06c902",
+      "size": 122,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/ee7e3ca03f87013a3835b316ffc76d35eb06c902"
+    },
+    {
+      "path": "iosApp/iosApp/Assets.xcassets/AppIcon.appiconset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7abdaceeec2be2573dfafb82f9c73484444d4ff",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/c7abdaceeec2be2573dfafb82f9c73484444d4ff"
+    },
+    {
+      "path": "iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8edf56e7a973e273370c0303ed5b72c58e991d93",
+      "size": 217,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/8edf56e7a973e273370c0303ed5b72c58e991d93"
+    },
+    {
+      "path": "iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/app-icon-1024.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53fc536fb9ac5c1dbb27c7e1da13db3760070a11",
+      "size": 67285,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/53fc536fb9ac5c1dbb27c7e1da13db3760070a11"
+    },
+    {
+      "path": "iosApp/iosApp/Assets.xcassets/Contents.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aa7c5350bfce4a2c61e00815cbdbcbfab59ed24",
+      "size": 62,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/4aa7c5350bfce4a2c61e00815cbdbcbfab59ed24"
+    },
+    {
+      "path": "iosApp/iosApp/ContentView.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cd5c325b13e1b3fe3c8f89b3425c8279ffc3b6f",
+      "size": 486,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/3cd5c325b13e1b3fe3c8f89b3425c8279ffc3b6f"
+    },
+    {
+      "path": "iosApp/iosApp/Info.plist",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412e3781280f8dbd585604110009614e3882282e",
+      "size": 1577,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/412e3781280f8dbd585604110009614e3882282e"
+    },
+    {
+      "path": "iosApp/iosApp/Preview Content",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7f6b620a6d9a51c08c5b41c68210864a326a79e",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/e7f6b620a6d9a51c08c5b41c68210864a326a79e"
+    },
+    {
+      "path": "iosApp/iosApp/Preview Content/Preview Assets.xcassets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c18c6615ef4503ab4271b67f39dcf0ec8ba5de0c",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/c18c6615ef4503ab4271b67f39dcf0ec8ba5de0c"
+    },
+    {
+      "path": "iosApp/iosApp/Preview Content/Preview Assets.xcassets/Contents.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aa7c5350bfce4a2c61e00815cbdbcbfab59ed24",
+      "size": 62,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/4aa7c5350bfce4a2c61e00815cbdbcbfab59ed24"
+    },
+    {
+      "path": "iosApp/iosApp/iOSApp.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d83dca6113ac3ace2674253ef779c8fce08651a3",
+      "size": 135,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/d83dca6113ac3ace2674253ef779c8fce08651a3"
+    },
+    {
+      "path": "kotlin-js-store",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "733e870de3c1459be02a0dfe8348a1c19c5904d2",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/733e870de3c1459be02a0dfe8348a1c19c5904d2"
+    },
+    {
+      "path": "kotlin-js-store/yarn.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9444295e7bfb7c92e317e5dcb4a4c7b3535747eb",
+      "size": 140872,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/9444295e7bfb7c92e317e5dcb4a4c7b3535747eb"
+    },
+    {
+      "path": "python-lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "951493328baa51df1e80b40f8503c4535da6e68e",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/951493328baa51df1e80b40f8503c4535da6e68e"
+    },
+    {
+      "path": "python-lib/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c3152613532d4d389f7643c67befdc0c7a8c0e6",
+      "size": 43,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/3c3152613532d4d389f7643c67befdc0c7a8c0e6"
+    },
+    {
+      "path": "python-lib/.pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "540d51677be746e984c8fcd394b7a18c1062b359",
+      "size": 672,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/540d51677be746e984c8fcd394b7a18c1062b359"
+    },
+    {
+      "path": "python-lib/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3e827ca1145b7d590282d88d2e6b8b6b8fac9fc",
+      "size": 19,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/e3e827ca1145b7d590282d88d2e6b8b6b8fac9fc"
+    },
+    {
+      "path": "python-lib/image2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "601ae7ba3906c920e7e8126874dd725615acbf0d",
+      "size": 253120,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/601ae7ba3906c920e7e8126874dd725615acbf0d"
+    },
+    {
+      "path": "python-lib/pdm.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afba6169fbb1ec1ce04a501c53ce949f7fd8ee42",
+      "size": 50799,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/afba6169fbb1ec1ce04a501c53ce949f7fd8ee42"
+    },
+    {
+      "path": "python-lib/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f344de1a5a610217bcf53702a6c16d5e4e18f59e",
+      "size": 1145,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/f344de1a5a610217bcf53702a6c16d5e4e18f59e"
+    },
+    {
+      "path": "python-lib/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "74e299d53879cc8ab098aad3360c75617cc5cc94",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/74e299d53879cc8ab098aad3360c75617cc5cc94"
+    },
+    {
+      "path": "python-lib/src/mahjong_detector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2940b9e12fe02af35d4d9ddce0426d4b3af1e287",
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/trees/2940b9e12fe02af35d4d9ddce0426d4b3af1e287"
+    },
+    {
+      "path": "python-lib/src/mahjong_detector/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a4963f0528599285a6a71f03578d1965076fc38",
+      "size": 550,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/8a4963f0528599285a6a71f03578d1965076fc38"
+    },
+    {
+      "path": "python-lib/src/mahjong_detector/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "985cee5848f1f4c91a44dd97a9cba3284ae347ee",
+      "size": 205,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/985cee5848f1f4c91a44dd97a9cba3284ae347ee"
+    },
+    {
+      "path": "python-lib/src/mahjong_detector/model.onnx",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5e980da3f924d640606fcdd64856da7e4aee6672",
+      "size": 10611399,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/5e980da3f924d640606fcdd64856da7e4aee6672"
+    },
+    {
+      "path": "python-lib/src/mahjong_detector/predict.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "199e818127ad7e04c3eef533e0d4e80d5e66a8ad",
+      "size": 5648,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/199e818127ad7e04c3eef533e0d4e80d5e66a8ad"
+    },
+    {
+      "path": "python-lib/src/mahjong_detector/preprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "600489768bbc90848652c69c06c323c9e7c2cd64",
+      "size": 3009,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/600489768bbc90848652c69c06c323c9e7c2cd64"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2105242bc11eb1da8e62eb79827ef1381aaf5e4",
+      "size": 758,
+      "url": "https://api.github.com/repos/ssttkkl/MahjongDetector/git/blobs/c2105242bc11eb1da8e62eb79827ef1381aaf5e4"
+    }
+  ],
+  "truncated": false
+}

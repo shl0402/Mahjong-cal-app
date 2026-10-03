@@ -1,0 +1,2720 @@
+{
+  "candidate": "s-seow/mahjong-tile-classifier-vit",
+  "revision": "997e76ef44835b4f582226c4f2826f6335af42d9",
+  "sha256": "6ce2fa4fb1cc052ebdfb181e34e35ea341dbe471bc5b9090f5dbd84ab1e5c796",
+  "bytes": 343322416,
+  "parameters": 85824802,
+  "license": "Unspecified model-card license; local research only. Not app asset. Training-data provenance unknown.",
+  "created_at": "2026-10-02T15:38:22.751017+00:00",
+  "purpose": "Existing DEVELOPMENT data only; manual oracle crops are not detection accuracy",
+  "loading": "safetensors, strict standard ViTForImageClassification; no trust_remote_code or arbitrary pickle",
+  "method": {
+    "input": "224x224 RGB bilinear stretch; (pixel/255-.5)/.5 from model processor",
+    "threads": 2,
+    "device": "CPU",
+    "dtype": "float32",
+    "oracle": "manual ground-truth face rectangles",
+    "pipeline": "same YOLO11n V2 proposals at threshold.25/NMS.45, then classifier top1, no confidence rejection; IoU.5 Hungarian matching"
+  },
+  "annotation_sha256": "888d77637fdfdec7256e04766a912edb0ec2cf54479b5be0418ecf2d028953c5",
+  "classifier_per_tile_median_ms": 47.51258349278942,
+  "classifier_per_tile_p95_ms": 50.72508754092269,
+  "pipeline_classifier_per_region_median_ms": 641.6706890449859,
+  "totals": {
+    "oracle_correct": 57,
+    "oracle_tiles": 138,
+    "oracle_exact_regions": 0,
+    "regions": 10,
+    "pipeline_tp": 48,
+    "pipeline_fp": 77,
+    "pipeline_fn": 90,
+    "pipeline_exact_regions": 0,
+    "pipeline_exact_14_tile_regions": 0,
+    "complete_14_tile_regions": 7,
+    "oracle_accuracy": 0.41304347826086957,
+    "pipeline_precision": 0.384,
+    "pipeline_recall": 0.34782608695652173
+  },
+  "confusion": [
+    {
+      "actual": "1m",
+      "predicted": "1m",
+      "count": 5
+    },
+    {
+      "actual": "1m",
+      "predicted": "7s",
+      "count": 1
+    },
+    {
+      "actual": "1m",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "1p",
+      "predicted": "1p",
+      "count": 1
+    },
+    {
+      "actual": "1p",
+      "predicted": "1s",
+      "count": 1
+    },
+    {
+      "actual": "1p",
+      "predicted": "7s",
+      "count": 1
+    },
+    {
+      "actual": "1s",
+      "predicted": "1s",
+      "count": 1
+    },
+    {
+      "actual": "1s",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "1z",
+      "predicted": "1z",
+      "count": 4
+    },
+    {
+      "actual": "1z",
+      "predicted": "4m",
+      "count": 1
+    },
+    {
+      "actual": "1z",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "2m",
+      "predicted": "2m",
+      "count": 1
+    },
+    {
+      "actual": "2m",
+      "predicted": "4m",
+      "count": 1
+    },
+    {
+      "actual": "2m",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "2p",
+      "predicted": "1s",
+      "count": 2
+    },
+    {
+      "actual": "2p",
+      "predicted": "2p",
+      "count": 1
+    },
+    {
+      "actual": "2p",
+      "predicted": "5p",
+      "count": 1
+    },
+    {
+      "actual": "2s",
+      "predicted": "7s",
+      "count": 2
+    },
+    {
+      "actual": "2z",
+      "predicted": "3s",
+      "count": 1
+    },
+    {
+      "actual": "2z",
+      "predicted": "4m",
+      "count": 1
+    },
+    {
+      "actual": "2z",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "3m",
+      "predicted": "2m",
+      "count": 1
+    },
+    {
+      "actual": "3m",
+      "predicted": "4m",
+      "count": 3
+    },
+    {
+      "actual": "3p",
+      "predicted": "3p",
+      "count": 2
+    },
+    {
+      "actual": "3p",
+      "predicted": "5p",
+      "count": 3
+    },
+    {
+      "actual": "3s",
+      "predicted": "7s",
+      "count": 5
+    },
+    {
+      "actual": "3z",
+      "predicted": "7s",
+      "count": 2
+    },
+    {
+      "actual": "3z",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "4m",
+      "predicted": "4m",
+      "count": 2
+    },
+    {
+      "actual": "4p",
+      "predicted": "4p",
+      "count": 3
+    },
+    {
+      "actual": "4p",
+      "predicted": "5p",
+      "count": 1
+    },
+    {
+      "actual": "4p",
+      "predicted": "9p",
+      "count": 3
+    },
+    {
+      "actual": "4s",
+      "predicted": "7s",
+      "count": 5
+    },
+    {
+      "actual": "4z",
+      "predicted": "3m",
+      "count": 1
+    },
+    {
+      "actual": "4z",
+      "predicted": "4m",
+      "count": 1
+    },
+    {
+      "actual": "4z",
+      "predicted": "7s",
+      "count": 1
+    },
+    {
+      "actual": "4z",
+      "predicted": "8m",
+      "count": 2
+    },
+    {
+      "actual": "5m",
+      "predicted": "3m",
+      "count": 1
+    },
+    {
+      "actual": "5m",
+      "predicted": "4m",
+      "count": 1
+    },
+    {
+      "actual": "5m",
+      "predicted": "5m",
+      "count": 1
+    },
+    {
+      "actual": "5m",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "5p",
+      "predicted": "5p",
+      "count": 2
+    },
+    {
+      "actual": "5p",
+      "predicted": "6p",
+      "count": 1
+    },
+    {
+      "actual": "5s",
+      "predicted": "9s",
+      "count": 2
+    },
+    {
+      "actual": "5z",
+      "predicted": "1s",
+      "count": 4
+    },
+    {
+      "actual": "5z",
+      "predicted": "7s",
+      "count": 1
+    },
+    {
+      "actual": "6m",
+      "predicted": "2m",
+      "count": 1
+    },
+    {
+      "actual": "6m",
+      "predicted": "4m",
+      "count": 2
+    },
+    {
+      "actual": "6m",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "6p",
+      "predicted": "6p",
+      "count": 2
+    },
+    {
+      "actual": "6s",
+      "predicted": "7s",
+      "count": 5
+    },
+    {
+      "actual": "6z",
+      "predicted": "4m",
+      "count": 2
+    },
+    {
+      "actual": "6z",
+      "predicted": "6z",
+      "count": 1
+    },
+    {
+      "actual": "6z",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "7m",
+      "predicted": "4m",
+      "count": 1
+    },
+    {
+      "actual": "7m",
+      "predicted": "7m",
+      "count": 2
+    },
+    {
+      "actual": "7m",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "7p",
+      "predicted": "7p",
+      "count": 2
+    },
+    {
+      "actual": "7s",
+      "predicted": "7s",
+      "count": 5
+    },
+    {
+      "actual": "7z",
+      "predicted": "7z",
+      "count": 4
+    },
+    {
+      "actual": "7z",
+      "predicted": "8m",
+      "count": 3
+    },
+    {
+      "actual": "8m",
+      "predicted": "2m",
+      "count": 1
+    },
+    {
+      "actual": "8m",
+      "predicted": "8m",
+      "count": 4
+    },
+    {
+      "actual": "8p",
+      "predicted": "8p",
+      "count": 1
+    },
+    {
+      "actual": "8s",
+      "predicted": "8s",
+      "count": 6
+    },
+    {
+      "actual": "9m",
+      "predicted": "1s",
+      "count": 1
+    },
+    {
+      "actual": "9m",
+      "predicted": "7s",
+      "count": 1
+    },
+    {
+      "actual": "9m",
+      "predicted": "8m",
+      "count": 1
+    },
+    {
+      "actual": "9p",
+      "predicted": "6p",
+      "count": 1
+    },
+    {
+      "actual": "9p",
+      "predicted": "7s",
+      "count": 1
+    },
+    {
+      "actual": "9p",
+      "predicted": "9p",
+      "count": 3
+    },
+    {
+      "actual": "9s",
+      "predicted": "7s",
+      "count": 1
+    },
+    {
+      "actual": "9s",
+      "predicted": "9s",
+      "count": 4
+    }
+  ],
+  "regions": [
+    {
+      "region": "orphans-close-two-rows",
+      "oracle": [
+        {
+          "expected": "1p",
+          "predicted": "7s",
+          "confidence": 0.08200672268867493,
+          "milliseconds": 48.21445798734203
+        },
+        {
+          "expected": "9p",
+          "predicted": "9p",
+          "confidence": 0.11566778272390366,
+          "milliseconds": 46.61212500650436
+        },
+        {
+          "expected": "1m",
+          "predicted": "8m",
+          "confidence": 0.13838061690330505,
+          "milliseconds": 45.69237498799339
+        },
+        {
+          "expected": "9m",
+          "predicted": "8m",
+          "confidence": 0.13304342329502106,
+          "milliseconds": 48.26283297734335
+        },
+        {
+          "expected": "1s",
+          "predicted": "1s",
+          "confidence": 0.11910779774188995,
+          "milliseconds": 50.23866699775681
+        },
+        {
+          "expected": "9s",
+          "predicted": "9s",
+          "confidence": 0.35163259506225586,
+          "milliseconds": 49.10154198296368
+        },
+        {
+          "expected": "5z",
+          "predicted": "1s",
+          "confidence": 0.1275557577610016,
+          "milliseconds": 47.20395803451538
+        },
+        {
+          "expected": "1z",
+          "predicted": "4m",
+          "confidence": 0.11681251972913742,
+          "milliseconds": 46.420250029768795
+        },
+        {
+          "expected": "2z",
+          "predicted": "3s",
+          "confidence": 0.07019084692001343,
+          "milliseconds": 46.57245799899101
+        },
+        {
+          "expected": "3z",
+          "predicted": "8m",
+          "confidence": 0.08185262233018875,
+          "milliseconds": 45.95095798140392
+        },
+        {
+          "expected": "4z",
+          "predicted": "8m",
+          "confidence": 0.06930537521839142,
+          "milliseconds": 46.01262498181313
+        },
+        {
+          "expected": "7z",
+          "predicted": "8m",
+          "confidence": 0.08675384521484375,
+          "milliseconds": 45.84925004746765
+        },
+        {
+          "expected": "6z",
+          "predicted": "6z",
+          "confidence": 0.08179023116827011,
+          "milliseconds": 45.34537502331659
+        },
+        {
+          "expected": "5z",
+          "predicted": "1s",
+          "confidence": 0.07292861491441727,
+          "milliseconds": 47.66441695392132
+        }
+      ],
+      "pipeline_predictions": [
+        {
+          "tile": "8m",
+          "confidence": 0.09617577493190765,
+          "box": [
+            0.5523932576179504,
+            0.48764801025390625,
+            0.6967825889587402,
+            0.8202773928642273
+          ],
+          "detector_confidence": 0.7792965769767761
+        },
+        {
+          "tile": "9s",
+          "confidence": 0.444164514541626,
+          "box": [
+            0.6907490491867065,
+            0.15315274894237518,
+            0.8229954838752747,
+            0.4569520056247711
+          ],
+          "detector_confidence": 0.6857688426971436
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.0945584774017334,
+          "box": [
+            0.028386902064085007,
+            0.4536920487880707,
+            0.16260676085948944,
+            0.7646400332450867
+          ],
+          "detector_confidence": 0.6639534831047058
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.10040765255689621,
+          "box": [
+            0.41740912199020386,
+            0.5031784176826477,
+            0.5624758005142212,
+            0.7765064239501953
+          ],
+          "detector_confidence": 0.6630383133888245
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.10006961226463318,
+          "box": [
+            0.2854289412498474,
+            0.4935741424560547,
+            0.4314340054988861,
+            0.7631996273994446
+          ],
+          "detector_confidence": 0.6306642293930054
+        },
+        {
+          "tile": "6z",
+          "confidence": 0.09197895973920822,
+          "box": [
+            0.6892502903938293,
+            0.4931621551513672,
+            0.8422932624816895,
+            0.7982710003852844
+          ],
+          "detector_confidence": 0.6034449338912964
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.11968683451414108,
+          "box": [
+            0.15207917988300323,
+            0.48138028383255005,
+            0.2952862083911896,
+            0.7622110247612
+          ],
+          "detector_confidence": 0.45047011971473694
+        },
+        {
+          "tile": "5m",
+          "confidence": 0.11058211326599121,
+          "box": [
+            0.41018056869506836,
+            0.1323261260986328,
+            0.5623165965080261,
+            0.4393281936645508
+          ],
+          "detector_confidence": 0.36695367097854614
+        }
+      ],
+      "pipeline_tp": 2,
+      "pipeline_fp": 6,
+      "pipeline_fn": 12,
+      "pipeline_classifier_ms": 378.13399999868125
+    },
+    {
+      "region": "ting-row-1",
+      "oracle": [
+        {
+          "expected": "1p",
+          "predicted": "1p",
+          "confidence": 0.152645543217659,
+          "milliseconds": 47.50987497391179
+        },
+        {
+          "expected": "2p",
+          "predicted": "1s",
+          "confidence": 0.09081412106752396,
+          "milliseconds": 47.39633295685053
+        },
+        {
+          "expected": "3p",
+          "predicted": "5p",
+          "confidence": 0.07987850159406662,
+          "milliseconds": 49.69383403658867
+        },
+        {
+          "expected": "3m",
+          "predicted": "4m",
+          "confidence": 0.1187138557434082,
+          "milliseconds": 48.93408401403576
+        },
+        {
+          "expected": "4m",
+          "predicted": "4m",
+          "confidence": 0.1365382969379425,
+          "milliseconds": 48.925209033768624
+        },
+        {
+          "expected": "5m",
+          "predicted": "8m",
+          "confidence": 0.16213765740394592,
+          "milliseconds": 49.42129197297618
+        },
+        {
+          "expected": "5s",
+          "predicted": "9s",
+          "confidence": 0.34420302510261536,
+          "milliseconds": 45.74379202676937
+        },
+        {
+          "expected": "6s",
+          "predicted": "7s",
+          "confidence": 0.28357967734336853,
+          "milliseconds": 45.95508298370987
+        },
+        {
+          "expected": "7s",
+          "predicted": "7s",
+          "confidence": 0.5554343461990356,
+          "milliseconds": 47.43937501916662
+        },
+        {
+          "expected": "3s",
+          "predicted": "7s",
+          "confidence": 0.3360508978366852,
+          "milliseconds": 48.48024999955669
+        },
+        {
+          "expected": "3s",
+          "predicted": "7s",
+          "confidence": 0.19410887360572815,
+          "milliseconds": 46.21929203858599
+        },
+        {
+          "expected": "3s",
+          "predicted": "7s",
+          "confidence": 0.23892943561077118,
+          "milliseconds": 46.66191601427272
+        },
+        {
+          "expected": "8m",
+          "predicted": "8m",
+          "confidence": 0.2924407124519348,
+          "milliseconds": 48.59583399957046
+        },
+        {
+          "expected": "8m",
+          "predicted": "8m",
+          "confidence": 0.13361980020999908,
+          "milliseconds": 49.700292001944035
+        }
+      ],
+      "pipeline_predictions": [
+        {
+          "tile": "4m",
+          "confidence": 0.17598357796669006,
+          "box": [
+            0.26461976766586304,
+            0.21291226148605347,
+            0.3207547664642334,
+            0.7587241530418396
+          ],
+          "detector_confidence": 0.903082013130188
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.5594956278800964,
+          "box": [
+            0.49876031279563904,
+            0.2317875772714615,
+            0.5557433366775513,
+            0.7648006677627563
+          ],
+          "detector_confidence": 0.8727984428405762
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.29388388991355896,
+          "box": [
+            0.4411342740058899,
+            0.23300981521606445,
+            0.49693337082862854,
+            0.7648369669914246
+          ],
+          "detector_confidence": 0.8673102855682373
+        },
+        {
+          "tile": "9s",
+          "confidence": 0.2812992036342621,
+          "box": [
+            0.3830234110355377,
+            0.22425706684589386,
+            0.4413987696170807,
+            0.7684434056282043
+          ],
+          "detector_confidence": 0.8564949035644531
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.4197025001049042,
+          "box": [
+            0.5598723292350769,
+            0.2303207963705063,
+            0.6180914640426636,
+            0.7710745334625244
+          ],
+          "detector_confidence": 0.8492454290390015
+        },
+        {
+          "tile": "5p",
+          "confidence": 0.09954261779785156,
+          "box": [
+            0.14288680255413055,
+            0.21863797307014465,
+            0.20326587557792664,
+            0.7551022171974182
+          ],
+          "detector_confidence": 0.8430384993553162
+        },
+        {
+          "tile": "1p",
+          "confidence": 0.1230904757976532,
+          "box": [
+            0.027511755004525185,
+            0.2243157923221588,
+            0.08518408238887787,
+            0.7345913052558899
+          ],
+          "detector_confidence": 0.8327946662902832
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.16296108067035675,
+          "box": [
+            0.32274895906448364,
+            0.2142897993326187,
+            0.38038602471351624,
+            0.7611663341522217
+          ],
+          "detector_confidence": 0.8177944421768188
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.1922663003206253,
+          "box": [
+            0.6179948449134827,
+            0.20803408324718475,
+            0.67424476146698,
+            0.7509031891822815
+          ],
+          "detector_confidence": 0.804013729095459
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.15617777407169342,
+          "box": [
+            0.7403368353843689,
+            0.17477841675281525,
+            0.7985740303993225,
+            0.731698751449585
+          ],
+          "detector_confidence": 0.7541834115982056
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.2531207203865051,
+          "box": [
+            0.6746665239334106,
+            0.20138047635555267,
+            0.7307089567184448,
+            0.7407659292221069
+          ],
+          "detector_confidence": 0.7502612471580505
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.17287644743919373,
+          "box": [
+            0.8909956812858582,
+            0.1740371137857437,
+            0.9536223411560059,
+            0.7189597487449646
+          ],
+          "detector_confidence": 0.7358886003494263
+        },
+        {
+          "tile": "6p",
+          "confidence": 0.11094202846288681,
+          "box": [
+            0.08486716449260712,
+            0.2289057821035385,
+            0.14212532341480255,
+            0.7499274015426636
+          ],
+          "detector_confidence": 0.6501148343086243
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.11879619210958481,
+          "box": [
+            0.20703506469726562,
+            0.21669797599315643,
+            0.2653268873691559,
+            0.7600421905517578
+          ],
+          "detector_confidence": 0.6485017538070679
+        }
+      ],
+      "pipeline_tp": 4,
+      "pipeline_fp": 10,
+      "pipeline_fn": 10,
+      "pipeline_classifier_ms": 665.3441650560126
+    },
+    {
+      "region": "ting-row-2",
+      "oracle": [
+        {
+          "expected": "4z",
+          "predicted": "3m",
+          "confidence": 0.12808024883270264,
+          "milliseconds": 47.73920896695927
+        },
+        {
+          "expected": "1z",
+          "predicted": "1z",
+          "confidence": 0.10934261232614517,
+          "milliseconds": 47.158332949038595
+        },
+        {
+          "expected": "2z",
+          "predicted": "4m",
+          "confidence": 0.122719407081604,
+          "milliseconds": 48.32387500209734
+        },
+        {
+          "expected": "4p",
+          "predicted": "9p",
+          "confidence": 0.09240565448999405,
+          "milliseconds": 47.49470902606845
+        },
+        {
+          "expected": "5p",
+          "predicted": "5p",
+          "confidence": 0.20824410021305084,
+          "milliseconds": 46.83549999026582
+        },
+        {
+          "expected": "6p",
+          "predicted": "6p",
+          "confidence": 0.24927090108394623,
+          "milliseconds": 49.31924998527393
+        },
+        {
+          "expected": "1m",
+          "predicted": "1m",
+          "confidence": 0.18962596356868744,
+          "milliseconds": 47.78266599169001
+        },
+        {
+          "expected": "2m",
+          "predicted": "4m",
+          "confidence": 0.12004132568836212,
+          "milliseconds": 48.62299998058006
+        },
+        {
+          "expected": "3m",
+          "predicted": "4m",
+          "confidence": 0.15098704397678375,
+          "milliseconds": 50.14808301348239
+        },
+        {
+          "expected": "6s",
+          "predicted": "7s",
+          "confidence": 0.40261825919151306,
+          "milliseconds": 47.043624974321574
+        },
+        {
+          "expected": "8s",
+          "predicted": "8s",
+          "confidence": 0.2566726505756378,
+          "milliseconds": 46.00666603073478
+        },
+        {
+          "expected": "4p",
+          "predicted": "9p",
+          "confidence": 0.12137049436569214,
+          "milliseconds": 46.1367079988122
+        },
+        {
+          "expected": "4p",
+          "predicted": "9p",
+          "confidence": 0.11161749064922333,
+          "milliseconds": 45.473040954675525
+        },
+        {
+          "expected": "7s",
+          "predicted": "7s",
+          "confidence": 0.6536340117454529,
+          "milliseconds": 46.89829098060727
+        }
+      ],
+      "pipeline_predictions": [
+        {
+          "tile": "5p",
+          "confidence": 0.12739858031272888,
+          "box": [
+            0.26124104857444763,
+            0.21217304468154907,
+            0.31676703691482544,
+            0.7612172961235046
+          ],
+          "detector_confidence": 0.8533204793930054
+        },
+        {
+          "tile": "3m",
+          "confidence": 0.10723550617694855,
+          "box": [
+            0.02193312905728817,
+            0.20150509476661682,
+            0.08132751286029816,
+            0.760009765625
+          ],
+          "detector_confidence": 0.8477005362510681
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.09887338429689407,
+          "box": [
+            0.44090795516967773,
+            0.16596490144729614,
+            0.49913185834884644,
+            0.7685567736625671
+          ],
+          "detector_confidence": 0.8475539684295654
+        },
+        {
+          "tile": "6p",
+          "confidence": 0.2719370722770691,
+          "box": [
+            0.31819701194763184,
+            0.19527868926525116,
+            0.3749498724937439,
+            0.7745386362075806
+          ],
+          "detector_confidence": 0.847096860408783
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.12561720609664917,
+          "box": [
+            0.49726495146751404,
+            0.1702534407377243,
+            0.5573880076408386,
+            0.7732725143432617
+          ],
+          "detector_confidence": 0.8452985286712646
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.12771795690059662,
+          "box": [
+            0.38306498527526855,
+            0.18641291558742523,
+            0.44162696599960327,
+            0.7744916081428528
+          ],
+          "detector_confidence": 0.8377702236175537
+        },
+        {
+          "tile": "9p",
+          "confidence": 0.10414563864469528,
+          "box": [
+            0.2023148536682129,
+            0.20678628981113434,
+            0.25888746976852417,
+            0.7651292681694031
+          ],
+          "detector_confidence": 0.8297438025474548
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.1286812275648117,
+          "box": [
+            0.07890920341014862,
+            0.20107990503311157,
+            0.13895395398139954,
+            0.7964819669723511
+          ],
+          "detector_confidence": 0.8181082010269165
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.17299623787403107,
+          "box": [
+            0.13772492110729218,
+            0.20844990015029907,
+            0.1974433958530426,
+            0.7964972257614136
+          ],
+          "detector_confidence": 0.7287377119064331
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.2969323396682739,
+          "box": [
+            0.5624755620956421,
+            0.1693238914012909,
+            0.6196902990341187,
+            0.7440804243087769
+          ],
+          "detector_confidence": 0.5952115654945374
+        },
+        {
+          "tile": "9p",
+          "confidence": 0.1566634178161621,
+          "box": [
+            0.7977136373519897,
+            0.14511150121688843,
+            0.852988600730896,
+            0.4335619807243347
+          ],
+          "detector_confidence": 0.2870802879333496
+        }
+      ],
+      "pipeline_tp": 2,
+      "pipeline_fp": 9,
+      "pipeline_fn": 12,
+      "pipeline_classifier_ms": 561.8902489659376
+    },
+    {
+      "region": "ting-row-3",
+      "oracle": [
+        {
+          "expected": "2s",
+          "predicted": "7s",
+          "confidence": 0.14038056135177612,
+          "milliseconds": 51.103458972647786
+        },
+        {
+          "expected": "3s",
+          "predicted": "7s",
+          "confidence": 0.28179872035980225,
+          "milliseconds": 50.93891598517075
+        },
+        {
+          "expected": "4s",
+          "predicted": "7s",
+          "confidence": 0.23147214949131012,
+          "milliseconds": 48.61537500983104
+        },
+        {
+          "expected": "6m",
+          "predicted": "4m",
+          "confidence": 0.1232529878616333,
+          "milliseconds": 50.80916703445837
+        },
+        {
+          "expected": "7m",
+          "predicted": "8m",
+          "confidence": 0.12230132520198822,
+          "milliseconds": 46.90887499600649
+        },
+        {
+          "expected": "8m",
+          "predicted": "8m",
+          "confidence": 0.1696893274784088,
+          "milliseconds": 46.263916010502726
+        },
+        {
+          "expected": "2p",
+          "predicted": "5p",
+          "confidence": 0.09189323335886002,
+          "milliseconds": 48.44087496167049
+        },
+        {
+          "expected": "3p",
+          "predicted": "5p",
+          "confidence": 0.17265291512012482,
+          "milliseconds": 46.8359169899486
+        },
+        {
+          "expected": "4p",
+          "predicted": "4p",
+          "confidence": 0.11110411584377289,
+          "milliseconds": 45.688249985687435
+        },
+        {
+          "expected": "7z",
+          "predicted": "7z",
+          "confidence": 0.18058589100837708,
+          "milliseconds": 46.451041009277105
+        },
+        {
+          "expected": "5z",
+          "predicted": "1s",
+          "confidence": 0.07597354799509048,
+          "milliseconds": 48.18716598674655
+        },
+        {
+          "expected": "1m",
+          "predicted": "1m",
+          "confidence": 0.13624708354473114,
+          "milliseconds": 48.452791990712285
+        },
+        {
+          "expected": "1m",
+          "predicted": "1m",
+          "confidence": 0.19350354373455048,
+          "milliseconds": 48.66737499833107
+        },
+        {
+          "expected": "6z",
+          "predicted": "8m",
+          "confidence": 0.1074058786034584,
+          "milliseconds": 50.71024998323992
+        }
+      ],
+      "pipeline_predictions": [
+        {
+          "tile": "8m",
+          "confidence": 0.19045504927635193,
+          "box": [
+            0.31507450342178345,
+            0.06097002327442169,
+            0.37401747703552246,
+            0.7416960597038269
+          ],
+          "detector_confidence": 0.8776893019676208
+        },
+        {
+          "tile": "5p",
+          "confidence": 0.17178961634635925,
+          "box": [
+            0.4413502812385559,
+            0.06972355395555496,
+            0.49981242418289185,
+            0.7468448281288147
+          ],
+          "detector_confidence": 0.8216491937637329
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.08621791750192642,
+          "box": [
+            0.7430120706558228,
+            0.041681546717882156,
+            0.8030004501342773,
+            0.7323134541511536
+          ],
+          "detector_confidence": 0.81416916847229
+        },
+        {
+          "tile": "7z",
+          "confidence": 0.1683734953403473,
+          "box": [
+            0.6186037063598633,
+            0.06498149037361145,
+            0.6776660680770874,
+            0.7498524188995361
+          ],
+          "detector_confidence": 0.8106335401535034
+        },
+        {
+          "tile": "6p",
+          "confidence": 0.0908474400639534,
+          "box": [
+            0.5001683235168457,
+            0.08703158050775528,
+            0.5555184483528137,
+            0.7329201698303223
+          ],
+          "detector_confidence": 0.7885407209396362
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.1702824831008911,
+          "box": [
+            0.19753238558769226,
+            0.06197436898946762,
+            0.2572154700756073,
+            0.7500209808349609
+          ],
+          "detector_confidence": 0.7849348187446594
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.2075999677181244,
+          "box": [
+            0.13239741325378418,
+            0.07070422172546387,
+            0.19332674145698547,
+            0.7607166767120361
+          ],
+          "detector_confidence": 0.783174991607666
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.23295705020427704,
+          "box": [
+            0.07431036233901978,
+            0.07940400391817093,
+            0.134352907538414,
+            0.7590714693069458
+          ],
+          "detector_confidence": 0.7731828689575195
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.1304190754890442,
+          "box": [
+            0.25671836733818054,
+            0.06392931938171387,
+            0.316240519285202,
+            0.7478127479553223
+          ],
+          "detector_confidence": 0.7480159401893616
+        },
+        {
+          "tile": "1s",
+          "confidence": 0.09640078991651535,
+          "box": [
+            0.38446059823036194,
+            0.07179556041955948,
+            0.44042134284973145,
+            0.73799067735672
+          ],
+          "detector_confidence": 0.7344222664833069
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.12759235501289368,
+          "box": [
+            0.7986901998519897,
+            0.02150806039571762,
+            0.861549973487854,
+            0.694388747215271
+          ],
+          "detector_confidence": 0.7332043051719666
+        },
+        {
+          "tile": "1s",
+          "confidence": 0.1081405058503151,
+          "box": [
+            0.6752105355262756,
+            0.05748600885272026,
+            0.7378556728363037,
+            0.7430347204208374
+          ],
+          "detector_confidence": 0.634114146232605
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.1552947759628296,
+          "box": [
+            0.014898562803864479,
+            0.05682099610567093,
+            0.07858490943908691,
+            0.7349634766578674
+          ],
+          "detector_confidence": 0.6204136610031128
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.13397806882858276,
+          "box": [
+            0.9008474349975586,
+            0.05482186749577522,
+            0.9665700793266296,
+            0.7211563587188721
+          ],
+          "detector_confidence": 0.5860002636909485
+        }
+      ],
+      "pipeline_tp": 2,
+      "pipeline_fp": 12,
+      "pipeline_fn": 12,
+      "pipeline_classifier_ms": 669.1237499471754
+    },
+    {
+      "region": "ting-row-4",
+      "oracle": [
+        {
+          "expected": "4s",
+          "predicted": "7s",
+          "confidence": 0.2732774615287781,
+          "milliseconds": 47.51529201166704
+        },
+        {
+          "expected": "4s",
+          "predicted": "7s",
+          "confidence": 0.2671123147010803,
+          "milliseconds": 46.73020797781646
+        },
+        {
+          "expected": "4s",
+          "predicted": "7s",
+          "confidence": 0.25833743810653687,
+          "milliseconds": 46.33537499466911
+        },
+        {
+          "expected": "5s",
+          "predicted": "9s",
+          "confidence": 0.3749909996986389,
+          "milliseconds": 48.94933401374146
+        },
+        {
+          "expected": "6s",
+          "predicted": "7s",
+          "confidence": 0.26485341787338257,
+          "milliseconds": 49.51095796423033
+        },
+        {
+          "expected": "7s",
+          "predicted": "7s",
+          "confidence": 0.5047252178192139,
+          "milliseconds": 48.64183295285329
+        },
+        {
+          "expected": "6s",
+          "predicted": "7s",
+          "confidence": 0.28330981731414795,
+          "milliseconds": 49.036792013794184
+        },
+        {
+          "expected": "7s",
+          "predicted": "7s",
+          "confidence": 0.5527760982513428,
+          "milliseconds": 45.519416977185756
+        },
+        {
+          "expected": "8s",
+          "predicted": "8s",
+          "confidence": 0.24774810671806335,
+          "milliseconds": 44.94362504919991
+        },
+        {
+          "expected": "9s",
+          "predicted": "9s",
+          "confidence": 0.42723390460014343,
+          "milliseconds": 45.10191601002589
+        },
+        {
+          "expected": "9s",
+          "predicted": "9s",
+          "confidence": 0.33913835883140564,
+          "milliseconds": 45.736458036117256
+        },
+        {
+          "expected": "9s",
+          "predicted": "9s",
+          "confidence": 0.3768717050552368,
+          "milliseconds": 45.814165961928666
+        },
+        {
+          "expected": "4z",
+          "predicted": "8m",
+          "confidence": 0.11341316998004913,
+          "milliseconds": 45.89100001612678
+        },
+        {
+          "expected": "4z",
+          "predicted": "4m",
+          "confidence": 0.10024353116750717,
+          "milliseconds": 47.18295799102634
+        }
+      ],
+      "pipeline_predictions": [
+        {
+          "tile": "6s",
+          "confidence": 0.2247435599565506,
+          "box": [
+            0.3755168318748474,
+            0.12591509521007538,
+            0.4330380856990814,
+            0.7857277989387512
+          ],
+          "detector_confidence": 0.8924458622932434
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.22778843343257904,
+          "box": [
+            0.007874876260757446,
+            0.1413487046957016,
+            0.07153385132551193,
+            0.8018589615821838
+          ],
+          "detector_confidence": 0.8857998847961426
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.30577799677848816,
+          "box": [
+            0.25181514024734497,
+            0.12280011922121048,
+            0.3086107671260834,
+            0.7797267436981201
+          ],
+          "detector_confidence": 0.8845901489257812
+        },
+        {
+          "tile": "9s",
+          "confidence": 0.3495630919933319,
+          "box": [
+            0.19105371832847595,
+            0.12670506536960602,
+            0.2522297501564026,
+            0.8010877370834351
+          ],
+          "detector_confidence": 0.8811121582984924
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.5222055912017822,
+          "box": [
+            0.43397703766822815,
+            0.11949637532234192,
+            0.4932347238063812,
+            0.7779096364974976
+          ],
+          "detector_confidence": 0.874350905418396
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.5931284427642822,
+          "box": [
+            0.30894190073013306,
+            0.12227696180343628,
+            0.3697173595428467,
+            0.7905517816543579
+          ],
+          "detector_confidence": 0.8741099834442139
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.3013916015625,
+          "box": [
+            0.07012985646724701,
+            0.14095894992351532,
+            0.12933553755283356,
+            0.8001255393028259
+          ],
+          "detector_confidence": 0.8579608201980591
+        },
+        {
+          "tile": "9s",
+          "confidence": 0.3010229468345642,
+          "box": [
+            0.5625666379928589,
+            0.10729151964187622,
+            0.6199175715446472,
+            0.7612282633781433
+          ],
+          "detector_confidence": 0.8506994843482971
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.2592066526412964,
+          "box": [
+            0.12715432047843933,
+            0.14544589817523956,
+            0.18904201686382294,
+            0.8111737966537476
+          ],
+          "detector_confidence": 0.8461483716964722
+        },
+        {
+          "tile": "9s",
+          "confidence": 0.31058311462402344,
+          "box": [
+            0.6199232339859009,
+            0.10713544487953186,
+            0.6791855096817017,
+            0.7564239501953125
+          ],
+          "detector_confidence": 0.8458657264709473
+        },
+        {
+          "tile": "9s",
+          "confidence": 0.33516210317611694,
+          "box": [
+            0.6780807375907898,
+            0.09207327663898468,
+            0.7364645004272461,
+            0.7465898990631104
+          ],
+          "detector_confidence": 0.8379539847373962
+        },
+        {
+          "tile": "8s",
+          "confidence": 0.20102325081825256,
+          "box": [
+            0.49261122941970825,
+            0.11402064561843872,
+            0.5520539283752441,
+            0.7715113759040833
+          ],
+          "detector_confidence": 0.836565375328064
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.10227980464696884,
+          "box": [
+            0.7402703166007996,
+            0.10051967203617096,
+            0.8025435209274292,
+            0.7594325542449951
+          ],
+          "detector_confidence": 0.784599781036377
+        }
+      ],
+      "pipeline_tp": 7,
+      "pipeline_fp": 6,
+      "pipeline_fn": 7,
+      "pipeline_classifier_ms": 620.4312919871882
+    },
+    {
+      "region": "six-groups",
+      "oracle": [
+        {
+          "expected": "2p",
+          "predicted": "1s",
+          "confidence": 0.10968898236751556,
+          "milliseconds": 51.033707975875586
+        },
+        {
+          "expected": "3p",
+          "predicted": "5p",
+          "confidence": 0.14215970039367676,
+          "milliseconds": 48.18383400561288
+        },
+        {
+          "expected": "4p",
+          "predicted": "4p",
+          "confidence": 0.09068845212459564,
+          "milliseconds": 47.05395799828693
+        },
+        {
+          "expected": "6m",
+          "predicted": "8m",
+          "confidence": 0.10526970773935318,
+          "milliseconds": 46.97070800466463
+        },
+        {
+          "expected": "7m",
+          "predicted": "7m",
+          "confidence": 0.11593059450387955,
+          "milliseconds": 48.061917012091726
+        },
+        {
+          "expected": "8m",
+          "predicted": "8m",
+          "confidence": 0.20256614685058594,
+          "milliseconds": 48.897333967033774
+        },
+        {
+          "expected": "1m",
+          "predicted": "1m",
+          "confidence": 0.17845769226551056,
+          "milliseconds": 48.40616695582867
+        },
+        {
+          "expected": "2m",
+          "predicted": "8m",
+          "confidence": 0.10056642442941666,
+          "milliseconds": 51.00595799740404
+        },
+        {
+          "expected": "3m",
+          "predicted": "4m",
+          "confidence": 0.11967283487319946,
+          "milliseconds": 49.45629194844514
+        },
+        {
+          "expected": "2s",
+          "predicted": "7s",
+          "confidence": 0.11859109997749329,
+          "milliseconds": 50.885166972875595
+        },
+        {
+          "expected": "3s",
+          "predicted": "7s",
+          "confidence": 0.30315062403678894,
+          "milliseconds": 50.08974997326732
+        },
+        {
+          "expected": "4s",
+          "predicted": "7s",
+          "confidence": 0.2575761377811432,
+          "milliseconds": 47.83083300571889
+        },
+        {
+          "expected": "6s",
+          "predicted": "7s",
+          "confidence": 0.31170058250427246,
+          "milliseconds": 46.36258300160989
+        },
+        {
+          "expected": "7s",
+          "predicted": "7s",
+          "confidence": 0.6013461351394653,
+          "milliseconds": 46.570457983762026
+        },
+        {
+          "expected": "8s",
+          "predicted": "8s",
+          "confidence": 0.2906102240085602,
+          "milliseconds": 45.80216604517773
+        },
+        {
+          "expected": "7z",
+          "predicted": "7z",
+          "confidence": 0.1639377772808075,
+          "milliseconds": 45.91779102338478
+        },
+        {
+          "expected": "6z",
+          "predicted": "4m",
+          "confidence": 0.08873298019170761,
+          "milliseconds": 45.72366701904684
+        },
+        {
+          "expected": "5z",
+          "predicted": "1s",
+          "confidence": 0.11719018220901489,
+          "milliseconds": 46.99549998622388
+        }
+      ],
+      "pipeline_predictions": [
+        {
+          "tile": "7z",
+          "confidence": 0.1280234456062317,
+          "box": [
+            0.7205802798271179,
+            0.6428613066673279,
+            0.8057465553283691,
+            0.8520246148109436
+          ],
+          "detector_confidence": 0.8707996010780334
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.11727874726057053,
+          "box": [
+            0.8022745847702026,
+            0.6450693011283875,
+            0.8910937309265137,
+            0.8513360619544983
+          ],
+          "detector_confidence": 0.870769202709198
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.2219323366880417,
+          "box": [
+            0.5245761275291443,
+            0.162565678358078,
+            0.6068268418312073,
+            0.36686888337135315
+          ],
+          "detector_confidence": 0.8624409437179565
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.13881681859493256,
+          "box": [
+            0.36395353078842163,
+            0.15542466938495636,
+            0.4458719789981842,
+            0.3631097972393036
+          ],
+          "detector_confidence": 0.8585647344589233
+        },
+        {
+          "tile": "8m",
+          "confidence": 0.09066133201122284,
+          "box": [
+            0.8764373660087585,
+            0.18053147196769714,
+            0.9638565182685852,
+            0.3849465548992157
+          ],
+          "detector_confidence": 0.8462178111076355
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.13183195888996124,
+          "box": [
+            0.7963340878486633,
+            0.174893319606781,
+            0.8827486038208008,
+            0.377731055021286
+          ],
+          "detector_confidence": 0.8456898927688599
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.1705629527568817,
+          "box": [
+            0.20629897713661194,
+            0.6443414688110352,
+            0.28885617852211,
+            0.8562251329421997
+          ],
+          "detector_confidence": 0.8395376205444336
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.20414873957633972,
+          "box": [
+            0.36865848302841187,
+            0.6392607688903809,
+            0.44893282651901245,
+            0.8493795990943909
+          ],
+          "detector_confidence": 0.8376758098602295
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.11610966175794601,
+          "box": [
+            0.04012911394238472,
+            0.6332899332046509,
+            0.12510395050048828,
+            0.8459951877593994
+          ],
+          "detector_confidence": 0.8290120363235474
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.5634600520133972,
+          "box": [
+            0.44890061020851135,
+            0.6374730467796326,
+            0.5334307551383972,
+            0.8474947810173035
+          ],
+          "detector_confidence": 0.825047492980957
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.3063617944717407,
+          "box": [
+            0.12096764892339706,
+            0.636984646320343,
+            0.20847241580486298,
+            0.8489305973052979
+          ],
+          "detector_confidence": 0.7983216047286987
+        },
+        {
+          "tile": "1m",
+          "confidence": 0.15185876190662384,
+          "box": [
+            0.7141350507736206,
+            0.17245472967624664,
+            0.7998698949813843,
+            0.37747785449028015
+          ],
+          "detector_confidence": 0.7815417051315308
+        },
+        {
+          "tile": "5p",
+          "confidence": 0.1441183239221573,
+          "box": [
+            0.13507160544395447,
+            0.16070953011512756,
+            0.21737472712993622,
+            0.3569808900356293
+          ],
+          "detector_confidence": 0.7810205817222595
+        },
+        {
+          "tile": "8s",
+          "confidence": 0.27976807951927185,
+          "box": [
+            0.5332404375076294,
+            0.6404824256896973,
+            0.6136529445648193,
+            0.8449581265449524
+          ],
+          "detector_confidence": 0.7454040050506592
+        },
+        {
+          "tile": "1s",
+          "confidence": 0.11838843673467636,
+          "box": [
+            0.05441911146044731,
+            0.15862619876861572,
+            0.13682542741298676,
+            0.3540765941143036
+          ],
+          "detector_confidence": 0.7360720634460449
+        },
+        {
+          "tile": "6s",
+          "confidence": 0.11365074664354324,
+          "box": [
+            0.21689757704734802,
+            0.16657045483589172,
+            0.29431062936782837,
+            0.35248011350631714
+          ],
+          "detector_confidence": 0.6794724464416504
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.14475983381271362,
+          "box": [
+            0.44499093294143677,
+            0.16075138747692108,
+            0.5270155072212219,
+            0.3627573549747467
+          ],
+          "detector_confidence": 0.6048455238342285
+        }
+      ],
+      "pipeline_tp": 5,
+      "pipeline_fp": 12,
+      "pipeline_fn": 13,
+      "pipeline_classifier_ms": 817.2253739321604
+    },
+    {
+      "region": "three-pungs",
+      "oracle": [
+        {
+          "expected": "1z",
+          "predicted": "1z",
+          "confidence": 0.15798652172088623,
+          "milliseconds": 46.762082958593965
+        },
+        {
+          "expected": "1z",
+          "predicted": "1z",
+          "confidence": 0.13229532539844513,
+          "milliseconds": 48.05733304237947
+        },
+        {
+          "expected": "1z",
+          "predicted": "1z",
+          "confidence": 0.19937202334403992,
+          "milliseconds": 47.39529197104275
+        },
+        {
+          "expected": "7z",
+          "predicted": "8m",
+          "confidence": 0.08100825548171997,
+          "milliseconds": 49.26629096735269
+        },
+        {
+          "expected": "7z",
+          "predicted": "8m",
+          "confidence": 0.0856214165687561,
+          "milliseconds": 49.45958300959319
+        },
+        {
+          "expected": "7z",
+          "predicted": "7z",
+          "confidence": 0.091268390417099,
+          "milliseconds": 48.87120804050937
+        },
+        {
+          "expected": "8s",
+          "predicted": "8s",
+          "confidence": 0.26310229301452637,
+          "milliseconds": 50.33104203175753
+        },
+        {
+          "expected": "8s",
+          "predicted": "8s",
+          "confidence": 0.3119354844093323,
+          "milliseconds": 47.651791013777256
+        },
+        {
+          "expected": "8s",
+          "predicted": "8s",
+          "confidence": 0.2968410551548004,
+          "milliseconds": 46.81779199745506
+        }
+      ],
+      "pipeline_predictions": [
+        {
+          "tile": "8m",
+          "confidence": 0.099619559943676,
+          "box": [
+            0.06228000670671463,
+            0.5965076088905334,
+            0.18491032719612122,
+            0.8718093633651733
+          ],
+          "detector_confidence": 0.8168932199478149
+        },
+        {
+          "tile": "7z",
+          "confidence": 0.12035024166107178,
+          "box": [
+            0.32861074805259705,
+            0.5983309149742126,
+            0.4468978941440582,
+            0.8686798810958862
+          ],
+          "detector_confidence": 0.8133304119110107
+        },
+        {
+          "tile": "1z",
+          "confidence": 0.14190150797367096,
+          "box": [
+            0.3313327729701996,
+            0.09150975197553635,
+            0.4665830135345459,
+            0.3673495054244995
+          ],
+          "detector_confidence": 0.7800642251968384
+        },
+        {
+          "tile": "1z",
+          "confidence": 0.1672753393650055,
+          "box": [
+            0.5856596827507019,
+            0.09235890954732895,
+            0.7229396104812622,
+            0.3720460534095764
+          ],
+          "detector_confidence": 0.7762488126754761
+        },
+        {
+          "tile": "1z",
+          "confidence": 0.13707244396209717,
+          "box": [
+            0.4565477967262268,
+            0.10418251901865005,
+            0.5946117639541626,
+            0.3642006814479828
+          ],
+          "detector_confidence": 0.7667338252067566
+        },
+        {
+          "tile": "7z",
+          "confidence": 0.1261548399925232,
+          "box": [
+            0.19559311866760254,
+            0.5955378413200378,
+            0.31366705894470215,
+            0.8666892051696777
+          ],
+          "detector_confidence": 0.7592241764068604
+        },
+        {
+          "tile": "8s",
+          "confidence": 0.31476056575775146,
+          "box": [
+            0.6972581744194031,
+            0.5974063277244568,
+            0.831398606300354,
+            0.8823703527450562
+          ],
+          "detector_confidence": 0.716204822063446
+        },
+        {
+          "tile": "8s",
+          "confidence": 0.31805703043937683,
+          "box": [
+            0.5636757612228394,
+            0.5942581295967102,
+            0.6978242993354797,
+            0.8756924271583557
+          ],
+          "detector_confidence": 0.7043027877807617
+        },
+        {
+          "tile": "8s",
+          "confidence": 0.29999175667762756,
+          "box": [
+            0.828369140625,
+            0.6022079586982727,
+            0.9705799221992493,
+            0.8912084102630615
+          ],
+          "detector_confidence": 0.6395841836929321
+        }
+      ],
+      "pipeline_tp": 8,
+      "pipeline_fp": 1,
+      "pipeline_fn": 1,
+      "pipeline_classifier_ms": 433.2642500521615
+    },
+    {
+      "region": "orphans-table-hand",
+      "oracle": [
+        {
+          "expected": "1s",
+          "predicted": "8m",
+          "confidence": 0.07034046202898026,
+          "milliseconds": 47.212167002726346
+        },
+        {
+          "expected": "9s",
+          "predicted": "7s",
+          "confidence": 0.17606359720230103,
+          "milliseconds": 47.35804203664884
+        },
+        {
+          "expected": "1m",
+          "predicted": "7s",
+          "confidence": 0.1963036209344864,
+          "milliseconds": 47.92087501846254
+        },
+        {
+          "expected": "9m",
+          "predicted": "7s",
+          "confidence": 0.12340035289525986,
+          "milliseconds": 46.47958400892094
+        },
+        {
+          "expected": "9p",
+          "predicted": "7s",
+          "confidence": 0.2338906228542328,
+          "milliseconds": 47.42983396863565
+        },
+        {
+          "expected": "1z",
+          "predicted": "8m",
+          "confidence": 0.09314679354429245,
+          "milliseconds": 47.02375002671033
+        },
+        {
+          "expected": "2z",
+          "predicted": "8m",
+          "confidence": 0.09442603588104248,
+          "milliseconds": 47.66874999040738
+        },
+        {
+          "expected": "3z",
+          "predicted": "7s",
+          "confidence": 0.09985469281673431,
+          "milliseconds": 48.43491700012237
+        },
+        {
+          "expected": "3z",
+          "predicted": "7s",
+          "confidence": 0.13022907078266144,
+          "milliseconds": 49.661540950182825
+        },
+        {
+          "expected": "4z",
+          "predicted": "7s",
+          "confidence": 0.09085652977228165,
+          "milliseconds": 49.67520805075765
+        },
+        {
+          "expected": "6z",
+          "predicted": "4m",
+          "confidence": 0.07956471294164658,
+          "milliseconds": 48.3478750102222
+        },
+        {
+          "expected": "5z",
+          "predicted": "7s",
+          "confidence": 0.1336422711610794,
+          "milliseconds": 46.6952080023475
+        },
+        {
+          "expected": "7z",
+          "predicted": "7z",
+          "confidence": 0.06728136539459229,
+          "milliseconds": 47.265457978937775
+        },
+        {
+          "expected": "1p",
+          "predicted": "1s",
+          "confidence": 0.0663369745016098,
+          "milliseconds": 47.6447920082137
+        }
+      ],
+      "pipeline_predictions": [
+        {
+          "tile": "7s",
+          "confidence": 0.18935567140579224,
+          "box": [
+            0.11337771266698837,
+            0.4842285215854645,
+            0.19078929722309113,
+            0.7039514183998108
+          ],
+          "detector_confidence": 0.8713635206222534
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.0989820808172226,
+          "box": [
+            0.7229095697402954,
+            0.4650611877441406,
+            0.8021175265312195,
+            0.6832270622253418
+          ],
+          "detector_confidence": 0.8644145727157593
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.1747092753648758,
+          "box": [
+            0.3208804130554199,
+            0.48225951194763184,
+            0.3915739059448242,
+            0.707474946975708
+          ],
+          "detector_confidence": 0.8612149357795715
+        },
+        {
+          "tile": "9s",
+          "confidence": 0.06307656317949295,
+          "box": [
+            0.6585086584091187,
+            0.4678189158439636,
+            0.7313833236694336,
+            0.6793582439422607
+          ],
+          "detector_confidence": 0.8607375621795654
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.1065044030547142,
+          "box": [
+            0.17981624603271484,
+            0.4898079037666321,
+            0.2579796314239502,
+            0.7106770277023315
+          ],
+          "detector_confidence": 0.8431622982025146
+        },
+        {
+          "tile": "7z",
+          "confidence": 0.08499065786600113,
+          "box": [
+            0.8603907823562622,
+            0.45447006821632385,
+            0.9454976320266724,
+            0.6840428113937378
+          ],
+          "detector_confidence": 0.833627462387085
+        },
+        {
+          "tile": "2m",
+          "confidence": 0.07497725635766983,
+          "box": [
+            0.3910050690174103,
+            0.4786236584186554,
+            0.459805965423584,
+            0.689149796962738
+          ],
+          "detector_confidence": 0.8174834251403809
+        },
+        {
+          "tile": "1s",
+          "confidence": 0.09647805988788605,
+          "box": [
+            0.3652488589286804,
+            0.22704742848873138,
+            0.4429423213005066,
+            0.4466293454170227
+          ],
+          "detector_confidence": 0.7373476624488831
+        },
+        {
+          "tile": "6m",
+          "confidence": 0.06261621415615082,
+          "box": [
+            0.45923948287963867,
+            0.4664842188358307,
+            0.5274453163146973,
+            0.6755692958831787
+          ],
+          "detector_confidence": 0.7070450782775879
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.08792047947645187,
+          "box": [
+            0.5258440971374512,
+            0.46956726908683777,
+            0.5943834185600281,
+            0.6742810010910034
+          ],
+          "detector_confidence": 0.5827693343162537
+        },
+        {
+          "tile": "3m",
+          "confidence": 0.08898559957742691,
+          "box": [
+            0.25022250413894653,
+            0.48663070797920227,
+            0.32424992322921753,
+            0.7126262187957764
+          ],
+          "detector_confidence": 0.5756655931472778
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.075441874563694,
+          "box": [
+            0.5917778015136719,
+            0.4702186584472656,
+            0.6629180908203125,
+            0.6738316416740417
+          ],
+          "detector_confidence": 0.34225761890411377
+        },
+        {
+          "tile": "6s",
+          "confidence": 0.08868205547332764,
+          "box": [
+            0.038712918758392334,
+            0.48508331179618835,
+            0.1253798007965088,
+            0.7216088771820068
+          ],
+          "detector_confidence": 0.3214588761329651
+        },
+        {
+          "tile": "7s",
+          "confidence": 0.10533921420574188,
+          "box": [
+            0.7875728011131287,
+            0.4621585011482239,
+            0.8698253631591797,
+            0.6926138401031494
+          ],
+          "detector_confidence": 0.3080280125141144
+        }
+      ],
+      "pipeline_tp": 1,
+      "pipeline_fp": 13,
+      "pipeline_fn": 13,
+      "pipeline_classifier_ms": 696.9784199027345
+    },
+    {
+      "region": "chinitsu-table-hand",
+      "oracle": [
+        {
+          "expected": "2p",
+          "predicted": "2p",
+          "confidence": 0.3257722556591034,
+          "milliseconds": 49.26141700707376
+        },
+        {
+          "expected": "3p",
+          "predicted": "3p",
+          "confidence": 0.29761141538619995,
+          "milliseconds": 49.33841701131314
+        },
+        {
+          "expected": "4p",
+          "predicted": "5p",
+          "confidence": 0.1280754655599594,
+          "milliseconds": 46.372416021768004
+        },
+        {
+          "expected": "3p",
+          "predicted": "3p",
+          "confidence": 0.43626904487609863,
+          "milliseconds": 46.38554202392697
+        },
+        {
+          "expected": "4p",
+          "predicted": "4p",
+          "confidence": 0.2810595631599426,
+          "milliseconds": 46.6514999861829
+        },
+        {
+          "expected": "5p",
+          "predicted": "5p",
+          "confidence": 0.22735148668289185,
+          "milliseconds": 46.04566696798429
+        },
+        {
+          "expected": "5p",
+          "predicted": "6p",
+          "confidence": 0.18158623576164246,
+          "milliseconds": 46.84329102747142
+        },
+        {
+          "expected": "6p",
+          "predicted": "6p",
+          "confidence": 0.5343230962753296,
+          "milliseconds": 46.38516699196771
+        },
+        {
+          "expected": "7p",
+          "predicted": "7p",
+          "confidence": 0.315925657749176,
+          "milliseconds": 49.067792017012835
+        },
+        {
+          "expected": "7p",
+          "predicted": "7p",
+          "confidence": 0.3921939730644226,
+          "milliseconds": 49.26804103888571
+        },
+        {
+          "expected": "9p",
+          "predicted": "6p",
+          "confidence": 0.3159744441509247,
+          "milliseconds": 48.75495802843943
+        },
+        {
+          "expected": "9p",
+          "predicted": "9p",
+          "confidence": 0.32366231083869934,
+          "milliseconds": 49.24520896747708
+        },
+        {
+          "expected": "9p",
+          "predicted": "9p",
+          "confidence": 0.3952144682407379,
+          "milliseconds": 47.14616702403873
+        },
+        {
+          "expected": "8p",
+          "predicted": "8p",
+          "confidence": 0.22257016599178314,
+          "milliseconds": 46.2743749958463
+        }
+      ],
+      "pipeline_predictions": [
+        {
+          "tile": "7p",
+          "confidence": 0.3856301009654999,
+          "box": [
+            0.5320222973823547,
+            0.5744824409484863,
+            0.5877240896224976,
+            0.7881881594657898
+          ],
+          "detector_confidence": 0.9066412448883057
+        },
+        {
+          "tile": "4p",
+          "confidence": 0.2339833378791809,
+          "box": [
+            0.2613432705402374,
+            0.5881516933441162,
+            0.3157047927379608,
+            0.7903697490692139
+          ],
+          "detector_confidence": 0.8993005752563477
+        },
+        {
+          "tile": "7p",
+          "confidence": 0.3777983784675598,
+          "box": [
+            0.48005104064941406,
+            0.5751245021820068,
+            0.5327272415161133,
+            0.7883227467536926
+          ],
+          "detector_confidence": 0.8927479982376099
+        },
+        {
+          "tile": "6p",
+          "confidence": 0.5611283779144287,
+          "box": [
+            0.4245414733886719,
+            0.5715411305427551,
+            0.4798217713832855,
+            0.7809356451034546
+          ],
+          "detector_confidence": 0.8911423087120056
+        },
+        {
+          "tile": "5p",
+          "confidence": 0.2825194299221039,
+          "box": [
+            0.3164746165275574,
+            0.5881165862083435,
+            0.37004727125167847,
+            0.7875520586967468
+          ],
+          "detector_confidence": 0.8851436376571655
+        },
+        {
+          "tile": "2p",
+          "confidence": 0.3918459713459015,
+          "box": [
+            0.032227735966444016,
+            0.5917465090751648,
+            0.09126266837120056,
+            0.8025954961776733
+          ],
+          "detector_confidence": 0.8821066617965698
+        },
+        {
+          "tile": "6p",
+          "confidence": 0.26288893818855286,
+          "box": [
+            0.6402751803398132,
+            0.5714633464813232,
+            0.6963473558425903,
+            0.7804540991783142
+          ],
+          "detector_confidence": 0.8781894445419312
+        },
+        {
+          "tile": "4p",
+          "confidence": 0.14693456888198853,
+          "box": [
+            0.1467469036579132,
+            0.5940287709236145,
+            0.2016235589981079,
+            0.7986335754394531
+          ],
+          "detector_confidence": 0.8725839853286743
+        },
+        {
+          "tile": "9p",
+          "confidence": 0.3272436559200287,
+          "box": [
+            0.6938992738723755,
+            0.5701620578765869,
+            0.7499737739562988,
+            0.7816739082336426
+          ],
+          "detector_confidence": 0.8634762763977051
+        },
+        {
+          "tile": "6p",
+          "confidence": 0.3138495981693268,
+          "box": [
+            0.5869054198265076,
+            0.580287754535675,
+            0.6410704851150513,
+            0.7852340936660767
+          ],
+          "detector_confidence": 0.8572267293930054
+        },
+        {
+          "tile": "8p",
+          "confidence": 0.23161844909191132,
+          "box": [
+            0.9219694137573242,
+            0.22133025527000427,
+            0.9816160202026367,
+            0.4199545383453369
+          ],
+          "detector_confidence": 0.8417068719863892
+        },
+        {
+          "tile": "3p",
+          "confidence": 0.26475244760513306,
+          "box": [
+            0.0891052633523941,
+            0.5910083055496216,
+            0.1469450443983078,
+            0.8033910989761353
+          ],
+          "detector_confidence": 0.8343751430511475
+        },
+        {
+          "tile": "3p",
+          "confidence": 0.34488236904144287,
+          "box": [
+            0.20242638885974884,
+            0.5904205441474915,
+            0.25898614525794983,
+            0.8030621409416199
+          ],
+          "detector_confidence": 0.8330119848251343
+        },
+        {
+          "tile": "5p",
+          "confidence": 0.22726143896579742,
+          "box": [
+            0.3713274896144867,
+            0.5768130421638489,
+            0.423987478017807,
+            0.777309238910675
+          ],
+          "detector_confidence": 0.7619662880897522
+        }
+      ],
+      "pipeline_tp": 12,
+      "pipeline_fp": 2,
+      "pipeline_fn": 2,
+      "pipeline_classifier_ms": 662.9100861027837
+    },
+    {
+      "region": "ron-concealed-row",
+      "oracle": [
+        {
+          "expected": "1m",
+          "predicted": "1m",
+          "confidence": 0.08813218027353287,
+          "milliseconds": 50.52541696932167
+        },
+        {
+          "expected": "2m",
+          "predicted": "2m",
+          "confidence": 0.12658743560314178,
+          "milliseconds": 49.14170800475404
+        },
+        {
+          "expected": "3m",
+          "predicted": "2m",
+          "confidence": 0.10645878314971924,
+          "milliseconds": 51.137750037014484
+        },
+        {
+          "expected": "4m",
+          "predicted": "4m",
+          "confidence": 0.13811632990837097,
+          "milliseconds": 48.89887501485646
+        },
+        {
+          "expected": "5m",
+          "predicted": "5m",
+          "confidence": 0.10572893172502518,
+          "milliseconds": 48.3116660034284
+        },
+        {
+          "expected": "5m",
+          "predicted": "4m",
+          "confidence": 0.1186862587928772,
+          "milliseconds": 46.72420799033716
+        },
+        {
+          "expected": "5m",
+          "predicted": "3m",
+          "confidence": 0.14207762479782104,
+          "milliseconds": 46.867707977071404
+        },
+        {
+          "expected": "6m",
+          "predicted": "2m",
+          "confidence": 0.12365144491195679,
+          "milliseconds": 46.68541700812057
+        },
+        {
+          "expected": "6m",
+          "predicted": "4m",
+          "confidence": 0.13857701420783997,
+          "milliseconds": 46.89850000431761
+        },
+        {
+          "expected": "7m",
+          "predicted": "7m",
+          "confidence": 0.09346476942300797,
+          "milliseconds": 48.13620902132243
+        },
+        {
+          "expected": "7m",
+          "predicted": "4m",
+          "confidence": 0.09119284152984619,
+          "milliseconds": 47.42054099915549
+        },
+        {
+          "expected": "8m",
+          "predicted": "2m",
+          "confidence": 0.09007875621318817,
+          "milliseconds": 49.97129103867337
+        },
+        {
+          "expected": "9m",
+          "predicted": "1s",
+          "confidence": 0.0999414399266243,
+          "milliseconds": 48.73604199383408
+        }
+      ],
+      "pipeline_predictions": [
+        {
+          "tile": "4m",
+          "confidence": 0.10759741812944412,
+          "box": [
+            0.2693121135234833,
+            0.4510106146335602,
+            0.33625510334968567,
+            0.6877418160438538
+          ],
+          "detector_confidence": 0.892428994178772
+        },
+        {
+          "tile": "6m",
+          "confidence": 0.08985345810651779,
+          "box": [
+            0.7824972867965698,
+            0.349170982837677,
+            0.8597359657287598,
+            0.5948074460029602
+          ],
+          "detector_confidence": 0.866700291633606
+        },
+        {
+          "tile": "1m",
+          "confidence": 0.11217885464429855,
+          "box": [
+            0.0700993537902832,
+            0.5284839272499084,
+            0.14553698897361755,
+            0.7717874050140381
+          ],
+          "detector_confidence": 0.8559862375259399
+        },
+        {
+          "tile": "2m",
+          "confidence": 0.13392147421836853,
+          "box": [
+            0.1387232095003128,
+            0.49217432737350464,
+            0.2093650996685028,
+            0.7311471104621887
+          ],
+          "detector_confidence": 0.841766357421875
+        },
+        {
+          "tile": "4m",
+          "confidence": 0.1554967761039734,
+          "box": [
+            0.593669593334198,
+            0.4352884888648987,
+            0.6625143885612488,
+            0.6804478168487549
+          ],
+          "detector_confidence": 0.8365346193313599
+        },
+        {
+          "tile": "6m",
+          "confidence": 0.11872951686382294,
+          "box": [
+            0.5286127924919128,
+            0.3907916843891144,
+            0.5944483876228333,
+            0.6301616430282593
+          ],
+          "detector_confidence": 0.8289310932159424
+        },
+        {
+          "tile": "3m",
+          "confidence": 0.11109741032123566,
+          "box": [
+            0.20297083258628845,
+            0.5115358233451843,
+            0.27149075269699097,
+            0.7555180788040161
+          ],
+          "detector_confidence": 0.8200578689575195
+        },
+        {
+          "tile": "3m",
+          "confidence": 0.13329197466373444,
+          "box": [
+            0.3364757001399994,
+            0.4218929708003998,
+            0.40063294768333435,
+            0.6560126543045044
+          ],
+          "detector_confidence": 0.8161349296569824
+        },
+        {
+          "tile": "3m",
+          "confidence": 0.1272309124469757,
+          "box": [
+            0.4631929397583008,
+            0.39648717641830444,
+            0.5279205441474915,
+            0.6263666152954102
+          ],
+          "detector_confidence": 0.8095874190330505
+        },
+        {
+          "tile": "2m",
+          "confidence": 0.10220971703529358,
+          "box": [
+            0.8591364026069641,
+            0.3917039632797241,
+            0.933515727519989,
+            0.6459903717041016
+          ],
+          "detector_confidence": 0.7937268018722534
+        },
+        {
+          "tile": "3m",
+          "confidence": 0.10896702855825424,
+          "box": [
+            0.39864906668663025,
+            0.40876948833465576,
+            0.4640578627586365,
+            0.6430788040161133
+          ],
+          "detector_confidence": 0.5228258371353149
+        }
+      ],
+      "pipeline_tp": 5,
+      "pipeline_fp": 6,
+      "pipeline_fn": 8,
+      "pipeline_classifier_ms": 538.3842488517985
+    }
+  ]
+}

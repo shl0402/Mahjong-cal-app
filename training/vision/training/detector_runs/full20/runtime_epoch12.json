@@ -1,0 +1,14 @@
+{
+  "start_epoch": 12,
+  "total_epochs": 20,
+  "batch": 4,
+  "train_workers": 0,
+  "val_workers": 0,
+  "intermediate_validation": false,
+  "patience": 100,
+  "time_budget": null,
+  "scheduler": "LambdaLR driven by epoch, not validation metrics",
+  "optimizer_state_entries": 255,
+  "training_gradient_code": "unchanged BaseTrainer backward and optimizer_step",
+  "save_every_epoch": true
+}

@@ -1,0 +1,590 @@
+{
+  "reviewed_at_utc": "2026-10-02T17:18:05.638932+00:00",
+  "scope": "Static public archive/source/protobuf inspection only; no downloaded package install/import/execution, inference session, training, pickles, author contact or app edits by this reviewer.",
+  "canonical_order": "0..8 man, 9..17 pin, 18..26 sou, 27 east,28 south,29 west,30 north,31 white,32 green,33 red dragon; red-five face maps normalize identity but red flag is retained separately.",
+  "candidates": [
+    {
+      "id": "ssttkkl-mahjong-detector-0.0.6",
+      "usefulness": "Distinct compact offline ONNX candidate for a development-photo diagnostic; real physical tiles and generalization unmeasured.",
+      "wheel": {
+        "path": "vision/candidates/research/mahjong_detector-0.0.6-py3-none-any.whl",
+        "bytes": 9224197,
+        "sha256": "f47639492a55a1adc64bb1f21c0b33c7412fa37b14ffb3411906532bbfa2313d",
+        "official_source": "https://pypi.org/project/mahjong-detector/0.0.6/"
+      },
+      "model": {
+        "path": "vision/candidates/research/mahjong_detector-0.0.6-static/model.onnx",
+        "bytes": 10611399,
+        "sha256": "fffd6d29aacf850526a4411b68b4e7c4a96957ee2f00f9076982b30dfde78c07",
+        "git_blob_sha1": "5e980da3f924d640606fcdd64856da7e4aee6672",
+        "metadata": {
+          "description": "Ultralytics YOLO11n model trained on datasets/data.yaml",
+          "author": "Ultralytics",
+          "date": "2025-04-13T14:29:56.622410",
+          "version": "8.3.40",
+          "license": "AGPL-3.0 License (https://ultralytics.com/license)",
+          "docs": "https://docs.ultralytics.com",
+          "stride": "32",
+          "task": "detect",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: '1m', 1: '1p', 2: '1s', 3: '2m', 4: '2p', 5: '2s', 6: '3m', 7: '3p', 8: '3s', 9: '4m', 10: '4p', 11: '4s', 12: '5m', 13: '5p', 14: '5s', 15: '6m', 16: '6p', 17: '6s', 18: '7m', 19: '7p', 20: '7s', 21: '8m', 22: '8p', 23: '8s', 24: '9m', 25: '9p', 26: '9s', 27: 'chun', 28: 'haku', 29: 'hatsu', 30: 'nan', 31: 'pe', 32: 'sha', 33: 'tou'}"
+        },
+        "input": [
+          {
+            "name": "images",
+            "dtype": 1,
+            "shape": [
+              1,
+              3,
+              640,
+              640
+            ]
+          }
+        ],
+        "output": [
+          {
+            "name": "output0",
+            "dtype": 1,
+            "shape": [
+              1,
+              38,
+              8400
+            ]
+          }
+        ],
+        "inspected_without_inference": true
+      },
+      "source": {
+        "repository": "https://github.com/ssttkkl/MahjongDetector",
+        "commit": "82ffafced371ddc22a20b2bc504fd49f1d114e14",
+        "model_path": "python-lib/src/mahjong_detector/model.onnx",
+        "pypi_repository_link": null,
+        "repository_identification": "Author account inventory and exact model/source Git-blob hash matches; PyPI project URLs are absent.",
+        "verified_source_files": [
+          {
+            "local_path": "vision/candidates/research/mahjong_detector-0.0.6-static/predict.py",
+            "repository_path": "python-lib/src/mahjong_detector/predict.py",
+            "git_blob_sha1": "199e818127ad7e04c3eef533e0d4e80d5e66a8ad",
+            "sha256": "517344049fe52202f23626b3e3e8c7c8334183c9f89869acebd74acbd299641b"
+          },
+          {
+            "local_path": "vision/candidates/research/mahjong_detector-0.0.6-static/preprocess.py",
+            "repository_path": "python-lib/src/mahjong_detector/preprocess.py",
+            "git_blob_sha1": "600489768bbc90848652c69c06c323c9e7c2cd64",
+            "sha256": "fbd6a7c85e828e05cb73cc7be8b6bb91af82333b80a82ef05af08279a63eb48d"
+          }
+        ]
+      },
+      "class_names": [
+        "1m",
+        "1p",
+        "1s",
+        "2m",
+        "2p",
+        "2s",
+        "3m",
+        "3p",
+        "3s",
+        "4m",
+        "4p",
+        "4s",
+        "5m",
+        "5p",
+        "5s",
+        "6m",
+        "6p",
+        "6s",
+        "7m",
+        "7p",
+        "7s",
+        "8m",
+        "8p",
+        "8s",
+        "9m",
+        "9p",
+        "9s",
+        "chun",
+        "haku",
+        "hatsu",
+        "nan",
+        "pe",
+        "sha",
+        "tou"
+      ],
+      "class_to_canonical": [
+        0,
+        9,
+        18,
+        1,
+        10,
+        19,
+        2,
+        11,
+        20,
+        3,
+        12,
+        21,
+        4,
+        13,
+        22,
+        5,
+        14,
+        23,
+        6,
+        15,
+        24,
+        7,
+        16,
+        25,
+        8,
+        17,
+        26,
+        33,
+        31,
+        32,
+        28,
+        30,
+        29,
+        27
+      ],
+      "class_is_red_five": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "preprocessing": {
+        "reference": "Verified static wheel preprocess.py and predict.py; do not import them.",
+        "steps": [
+          "Open the supplied image with Pillow; package does not apply EXIF transpose. For controlled diagnostics, orient/crop externally before this recipe and record that choice.",
+          "Convert to Pillow L mode (8-bit grayscale).",
+          "Apply Pillow ImageOps.autocontrast with defaults (cutoff=0, ignore=None, preserve_tone=False). This is min/max contrast stretching, not histogram equalization; a constant image stays unchanged.",
+          "Set scale=640/max(original_width, original_height); scaled_width=int(original_width*scale), scaled_height=int(original_height*scale), using truncation.",
+          "Resize grayscale image to those integer dimensions using Pillow bilinear interpolation.",
+          "Create a 640x640 L image filled with 0. Paste resized image at pad_x=(640-scaled_width)//2, pad_y=(640-scaled_height)//2; any odd extra pad falls at right/bottom.",
+          "Convert the padded L image to RGB, duplicating gray into all three channels. Convert to float32 CHW, add batch dimension, and divide by 255.0."
+        ],
+        "input_name": "images",
+        "input_shape": [
+          1,
+          3,
+          640,
+          640
+        ],
+        "dtype": "float32",
+        "padding_rgb": [
+          0,
+          0,
+          0
+        ],
+        "preserve_padding_info": [
+          "scale",
+          "pad_x",
+          "pad_y",
+          "original_width",
+          "original_height"
+        ]
+      },
+      "postprocessing": {
+        "output_shape": [
+          1,
+          38,
+          8400
+        ],
+        "layout": "channel-first: center_x,center_y,width,height then34 already activated class scores; no objectness",
+        "source_confidence_comparison": ">0.5",
+        "class_choice": "argmax; first index wins ties",
+        "box_transform": "inverse pad/scale to original x1,y1,x2,y2; clip to image bounds then cast to integer before NMS",
+        "nms": "class-agnostic greedy NMS; IoU>0.5 suppressed (keep IoU<=0.5)",
+        "final_wrapper_order": "sort x1 ascending",
+        "diagnostic_note": "Alternative confidence/NMS policies must be stated; no app gate thresholds changed."
+      },
+      "training_provenance": {
+        "known": "ONNX says Ultralytics YOLO11n, Ultralytics8.3.40, exported2025-04-13, trained on datasets/data.yaml. Related app and consuming plugin describe Mahjong Soul screenshot-focused training.",
+        "source_links": [
+          "https://github.com/ssttkkl/mahjong-utils-app",
+          "https://github.com/bot-ssttkkl/nonebot-plugin-mahjong-utils"
+        ],
+        "unknown": [
+          "actual dataset images/version/license",
+          "train/dev/test split",
+          "physical tile-set coverage",
+          "upstream overlap with our evaluation images",
+          "base checkpoint hash"
+        ],
+        "caution": "Related-project screenshot claims are provenance clues, not an audited inventory for these exact weights. No dataset/data.yaml or training scripts found in the inspected detector tree."
+      },
+      "license": {
+        "package_declaration": "MIT in PyPI metadata and pinned python-lib/pyproject.toml",
+        "onnx_metadata": "AGPL-3.0 License (Ultralytics export metadata)",
+        "license_file_in_wheel": false,
+        "license_file_in_detector_repository": false,
+        "related_app_license": "MIT, separate mahjong-utils-app repository",
+        "status": "Package MIT and ONNX AGPL metadata are not reconciled into a verified weight/data redistribution grant. Research candidate only; do not infer that MIT clears model/data rights."
+      }
+    },
+    {
+      "id": "riichicam-legacy-8d13cbe",
+      "usefulness": "Distinct downloadable historical offline37-class candidate; heavier artifact. Physical-phone performance and accuracy unmeasured. It is not the current private production model.",
+      "model": {
+        "path": "vision/candidates/research/riichicam-legacy-8d13cbe-tile-detector.onnx",
+        "bytes": 80539326,
+        "sha256": "2655fe44da2743541d4b02ef590c4e871657c9cf58efa33bf78f3d4e9a9768e8",
+        "git_blob_sha1": "573c1f3e9a3b798699b71d7ea5aa59f132021435",
+        "metadata": {},
+        "input": [
+          {
+            "name": "images",
+            "dtype": 1,
+            "shape": [
+              1,
+              3,
+              640,
+              640
+            ]
+          }
+        ],
+        "output": [
+          {
+            "name": "output0",
+            "dtype": 1,
+            "shape": [
+              1,
+              41,
+              8400
+            ]
+          }
+        ],
+        "opsets": [
+          [
+            "",
+            12
+          ]
+        ],
+        "external_data": [],
+        "inspected_without_inference": true
+      },
+      "source": {
+        "repository": "https://github.com/MMitch42/RiichiCam",
+        "public_model_commit": "8d13cbe40824c118278a7eca13e7b1d99a463d7e",
+        "current_inspected_commit": "b595c9865a47e785c5834c5f4cca541d2fc571f1",
+        "model_path": "public/models/tile-detector.onnx",
+        "model_url": "https://raw.githubusercontent.com/MMitch42/RiichiCam/8d13cbe40824c118278a7eca13e7b1d99a463d7e/public/models/tile-detector.onnx",
+        "verified_source_files": [
+          {
+            "local_path": "vision/candidates/research/riichicam-legacy-tile-classes.ts",
+            "repository_path": "lib/detection/tile-classes.ts",
+            "git_blob_sha1": "5a63cefe90534273e17718db1313cfad2a14b430",
+            "sha256": "a17ace18c65582be1cb5cc7241253ede7d0e09435c789d78c98dc3ca845d0698"
+          },
+          {
+            "local_path": "vision/candidates/research/riichicam-legacy-onnx-detector.ts",
+            "repository_path": "lib/detection/onnx-detector.ts",
+            "git_blob_sha1": "086716fad31d3592512647a96802aff2e8b7f952",
+            "sha256": "c2fe99d3432c80193db009f6f7b5cb6dcf2c7d371b2555512edfc557cd132475"
+          },
+          {
+            "local_path": "vision/candidates/research/riichicam-legacy-letterbox.ts",
+            "repository_path": "lib/detection/letterbox.ts",
+            "git_blob_sha1": "957c04acdc4c4461968d8476040123abc13be11c",
+            "sha256": "595c3b7ec719db22b25a72c863c1c8c661f797a0db5c04c6f62ec212eee03c34"
+          },
+          {
+            "local_path": "vision/candidates/research/riichicam-legacy-decode-yolo-output.ts",
+            "repository_path": "lib/detection/decode-yolo-output.ts",
+            "git_blob_sha1": "e662e02584f53128462855a66153af919c0ba313",
+            "sha256": "284f05d8b21c8146cd6da4fb2b3eef10b9783a7e42ca6dcc2910c33325f5b1b6"
+          },
+          {
+            "local_path": "vision/candidates/research/riichicam-legacy-nms.ts",
+            "repository_path": "lib/detection/nms.ts",
+            "git_blob_sha1": "fa74a1adcef5799a2e2934c18a309c1dc3508030",
+            "sha256": "94e717abffe48515bf9e779f00345b08c210fb729ca8e621a0039da1eaccfe16"
+          },
+          {
+            "local_path": "vision/candidates/research/riichicam-legacy-tiling.ts",
+            "repository_path": "lib/detection/tiling.ts",
+            "git_blob_sha1": "88d54a979645cad80a2050b4ca6c4497881e4389",
+            "sha256": "fbce69c15c3ce6df998da88b49b72a4540a2677a23df624097ee2f20a668aa42"
+          }
+        ],
+        "current_model": "private service; no current public weights; current tree/archive has no weights and releases API returns empty list"
+      },
+      "class_names": [
+        "1m",
+        "1p",
+        "1s",
+        "1z",
+        "2m",
+        "2p",
+        "2s",
+        "2z",
+        "3m",
+        "3p",
+        "3s",
+        "3z",
+        "4m",
+        "4p",
+        "4s",
+        "4z",
+        "5m",
+        "5mr",
+        "5p",
+        "5pr",
+        "5s",
+        "5sr",
+        "5z",
+        "6m",
+        "6p",
+        "6s",
+        "6z",
+        "7m",
+        "7p",
+        "7s",
+        "7z",
+        "8m",
+        "8p",
+        "8s",
+        "9m",
+        "9p",
+        "9s"
+      ],
+      "class_to_canonical": [
+        0,
+        9,
+        18,
+        27,
+        1,
+        10,
+        19,
+        28,
+        2,
+        11,
+        20,
+        29,
+        3,
+        12,
+        21,
+        30,
+        4,
+        4,
+        13,
+        13,
+        22,
+        22,
+        31,
+        5,
+        14,
+        23,
+        32,
+        6,
+        15,
+        24,
+        33,
+        7,
+        16,
+        25,
+        8,
+        17,
+        26
+      ],
+      "class_is_red_five": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "preprocessing": {
+        "reference": "Pinned legacy onnx-detector.ts and letterbox.ts; canvas pixel interpolation depends on browser.",
+        "input_name": "images",
+        "input_shape": [
+          1,
+          3,
+          640,
+          640
+        ],
+        "dtype": "float32",
+        "padding_rgb": [
+          114,
+          114,
+          114
+        ],
+        "steps": [
+          "Keep image in RGB color; no grayscale or autocontrast.",
+          "scale=min(640/source_width,640/source_height).",
+          "Compute rounded_width=Math.round(source_width*scale), rounded_height=Math.round(source_height*scale) using JavaScript positive-number rounding (floor(x+0.5)).",
+          "padX=(640-rounded_width)/2 and padY=(640-rounded_height)/2; these may be half-pixels.",
+          "Fill a640x640Canvas with RGB114. Draw the source at(padX,padY), with drawWidth=source_width*scale and drawHeight=source_height*scale (unrounded float draw dimensions). Source leaves Canvas2D smoothing at default.",
+          "Read RGBA canvas pixels; discard alpha; place R,G,B into float32 separate CHW planes and divide by255."
+        ],
+        "parity_caution": "A conventional integer PIL/OpenCV bilinear letterbox is a diagnostic approximation, not exact browser Canvas pixel parity. Record implementation if using that approximation."
+      },
+      "postprocessing": {
+        "output_shape": [
+          1,
+          41,
+          8400
+        ],
+        "layout": "channel-first center_x,center_y,width,height then37 already activated class scores; no objectness",
+        "source_confidence_comparison": ">=0.45",
+        "class_choice": "argmax; first index wins ties",
+        "nms": "per-class greedy NMS in model coordinates; IoU>0.5 suppressed",
+        "box_transform": "inverse pad/scale after NMS; keeps floating coordinates; this decoder does not clip boxes",
+        "diagnostic_note": "Normalization of red five to ordinary face is insufficient to claim red-five identity correctness."
+      },
+      "source_wrapper_tiling": {
+        "enabled_when": "long_side/short_side>2",
+        "tile_length": "min(long_side,max(1,Math.round(short_side*2)))",
+        "stride": "max(1,Math.round(tile_length*0.8))",
+        "starts": "multiples of stride through floor((long_side-tile_length)/stride); append long_side-tile_length if not already present",
+        "merge": "add crop offsets after inverse letterbox; descending confidence same-class IoU>0.5 suppression",
+        "other_optional_path": "coverageWindows exists for regular camera photos with fraction0.6 and overlap0.2; do not silently add it to a fixed diagnostic.",
+        "evaluation_caution": "A single-pass model diagnostic does not reproduce the old long-row tiled wrapper; report separately if testing tiled inference."
+      },
+      "training_provenance": {
+        "known": "Pinned class-map comment says this specific model used a Roboflow-exported dataset and confirms class order from checkpoint names. Training pipeline is described as private.",
+        "unknown": [
+          "Roboflow project/version",
+          "dataset image inventory/license",
+          "training split and hyperparameters",
+          "base checkpoint identity",
+          "upstream evaluation overlap",
+          "exact architecture/model export metadata (ONNX metadata is empty)"
+        ]
+      },
+      "license": {
+        "root_license_current": null,
+        "root_license_historical_model_tree": null,
+        "current_package_json_license": null,
+        "onnx_license_metadata": null,
+        "status": "No model/code redistribution grant located in inspected trees or metadata. Public downloadable history is not a release-rights grant."
+      },
+      "comparison_to_existing_yolo11m_v2": {
+        "same_sha256": false,
+        "existing": {
+          "path": "vision/candidates/downloads/yolo11m-v2.onnx",
+          "bytes": 80336681,
+          "sha256": "53f1d82b8ddc5d6e6abf7234aeb09d243b8e2ddeaddae8aaf666e6cd89b7c6d7",
+          "git_blob_sha1": "5f51d8c6e3a37348bdb49f3ab01cb96d1e75ff8c",
+          "metadata": {
+            "names": "{0: '1m', 1: '1p', 2: '1s', 3: '1z', 4: '2m', 5: '2p', 6: '2s', 7: '2z', 8: '3m', 9: '3p', 10: '3s', 11: '3z', 12: '4m', 13: '4p', 14: '4s', 15: '4z', 16: '5m', 17: '5p', 18: '5s', 19: '5z', 20: '6m', 21: '6p', 22: '6s', 23: '6z', 24: '7m', 25: '7p', 26: '7s', 27: '7z', 28: '8m', 29: '8p', 30: '8s', 31: '9m', 32: '9p', 33: '9s', 34: 'UNKNOWN', 35: '0m', 36: '0p', 37: '0s'}",
+            "task": "detect",
+            "license": "Ultralytics AGPL-3.0; repository MIT",
+            "source_checkpoint_sha256": "a00a03dd9229f5809d4de3c9474b9bcdd74b7b42a5a507e92a803755e268d372"
+          },
+          "input": [
+            {
+              "name": "images",
+              "dtype": 1,
+              "shape": [
+                1,
+                3,
+                640,
+                640
+              ]
+            }
+          ],
+          "output": [
+            {
+              "name": "output0",
+              "dtype": 1,
+              "shape": [
+                1,
+                42,
+                8400
+              ]
+            }
+          ],
+          "opsets": [
+            [
+              "",
+              17
+            ]
+          ],
+          "external_data": [],
+          "inspected_without_inference": true
+        },
+        "differences": [
+          "37 vs38 classes",
+          "output1x41x8400 vs1x42x8400",
+          "opset12 vs17",
+          "metadata empty vs names/source hash present",
+          "different size and SHA256"
+        ],
+        "caution": "Distinct bytes and output contract do not prove disjoint training data."
+      }
+    }
+  ],
+  "evaluation_disposition": {
+    "decision": "Parent subsequently evaluated both artifacts separately and decided not to integrate either.",
+    "reports": [
+      "vision/candidates/research/riichicam-legacy-development-evaluation.json",
+      "vision/candidates/research/ssttkkl-development-evaluation.json"
+    ],
+    "separation": "The static review itself makes no measured accuracy claim; see those diagnostic reports for measured development-only results."
+  }
+}

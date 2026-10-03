@@ -1,0 +1,16 @@
+{
+  "selected_at": "2026-10-02T15:52:36.077033+00:00",
+  "checkpoint_sha256": "3881dd8444e934c0cb2ff9e8d39f97e65ace09f34e0d66ed7ada3ae31f438c78",
+  "experiment_plan_sha256": "9a584458effcc3049d845c1d724803f664df68d99129cdf5a3ff1b4c5df88cc6",
+  "criterion": "max development macro recall; tie development accuracy; all12epochs complete",
+  "test_pixels_read": false,
+  "thresholds": [
+    0.5,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.99
+  ],
+  "operating_threshold": 0.8
+}

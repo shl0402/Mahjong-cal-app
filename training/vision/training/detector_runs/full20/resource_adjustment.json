@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-02T17:07:19.919583+00:00",
+  "from_batch": 4,
+  "to_batch": 4,
+  "from_requested_workers": 2,
+  "to_requested_workers": 0,
+  "loader_note": "Ultralytics uses requested workers for train and twice that number for val; workers0 removes both pools",
+  "reason": "Resource exception: active macOS memory pressure, not validation/test results",
+  "resuming_after_epoch": 11,
+  "checkpoint_sha256": "569fede4a648b515c5acd7f180828f41a2835d977ed085aa128f4e314854ec66",
+  "unchanged_plan_sha256": "158e994ecaf21b96781a099871f4ca87a3aaf1cc28ef5f77b794797365a75f9d"
+}

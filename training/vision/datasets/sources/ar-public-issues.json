@@ -1,0 +1,268 @@
+[
+  {
+    "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/3",
+    "repository_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview",
+    "labels_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/3/labels{/name}",
+    "comments_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/3/comments",
+    "events_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/3/events",
+    "html_url": "https://github.com/LYiHub/AR-Mahjong-Assistant-preview/issues/3",
+    "id": 4245023472,
+    "node_id": "I_kwDORPgml879Berw",
+    "number": 3,
+    "title": "模型无法识别幺鸡",
+    "user": {
+      "login": "Apa7-zero",
+      "id": 18531233,
+      "node_id": "MDQ6VXNlcjE4NTMxMjMz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18531233?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Apa7-zero",
+      "html_url": "https://github.com/Apa7-zero",
+      "followers_url": "https://api.github.com/users/Apa7-zero/followers",
+      "following_url": "https://api.github.com/users/Apa7-zero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Apa7-zero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Apa7-zero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Apa7-zero/subscriptions",
+      "organizations_url": "https://api.github.com/users/Apa7-zero/orgs",
+      "repos_url": "https://api.github.com/users/Apa7-zero/repos",
+      "events_url": "https://api.github.com/users/Apa7-zero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Apa7-zero/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2026-04-11T15:32:50Z",
+    "updated_at": "2026-04-11T15:33:37Z",
+    "closed_at": null,
+    "assignee": null,
+    "author_association": "NONE",
+    "issue_field_values": [
+
+    ],
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "-\n\n![Image](https://github.com/user-attachments/assets/4193bae8-325f-41e5-b2f9-ef14a0a02702)\n该图片通过debug页面识别返回\n```\n[\n  {\n    \"x\": 994.62646484375,\n    \"y\": 2371.950439453125,\n    \"width\": 521.697265625,\n    \"height\": 669.4080810546875,\n    \"class\": \"1B\",\n    \"confidence\": 0.9391942024230957\n  }\n]\n```\nb代表 条，s代表才是幺鸡吧？\n\n![Image](https://github.com/user-attachments/assets/e2eb0373-ae9c-4111-b364-5d64ea422e06)\n该图片识别返回\n```\n[\n  {\n    \"x\": 638.1961059570312,\n    \"y\": 1941.1817626953125,\n    \"width\": 326.1976623535156,\n    \"height\": 328.037353515625,\n    \"class\": \"GD\",\n    \"confidence\": 0.9195671677589417\n  },\n  {\n    \"x\": 962.212646484375,\n    \"y\": 1957.96435546875,\n    \"width\": 324.06622314453125,\n    \"height\": 323.0455322265625,\n    \"class\": \"4F\",\n    \"confidence\": 0.7770025730133057\n  }\n]\n```\n\n![Image](https://github.com/user-attachments/assets/0c84b816-38fc-4540-a6da-6ea988af7820)\n该图片识别返回\n```\n[\n  {\n    \"x\": 1535.3446044921875,\n    \"y\": 1973.68017578125,\n    \"width\": 518.60791015625,\n    \"height\": 468.9063720703125,\n    \"class\": \"1B\",\n    \"confidence\": 0.9096407890319824\n  }\n]\n```",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/3/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/3/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
+    "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/2",
+    "repository_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview",
+    "labels_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/2/labels{/name}",
+    "comments_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/2/comments",
+    "events_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/2/events",
+    "html_url": "https://github.com/LYiHub/AR-Mahjong-Assistant-preview/issues/2",
+    "id": 4077643332,
+    "node_id": "I_kwDORPgml87zC-ZE",
+    "number": 2,
+    "title": "请问下只支持这一款Ai眼镜吗？",
+    "user": {
+      "login": "tzhnihao",
+      "id": 178936017,
+      "node_id": "U_kgDOCqpY0Q",
+      "avatar_url": "https://avatars.githubusercontent.com/u/178936017?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tzhnihao",
+      "html_url": "https://github.com/tzhnihao",
+      "followers_url": "https://api.github.com/users/tzhnihao/followers",
+      "following_url": "https://api.github.com/users/tzhnihao/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tzhnihao/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tzhnihao/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tzhnihao/subscriptions",
+      "organizations_url": "https://api.github.com/users/tzhnihao/orgs",
+      "repos_url": "https://api.github.com/users/tzhnihao/repos",
+      "events_url": "https://api.github.com/users/tzhnihao/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tzhnihao/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "open",
+    "locked": false,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2026-03-15T05:23:18Z",
+    "updated_at": "2026-03-23T06:56:17Z",
+    "closed_at": null,
+    "assignee": null,
+    "author_association": "NONE",
+    "issue_field_values": [
+
+    ],
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "如果是别的带有开发者模式的眼镜，也能使用这个项目吗？",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/2/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/2/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null,
+    "pinned_comment": null
+  },
+  {
+    "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/1",
+    "repository_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview",
+    "labels_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/1/labels{/name}",
+    "comments_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/1/comments",
+    "events_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/1/events",
+    "html_url": "https://github.com/LYiHub/AR-Mahjong-Assistant-preview/issues/1",
+    "id": 4056070624,
+    "node_id": "I_kwDORPgml87xwrng",
+    "number": 1,
+    "title": "眼镜版本",
+    "user": {
+      "login": "niuhuoshan",
+      "id": 206687869,
+      "node_id": "U_kgDODFHOfQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206687869?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/niuhuoshan",
+      "html_url": "https://github.com/niuhuoshan",
+      "followers_url": "https://api.github.com/users/niuhuoshan/followers",
+      "following_url": "https://api.github.com/users/niuhuoshan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/niuhuoshan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/niuhuoshan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/niuhuoshan/subscriptions",
+      "organizations_url": "https://api.github.com/users/niuhuoshan/orgs",
+      "repos_url": "https://api.github.com/users/niuhuoshan/repos",
+      "events_url": "https://api.github.com/users/niuhuoshan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/niuhuoshan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2026-03-11T05:59:35Z",
+    "updated_at": "2026-03-31T05:54:22Z",
+    "closed_at": "2026-03-31T05:54:22Z",
+    "assignee": null,
+    "author_association": "NONE",
+    "issue_field_values": [
+
+    ],
+    "type": null,
+    "active_lock_reason": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
+    "body": "请问一下是支持雷鸟 air 1-4的眼镜版本都支持么 还是",
+    "closed_by": {
+      "login": "niuhuoshan",
+      "id": 206687869,
+      "node_id": "U_kgDODFHOfQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206687869?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/niuhuoshan",
+      "html_url": "https://github.com/niuhuoshan",
+      "followers_url": "https://api.github.com/users/niuhuoshan/followers",
+      "following_url": "https://api.github.com/users/niuhuoshan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/niuhuoshan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/niuhuoshan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/niuhuoshan/subscriptions",
+      "organizations_url": "https://api.github.com/users/niuhuoshan/orgs",
+      "repos_url": "https://api.github.com/users/niuhuoshan/repos",
+      "events_url": "https://api.github.com/users/niuhuoshan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/niuhuoshan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/1/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/LYiHub/AR-Mahjong-Assistant-preview/issues/1/timeline",
+    "performed_via_github_app": null,
+    "state_reason": "completed",
+    "pinned_comment": null
+  }
+]

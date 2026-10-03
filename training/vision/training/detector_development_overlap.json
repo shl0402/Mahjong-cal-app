@@ -1,0 +1,70 @@
+{
+  "purpose": "Audit known training inputs against existing Commons development source photos; not a fresh independent benchmark",
+  "train_images": 1619,
+  "source_photos": 7,
+  "sources": [
+    {
+      "source_id": "commons-1316485",
+      "sha256": "93548956c27b62a81f931d6d3c389987c8afaf5451693bde00269218e05870b6",
+      "exact_file_matches": [],
+      "exact_pixel_matches": [],
+      "phash_le4_candidates": [],
+      "exif_orientation": 1
+    },
+    {
+      "source_id": "commons-31193194",
+      "sha256": "0be9c0968daa5aee4a6959fc329872af8907d954998133a1bbef586641228857",
+      "exact_file_matches": [],
+      "exact_pixel_matches": [],
+      "phash_le4_candidates": [],
+      "exif_orientation": 1
+    },
+    {
+      "source_id": "commons-31195555",
+      "sha256": "9eb4c4f62fe168549bd1ee6dbf6cd788a937fa56311f797ce3c62f72f5ef5980",
+      "exact_file_matches": [],
+      "exact_pixel_matches": [],
+      "phash_le4_candidates": [],
+      "exif_orientation": 1
+    },
+    {
+      "source_id": "commons-31198498",
+      "sha256": "352177fea02e0ae0f789b38856e29be7304ce3740e35a04d0da981ff26765875",
+      "exact_file_matches": [],
+      "exact_pixel_matches": [],
+      "phash_le4_candidates": [],
+      "exif_orientation": 1
+    },
+    {
+      "source_id": "commons-86379076",
+      "sha256": "54f5d40394ca67af5f600eb604c943a4cb06e846b7cfce479c9d311745cbc655",
+      "exact_file_matches": [],
+      "exact_pixel_matches": [],
+      "phash_le4_candidates": [],
+      "exif_orientation": 1
+    },
+    {
+      "source_id": "commons-179482826",
+      "sha256": "8aef6308e226c46d3aeb46b8746a2a909629790f623946ffc63fd8ac20ea2373",
+      "exact_file_matches": [],
+      "exact_pixel_matches": [],
+      "phash_le4_candidates": [],
+      "exif_orientation": 1
+    },
+    {
+      "source_id": "commons-179482828",
+      "sha256": "4061cf4976917bb48395bb3efef1bc9da5372f3af08deb8a1e2f90e868a2062b",
+      "exact_file_matches": [],
+      "exact_pixel_matches": [],
+      "phash_le4_candidates": [],
+      "exif_orientation": 1
+    }
+  ],
+  "limitations": [
+    "Exact hash and perceptual hash checks cannot rule out crops, edits, the same physical tile set, or related capture sessions",
+    "Existing Commons photos already influenced model research and remain development data"
+  ],
+  "created_at": "2026-10-02T16:48:56.971768+00:00",
+  "source_manifest_sha256": "1d6208e43e8e714fe3918cf7c4b3fa1e34974849a3a0310e7df660d09ce3e12b",
+  "commons_source_manifest_sha256": "ccddd374c9d1479487b03617a9860fea6c169c833986c0506e32bcc23ec5255b"
+}

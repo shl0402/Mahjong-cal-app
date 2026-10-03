@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-02",
+  "purpose": "Compare a separately trained compact tile-face classifier with pretrained detectors; do not equate crop accuracy with live full-hand recognition.",
+  "architecture": "torchvision MobileNetV3 Small; 34 ordinary tile classes plus background rejection",
+  "initialization": "Official ImageNet weights, SHA256 047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f; no Mahjong-finetuned weights",
+  "dataset": "Pinned RF100-VL Mahjong v2 mirror; source metadata/license audit stored separately",
+  "split": "Original images plus transitive detected duplicate groups; original train exposures never become held-out tests; unknown physical/session identity remains unknown",
+  "training": {"epochs": 12, "batch": 64, "size": 160, "optimizer": "AdamW", "learning_rate": 0.0005, "weight_decay": 0.0001, "seed": 20261002, "device": "mps", "workers": 2},
+  "selection": "Highest development macro recall among present classes; development accuracy tie-break. Freeze chosen checkpoint before internal-test evaluation.",
+  "augmentation": "Small rotations, optional 180-degree turn, scale, shear, brightness, contrast, color and mild blur; no mirrored Chinese characters",
+  "test_access": "Do not open protected test pixels during crop preparation or training. Generate/evaluate protected crops only after checkpoint selection is recorded.",
+  "reporting": ["Classification accuracy and confusion with supplied ground-truth boxes", "All annotated ordinary crops correct per original source, explicitly not whole-hand detection accuracy", "Predeclared confidence thresholds 0.50/0.70/0.80/0.90/0.95/0.99 reported descriptively, not selected using test results", "Development-only full detector plus classifier experiment on the old Commons development set", "No unseen physical tile-set claim without source evidence", "Report negative results and do not replace app baseline on model-selection scores alone"]
+}

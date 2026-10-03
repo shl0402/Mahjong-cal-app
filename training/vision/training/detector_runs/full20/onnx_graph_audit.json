@@ -1,0 +1,32 @@
+{
+  "model_sha256": "1a78e66672b643b972f8836efab49c61b1256604d3d6d7f612629bd9b1d2400e",
+  "opsets": [
+    {
+      "domain": "",
+      "version": 17
+    }
+  ],
+  "operators": {
+    "Conv": 88,
+    "Sigmoid": 78,
+    "Mul": 97,
+    "Shape": 9,
+    "Constant": 72,
+    "Gather": 9,
+    "Add": 25,
+    "Div": 10,
+    "Slice": 18,
+    "Concat": 23,
+    "MaxPool": 3,
+    "Split": 3,
+    "Reshape": 8,
+    "Transpose": 3,
+    "MatMul": 2,
+    "Softmax": 2,
+    "Resize": 2,
+    "Sub": 2
+  },
+  "external_tensor_data": false,
+  "custom_operator_domains": [],
+  "onnx_checker": "passed"
+}

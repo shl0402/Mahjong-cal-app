@@ -1,0 +1,423 @@
+RF100-VL, redistributed by the LibreYOLO project
+================================================
+
+This archive is a temporary redistribution of the RF100-VL benchmark by
+Roboflow and Carnegie Mellon University. It is not an original work.
+
+  Benchmark:  https://rf100-vl.org
+  Repository: https://github.com/roboflow/rf100-vl
+  Paper:      arXiv:2505.20612
+
+The images and bounding boxes are unmodified. Category numbering was rewritten
+by Roboflow's own `rf100vl` package during download (dummy class 0 removed,
+category ids shifted to 0-based contiguous, annotation ids starting at 1),
+which makes this copy a derivative work.
+
+Every dataset below is licensed MIT by the person who uploaded it to Roboflow
+Universe. Each dataset's own README.dataset.txt is preserved inside its archive
+and carries the upstream notice and credit; do not remove it.
+
+License inventory taken 2026-07-30 against the versions pinned in versions.json.
+
+Datasets
+--------
+
+-grccs
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/-grccs-yi3bi-sge1z-anexl-hayl
+
+13-lkc01
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/13-lkc01-axmll-qtoq
+
+2024-frc
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/2024-frc-aanyl-eqitq-7bqgi-hcvu
+
+actions
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/actions-zzid2-zb1hq-amih-rsbpp
+
+activity-diagrams
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/activity-diagrams-qdobr-dtraz-lhxdc-cbow
+
+aerial-airport
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/aerial-airport-7ap9o-ddgc-ftba6
+
+aerial-cows
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/aerial-cows-kt2wd-3jxcj-uvfx
+
+aerial-pool
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/aerial-pool-vlhhw-rzhef-qlaz
+
+aerial-sheep
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/aerial-sheep-y13yz-hs4wl-wzyo
+
+aircraft-turnaround-dataset
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/aircraft-turnaround-dataset-5dnjf-orrm3-hffk
+
+all-elements
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/all-elements-mebv-mmhjp
+
+apoce-aerial-photographs-for-object-detection-of-construction-equipment
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/apoce-aerial-photographs-for-object-detection-of-construction-equipment-6raie-ur6qc-absn
+
+aquarium-combined
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/aquarium-combined-gjvb-oj3k4
+
+asphaltdistressdetection
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/asphaltdistressdetection-taf76-jcxx
+
+ball
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/ball-qgqhv-2mtfk-ch2i9-ejgb
+
+bees
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/bees-jt5in-6pbpl-aplx
+
+bibdetection
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/bibdetection-swtfw-z85dg-mzqx
+
+buoy-onboarding
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/buoy-onboarding-uys2h-lbtek-ttiu
+
+cable-damage
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/cable-damage-z5nlo-9eslb-itoh
+
+canalstenosis
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/canalstenosis-azjxm-cpkp
+
+car-logo-detection
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/car-logo-detection-cxyfl-snnqi-wfqa
+
+circuit-voltages
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/circuit-voltages-ysajo-tbpd
+
+clashroyalechardetector
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/clashroyalechardetector-xus94-giyri-voeq
+
+cod-mw-warzone
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/cod-mw-warzone-pkski-akqif-ojfh
+
+conveyor-t-shirts
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/conveyor-t-shirts-htpwe-koqei-gs0tv-qymy
+
+countingpills
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/countingpills-exf0r-gfkt
+
+crystal-clean-brain-tumors-mri-dataset
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/crystal-clean-brain-tumors-mri-dataset-hzb2f-plsq
+
+dataconvert
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/dataconvert-9e6zr-lstqv-hiro
+
+deepfruits
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/deepfruits-mango-xs1as-tkygw-uxnm
+
+deeppcb
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/deeppcb-4dhir-cudbt-zlst
+
+defect-detection
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/defect-detection-yjplx-fxobh-amdi-0660v
+
+dentalai
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/dentalai-i4clz-fsuo-ung2d
+
+electric-pylon-detection-in-rsi
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/electric-pylon-detection-in-rsi-q6qra-psut
+
+everdaynew
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/everdaynew-6ej0k-lyqxk-zzbi
+
+exploratorium-daphnia
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/exploratorium-daphnia-iacgs-5s9ur-qibo
+
+flir-camera-objects
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/flir-camera-objects-tdqp-z83s3
+
+floating-waste
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/floating-waste-8deje-lrbq
+
+football-player-detection
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/football-player-detection-kucab-fbcl7-uj1oi-gxtg
+
+fruitjes
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/fruitjes-r9tou-fjfb8-gcke
+
+grapes-5
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/grapes-5-fzajg-zfi5c-uzov
+
+grass-weeds
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/grass-weeds-ru5xu-mutb1-jvwl
+
+gwhd2021
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/gwhd2021-atsv-ef8w9
+
+halo-infinite-angel-videogame
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/halo-infinite-angel-videogame-cqrgf-fbcm
+
+human-detection-in-floods
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/human-detection-in-floods-a6aun-5xvpd-2hvjd-sbyy
+
+inbreast
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/inbreast-zzlbj-e5zj8-bzvi
+
+infraredimageofpowerequipment
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/infraredimageofpowerequipment-kt4us-zqnd
+
+into-the-vale
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/into-the-vale-sg5al-fiqob-xh9rj-ixym
+
+invoice-processing
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/invoice-processing-nl2cz-d87if-be5rs-wkgh
+
+ism-band-packet-detection
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/ism-band-packet-detection-e7s7w-mpkt
+
+jellyfish
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/jellyfish-pqc6u-ftpov-gjvb
+
+l10ul502
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/l10ul502-6ann9-yumi
+
+label-printing-defect-version-2
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/label-printing-defect-version-2-xhwap-vrcc
+
+lacrosse-object-detection
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/lacrosse-object-detection-uxkt-vaybh
+
+liver-disease
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/liver-disease-jyvvu-fash
+
+macro-segmentation
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/macro-segmentation-kaer8-yajkb-blok
+
+mahjong
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/mahjong-vtacs-mexax-m4vyu-sjtd
+
+marine-sharks
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/marine-sharks-jqnfk-skffz-iflt
+
+needle-base-tip-min-max
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/needle-base-tip-min-max-u87vi-wzsrt-kjyu
+
+new-defects-in-wood
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/new-defects-in-wood-uewd1-tffp-dpoyu
+
+nih-xray
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/nih-xray-itazg-xeoi
+
+orgharvest
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/orgharvest-vgfsu-ocxq
+
+orionproducts
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/orionproducts-vtl2z-puhv-bhzb1
+
+paper-parts
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/paper-parts-rmrg-6ave2
+
+peixos-fish
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/peixos-fish-eyltk-rpno
+
+penguin-finder-seg
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/penguin-finder-seg-va0wf-ygkoq-oznn
+
+pig-detection
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/pig-detection-kaimq-a8ret-abpd
+
+pill
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/pill-j8vgy-o5udx-7xdez-ehbb
+
+recode-waste
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/recode-waste-czvmg-yxsw-fj9b9
+
+roboflow-trained-dataset
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/roboflow-trained-dataset-j7nxb-lxob
+
+screwdetectclassification
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/screwdetectclassification-xrrbi-hkwlh-lybq
+
+sea-cucumbers-new-tiles
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/sea-cucumbers-new-tiles-kbu7c-cegb
+
+signatures
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/signatures-xc8up-ytnch-qzw1d-pmbl
+
+smd-components
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/smd-components-dnljh-poxfb-trqdw-7n9xb-ryth
+
+soda-bottles
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/soda-bottles-haga-guxba
+
+speech-bubbles-detection
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/speech-bubbles-detection-r22zt-ou0u6-jols
+
+spinefrxnormalvindr
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/spinefrxnormalvindr-lt1cn-ryhy
+
+sssod
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/sssod-uaagn-txmx
+
+stomata-cells
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/stomata-cells-upfae-ngum
+
+taco-trash-annotations-in-context
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/taco-trash-annotations-in-context-dtyly-awiq
+
+the-dreidel-project
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/the-dreidel-project-anzyr-zejm-pekg0
+
+thermal-cheetah
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/thermal-cheetah-my4dp-zvgwh-ooto
+
+tomatoes-2
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/tomatoes-2-2wvhj-aml8q-mpzp
+
+trail-camera
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/trail-camera-egos-ad3zq
+
+train
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/train-i4unu-qkluh-mdec
+
+truck-movement
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/truck-movement-qv1up-elxpj-ytsp
+
+tube
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/tube-4rv8o-tyakk-ds4px-vtal
+
+uavdet-small
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/uavdet-small-txtvh-ysli
+
+ufba-425
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/ufba-425-asgxh-djrs
+
+underwater-objects
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/underwater-objects-5v7p8-j8co7-hhpwk-fyou
+
+urine-analysis1
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/urine-analysis1-2lol7-onpk
+
+varroa-mites-detection--test-set
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/varroa-mites-detection-test-set-1irzb-gsig-8ecee
+
+water-meter
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/water-meter-jbktv-7vz5k-ftoz-z2ysc
+
+wb-prova
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/wb-prova-stqnm-rbvg-rhu1a
+
+weeds4
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/weeds4-evltl-grf8n-zfn7s-ecuv
+
+wheel-defect-detection
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/wheel-defect-detection-e53jb-38chk-ytwg
+
+wildfire-smoke
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/wildfire-smoke-myxt-becdf
+
+wine-labels
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/wine-labels-3pmp5-lrsge-zbuo
+
+x-ray-id
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/x-ray-id-zfisb-dyjv-vv4be
+
+xray
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/xray-2vqog-u6ggy-gqwl
+
+zebrasatasturias
+    license: MIT
+    source:  https://universe.roboflow.com/rf100-vl/zebrasatasturias-nzsnv-cqvl

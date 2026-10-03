@@ -1,0 +1,11 @@
+{
+  "candidate_count": 0,
+  "pairs": [],
+  "rf100_records": 2135,
+  "legacy_development_records": 8,
+  "methods": [
+    "exact_sha256",
+    "dhash64_hamming_le_4"
+  ],
+  "limitation": "No detected match does not prove upstream disjointness or find every crop/angle derivative."
+}

@@ -1,0 +1,44 @@
+{
+  "frozen_at": "2026-10-02T16:54:26.727053+00:00",
+  "reason": "Standard validation NMS time limit truncated predictions, including after batch4 resource adjustment",
+  "eligible_epochs": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "unavailable_epochs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "selection": "Same Ultralytics fitness: 0.1*mAP50 + 0.9*mAP50-95 on dev only; later epoch wins ties",
+  "validation": {
+    "split": "dev",
+    "device": "cpu",
+    "threads": 2,
+    "batch": 8,
+    "imgsz": 640,
+    "confidence": 0.001,
+    "nms_iou": 0.7,
+    "max_det": 300,
+    "multi_label": true,
+    "rectangular_batching": true,
+    "nms_time_limit_disabled": true
+  },
+  "test_based_selection": false,
+  "limitation": "Epochs1-7 were not retained before the timeout problem was recognized; selection is from all preserved candidates8-20, not a retrospective assertion of the best of every original epoch."
+}

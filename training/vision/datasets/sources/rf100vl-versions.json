@@ -1,0 +1,514 @@
+{
+  "datasets": {
+    "-grccs": {
+      "project_name": "-grccs-yi3bi-sge1z-anexl-hayl",
+      "version_id": 2
+    },
+    "13-lkc01": {
+      "project_name": "13-lkc01-axmll-qtoq",
+      "version_id": 1
+    },
+    "2024-frc": {
+      "project_name": "2024-frc-aanyl-eqitq-7bqgi-hcvu",
+      "version_id": 2
+    },
+    "actions": {
+      "project_name": "actions-zzid2-zb1hq-amih",
+      "version_id": 1
+    },
+    "activity-diagrams": {
+      "project_name": "activity-diagrams-qdobr-dtraz-lhxdc-cbow",
+      "version_id": 2
+    },
+    "aerial-airport": {
+      "project_name": "aerial-airport-7ap9o-ddgc",
+      "version_id": 1
+    },
+    "aerial-cows": {
+      "project_name": "aerial-cows-kt2wd-3jxcj-uvfx",
+      "version_id": 1
+    },
+    "aerial-pool": {
+      "project_name": "aerial-pool-vlhhw-rzhef-qlaz",
+      "version_id": 2
+    },
+    "aerial-sheep": {
+      "project_name": "aerial-sheep-y13yz-hs4wl-wzyo",
+      "version_id": 1
+    },
+    "aircraft-turnaround-dataset": {
+      "project_name": "aircraft-turnaround-dataset-5dnjf-orrm3-hffk",
+      "version_id": 2
+    },
+    "all-elements": {
+      "project_name": "all-elements-mebv",
+      "version_id": 1
+    },
+    "apoce-aerial-photographs-for-object-detection-of-construction-equipment": {
+      "project_name": "apoce-aerial-photographs-for-object-detection-of-construction-equipment-6raie-ur6qc-absn",
+      "version_id": 1
+    },
+    "aquarium-combined": {
+      "project_name": "aquarium-combined-gjvb",
+      "version_id": 1
+    },
+    "asphaltdistressdetection": {
+      "project_name": "asphaltdistressdetection-taf76-jcxx",
+      "version_id": 1
+    },
+    "ball": {
+      "project_name": "ball-qgqhv-2mtfk-ch2i9-ejgb",
+      "version_id": 2
+    },
+    "bees": {
+      "project_name": "bees-jt5in-6pbpl-aplx",
+      "version_id": 1
+    },
+    "bibdetection": {
+      "project_name": "bibdetection-swtfw-z85dg-mzqx",
+      "version_id": 1
+    },
+    "buoy-onboarding": {
+      "project_name": "buoy-onboarding-uys2h-lbtek-ttiu",
+      "version_id": 1
+    },
+    "cable-damage": {
+      "project_name": "cable-damage-z5nlo-9eslb-itoh",
+      "version_id": 1
+    },
+    "canalstenosis": {
+      "project_name": "canalstenosis-azjxm-cpkp",
+      "version_id": 1
+    },
+    "car-logo-detection": {
+      "project_name": "car-logo-detection-cxyfl-snnqi-wfqa",
+      "version_id": 1
+    },
+    "circuit-voltages": {
+      "project_name": "circuit-voltages-ysajo-tbpd",
+      "version_id": 1
+    },
+    "clashroyalechardetector": {
+      "project_name": "clashroyalechardetector-xus94-giyri-voeq",
+      "version_id": 4
+    },
+    "cod-mw-warzone": {
+      "project_name": "cod-mw-warzone-pkski-akqif-ojfh",
+      "version_id": 1
+    },
+    "conveyor-t-shirts": {
+      "project_name": "conveyor-t-shirts-htpwe-koqei-gs0tv-qymy",
+      "version_id": 2
+    },
+    "countingpills": {
+      "project_name": "countingpills-exf0r-gfkt",
+      "version_id": 2
+    },
+    "crystal-clean-brain-tumors-mri-dataset": {
+      "project_name": "crystal-clean-brain-tumors-mri-dataset-hzb2f-plsq",
+      "version_id": 2
+    },
+    "dataconvert": {
+      "project_name": "dataconvert-9e6zr-lstqv-hiro",
+      "version_id": 2
+    },
+    "deepfruits": {
+      "project_name": "deepfruits-mango-xs1as-tkygw-uxnm",
+      "version_id": 3
+    },
+    "deeppcb": {
+      "project_name": "deeppcb-4dhir-cudbt-zlst",
+      "version_id": 2
+    },
+    "defect-detection": {
+      "project_name": "defect-detection-yjplx-fxobh-amdi",
+      "version_id": 1
+    },
+    "dentalai": {
+      "project_name": "dentalai-i4clz-fsuo",
+      "version_id": 1
+    },
+    "electric-pylon-detection-in-rsi": {
+      "project_name": "electric-pylon-detection-in-rsi-q6qra-psut",
+      "version_id": 2
+    },
+    "everdaynew": {
+      "project_name": "everdaynew-6ej0k-lyqxk-zzbi",
+      "version_id": 2
+    },
+    "exploratorium-daphnia": {
+      "project_name": "exploratorium-daphnia-iacgs-5s9ur-qibo",
+      "version_id": 2
+    },
+    "flir-camera-objects": {
+      "project_name": "flir-camera-objects-tdqp",
+      "version_id": 1
+    },
+    "floating-waste": {
+      "project_name": "floating-waste-8deje-lrbq",
+      "version_id": 2
+    },
+    "football-player-detection": {
+      "project_name": "football-player-detection-kucab-fbcl7-uj1oi-gxtg",
+      "version_id": 2
+    },
+    "fruitjes": {
+      "project_name": "fruitjes-r9tou-fjfb8-gcke",
+      "version_id": 2
+    },
+    "grapes-5": {
+      "project_name": "grapes-5-fzajg-zfi5c-uzov",
+      "version_id": 2
+    },
+    "grass-weeds": {
+      "project_name": "grass-weeds-ru5xu-mutb1-jvwl",
+      "version_id": 2
+    },
+    "gwhd2021": {
+      "project_name": "gwhd2021-atsv",
+      "version_id": 1
+    },
+    "halo-infinite-angel-videogame": {
+      "project_name": "halo-infinite-angel-videogame-cqrgf-fbcm",
+      "version_id": 1
+    },
+    "human-detection-in-floods": {
+      "project_name": "human-detection-in-floods-a6aun-5xvpd-2hvjd-sbyy",
+      "version_id": 2
+    },
+    "inbreast": {
+      "project_name": "inbreast-zzlbj-e5zj8-bzvi",
+      "version_id": 2
+    },
+    "infraredimageofpowerequipment": {
+      "project_name": "infraredimageofpowerequipment-kt4us-zqnd",
+      "version_id": 2
+    },
+    "into-the-vale": {
+      "project_name": "into-the-vale-sg5al-fiqob-xh9rj-ixym",
+      "version_id": 2
+    },
+    "invoice-processing": {
+      "project_name": "invoice-processing-nl2cz-d87if-be5rs-wkgh",
+      "version_id": 1
+    },
+    "ism-band-packet-detection": {
+      "project_name": "ism-band-packet-detection-e7s7w-mpkt",
+      "version_id": 1
+    },
+    "jellyfish": {
+      "project_name": "jellyfish-pqc6u-ftpov-gjvb",
+      "version_id": 2
+    },
+    "l10ul502": {
+      "project_name": "l10ul502-6ann9-yumi",
+      "version_id": 3
+    },
+    "label-printing-defect-version-2": {
+      "project_name": "label-printing-defect-version-2-xhwap-vrcc",
+      "version_id": 2
+    },
+    "lacrosse-object-detection": {
+      "project_name": "lacrosse-object-detection-uxkt",
+      "version_id": 1
+    },
+    "liver-disease": {
+      "project_name": "liver-disease-jyvvu-fash",
+      "version_id": 2
+    },
+    "macro-segmentation": {
+      "project_name": "macro-segmentation-kaer8-yajkb-blok",
+      "version_id": 2
+    },
+    "mahjong": {
+      "project_name": "mahjong-vtacs-mexax-m4vyu-sjtd",
+      "version_id": 2
+    },
+    "marine-sharks": {
+      "project_name": "marine-sharks-jqnfk-skffz-iflt",
+      "version_id": 1
+    },
+    "needle-base-tip-min-max": {
+      "project_name": "needle-base-tip-min-max-u87vi-wzsrt-kjyu",
+      "version_id": 2
+    },
+    "new-defects-in-wood": {
+      "project_name": "new-defects-in-wood-uewd1-tffp",
+      "version_id": 1
+    },
+    "nih-xray": {
+      "project_name": "nih-xray-itazg-xeoi",
+      "version_id": 1
+    },
+    "orgharvest": {
+      "project_name": "orgharvest-vgfsu-ocxq",
+      "version_id": 1
+    },
+    "orionproducts": {
+      "project_name": "orionproducts-vtl2z-puhv",
+      "version_id": 1
+    },
+    "paper-parts": {
+      "project_name": "paper-parts-rmrg",
+      "version_id": 1
+    },
+    "peixos-fish": {
+      "project_name": "peixos-fish-eyltk-rpno",
+      "version_id": 1
+    },
+    "penguin-finder-seg": {
+      "project_name": "penguin-finder-seg-va0wf-ygkoq-oznn",
+      "version_id": 1
+    },
+    "pig-detection": {
+      "project_name": "pig-detection-kaimq-a8ret-abpd",
+      "version_id": 1
+    },
+    "pill": {
+      "project_name": "pill-j8vgy-o5udx-7xdez-ehbb",
+      "version_id": 2
+    },
+    "recode-waste": {
+      "project_name": "recode-waste-czvmg-yxsw",
+      "version_id": 1
+    },
+    "roboflow-trained-dataset": {
+      "project_name": "roboflow-trained-dataset-j7nxb-lxob",
+      "version_id": 1
+    },
+    "screwdetectclassification": {
+      "project_name": "screwdetectclassification-xrrbi-hkwlh-lybq",
+      "version_id": 1
+    },
+    "sea-cucumbers-new-tiles": {
+      "project_name": "sea-cucumbers-new-tiles-kbu7c-cegb",
+      "version_id": 2
+    },
+    "signatures": {
+      "project_name": "signatures-xc8up-ytnch-qzw1d-pmbl",
+      "version_id": 1
+    },
+    "smd-components": {
+      "project_name": "smd-components-dnljh-poxfb-trqdw-7n9xb-ryth",
+      "version_id": 2
+    },
+    "soda-bottles": {
+      "project_name": "soda-bottles-haga",
+      "version_id": 1
+    },
+    "speech-bubbles-detection": {
+      "project_name": "speech-bubbles-detection-r22zt-ou0u6-jols",
+      "version_id": 1
+    },
+    "spinefrxnormalvindr": {
+      "project_name": "spinefrxnormalvindr-lt1cn-ryhy",
+      "version_id": 1
+    },
+    "sssod": {
+      "project_name": "sssod-uaagn-txmx",
+      "version_id": 2
+    },
+    "stomata-cells": {
+      "project_name": "stomata-cells-upfae-ngum",
+      "version_id": 1
+    },
+    "taco-trash-annotations-in-context": {
+      "project_name": "taco-trash-annotations-in-context-dtyly-awiq",
+      "version_id": 2
+    },
+    "the-dreidel-project": {
+      "project_name": "the-dreidel-project-anzyr-zejm",
+      "version_id": 1
+    },
+    "thermal-cheetah": {
+      "project_name": "thermal-cheetah-my4dp-zvgwh-ooto",
+      "version_id": 2
+    },
+    "tomatoes-2": {
+      "project_name": "tomatoes-2-2wvhj-aml8q-mpzp",
+      "version_id": 1
+    },
+    "trail-camera": {
+      "project_name": "trail-camera-egos",
+      "version_id": 1
+    },
+    "train": {
+      "project_name": "train-i4unu-qkluh-mdec",
+      "version_id": 2
+    },
+    "truck-movement": {
+      "project_name": "truck-movement-qv1up-elxpj-ytsp",
+      "version_id": 4
+    },
+    "tube": {
+      "project_name": "tube-4rv8o-tyakk-ds4px-vtal",
+      "version_id": 1
+    },
+    "uavdet-small": {
+      "project_name": "uavdet-small-txtvh-ysli",
+      "version_id": 1
+    },
+    "ufba-425": {
+      "project_name": "ufba-425-asgxh-djrs",
+      "version_id": 1
+    },
+    "underwater-objects": {
+      "project_name": "underwater-objects-5v7p8-j8co7-hhpwk-fyou",
+      "version_id": 1
+    },
+    "urine-analysis1": {
+      "project_name": "urine-analysis1-2lol7-onpk",
+      "version_id": 1
+    },
+    "varroa-mites-detection--test-set": {
+      "project_name": "varroa-mites-detection--test-set-1irzb-gsig",
+      "version_id": 2
+    },
+    "water-meter": {
+      "project_name": "water-meter-jbktv-7vz5k-ftoz",
+      "version_id": 1
+    },
+    "wb-prova": {
+      "project_name": "wb-prova-stqnm-rbvg",
+      "version_id": 1
+    },
+    "weeds4": {
+      "project_name": "weeds4-evltl-grf8n-zfn7s-ecuv",
+      "version_id": 1
+    },
+    "wheel-defect-detection": {
+      "project_name": "wheel-defect-detection-e53jb-38chk-ytwg",
+      "version_id": 1
+    },
+    "wildfire-smoke": {
+      "project_name": "wildfire-smoke-myxt",
+      "version_id": 1
+    },
+    "wine-labels": {
+      "project_name": "wine-labels-3pmp5-lrsge-zbuo",
+      "version_id": 1
+    },
+    "x-ray-id": {
+      "project_name": "x-ray-id-zfisb-dyjv",
+      "version_id": 1
+    },
+    "xray": {
+      "project_name": "xray-2vqog-u6ggy-gqwl",
+      "version_id": 1
+    },
+    "zebrasatasturias": {
+      "project_name": "zebrasatasturias-nzsnv-cqvl",
+      "version_id": 1
+    }
+  },
+  "downloaded": [
+    "-grccs",
+    "13-lkc01",
+    "2024-frc",
+    "actions",
+    "activity-diagrams",
+    "aerial-airport",
+    "aerial-cows",
+    "aerial-pool",
+    "aerial-sheep",
+    "aircraft-turnaround-dataset",
+    "all-elements",
+    "apoce-aerial-photographs-for-object-detection-of-construction-equipment",
+    "aquarium-combined",
+    "asphaltdistressdetection",
+    "ball",
+    "bees",
+    "bibdetection",
+    "buoy-onboarding",
+    "cable-damage",
+    "canalstenosis",
+    "car-logo-detection",
+    "circuit-voltages",
+    "clashroyalechardetector",
+    "cod-mw-warzone",
+    "conveyor-t-shirts",
+    "countingpills",
+    "crystal-clean-brain-tumors-mri-dataset",
+    "dataconvert",
+    "deepfruits",
+    "deeppcb",
+    "defect-detection",
+    "dentalai",
+    "electric-pylon-detection-in-rsi",
+    "everdaynew",
+    "exploratorium-daphnia",
+    "flir-camera-objects",
+    "floating-waste",
+    "football-player-detection",
+    "fruitjes",
+    "grapes-5",
+    "grass-weeds",
+    "gwhd2021",
+    "halo-infinite-angel-videogame",
+    "human-detection-in-floods",
+    "inbreast",
+    "infraredimageofpowerequipment",
+    "into-the-vale",
+    "invoice-processing",
+    "ism-band-packet-detection",
+    "jellyfish",
+    "l10ul502",
+    "label-printing-defect-version-2",
+    "lacrosse-object-detection",
+    "liver-disease",
+    "macro-segmentation",
+    "mahjong",
+    "marine-sharks",
+    "needle-base-tip-min-max",
+    "new-defects-in-wood",
+    "nih-xray",
+    "orgharvest",
+    "orionproducts",
+    "paper-parts",
+    "peixos-fish",
+    "penguin-finder-seg",
+    "pig-detection",
+    "pill",
+    "recode-waste",
+    "roboflow-trained-dataset",
+    "screwdetectclassification",
+    "sea-cucumbers-new-tiles",
+    "signatures",
+    "smd-components",
+    "soda-bottles",
+    "speech-bubbles-detection",
+    "spinefrxnormalvindr",
+    "sssod",
+    "stomata-cells",
+    "taco-trash-annotations-in-context",
+    "the-dreidel-project",
+    "thermal-cheetah",
+    "tomatoes-2",
+    "trail-camera",
+    "train",
+    "truck-movement",
+    "tube",
+    "uavdet-small",
+    "ufba-425",
+    "underwater-objects",
+    "urine-analysis1",
+    "varroa-mites-detection--test-set",
+    "water-meter",
+    "wb-prova",
+    "weeds4",
+    "wheel-defect-detection",
+    "wildfire-smoke",
+    "wine-labels",
+    "x-ray-id",
+    "xray",
+    "zebrasatasturias"
+  ],
+  "schema_version": "rf100vl.versions.v1",
+  "selection_complete": true,
+  "source": {
+    "commit": "1c1ecd84cf2865270702121311e1d9e5f2a861aa",
+    "package_version": "1.1.2",
+    "repository": "https://github.com/roboflow/rf100-vl"
+  },
+  "subset": "rf100vl"
+}

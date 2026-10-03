@@ -1,0 +1,41 @@
+{
+  "source_id": "commons-31193194",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Ting-de-base.JPG",
+  "author": "Dominique D'Issy",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "source_sha256": "0be9c0968daa5aee4a6959fc329872af8907d954998133a1bbef586641228857",
+  "source_annotation_path": "vision/reports/online_annotations.json",
+  "source_annotation_sha256": "888d77637fdfdec7256e04766a912edb0ec2cf54479b5be0418ecf2d028953c5",
+  "roi": [
+    0,
+    134,
+    700,
+    215
+  ],
+  "expected_labels": [
+    "4z",
+    "1z",
+    "2z",
+    "4p",
+    "5p",
+    "6p",
+    "1m",
+    "2m",
+    "3m",
+    "6s",
+    "8s",
+    "4p",
+    "4p",
+    "7s"
+  ],
+  "fixture_path": "app/assets/test_fixtures/commons-ting-row-2.jpg",
+  "fixture_sha256": "a5f0dcc671cd86f516291637f9f96c21a82e3cce5f4c8ab7ae8bce2cc6cc2dde",
+  "fixture_bytes": 33540,
+  "fixture_dimensions": [
+    700,
+    81
+  ],
+  "transformation": "Fixed annotated row crop; JPEG quality95, no resize, 4:4:4 chroma. No overlays or synthesized tiles.",
+  "purpose": "Known development fixture for native pipeline regression, not accuracy benchmark or live-camera proof."
+}

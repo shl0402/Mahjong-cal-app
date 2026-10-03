@@ -1,0 +1,110 @@
+{
+  "checkpoint_sha256": "ea35d50b9568fc67277538038e7c456b3f29ebd65e1de7bd141e5a1d3a9d0ff1",
+  "onnx_sha256": "2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a",
+  "rtol": 0.0001,
+  "atol": 0.001,
+  "metadata_class_mapping_equal": true,
+  "all_passed": true,
+  "regions": [
+    {
+      "region": "orphans-close-two-rows",
+      "passed": true,
+      "max_coordinate_error_pixels": 0.0037078857421875,
+      "max_class_score_error": 1.4007091522216797e-05,
+      "candidate_top_class_ids_equal": true,
+      "nms_ordered_labels_equal": true,
+      "nms_boxes_equal": true,
+      "nms_detections": 8
+    },
+    {
+      "region": "ting-row-1",
+      "passed": true,
+      "max_coordinate_error_pixels": 0.003753662109375,
+      "max_class_score_error": 4.112720489501953e-06,
+      "candidate_top_class_ids_equal": true,
+      "nms_ordered_labels_equal": true,
+      "nms_boxes_equal": true,
+      "nms_detections": 14
+    },
+    {
+      "region": "ting-row-2",
+      "passed": true,
+      "max_coordinate_error_pixels": 0.00360107421875,
+      "max_class_score_error": 7.68899917602539e-06,
+      "candidate_top_class_ids_equal": true,
+      "nms_ordered_labels_equal": true,
+      "nms_boxes_equal": true,
+      "nms_detections": 11
+    },
+    {
+      "region": "ting-row-3",
+      "passed": true,
+      "max_coordinate_error_pixels": 0.00418853759765625,
+      "max_class_score_error": 8.851289749145508e-06,
+      "candidate_top_class_ids_equal": true,
+      "nms_ordered_labels_equal": true,
+      "nms_boxes_equal": true,
+      "nms_detections": 14
+    },
+    {
+      "region": "ting-row-4",
+      "passed": true,
+      "max_coordinate_error_pixels": 0.0038604736328125,
+      "max_class_score_error": 1.652538776397705e-05,
+      "candidate_top_class_ids_equal": true,
+      "nms_ordered_labels_equal": true,
+      "nms_boxes_equal": true,
+      "nms_detections": 13
+    },
+    {
+      "region": "six-groups",
+      "passed": true,
+      "max_coordinate_error_pixels": 0.00330352783203125,
+      "max_class_score_error": 6.183981895446777e-06,
+      "candidate_top_class_ids_equal": true,
+      "nms_ordered_labels_equal": true,
+      "nms_boxes_equal": true,
+      "nms_detections": 17
+    },
+    {
+      "region": "three-pungs",
+      "passed": true,
+      "max_coordinate_error_pixels": 0.0030364990234375,
+      "max_class_score_error": 1.0788440704345703e-05,
+      "candidate_top_class_ids_equal": true,
+      "nms_ordered_labels_equal": true,
+      "nms_boxes_equal": true,
+      "nms_detections": 9
+    },
+    {
+      "region": "orphans-table-hand",
+      "passed": true,
+      "max_coordinate_error_pixels": 0.003265380859375,
+      "max_class_score_error": 5.364418029785156e-06,
+      "candidate_top_class_ids_equal": true,
+      "nms_ordered_labels_equal": true,
+      "nms_boxes_equal": true,
+      "nms_detections": 14
+    },
+    {
+      "region": "chinitsu-table-hand",
+      "passed": true,
+      "max_coordinate_error_pixels": 0.0028533935546875,
+      "max_class_score_error": 8.881092071533203e-06,
+      "candidate_top_class_ids_equal": true,
+      "nms_ordered_labels_equal": true,
+      "nms_boxes_equal": true,
+      "nms_detections": 14
+    },
+    {
+      "region": "ron-concealed-row",
+      "passed": true,
+      "max_coordinate_error_pixels": 0.0015106201171875,
+      "max_class_score_error": 2.8014183044433594e-06,
+      "candidate_top_class_ids_equal": true,
+      "nms_ordered_labels_equal": true,
+      "nms_boxes_equal": true,
+      "nms_detections": 11
+    }
+  ]
+}

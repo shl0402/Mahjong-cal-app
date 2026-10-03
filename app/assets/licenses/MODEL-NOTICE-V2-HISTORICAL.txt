@@ -1,0 +1,31 @@
+Experimental mahjong recognition model
+
+Model ID: mahjong-yolo11n-v2-2b1adbdb
+Source repository: https://github.com/nikmomo/Mahjong-YOLO
+Source commit: 28ffceed232ad95fd019c47a6c51ae7c78791a0e
+Source checkpoint path: trained_models_v2/yolo11n_best.pt
+Checkpoint SHA-256: ea35d50b9568fc67277538038e7c456b3f29ebd65e1de7bd141e5a1d3a9d0ff1
+Exported ONNX SHA-256: 2b1adbdb6f395eba7ce755f87672c8a4275d6eeae68d26c5206ae6a89f4e628a
+Export: vision/export_v2_weights_only.py, opset 17, fixed RGB 640 x 640.
+The checkpoint was loaded using the restricted PyTorch weights-only loader
+with an explicit allowlist of known PyTorch/Ultralytics library classes.
+PyTorch/ONNX numerical and post-NMS detection parity passed 10 real-photo crops.
+
+The source repository includes an MIT license, Copyright (c) 2024 Shin Zhang.
+This checkpoint uses Ultralytics YOLO11. Ultralytics provides AGPL-3.0 and
+commercial licensing: https://ultralytics.com/license
+Our export records "AGPL-3.0 (Ultralytics-derived model)" as metadata. This is
+our provenance annotation, not a quoted license field from the checkpoint.
+
+Both notices are retained here. The repository's MIT notice does not override
+the Ultralytics-derived model's licensing. Including these notices does not by
+itself settle all obligations for distributing a complete application. This
+model is an experimental local baseline. Before a public/commercial release,
+select a compliant release arrangement or replace the model with one whose
+model and training-data permissions fit the intended distribution.
+
+No claim is made that this pretrained model is accurate on every physical
+tile set. It predicts 34 ordinary tile identities, three red-five classes,
+and an UNKNOWN class;
+flowers, seasons, jokers and backs are not supported. Every scanned hand needs
+human confirmation. Recognition and scoring are independent.

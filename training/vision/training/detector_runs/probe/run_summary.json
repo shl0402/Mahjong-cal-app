@@ -1,0 +1,44 @@
+{
+  "probe": true,
+  "elapsed_seconds": 225.59415241604438,
+  "estimated_20_epoch_seconds_from_probe": 4511.883048320888,
+  "initial_memory": {
+    "recommended_max_bytes": 19069665280,
+    "current_bytes": 0,
+    "driver_bytes": 458752
+  },
+  "plan_sha256": "158e994ecaf21b96781a099871f4ca87a3aaf1cc28ef5f77b794797365a75f9d",
+  "external_load_weights_only": true,
+  "local_output_reload": "Ultralytics reloads locally generated checkpoints only",
+  "events": [
+    {
+      "epoch": 1,
+      "elapsed_seconds": 174.7041864580242,
+      "metrics": {
+        "metrics/precision(B)": 0.02312,
+        "metrics/recall(B)": 0.44174,
+        "metrics/mAP50(B)": 0.02614,
+        "metrics/mAP50-95(B)": 0.01195,
+        "val/box_loss": 1.42124,
+        "val/cls_loss": 4.19596,
+        "val/dfl_loss": 1.40033
+      },
+      "best_fitness": 0.01337,
+      "mps_current_bytes": 178369536,
+      "mps_driver_bytes": 2387886080
+    },
+    {
+      "epoch": 1,
+      "elapsed_seconds": 225.4787557910313,
+      "metrics": {
+        "metrics/precision(B)": 0.023007465344034524,
+        "metrics/recall(B)": 0.4356232663531266,
+        "metrics/mAP50(B)": 0.025954315296808108,
+        "metrics/mAP50-95(B)": 0.01193297105789163
+      },
+      "best_fitness": 0.01337,
+      "mps_current_bytes": 98247168,
+      "mps_driver_bytes": 2391916544
+    }
+  ]
+}

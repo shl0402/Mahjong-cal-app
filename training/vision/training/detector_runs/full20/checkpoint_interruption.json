@@ -1,0 +1,9 @@
+{
+  "stopped_at": "2026-10-02T17:04:53.832572+00:00",
+  "pid": 56854,
+  "command": "/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python vision/training/detector_train.py --resume --batch-override 4",
+  "completed_epoch": 11,
+  "checkpoint_sha256": "569fede4a648b515c5acd7f180828f41a2835d977ed085aa128f4e314854ec66",
+  "reason": "Persistent active memory compression and lower throughput after task-owned emulators closed",
+  "resource_adjustment": "workers0"
+}

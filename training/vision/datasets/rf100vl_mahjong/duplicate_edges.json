@@ -1,0 +1,3542 @@
+[
+  {
+    "a": "rf100vl-mahjong-v2:train:000021_jpg.rf.86b71d9ef0151045302d7071563bb962.jpg",
+    "b": "rf100vl-mahjong-v2:train:000023_jpg.rf.ee7bbc03b13a117eeeab5878d0c7f164.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000020_jpg.rf.2b7d69f161cccf91be8d18d50dba261b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000027_jpg.rf.86b985fb0a43a77119a978bde0398db7.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000056_jpg.rf.6f8346500bdd987a45e12199af8e7d76.jpg",
+    "b": "rf100vl-mahjong-v2:train:000061_jpg.rf.ab03168f5e5b84ec0b8b32dcaffd2b21.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000060_jpg.rf.532943053d53f483f9bbf8bfbafe3434.jpg",
+    "b": "rf100vl-mahjong-v2:train:000062_jpg.rf.e679aacb4d5e9c5883678ea2372294a3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000064_jpg.rf.e4990b38774a8d9c20056a9c57770c3d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000066_jpg.rf.6f109b1be5c86a20c92b6398d79bb84f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000057_jpg.rf.7780f5fafbdab21e4c9e4eeba07da9e5.jpg",
+    "b": "rf100vl-mahjong-v2:train:000068_jpg.rf.e7c3db99b8c55acf366d694760cd4e30.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000072_jpg.rf.726e568b226a462a13fcef4804ab728d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000074_jpg.rf.a4b7bbe7f258df43dbcab04feb6e2413.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 22
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000086_jpg.rf.f7439ab2d8acc6862a29359aed8131dc.jpg",
+    "b": "rf100vl-mahjong-v2:train:000088_jpg.rf.7ecd7f3894f17676137de3f091f3777c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000094_jpg.rf.9fc067966ea58538f04d8ad252cf3ce1.jpg",
+    "b": "rf100vl-mahjong-v2:train:000096_jpg.rf.3c4efcb9205ba37a8eef1ebe2607d1e9.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000119_jpg.rf.9a42891d43a07a5aebd9caf814dbe079.jpg",
+    "b": "rf100vl-mahjong-v2:train:000121_jpg.rf.9717d0e6aa3be34a91db16f483918d6c.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000160_jpg.rf.2aa10172331a168f585e19fb8c5fede1.jpg",
+    "b": "rf100vl-mahjong-v2:train:000161_jpg.rf.c9bdd42ec6e708c3604387a5491fb5de.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000166_jpg.rf.8f0edfd4be6f3fcb7f4edc5b06ba3f6d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000169_jpg.rf.11ef2295d471b46369cdb480b1c961ee.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000178_jpg.rf.04ccb712058ed40d68506561be6e1258.jpg",
+    "b": "rf100vl-mahjong-v2:train:000179_jpg.rf.0c7ff7827dcb6524c807dafbed6bfe50.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000178_jpg.rf.04ccb712058ed40d68506561be6e1258.jpg",
+    "b": "rf100vl-mahjong-v2:train:000180_jpg.rf.c88d048cbc3695e8441f4558543038ab.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000179_jpg.rf.0c7ff7827dcb6524c807dafbed6bfe50.jpg",
+    "b": "rf100vl-mahjong-v2:train:000180_jpg.rf.c88d048cbc3695e8441f4558543038ab.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000178_jpg.rf.04ccb712058ed40d68506561be6e1258.jpg",
+    "b": "rf100vl-mahjong-v2:train:000181_jpg.rf.d358c7dc11712b46be0b240ccc616f7f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000179_jpg.rf.0c7ff7827dcb6524c807dafbed6bfe50.jpg",
+    "b": "rf100vl-mahjong-v2:train:000181_jpg.rf.d358c7dc11712b46be0b240ccc616f7f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000180_jpg.rf.c88d048cbc3695e8441f4558543038ab.jpg",
+    "b": "rf100vl-mahjong-v2:train:000181_jpg.rf.d358c7dc11712b46be0b240ccc616f7f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000188_jpg.rf.f340bda2e3ecd5b17f50e9b2e5d72350.jpg",
+    "b": "rf100vl-mahjong-v2:train:000190_jpg.rf.a951fd473a21706ea8441885213c7678.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000029_jpg.rf.41bc057673e93ff2caed14fd7b40b3e9.jpg",
+    "b": "rf100vl-mahjong-v2:train:000212_jpg.rf.7d6d9d79a796d3114fb104d4c1599872.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 18
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000020_jpg.rf.2b7d69f161cccf91be8d18d50dba261b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000215_jpg.rf.4eeb7a12c5364697efc70f303b147b50.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000027_jpg.rf.86b985fb0a43a77119a978bde0398db7.jpg",
+    "b": "rf100vl-mahjong-v2:train:000215_jpg.rf.4eeb7a12c5364697efc70f303b147b50.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 20
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000027_jpg.rf.86b985fb0a43a77119a978bde0398db7.jpg",
+    "b": "rf100vl-mahjong-v2:train:000216_jpg.rf.470e13c5add517414b65d5d6f951d370.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 18
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000029_jpg.rf.41bc057673e93ff2caed14fd7b40b3e9.jpg",
+    "b": "rf100vl-mahjong-v2:train:000216_jpg.rf.470e13c5add517414b65d5d6f951d370.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000215_jpg.rf.4eeb7a12c5364697efc70f303b147b50.jpg",
+    "b": "rf100vl-mahjong-v2:train:000216_jpg.rf.470e13c5add517414b65d5d6f951d370.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000226_jpg.rf.b4d0e2438fca254c27533f822d00ff1d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000232_jpg.rf.fcb91117b3e2c81070a8b2fee0a0b4cd.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000240_jpg.rf.5a294506a6c5419bd860b3660dbf773a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000241_jpg.rf.3243ba901f657f618916468d813f8fc8.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000271_jpg.rf.8e91a4d345bbb4f1ed0c22fbb3b3036b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000276_jpg.rf.bed20076d2af8c536a08a467f3ccf95f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000273_jpg.rf.19fbdeda307b03b16043f5ab5f664c1c.jpg",
+    "b": "rf100vl-mahjong-v2:train:000279_jpg.rf.3ae20780979911b881c736b93152777f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000074_jpg.rf.a4b7bbe7f258df43dbcab04feb6e2413.jpg",
+    "b": "rf100vl-mahjong-v2:train:000332_jpg.rf.029e94e4ac71801f728b5fd3d8143b18.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000084_jpg.rf.234e370abb9a6a88955bb2749e243a5d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000332_jpg.rf.029e94e4ac71801f728b5fd3d8143b18.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000329_jpg.rf.3460c99abf6735188e7cca61641fbdd4.jpg",
+    "b": "rf100vl-mahjong-v2:train:000334_jpg.rf.2566b2e53034d9321c5873cf3b51bfcb.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 19
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000367_jpg.rf.6f36bd71aa54fb63dcd6be99163b5398.jpg",
+    "b": "rf100vl-mahjong-v2:train:000368_jpg.rf.eeb24ea9157532a95acff4149866a647.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000375_jpg.rf.923f8ec74a0a6d93dbeff6922729e2a5.jpg",
+    "b": "rf100vl-mahjong-v2:train:000379_jpg.rf.67399c9d1fd399b7af0e2e81d90445bd.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000380_jpg.rf.5583cd6ca423d27be8bde1fa1d40b843.jpg",
+    "b": "rf100vl-mahjong-v2:train:000383_jpg.rf.f2f66c0816f974fe69d9c31030e34fa1.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000342_jpg.rf.7b5aa07b7f5e80fdb83d442a4aa12e65.jpg",
+    "b": "rf100vl-mahjong-v2:train:000385_jpg.rf.6d446e5ecd9ad28bc7e9d48a83f3573f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 23
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000382_jpg.rf.0039f6afb08ed8f4271cbdff78b9df1c.jpg",
+    "b": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "b": "rf100vl-mahjong-v2:train:000394_jpg.rf.07c073993ed86d6f8319c8776fbdc2a4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000383_jpg.rf.f2f66c0816f974fe69d9c31030e34fa1.jpg",
+    "b": "rf100vl-mahjong-v2:train:000404_jpg.rf.945ecb0f835a1795b8f2b288bf688f15.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000406_jpg.rf.684ce749bc47c88fe14f80e9795147d7.jpg",
+    "b": "rf100vl-mahjong-v2:train:000407_jpg.rf.9426b5fe8bd97b1d5727f70b111697d0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000400_jpg.rf.8b7458ece1f04eaf81d0003a3af7ef86.jpg",
+    "b": "rf100vl-mahjong-v2:train:000414_jpg.rf.138fa44ea78d558c6afb4680dab2355f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000412_jpg.rf.8ce25925a87962060ed9e93c9e840b4f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000414_jpg.rf.138fa44ea78d558c6afb4680dab2355f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000412_jpg.rf.8ce25925a87962060ed9e93c9e840b4f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000415_jpg.rf.63423ab00587b7ee25e95286c8c18f9a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000414_jpg.rf.138fa44ea78d558c6afb4680dab2355f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000415_jpg.rf.63423ab00587b7ee25e95286c8c18f9a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000383_jpg.rf.f2f66c0816f974fe69d9c31030e34fa1.jpg",
+    "b": "rf100vl-mahjong-v2:train:000416_jpg.rf.bc7b90d8035b362b10e46915be1b1d13.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000383_jpg.rf.f2f66c0816f974fe69d9c31030e34fa1.jpg",
+    "b": "rf100vl-mahjong-v2:train:000417_jpg.rf.62c30a5cb19abaa030dd05858eaf7e03.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000416_jpg.rf.bc7b90d8035b362b10e46915be1b1d13.jpg",
+    "b": "rf100vl-mahjong-v2:train:000417_jpg.rf.62c30a5cb19abaa030dd05858eaf7e03.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000424_jpg.rf.c9ebce2ffb3d3a994a1bd717e6e6c9b3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000426_jpg.rf.7a4dec987a6c44f5c3c645196bae221b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000424_jpg.rf.c9ebce2ffb3d3a994a1bd717e6e6c9b3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000427_jpg.rf.747956133903e13234ebd3113a418028.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000425_jpg.rf.09584122707ca3a89717f92898877901.jpg",
+    "b": "rf100vl-mahjong-v2:train:000427_jpg.rf.747956133903e13234ebd3113a418028.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000426_jpg.rf.7a4dec987a6c44f5c3c645196bae221b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000427_jpg.rf.747956133903e13234ebd3113a418028.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000432_jpg.rf.f8f75c37eb2a7685e95c6e90145cb59b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000433_jpg.rf.bcb2ed2e77299b6e50587bff6afd311e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000438_jpg.rf.c779f53bc034e38194860a651d98ce90.jpg",
+    "b": "rf100vl-mahjong-v2:train:000440_jpg.rf.10147453272d373973ca80829bb479df.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000440_jpg.rf.10147453272d373973ca80829bb479df.jpg",
+    "b": "rf100vl-mahjong-v2:train:000442_jpg.rf.947a4d0c005a9fc1c125eb68558d17d7.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000447_jpg.rf.82c4957a69af88c552aeb0295b11ffa2.jpg",
+    "b": "rf100vl-mahjong-v2:train:000449_jpg.rf.e84221a0a67cea0943e92889f451f9a1.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000449_jpg.rf.e84221a0a67cea0943e92889f451f9a1.jpg",
+    "b": "rf100vl-mahjong-v2:train:000450_jpg.rf.3a1fe459a718192731e87b397047c3bf.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000412_jpg.rf.8ce25925a87962060ed9e93c9e840b4f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000453_jpg.rf.ed85c10667a813e51d82d428c9475843.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000414_jpg.rf.138fa44ea78d558c6afb4680dab2355f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000453_jpg.rf.ed85c10667a813e51d82d428c9475843.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000415_jpg.rf.63423ab00587b7ee25e95286c8c18f9a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000453_jpg.rf.ed85c10667a813e51d82d428c9475843.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000469_jpg.rf.78fb76dd4c6f4c33a4e522d7e1b63dd2.jpg",
+    "b": "rf100vl-mahjong-v2:train:000470_jpg.rf.818acae84274813bd689893566a162c4.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000476_jpg.rf.e30d13c5829f3d1c035e36af8700c335.jpg",
+    "b": "rf100vl-mahjong-v2:train:000478_jpg.rf.334892022a40e281d323a0881dd287cc.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000477_jpg.rf.10aeee53109fb1ae1be8bd4b15ce466d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000479_jpg.rf.23ad49bb5bf45d47805945c5efe8b039.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000477_jpg.rf.10aeee53109fb1ae1be8bd4b15ce466d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000480_jpg.rf.6fec6859fa237c7be3296d709f45130b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000479_jpg.rf.23ad49bb5bf45d47805945c5efe8b039.jpg",
+    "b": "rf100vl-mahjong-v2:train:000480_jpg.rf.6fec6859fa237c7be3296d709f45130b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000480_jpg.rf.6fec6859fa237c7be3296d709f45130b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000481_jpg.rf.f0f92cab47b7afeccb342b15acafc4ab.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000478_jpg.rf.334892022a40e281d323a0881dd287cc.jpg",
+    "b": "rf100vl-mahjong-v2:train:000482_jpg.rf.0d0253e11a10e30a472c66fdefc7953f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000481_jpg.rf.f0f92cab47b7afeccb342b15acafc4ab.jpg",
+    "b": "rf100vl-mahjong-v2:train:000482_jpg.rf.0d0253e11a10e30a472c66fdefc7953f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000477_jpg.rf.10aeee53109fb1ae1be8bd4b15ce466d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000483_jpg.rf.d44294ba5675416c6e0184d4dfc1ddd3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000479_jpg.rf.23ad49bb5bf45d47805945c5efe8b039.jpg",
+    "b": "rf100vl-mahjong-v2:train:000483_jpg.rf.d44294ba5675416c6e0184d4dfc1ddd3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000480_jpg.rf.6fec6859fa237c7be3296d709f45130b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000483_jpg.rf.d44294ba5675416c6e0184d4dfc1ddd3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000500_jpg.rf.39398004d6c1f21c1fa23c0a6e7f2237.jpg",
+    "b": "rf100vl-mahjong-v2:train:000503_jpg.rf.a0fc3493e024a64b2962ee961a3aa264.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000508_jpg.rf.e770d38752d8bf73f676693febc415d4.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000510_jpg.rf.34a78ffc4cff2b07ae525f209f4209b0.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000507_jpg.rf.3ece190dda59fe1560b54e6b72fd77c6.jpg",
+    "b": "rf100vl-mahjong-v2:train:000510_jpg.rf.34a78ffc4cff2b07ae525f209f4209b0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000514_jpg.rf.8bf1b65190b73a7d9c313c2e12d03dc3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000514_jpg.rf.8bf1b65190b73a7d9c313c2e12d03dc3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "b": "rf100vl-mahjong-v2:train:000517_jpg.rf.d28d4a3f1d3e08c97916dbe4fc021452.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000519_jpg.rf.2ecbab4243a1bb49e4fa378914987e70.jpg",
+    "b": "rf100vl-mahjong-v2:train:000521_jpg.rf.5808b4d92c9ccd93fc34b8605a74129c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000520_jpg.rf.fe5ee65235c321521f8c0ff5e33033d0.jpg",
+    "b": "rf100vl-mahjong-v2:train:000521_jpg.rf.5808b4d92c9ccd93fc34b8605a74129c.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000521_jpg.rf.5808b4d92c9ccd93fc34b8605a74129c.jpg",
+    "b": "rf100vl-mahjong-v2:train:000522_jpg.rf.f056d26cb881f51add6508279f3e9dd6.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000507_jpg.rf.3ece190dda59fe1560b54e6b72fd77c6.jpg",
+    "b": "rf100vl-mahjong-v2:train:000523_jpg.rf.cefcedc17fbb7c6af15ae012fae6975c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000523_jpg.rf.cefcedc17fbb7c6af15ae012fae6975c.jpg",
+    "b": "rf100vl-mahjong-v2:train:000524_jpg.rf.bbb067efd4eaa9deb2c99c802dcd80ae.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000525_jpg.rf.d7a58444572e99c9e45205eced44cabf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000507_jpg.rf.3ece190dda59fe1560b54e6b72fd77c6.jpg",
+    "b": "rf100vl-mahjong-v2:train:000525_jpg.rf.d7a58444572e99c9e45205eced44cabf.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000510_jpg.rf.34a78ffc4cff2b07ae525f209f4209b0.jpg",
+    "b": "rf100vl-mahjong-v2:train:000525_jpg.rf.d7a58444572e99c9e45205eced44cabf.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000523_jpg.rf.cefcedc17fbb7c6af15ae012fae6975c.jpg",
+    "b": "rf100vl-mahjong-v2:train:000525_jpg.rf.d7a58444572e99c9e45205eced44cabf.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000526_jpg.rf.8a564641316abcfec972a093cca5b7d4.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000508_jpg.rf.e770d38752d8bf73f676693febc415d4.jpg",
+    "b": "rf100vl-mahjong-v2:train:000526_jpg.rf.8a564641316abcfec972a093cca5b7d4.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "b": "rf100vl-mahjong-v2:train:000526_jpg.rf.8a564641316abcfec972a093cca5b7d4.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000529_jpg.rf.c0f6c3ff4480e097f9585dda155f3d13.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 21
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000514_jpg.rf.8bf1b65190b73a7d9c313c2e12d03dc3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000529_jpg.rf.c0f6c3ff4480e097f9585dda155f3d13.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "b": "rf100vl-mahjong-v2:train:000529_jpg.rf.c0f6c3ff4480e097f9585dda155f3d13.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000524_jpg.rf.bbb067efd4eaa9deb2c99c802dcd80ae.jpg",
+    "b": "rf100vl-mahjong-v2:train:000529_jpg.rf.c0f6c3ff4480e097f9585dda155f3d13.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 20
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000526_jpg.rf.8a564641316abcfec972a093cca5b7d4.jpg",
+    "b": "rf100vl-mahjong-v2:train:000529_jpg.rf.c0f6c3ff4480e097f9585dda155f3d13.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000543_jpg.rf.8365c21728c3af4206fe36bc83c58a36.jpg",
+    "b": "rf100vl-mahjong-v2:train:000546_jpg.rf.a39d972b6309cb6e2a94a5bfa9c45f5c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000543_jpg.rf.8365c21728c3af4206fe36bc83c58a36.jpg",
+    "b": "rf100vl-mahjong-v2:train:000548_jpg.rf.a32b331e14f3f6819e43739984020386.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000544_jpg.rf.16ff59283c1098cdb997fa2881b12e04.jpg",
+    "b": "rf100vl-mahjong-v2:train:000548_jpg.rf.a32b331e14f3f6819e43739984020386.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000476_jpg.rf.e30d13c5829f3d1c035e36af8700c335.jpg",
+    "b": "rf100vl-mahjong-v2:train:000557_jpg.rf.297b516a7908f0f51704afd204ada209.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "b": "rf100vl-mahjong-v2:train:000558_jpg.rf.5ac6a064559c3446d7268e1e97d2db79.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 17
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000559_jpg.rf.a3c24e6efbd12aac9f7c77bbf62598eb.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "b": "rf100vl-mahjong-v2:train:000559_jpg.rf.a3c24e6efbd12aac9f7c77bbf62598eb.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 19
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000529_jpg.rf.c0f6c3ff4480e097f9585dda155f3d13.jpg",
+    "b": "rf100vl-mahjong-v2:train:000559_jpg.rf.a3c24e6efbd12aac9f7c77bbf62598eb.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 18
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000558_jpg.rf.5ac6a064559c3446d7268e1e97d2db79.jpg",
+    "b": "rf100vl-mahjong-v2:train:000559_jpg.rf.a3c24e6efbd12aac9f7c77bbf62598eb.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000514_jpg.rf.8bf1b65190b73a7d9c313c2e12d03dc3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000560_jpg.rf.339f3f57c159179eab36c49e7ec55871.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 17
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "b": "rf100vl-mahjong-v2:train:000560_jpg.rf.339f3f57c159179eab36c49e7ec55871.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000529_jpg.rf.c0f6c3ff4480e097f9585dda155f3d13.jpg",
+    "b": "rf100vl-mahjong-v2:train:000560_jpg.rf.339f3f57c159179eab36c49e7ec55871.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000558_jpg.rf.5ac6a064559c3446d7268e1e97d2db79.jpg",
+    "b": "rf100vl-mahjong-v2:train:000560_jpg.rf.339f3f57c159179eab36c49e7ec55871.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000559_jpg.rf.a3c24e6efbd12aac9f7c77bbf62598eb.jpg",
+    "b": "rf100vl-mahjong-v2:train:000560_jpg.rf.339f3f57c159179eab36c49e7ec55871.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000562_jpg.rf.926bef998dead17d3e4e19bc293de9b3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 16
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000559_jpg.rf.a3c24e6efbd12aac9f7c77bbf62598eb.jpg",
+    "b": "rf100vl-mahjong-v2:train:000562_jpg.rf.926bef998dead17d3e4e19bc293de9b3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000560_jpg.rf.339f3f57c159179eab36c49e7ec55871.jpg",
+    "b": "rf100vl-mahjong-v2:train:000564_jpg.rf.bfabaa21ef362a9381a410d15033f220.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 16
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000562_jpg.rf.926bef998dead17d3e4e19bc293de9b3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000564_jpg.rf.bfabaa21ef362a9381a410d15033f220.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000565_jpg.rf.7f3f6d626f216ce28eb56915f5f742b2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 18
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000529_jpg.rf.c0f6c3ff4480e097f9585dda155f3d13.jpg",
+    "b": "rf100vl-mahjong-v2:train:000565_jpg.rf.7f3f6d626f216ce28eb56915f5f742b2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 17
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000558_jpg.rf.5ac6a064559c3446d7268e1e97d2db79.jpg",
+    "b": "rf100vl-mahjong-v2:train:000565_jpg.rf.7f3f6d626f216ce28eb56915f5f742b2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000559_jpg.rf.a3c24e6efbd12aac9f7c77bbf62598eb.jpg",
+    "b": "rf100vl-mahjong-v2:train:000565_jpg.rf.7f3f6d626f216ce28eb56915f5f742b2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000560_jpg.rf.339f3f57c159179eab36c49e7ec55871.jpg",
+    "b": "rf100vl-mahjong-v2:train:000565_jpg.rf.7f3f6d626f216ce28eb56915f5f742b2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000562_jpg.rf.926bef998dead17d3e4e19bc293de9b3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000565_jpg.rf.7f3f6d626f216ce28eb56915f5f742b2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000563_jpg.rf.de65a251d27c11fb8f3b75ce95f362d3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000565_jpg.rf.7f3f6d626f216ce28eb56915f5f742b2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000564_jpg.rf.bfabaa21ef362a9381a410d15033f220.jpg",
+    "b": "rf100vl-mahjong-v2:train:000565_jpg.rf.7f3f6d626f216ce28eb56915f5f742b2.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000566_jpg.rf.ad88dd485c824c009c34a65690f36043.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 20
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000558_jpg.rf.5ac6a064559c3446d7268e1e97d2db79.jpg",
+    "b": "rf100vl-mahjong-v2:train:000566_jpg.rf.ad88dd485c824c009c34a65690f36043.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000559_jpg.rf.a3c24e6efbd12aac9f7c77bbf62598eb.jpg",
+    "b": "rf100vl-mahjong-v2:train:000566_jpg.rf.ad88dd485c824c009c34a65690f36043.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000560_jpg.rf.339f3f57c159179eab36c49e7ec55871.jpg",
+    "b": "rf100vl-mahjong-v2:train:000566_jpg.rf.ad88dd485c824c009c34a65690f36043.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 16
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000562_jpg.rf.926bef998dead17d3e4e19bc293de9b3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000566_jpg.rf.ad88dd485c824c009c34a65690f36043.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000563_jpg.rf.de65a251d27c11fb8f3b75ce95f362d3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000566_jpg.rf.ad88dd485c824c009c34a65690f36043.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000564_jpg.rf.bfabaa21ef362a9381a410d15033f220.jpg",
+    "b": "rf100vl-mahjong-v2:train:000566_jpg.rf.ad88dd485c824c009c34a65690f36043.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000565_jpg.rf.7f3f6d626f216ce28eb56915f5f742b2.jpg",
+    "b": "rf100vl-mahjong-v2:train:000566_jpg.rf.ad88dd485c824c009c34a65690f36043.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000573_jpg.rf.042de0e671c5c32363783673faff516e.jpg",
+    "b": "rf100vl-mahjong-v2:train:000574_jpg.rf.4d9e90bf293d06cdb3788a4ff7e1771a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000583_jpg.rf.437323b7171803d531d37b854f863831.jpg",
+    "b": "rf100vl-mahjong-v2:train:000595_jpg.rf.c5f67a466c4a68fcf428274338dd99b6.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000583_jpg.rf.437323b7171803d531d37b854f863831.jpg",
+    "b": "rf100vl-mahjong-v2:train:000597_jpg.rf.e6a81e6c842d3c458328c90693f6b693.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000581_jpg.rf.d6faa5877264e8cc5363a5aa1903890a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000598_jpg.rf.a59e6dab6c7454bf725a24b4857f9cf3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000582_jpg.rf.cccad686bc33fa836c55c50f458b18c8.jpg",
+    "b": "rf100vl-mahjong-v2:train:000598_jpg.rf.a59e6dab6c7454bf725a24b4857f9cf3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000595_jpg.rf.c5f67a466c4a68fcf428274338dd99b6.jpg",
+    "b": "rf100vl-mahjong-v2:train:000598_jpg.rf.a59e6dab6c7454bf725a24b4857f9cf3.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000612_jpg.rf.bf90b243198b26c5a7743eb92f87598a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000613_jpg.rf.73ac383f9eea22aac2db6d3a8b0e0096.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000622_jpg.rf.f97e89d595117ec13990643849e8cbc4.jpg",
+    "b": "rf100vl-mahjong-v2:train:000623_jpg.rf.e8fd6075f4849e457b823018278440c1.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000633_jpg.rf.7f4236c8a9972ef9d647c24ca9a3a2cb.jpg",
+    "b": "rf100vl-mahjong-v2:train:000636_jpg.rf.d4852ce054c0aae3f1c9ae7c70fd23e2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000642_jpg.rf.eab28ee773052e7d2748ff6c8ecf2716.jpg",
+    "b": "rf100vl-mahjong-v2:train:000643_jpg.rf.8088066655a1be6365058184d99d5022.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000663_jpg.rf.7d36e9ed88c6217e6ce176607d413186.jpg",
+    "b": "rf100vl-mahjong-v2:train:000665_jpg.rf.1a7a6c6adf828b51a74692fda485975b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000382_jpg.rf.0039f6afb08ed8f4271cbdff78b9df1c.jpg",
+    "b": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "b": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 0
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000394_jpg.rf.07c073993ed86d6f8319c8776fbdc2a4.jpg",
+    "b": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000663_jpg.rf.7d36e9ed88c6217e6ce176607d413186.jpg",
+    "b": "rf100vl-mahjong-v2:train:000668_jpg.rf.425bd8b8692242446c1685e200a3c330.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000665_jpg.rf.1a7a6c6adf828b51a74692fda485975b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000668_jpg.rf.425bd8b8692242446c1685e200a3c330.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "b": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000394_jpg.rf.07c073993ed86d6f8319c8776fbdc2a4.jpg",
+    "b": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000665_jpg.rf.1a7a6c6adf828b51a74692fda485975b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "b": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "b": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "b": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000668_jpg.rf.425bd8b8692242446c1685e200a3c330.jpg",
+    "b": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "b": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "b": "rf100vl-mahjong-v2:train:000674_jpg.rf.b917513659828ec6eaf83f1754d11578.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "b": "rf100vl-mahjong-v2:train:000674_jpg.rf.b917513659828ec6eaf83f1754d11578.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "b": "rf100vl-mahjong-v2:train:000675_jpg.rf.3118a1d6fedc10f7b5cbfe1719ca200f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "b": "rf100vl-mahjong-v2:train:000678_jpg.rf.6cc89a0ff0042a3107affbb72a7c4556.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "b": "rf100vl-mahjong-v2:train:000678_jpg.rf.6cc89a0ff0042a3107affbb72a7c4556.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000674_jpg.rf.b917513659828ec6eaf83f1754d11578.jpg",
+    "b": "rf100vl-mahjong-v2:train:000678_jpg.rf.6cc89a0ff0042a3107affbb72a7c4556.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000675_jpg.rf.3118a1d6fedc10f7b5cbfe1719ca200f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000678_jpg.rf.6cc89a0ff0042a3107affbb72a7c4556.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000663_jpg.rf.7d36e9ed88c6217e6ce176607d413186.jpg",
+    "b": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000665_jpg.rf.1a7a6c6adf828b51a74692fda485975b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000668_jpg.rf.425bd8b8692242446c1685e200a3c330.jpg",
+    "b": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "b": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "b": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000674_jpg.rf.b917513659828ec6eaf83f1754d11578.jpg",
+    "b": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000675_jpg.rf.3118a1d6fedc10f7b5cbfe1719ca200f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000678_jpg.rf.6cc89a0ff0042a3107affbb72a7c4556.jpg",
+    "b": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000654_jpg.rf.9bca758f3df2117f8dd41559077704b3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000682_jpg.rf.a887ce16f1b2ce75d194ee348b5cae45.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 20
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000702_jpg.rf.1035e13819b81d1d597b3042368ef30e.jpg",
+    "b": "rf100vl-mahjong-v2:train:000704_jpg.rf.68af4c9dfec1ae858f5e98905cb59c79.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000716_jpg.rf.32f5623b82bfd18f1113097d10ff179b.jpg",
+    "b": "rf100vl-mahjong-v2:train:000718_jpg.rf.af38f45f3e05b1e1f055e41e408ac790.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000713_jpg.rf.fc179dd7540dbd9c20893799257888b6.jpg",
+    "b": "rf100vl-mahjong-v2:train:000722_jpg.rf.52b7106770ac068d9fa036f79826c178.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000720_jpg.rf.631c6309e608f7ae825def3954465ca8.jpg",
+    "b": "rf100vl-mahjong-v2:train:000722_jpg.rf.52b7106770ac068d9fa036f79826c178.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000722_jpg.rf.52b7106770ac068d9fa036f79826c178.jpg",
+    "b": "rf100vl-mahjong-v2:train:000724_jpg.rf.d7378c363bc69e79bf27fa6e6a513d83.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000545_jpg.rf.a11b20e8f202b680c047222b7dbdbfb2.jpg",
+    "b": "rf100vl-mahjong-v2:train:000735_jpg.rf.c35995c6c00ea59645b3ff58a9ebf978.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 17
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000743_jpg.rf.10927e75034f13a80af0730f299b5d0a.jpg",
+    "b": "rf100vl-mahjong-v2:train:000745_jpg.rf.236b9cf3f7ca67da02b241c2d1ae22dc.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000745_jpg.rf.236b9cf3f7ca67da02b241c2d1ae22dc.jpg",
+    "b": "rf100vl-mahjong-v2:train:000753_jpg.rf.1d32274cf7d028e2f0d2fb01d3b8cebd.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000751_jpg.rf.c5d89c7754eee9d67bddc55de8925ca9.jpg",
+    "b": "rf100vl-mahjong-v2:train:000753_jpg.rf.1d32274cf7d028e2f0d2fb01d3b8cebd.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000751_jpg.rf.c5d89c7754eee9d67bddc55de8925ca9.jpg",
+    "b": "rf100vl-mahjong-v2:train:000756_jpg.rf.cc4364c56b36f5dc9e732414fc14cd63.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000753_jpg.rf.1d32274cf7d028e2f0d2fb01d3b8cebd.jpg",
+    "b": "rf100vl-mahjong-v2:train:000756_jpg.rf.cc4364c56b36f5dc9e732414fc14cd63.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000745_jpg.rf.236b9cf3f7ca67da02b241c2d1ae22dc.jpg",
+    "b": "rf100vl-mahjong-v2:train:000758_jpg.rf.302ff2d878f3572b0fa155a6a58c4e7e.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000751_jpg.rf.c5d89c7754eee9d67bddc55de8925ca9.jpg",
+    "b": "rf100vl-mahjong-v2:train:000758_jpg.rf.302ff2d878f3572b0fa155a6a58c4e7e.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000756_jpg.rf.cc4364c56b36f5dc9e732414fc14cd63.jpg",
+    "b": "rf100vl-mahjong-v2:train:000758_jpg.rf.302ff2d878f3572b0fa155a6a58c4e7e.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000753_jpg.rf.1d32274cf7d028e2f0d2fb01d3b8cebd.jpg",
+    "b": "rf100vl-mahjong-v2:train:000771_jpg.rf.1fe41f4b2946eb894d9be4fe79c87849.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000751_jpg.rf.c5d89c7754eee9d67bddc55de8925ca9.jpg",
+    "b": "rf100vl-mahjong-v2:train:000773_jpg.rf.84dba6870b398e56fa8a639ac9b99c68.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000773_jpg.rf.84dba6870b398e56fa8a639ac9b99c68.jpg",
+    "b": "rf100vl-mahjong-v2:train:000774_jpg.rf.59f7f98cfd0a12717ac10815e1cbbd06.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000773_jpg.rf.84dba6870b398e56fa8a639ac9b99c68.jpg",
+    "b": "rf100vl-mahjong-v2:train:000779_jpg.rf.24f6c67877b62f2ccf518f562f404038.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000774_jpg.rf.59f7f98cfd0a12717ac10815e1cbbd06.jpg",
+    "b": "rf100vl-mahjong-v2:train:000779_jpg.rf.24f6c67877b62f2ccf518f562f404038.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000718_jpg.rf.af38f45f3e05b1e1f055e41e408ac790.jpg",
+    "b": "rf100vl-mahjong-v2:train:000789_jpg.rf.9626e9043f0076530c1833d512e3381f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000784_jpg.rf.59fac763256658c857e12c49256fc2a3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000789_jpg.rf.9626e9043f0076530c1833d512e3381f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000789_jpg.rf.9626e9043f0076530c1833d512e3381f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000793_jpg.rf.8810458af13e7dfe6ef4ffdd4fdac754.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000784_jpg.rf.59fac763256658c857e12c49256fc2a3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000795_jpg.rf.c54c9555653d964aee8eb57a128d620d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000789_jpg.rf.9626e9043f0076530c1833d512e3381f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000795_jpg.rf.c54c9555653d964aee8eb57a128d620d.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000793_jpg.rf.8810458af13e7dfe6ef4ffdd4fdac754.jpg",
+    "b": "rf100vl-mahjong-v2:train:000795_jpg.rf.c54c9555653d964aee8eb57a128d620d.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000789_jpg.rf.9626e9043f0076530c1833d512e3381f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000796_jpg.rf.05f291053cf552365889084994cedc97.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000793_jpg.rf.8810458af13e7dfe6ef4ffdd4fdac754.jpg",
+    "b": "rf100vl-mahjong-v2:train:000796_jpg.rf.05f291053cf552365889084994cedc97.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000773_jpg.rf.84dba6870b398e56fa8a639ac9b99c68.jpg",
+    "b": "rf100vl-mahjong-v2:train:000798_jpg.rf.96fd557fac361c4902b7ac52ea037f81.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000774_jpg.rf.59f7f98cfd0a12717ac10815e1cbbd06.jpg",
+    "b": "rf100vl-mahjong-v2:train:000798_jpg.rf.96fd557fac361c4902b7ac52ea037f81.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000779_jpg.rf.24f6c67877b62f2ccf518f562f404038.jpg",
+    "b": "rf100vl-mahjong-v2:train:000798_jpg.rf.96fd557fac361c4902b7ac52ea037f81.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000789_jpg.rf.9626e9043f0076530c1833d512e3381f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000798_jpg.rf.96fd557fac361c4902b7ac52ea037f81.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000793_jpg.rf.8810458af13e7dfe6ef4ffdd4fdac754.jpg",
+    "b": "rf100vl-mahjong-v2:train:000798_jpg.rf.96fd557fac361c4902b7ac52ea037f81.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000784_jpg.rf.59fac763256658c857e12c49256fc2a3.jpg",
+    "b": "rf100vl-mahjong-v2:train:000800_jpg.rf.5e66b3e8006d010f433f267fb219aa20.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000789_jpg.rf.9626e9043f0076530c1833d512e3381f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000800_jpg.rf.5e66b3e8006d010f433f267fb219aa20.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000793_jpg.rf.8810458af13e7dfe6ef4ffdd4fdac754.jpg",
+    "b": "rf100vl-mahjong-v2:train:000800_jpg.rf.5e66b3e8006d010f433f267fb219aa20.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000795_jpg.rf.c54c9555653d964aee8eb57a128d620d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000800_jpg.rf.5e66b3e8006d010f433f267fb219aa20.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000796_jpg.rf.05f291053cf552365889084994cedc97.jpg",
+    "b": "rf100vl-mahjong-v2:train:000800_jpg.rf.5e66b3e8006d010f433f267fb219aa20.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000794_jpg.rf.cf126c38a1fe3009977ec20b575549db.jpg",
+    "b": "rf100vl-mahjong-v2:train:000801_jpg.rf.92b1141053d69248dbdb25279b12d38c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000789_jpg.rf.9626e9043f0076530c1833d512e3381f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000802_jpg.rf.b0088a32b8fe9277ef8eba6ed59edd7a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000793_jpg.rf.8810458af13e7dfe6ef4ffdd4fdac754.jpg",
+    "b": "rf100vl-mahjong-v2:train:000802_jpg.rf.b0088a32b8fe9277ef8eba6ed59edd7a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000795_jpg.rf.c54c9555653d964aee8eb57a128d620d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000802_jpg.rf.b0088a32b8fe9277ef8eba6ed59edd7a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000796_jpg.rf.05f291053cf552365889084994cedc97.jpg",
+    "b": "rf100vl-mahjong-v2:train:000802_jpg.rf.b0088a32b8fe9277ef8eba6ed59edd7a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000809_jpg.rf.8bf733a1c5a4d5a9a079f734ffb3a65f.jpg",
+    "b": "rf100vl-mahjong-v2:train:000813_jpg.rf.6ffbfc6182964eda2867d2e7a28b05fb.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000819_jpg.rf.13cf4b0c9b3e649d749a13afd8a5590e.jpg",
+    "b": "rf100vl-mahjong-v2:train:000821_jpg.rf.20510dc273221d30771f1603a1180a26.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000825_jpg.rf.a446ca86aff3d179a7cb4e46521e19ff.jpg",
+    "b": "rf100vl-mahjong-v2:train:000826_jpg.rf.1dac1294fa91d15e160b43486775f949.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000807_jpg.rf.e9cb5e3f8b1bad2081bc5fd4d3bea545.jpg",
+    "b": "rf100vl-mahjong-v2:train:000831_jpg.rf.aa5ec48710548d2bb8a85b690b5eb931.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000825_jpg.rf.a446ca86aff3d179a7cb4e46521e19ff.jpg",
+    "b": "rf100vl-mahjong-v2:train:000831_jpg.rf.aa5ec48710548d2bb8a85b690b5eb931.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000810_jpg.rf.b372f3308736f2c463fc813b8b1d3509.jpg",
+    "b": "rf100vl-mahjong-v2:train:000835_jpg.rf.586492a539381022dc7275ad7cae4e9a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000807_jpg.rf.e9cb5e3f8b1bad2081bc5fd4d3bea545.jpg",
+    "b": "rf100vl-mahjong-v2:train:000843_jpg.rf.8216065772bf529cd64aa4aa031880c3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000842_jpg.rf.aeac5b0605f4488d66772105bba72264.jpg",
+    "b": "rf100vl-mahjong-v2:train:000843_jpg.rf.8216065772bf529cd64aa4aa031880c3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000831_jpg.rf.aa5ec48710548d2bb8a85b690b5eb931.jpg",
+    "b": "rf100vl-mahjong-v2:train:000852_jpg.rf.a14a81939c158816ed425231178302fe.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000846_jpg.rf.0ba6cc74d063051cb438fce46a2e7e19.jpg",
+    "b": "rf100vl-mahjong-v2:train:000853_jpg.rf.09ad4681d703955d77b1555c40ee22e8.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000682_jpg.rf.a887ce16f1b2ce75d194ee348b5cae45.jpg",
+    "b": "rf100vl-mahjong-v2:train:000897_jpg.rf.83431538b4ac129e8515126f8595deb2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 21
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000682_jpg.rf.a887ce16f1b2ce75d194ee348b5cae45.jpg",
+    "b": "rf100vl-mahjong-v2:train:000906_jpg.rf.79c10eca8c1ed3cefa61f4518a5e7c92.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 18
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000897_jpg.rf.83431538b4ac129e8515126f8595deb2.jpg",
+    "b": "rf100vl-mahjong-v2:train:000906_jpg.rf.79c10eca8c1ed3cefa61f4518a5e7c92.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000906_jpg.rf.79c10eca8c1ed3cefa61f4518a5e7c92.jpg",
+    "b": "rf100vl-mahjong-v2:train:000910_jpg.rf.415e39aaa6f97e0d4d5b911bc20a3f1a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000622_jpg.rf.f97e89d595117ec13990643849e8cbc4.jpg",
+    "b": "rf100vl-mahjong-v2:train:000916_jpg.rf.1f483d85e6836a908ad2273e694d9317.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 28
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000625_jpg.rf.183cd629ffe5dc6fc974c0390154e05c.jpg",
+    "b": "rf100vl-mahjong-v2:train:000916_jpg.rf.1f483d85e6836a908ad2273e694d9317.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000916_jpg.rf.1f483d85e6836a908ad2273e694d9317.jpg",
+    "b": "rf100vl-mahjong-v2:train:000918_jpg.rf.b648597672e7c8a8b292578f4108d99f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000951_jpg.rf.31f353899a6c665d04c977f470885003.jpg",
+    "b": "rf100vl-mahjong-v2:train:000953_jpg.rf.0cbda8962e9082f367358a00e27f7e3f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000902_jpg.rf.e17aca57a5b9f644277f5938135bdf25.jpg",
+    "b": "rf100vl-mahjong-v2:train:000956_jpg.rf.dc72dbe6ffbdc16554972f2217d5735d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000960_jpg.rf.3d570d38a1d209bbc2aba05ce89bc0c9.jpg",
+    "b": "rf100vl-mahjong-v2:train:000962_jpg.rf.f115e88fe00e0431bdcff7b0fd51c26d.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000963_jpg.rf.b19410ffb4c5fa6c3600b9d40fdc17dc.jpg",
+    "b": "rf100vl-mahjong-v2:train:000985_jpg.rf.a1e4b84e703e1b79552a2b32a638fda6.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000348_jpg.rf.8e7c29fd49307fabb869f80ea9114e17.jpg",
+    "b": "rf100vl-mahjong-v2:train:000988_jpg.rf.9a5000be4e4da87aef12f5189ee2ef02.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 19
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000909_jpg.rf.d9f19f192c36a4e923e1e0b43109e95d.jpg",
+    "b": "rf100vl-mahjong-v2:train:000998_jpg.rf.d3a0eda679a5a897493382c3a010c74e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 27
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000927_jpg.rf.334306cbe776132b52fb9a706a1bcdbb.jpg",
+    "b": "rf100vl-mahjong-v2:train:001002_jpg.rf.cea1366054ced2efe0446d119b116fd6.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000996_jpg.rf.6319fecbc17749380e1d6ebfe5f24ef1.jpg",
+    "b": "rf100vl-mahjong-v2:train:001002_jpg.rf.cea1366054ced2efe0446d119b116fd6.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 18
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000996_jpg.rf.6319fecbc17749380e1d6ebfe5f24ef1.jpg",
+    "b": "rf100vl-mahjong-v2:train:001006_jpg.rf.a48472a8a3191470b9c90c5cfcea11f4.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001002_jpg.rf.cea1366054ced2efe0446d119b116fd6.jpg",
+    "b": "rf100vl-mahjong-v2:train:001006_jpg.rf.a48472a8a3191470b9c90c5cfcea11f4.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 24
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000906_jpg.rf.79c10eca8c1ed3cefa61f4518a5e7c92.jpg",
+    "b": "rf100vl-mahjong-v2:train:001008_jpg.rf.28529f53bfb2aae1db8f901dae029ef5.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000909_jpg.rf.d9f19f192c36a4e923e1e0b43109e95d.jpg",
+    "b": "rf100vl-mahjong-v2:train:001008_jpg.rf.28529f53bfb2aae1db8f901dae029ef5.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000910_jpg.rf.415e39aaa6f97e0d4d5b911bc20a3f1a.jpg",
+    "b": "rf100vl-mahjong-v2:train:001008_jpg.rf.28529f53bfb2aae1db8f901dae029ef5.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000998_jpg.rf.d3a0eda679a5a897493382c3a010c74e.jpg",
+    "b": "rf100vl-mahjong-v2:train:001008_jpg.rf.28529f53bfb2aae1db8f901dae029ef5.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 17
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000996_jpg.rf.6319fecbc17749380e1d6ebfe5f24ef1.jpg",
+    "b": "rf100vl-mahjong-v2:train:001010_jpg.rf.1ad5780a303e6f3fb73db369ab31333a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001002_jpg.rf.cea1366054ced2efe0446d119b116fd6.jpg",
+    "b": "rf100vl-mahjong-v2:train:001010_jpg.rf.1ad5780a303e6f3fb73db369ab31333a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 20
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001006_jpg.rf.a48472a8a3191470b9c90c5cfcea11f4.jpg",
+    "b": "rf100vl-mahjong-v2:train:001010_jpg.rf.1ad5780a303e6f3fb73db369ab31333a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000909_jpg.rf.d9f19f192c36a4e923e1e0b43109e95d.jpg",
+    "b": "rf100vl-mahjong-v2:train:001012_jpg.rf.e5757749fbaf5456a6b94ae42637233b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 19
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000992_jpg.rf.e0384df2ae48e3271e9851249cf8b4ab.jpg",
+    "b": "rf100vl-mahjong-v2:train:001012_jpg.rf.e5757749fbaf5456a6b94ae42637233b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 16
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000988_jpg.rf.9a5000be4e4da87aef12f5189ee2ef02.jpg",
+    "b": "rf100vl-mahjong-v2:train:001015_jpg.rf.8ec18ba5cf43e2945d1bd66e70676cb3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 16
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001020_jpg.rf.e369327922285796a6c6d503ad32adfd.jpg",
+    "b": "rf100vl-mahjong-v2:train:001022_jpg.rf.4cd27cba9e38addf4a123441c62a2e47.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001025_jpg.rf.21c8b92b3eeb8ee20cb34ab2d035f92c.jpg",
+    "b": "rf100vl-mahjong-v2:train:001028_jpg.rf.1fafea973c24fdff33cb7e5be380ab64.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001035_jpg.rf.0b806e4afcd3139c9aad7a5eb99e8df4.jpg",
+    "b": "rf100vl-mahjong-v2:train:001041_jpg.rf.7cad3c0df640c39881fbb6e65b3b418b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001039_jpg.rf.fd4f68f8a2634d502efe5a54b3dde3cd.jpg",
+    "b": "rf100vl-mahjong-v2:train:001041_jpg.rf.7cad3c0df640c39881fbb6e65b3b418b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000709_jpg.rf.eca4cbdbe2ed11e87f279488e936be71.jpg",
+    "b": "rf100vl-mahjong-v2:train:001070_jpg.rf.ba4189e1628ca1fc8b211142043a47e5.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001072_jpg.rf.95eacb3edaa4cf4d5bd8c0e99877cd7e.jpg",
+    "b": "rf100vl-mahjong-v2:train:001074_jpg.rf.6a4fc20320f58783bf787c421e97166d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000720_jpg.rf.631c6309e608f7ae825def3954465ca8.jpg",
+    "b": "rf100vl-mahjong-v2:train:001078_jpg.rf.0a691b8372345c9caeb95f7bdfe4b6be.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001035_jpg.rf.0b806e4afcd3139c9aad7a5eb99e8df4.jpg",
+    "b": "rf100vl-mahjong-v2:train:001096_jpg.rf.6b4a44132549c7a6fd2c5370b3a083ec.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001041_jpg.rf.7cad3c0df640c39881fbb6e65b3b418b.jpg",
+    "b": "rf100vl-mahjong-v2:train:001096_jpg.rf.6b4a44132549c7a6fd2c5370b3a083ec.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001091_jpg.rf.873c0e1c8f7bd3b7a515199d1b2c53fe.jpg",
+    "b": "rf100vl-mahjong-v2:train:001096_jpg.rf.6b4a44132549c7a6fd2c5370b3a083ec.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001091_jpg.rf.873c0e1c8f7bd3b7a515199d1b2c53fe.jpg",
+    "b": "rf100vl-mahjong-v2:train:001098_jpg.rf.fc72482b2508485515371ffb0c3206fc.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001096_jpg.rf.6b4a44132549c7a6fd2c5370b3a083ec.jpg",
+    "b": "rf100vl-mahjong-v2:train:001098_jpg.rf.fc72482b2508485515371ffb0c3206fc.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001097_jpg.rf.30aba038c147562ee9b582b7ad147167.jpg",
+    "b": "rf100vl-mahjong-v2:train:001103_jpg.rf.ed5232e4b2ce4ef5cf6ff4e565d678f2.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001091_jpg.rf.873c0e1c8f7bd3b7a515199d1b2c53fe.jpg",
+    "b": "rf100vl-mahjong-v2:train:001104_jpg.rf.e9f2f0de286fa1dca38d1d8953ef5fdd.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001103_jpg.rf.ed5232e4b2ce4ef5cf6ff4e565d678f2.jpg",
+    "b": "rf100vl-mahjong-v2:train:001105_jpg.rf.238e4409422a249fefa545bab2a77b1e.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001091_jpg.rf.873c0e1c8f7bd3b7a515199d1b2c53fe.jpg",
+    "b": "rf100vl-mahjong-v2:train:001106_jpg.rf.25e747e8cf65ce04ce276138faf560fe.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001104_jpg.rf.e9f2f0de286fa1dca38d1d8953ef5fdd.jpg",
+    "b": "rf100vl-mahjong-v2:train:001106_jpg.rf.25e747e8cf65ce04ce276138faf560fe.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001103_jpg.rf.ed5232e4b2ce4ef5cf6ff4e565d678f2.jpg",
+    "b": "rf100vl-mahjong-v2:train:001107_jpg.rf.1ec71d5456350a666ba70d0cc0473f57.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001105_jpg.rf.238e4409422a249fefa545bab2a77b1e.jpg",
+    "b": "rf100vl-mahjong-v2:train:001107_jpg.rf.1ec71d5456350a666ba70d0cc0473f57.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001091_jpg.rf.873c0e1c8f7bd3b7a515199d1b2c53fe.jpg",
+    "b": "rf100vl-mahjong-v2:train:001108_jpg.rf.c36d27059e558034cfcca2cb79c6ea7f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001106_jpg.rf.25e747e8cf65ce04ce276138faf560fe.jpg",
+    "b": "rf100vl-mahjong-v2:train:001108_jpg.rf.c36d27059e558034cfcca2cb79c6ea7f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001105_jpg.rf.238e4409422a249fefa545bab2a77b1e.jpg",
+    "b": "rf100vl-mahjong-v2:train:001109_jpg.rf.8a35f07e9fa00715429809f0cd25362d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001107_jpg.rf.1ec71d5456350a666ba70d0cc0473f57.jpg",
+    "b": "rf100vl-mahjong-v2:train:001109_jpg.rf.8a35f07e9fa00715429809f0cd25362d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001106_jpg.rf.25e747e8cf65ce04ce276138faf560fe.jpg",
+    "b": "rf100vl-mahjong-v2:train:001110_jpg.rf.c49164af5abb6593bc2a6f051828cc66.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001108_jpg.rf.c36d27059e558034cfcca2cb79c6ea7f.jpg",
+    "b": "rf100vl-mahjong-v2:train:001110_jpg.rf.c49164af5abb6593bc2a6f051828cc66.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001111_jpg.rf.d7b25cf8f0f39ff17b23ff3ae9d8b798.jpg",
+    "b": "rf100vl-mahjong-v2:train:001116_jpg.rf.99784799ed8844a6b4411b313ae882de.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001114_jpg.rf.aca86f11f3f769dec034b0196ff6c079.jpg",
+    "b": "rf100vl-mahjong-v2:train:001116_jpg.rf.99784799ed8844a6b4411b313ae882de.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001116_jpg.rf.99784799ed8844a6b4411b313ae882de.jpg",
+    "b": "rf100vl-mahjong-v2:train:001119_jpg.rf.c1e15a2208dfbe089487fedc742fd9b7.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001114_jpg.rf.aca86f11f3f769dec034b0196ff6c079.jpg",
+    "b": "rf100vl-mahjong-v2:train:001121_jpg.rf.26818b74a44507f6c447d501d42da093.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001116_jpg.rf.99784799ed8844a6b4411b313ae882de.jpg",
+    "b": "rf100vl-mahjong-v2:train:001121_jpg.rf.26818b74a44507f6c447d501d42da093.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001140_jpg.rf.c0f83b3e1dd56fb5e04f3d968bcdc5be.jpg",
+    "b": "rf100vl-mahjong-v2:train:001141_jpg.rf.c5e1cede668f92dc246aa9389adb0d20.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001141_jpg.rf.c5e1cede668f92dc246aa9389adb0d20.jpg",
+    "b": "rf100vl-mahjong-v2:train:001148_jpg.rf.406415faa6d3f6ae32a181c9b29e2725.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001141_jpg.rf.c5e1cede668f92dc246aa9389adb0d20.jpg",
+    "b": "rf100vl-mahjong-v2:train:001161_jpg.rf.04c7ecf6c7db405e62f333e328212050.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001148_jpg.rf.406415faa6d3f6ae32a181c9b29e2725.jpg",
+    "b": "rf100vl-mahjong-v2:train:001161_jpg.rf.04c7ecf6c7db405e62f333e328212050.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001157_jpg.rf.49b61d6d434f2fa0a23233167bde27c9.jpg",
+    "b": "rf100vl-mahjong-v2:train:001161_jpg.rf.04c7ecf6c7db405e62f333e328212050.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001159_jpg.rf.c455c5366b0babab8ee6256a2b0fa10e.jpg",
+    "b": "rf100vl-mahjong-v2:train:001161_jpg.rf.04c7ecf6c7db405e62f333e328212050.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001160_jpg.rf.e284f5363000f8e69f6c81e211731798.jpg",
+    "b": "rf100vl-mahjong-v2:train:001161_jpg.rf.04c7ecf6c7db405e62f333e328212050.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001148_jpg.rf.406415faa6d3f6ae32a181c9b29e2725.jpg",
+    "b": "rf100vl-mahjong-v2:train:001162_jpg.rf.7c8d961a715903c880bb734443f060b5.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001167_jpg.rf.ee15465801ef67ee3e66fbdbba47186f.jpg",
+    "b": "rf100vl-mahjong-v2:train:001169_jpg.rf.2f598d915b2a0b5b79357852b8d27890.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001072_jpg.rf.95eacb3edaa4cf4d5bd8c0e99877cd7e.jpg",
+    "b": "rf100vl-mahjong-v2:train:001180_jpg.rf.50b526a3f9a04f4afe846db3d7bc7093.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001137_jpg.rf.1d59d43358e2ecfbc54528f4fd1425e4.jpg",
+    "b": "rf100vl-mahjong-v2:train:001185_jpg.rf.735a5fceb65ef99a47175ff77f663bdf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 16
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001179_jpg.rf.e4f5ff62e8e5c89e63681c316d4c9890.jpg",
+    "b": "rf100vl-mahjong-v2:train:001185_jpg.rf.735a5fceb65ef99a47175ff77f663bdf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001046_jpg.rf.3fe0550a5c0da68cd5d0b00be5feb537.jpg",
+    "b": "rf100vl-mahjong-v2:train:001187_jpg.rf.c26eb12ca8dad113d21a7dae644bb36c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001179_jpg.rf.e4f5ff62e8e5c89e63681c316d4c9890.jpg",
+    "b": "rf100vl-mahjong-v2:train:001187_jpg.rf.c26eb12ca8dad113d21a7dae644bb36c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001185_jpg.rf.735a5fceb65ef99a47175ff77f663bdf.jpg",
+    "b": "rf100vl-mahjong-v2:train:001187_jpg.rf.c26eb12ca8dad113d21a7dae644bb36c.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001164_jpg.rf.3a981b1fd57d7707c0cc2de35ef26a66.jpg",
+    "b": "rf100vl-mahjong-v2:train:001192_jpg.rf.6a187f8378890d63edd36567b09f502f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001183_jpg.rf.f79f250d2be92c4ca495115bd4e87064.jpg",
+    "b": "rf100vl-mahjong-v2:train:001194_jpg.rf.bdf25cde1048717c902032c58ee2462b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001190_jpg.rf.010c9ad1c01455b48aacd0062ba031f0.jpg",
+    "b": "rf100vl-mahjong-v2:train:001194_jpg.rf.bdf25cde1048717c902032c58ee2462b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001203_jpg.rf.40dd5cd41e26627c98ccb57bcf684f12.jpg",
+    "b": "rf100vl-mahjong-v2:train:001205_jpg.rf.3611659b60d027983d90d811626ef008.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001206_jpg.rf.3da318ad3c89ee2cd871621c72f8bc1c.jpg",
+    "b": "rf100vl-mahjong-v2:train:001207_jpg.rf.314fb9b20d09b0f0c8c8661af1c7f530.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001277_jpg.rf.879fc47cff6032f712f8467d25852b36.jpg",
+    "b": "rf100vl-mahjong-v2:train:001278_jpg.rf.08a77391510909cba1830893e0c9ece0.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001292_jpg.rf.f03c364ddfe6b8d1b10bbc847b4555c7.jpg",
+    "b": "rf100vl-mahjong-v2:train:001293_jpg.rf.df11670a6e24e0a18eb79cab48b599b5.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001351_jpg.rf.6c1256147730be514d94515abc484339.jpg",
+    "b": "rf100vl-mahjong-v2:train:001353_jpg.rf.d052d55c18304015d53087ce60b6cad5.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000096_jpg.rf.3c4efcb9205ba37a8eef1ebe2607d1e9.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000090_jpg.rf.4ca7c5d897e6361888650e8de715788b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000259_jpg.rf.b9c0f59292f3b4fc2919ff5e18beff25.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000116_jpg.rf.34eb40d0182eb5adfd2493c890ff64ce.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000126_jpg.rf.d3e6af097e7addebeb7c8f295e36fbb6.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000124_jpg.rf.9b590d420cdcaaae061d53284d40eebc.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000127_jpg.rf.293170e6bacc2a629f4a512603386b6b.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000124_jpg.rf.9b590d420cdcaaae061d53284d40eebc.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000152_jpg.rf.fb1ca71d7268dce946348e80ccd29684.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000153_jpg.rf.ff87a75a47892567051bf4b240a74c34.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000163_jpg.rf.6d36cb413fd6a00c44cc837a09970a38.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000157_jpg.rf.de5f1a4b9db393ae627ee78b6c88d7ae.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000172_jpg.rf.9dc2b74cd58e843c5717012bdb1fe1df.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000170_jpg.rf.a04de73b3db1bf1af1649ac24100df1f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000176_jpg.rf.9ef0aadaf3290f95973fec459e717511.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000177_jpg.rf.659ddc2cfeb1fdef0c9acac29db2463b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000184_jpg.rf.a468477af1aec24162eaf56ac9ce66d6.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000177_jpg.rf.659ddc2cfeb1fdef0c9acac29db2463b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000178_jpg.rf.04ccb712058ed40d68506561be6e1258.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000183_jpg.rf.3320f07f38aceb480f33836fa689c02e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000179_jpg.rf.0c7ff7827dcb6524c807dafbed6bfe50.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000183_jpg.rf.3320f07f38aceb480f33836fa689c02e.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000180_jpg.rf.c88d048cbc3695e8441f4558543038ab.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000183_jpg.rf.3320f07f38aceb480f33836fa689c02e.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000181_jpg.rf.d358c7dc11712b46be0b240ccc616f7f.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000183_jpg.rf.3320f07f38aceb480f33836fa689c02e.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000196_jpg.rf.673976697db505224b181e38d338b795.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000198_jpg.rf.8b033ecc807955b4589c6792f52c01c4.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000029_jpg.rf.41bc057673e93ff2caed14fd7b40b3e9.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000214_jpg.rf.dbc0b7d0440566cc69157effac5df971.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 17
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000212_jpg.rf.7d6d9d79a796d3114fb104d4c1599872.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000214_jpg.rf.dbc0b7d0440566cc69157effac5df971.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000216_jpg.rf.470e13c5add517414b65d5d6f951d370.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000214_jpg.rf.dbc0b7d0440566cc69157effac5df971.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000021_jpg.rf.86b71d9ef0151045302d7071563bb962.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000219_jpg.rf.b37c45172c2a3561b58166b0f9c43e8c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 20
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000023_jpg.rf.ee7bbc03b13a117eeeab5878d0c7f164.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000219_jpg.rf.b37c45172c2a3561b58166b0f9c43e8c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 19
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000212_jpg.rf.7d6d9d79a796d3114fb104d4c1599872.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000219_jpg.rf.b37c45172c2a3561b58166b0f9c43e8c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000211_jpg.rf.d3212f1c4c4594fa4dab20d3eafaddc4.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000219_jpg.rf.b37c45172c2a3561b58166b0f9c43e8c.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 21
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000226_jpg.rf.b4d0e2438fca254c27533f822d00ff1d.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000230_jpg.rf.1d35fc8e4b52c07d7b9f279bf233ebe7.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000228_jpg.rf.c98d8158a7941c00abd61dbd18bb6169.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000230_jpg.rf.1d35fc8e4b52c07d7b9f279bf233ebe7.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000232_jpg.rf.fcb91117b3e2c81070a8b2fee0a0b4cd.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000230_jpg.rf.1d35fc8e4b52c07d7b9f279bf233ebe7.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000289_jpg.rf.07a53916f93cca48ac2032c62da1b573.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000288_jpg.rf.009b0268d6ec620a7b3f8d6f0c3aa46d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000305_jpg.rf.acc6084cd24f8e4add0620ce5cfe4cbf.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000307_jpg.rf.e30fa432bc1d8103c17a5ef9a11f3196.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000304_jpg.rf.b76ed451a75973cbf7923dea48a133d4.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000311_jpg.rf.c7173ac3ad151366a14fe3cc3ecfbe42.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000431_jpg.rf.edee479d02b56dbcece4490596b6b236.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000344_jpg.rf.cd77ed4927f3585dec3bc6071b9123cb.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 20
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000434_jpg.rf.2003b071c14db2e60d2c6cd0870a0b80.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000344_jpg.rf.cd77ed4927f3585dec3bc6071b9123cb.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000346_jpg.rf.1dfb1c9e72b7e11c01e01d302bbd514b.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000347_jpg.rf.da383517e3a16eb610de0d85975f04bc.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000345_jpg.rf.73604f2ce0cc4d56bea022998bd00015.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000347_jpg.rf.da383517e3a16eb610de0d85975f04bc.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000344_jpg.rf.cd77ed4927f3585dec3bc6071b9123cb.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000352_jpg.rf.8566a1c487f09450661ecdbcb8776629.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 25
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000364_jpg.rf.e7b2c54c0b944d310e93a775a663839d.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000365_jpg.rf.ed8c8a9114f7c3f0c1813a5b62e534e5.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 18
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000381_jpg.rf.9f92cc1518d33ee5f271a1f2e3444b8c.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000384_jpg.rf.0c1ab80e2aa70b6b71381db0f7c952f2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 19
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000383_jpg.rf.f2f66c0816f974fe69d9c31030e34fa1.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000384_jpg.rf.0c1ab80e2aa70b6b71381db0f7c952f2.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000416_jpg.rf.bc7b90d8035b362b10e46915be1b1d13.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000384_jpg.rf.0c1ab80e2aa70b6b71381db0f7c952f2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000382_jpg.rf.0039f6afb08ed8f4271cbdff78b9df1c.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000387_jpg.rf.fe6dd4451b8e876f39cf6fe794835024.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000387_jpg.rf.fe6dd4451b8e876f39cf6fe794835024.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000394_jpg.rf.07c073993ed86d6f8319c8776fbdc2a4.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000387_jpg.rf.fe6dd4451b8e876f39cf6fe794835024.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000387_jpg.rf.fe6dd4451b8e876f39cf6fe794835024.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000383_jpg.rf.f2f66c0816f974fe69d9c31030e34fa1.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000402_jpg.rf.d671b9f64e0d7c278d6e7327a911a7ae.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000417_jpg.rf.62c30a5cb19abaa030dd05858eaf7e03.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000402_jpg.rf.d671b9f64e0d7c278d6e7327a911a7ae.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000383_jpg.rf.f2f66c0816f974fe69d9c31030e34fa1.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000403_jpg.rf.82ea635672597285b5512ec4a75e5b4b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 16
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000402_jpg.rf.d671b9f64e0d7c278d6e7327a911a7ae.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000403_jpg.rf.82ea635672597285b5512ec4a75e5b4b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000424_jpg.rf.c9ebce2ffb3d3a994a1bd717e6e6c9b3.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000428_jpg.rf.e1d0169710c57f40ac9218d2edd7ad27.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000426_jpg.rf.7a4dec987a6c44f5c3c645196bae221b.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000428_jpg.rf.e1d0169710c57f40ac9218d2edd7ad27.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000427_jpg.rf.747956133903e13234ebd3113a418028.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000428_jpg.rf.e1d0169710c57f40ac9218d2edd7ad27.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000462_jpg.rf.501912168e0259123d343e847ed241ab.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000461_jpg.rf.0fe9a3a4236e33f34563c1430720c448.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000469_jpg.rf.78fb76dd4c6f4c33a4e522d7e1b63dd2.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000466_jpg.rf.97b35110535e83888a884b1bebea1171.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000470_jpg.rf.818acae84274813bd689893566a162c4.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000466_jpg.rf.97b35110535e83888a884b1bebea1171.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000475_jpg.rf.e24fbba6b9aad00cc106681cd18b7984.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000473_jpg.rf.a1c371e9c9ea4791367b00771e61540f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000476_jpg.rf.e30d13c5829f3d1c035e36af8700c335.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000484_jpg.rf.87fc36bb91b00d3852cd7b63a77e668e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000478_jpg.rf.334892022a40e281d323a0881dd287cc.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000484_jpg.rf.87fc36bb91b00d3852cd7b63a77e668e.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000482_jpg.rf.0d0253e11a10e30a472c66fdefc7953f.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000484_jpg.rf.87fc36bb91b00d3852cd7b63a77e668e.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 0
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000557_jpg.rf.297b516a7908f0f51704afd204ada209.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000484_jpg.rf.87fc36bb91b00d3852cd7b63a77e668e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000495_jpg.rf.62230a12cd481bf170e5265099ce080d.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000496_jpg.rf.3b43fe99503d7f21a821e8f3bb568e4c.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000514_jpg.rf.8bf1b65190b73a7d9c313c2e12d03dc3.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000513_jpg.rf.14930f57faa1ee3022d7b1c037880b97.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000513_jpg.rf.14930f57faa1ee3022d7b1c037880b97.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000517_jpg.rf.d28d4a3f1d3e08c97916dbe4fc021452.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000513_jpg.rf.14930f57faa1ee3022d7b1c037880b97.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000529_jpg.rf.c0f6c3ff4480e097f9585dda155f3d13.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000513_jpg.rf.14930f57faa1ee3022d7b1c037880b97.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000559_jpg.rf.a3c24e6efbd12aac9f7c77bbf62598eb.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000513_jpg.rf.14930f57faa1ee3022d7b1c037880b97.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 16
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000560_jpg.rf.339f3f57c159179eab36c49e7ec55871.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000513_jpg.rf.14930f57faa1ee3022d7b1c037880b97.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000514_jpg.rf.8bf1b65190b73a7d9c313c2e12d03dc3.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000516_jpg.rf.27e2e119c7f589118a83a6466ae9b00e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000517_jpg.rf.d28d4a3f1d3e08c97916dbe4fc021452.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000516_jpg.rf.27e2e119c7f589118a83a6466ae9b00e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000524_jpg.rf.bbb067efd4eaa9deb2c99c802dcd80ae.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000516_jpg.rf.27e2e119c7f589118a83a6466ae9b00e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000529_jpg.rf.c0f6c3ff4480e097f9585dda155f3d13.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000516_jpg.rf.27e2e119c7f589118a83a6466ae9b00e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000528_jpg.rf.e07b415002471ce46cffff30f96725a9.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000537_jpg.rf.9db4bc9c76bd0ab522c9bfe96b8f85d4.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000538_jpg.rf.4c93b7065763cc7bbb868a4ce124879b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000543_jpg.rf.8365c21728c3af4206fe36bc83c58a36.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000547_jpg.rf.3a1c98ad51ab9194279b8cf2ab147622.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000558_jpg.rf.5ac6a064559c3446d7268e1e97d2db79.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000561_jpg.rf.79c615cd71ad73e7ef3e0d48bd3ae915.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000568_jpg.rf.c495e9d596c2010cd9ec6c2bbd54f8b0.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000569_jpg.rf.501c8498bdf2a986a6a1ac4507c2585e.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000597_jpg.rf.e6a81e6c842d3c458328c90693f6b693.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000599_jpg.rf.71c1682af5e93481c39656fa2c5bb828.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000598_jpg.rf.a59e6dab6c7454bf725a24b4857f9cf3.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000602_jpg.rf.9e63c11e7e3741df57ba43af1c469486.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000612_jpg.rf.bf90b243198b26c5a7743eb92f87598a.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000609_jpg.rf.ae7c29c9aa8d50590e94355b0e32ff7f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000613_jpg.rf.73ac383f9eea22aac2db6d3a8b0e0096.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000609_jpg.rf.ae7c29c9aa8d50590e94355b0e32ff7f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000612_jpg.rf.bf90b243198b26c5a7743eb92f87598a.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000611_jpg.rf.af2a5623d94352427c86d67df1124937.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000613_jpg.rf.73ac383f9eea22aac2db6d3a8b0e0096.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000611_jpg.rf.af2a5623d94352427c86d67df1124937.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000609_jpg.rf.ae7c29c9aa8d50590e94355b0e32ff7f.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000611_jpg.rf.af2a5623d94352427c86d67df1124937.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000629_jpg.rf.9d25e8586f0f0cd49eb45400abd4719e.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000628_jpg.rf.8aaa23f5fcf16ec723487637e3de86a3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000661_jpg.rf.8bb55b3c0d656b6d9c779e4a9bb30f5f.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000657_jpg.rf.f0d0408901ae6887b10a5fb2ebe68b59.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000665_jpg.rf.1a7a6c6adf828b51a74692fda485975b.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000657_jpg.rf.f0d0408901ae6887b10a5fb2ebe68b59.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000657_jpg.rf.f0d0408901ae6887b10a5fb2ebe68b59.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000657_jpg.rf.f0d0408901ae6887b10a5fb2ebe68b59.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000674_jpg.rf.b917513659828ec6eaf83f1754d11578.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000657_jpg.rf.f0d0408901ae6887b10a5fb2ebe68b59.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000678_jpg.rf.6cc89a0ff0042a3107affbb72a7c4556.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000657_jpg.rf.f0d0408901ae6887b10a5fb2ebe68b59.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000667_jpg.rf.83053d8828166a42d1aab5cdcf6fda9b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000667_jpg.rf.83053d8828166a42d1aab5cdcf6fda9b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000674_jpg.rf.b917513659828ec6eaf83f1754d11578.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000667_jpg.rf.83053d8828166a42d1aab5cdcf6fda9b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000678_jpg.rf.6cc89a0ff0042a3107affbb72a7c4556.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000667_jpg.rf.83053d8828166a42d1aab5cdcf6fda9b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000657_jpg.rf.f0d0408901ae6887b10a5fb2ebe68b59.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000667_jpg.rf.83053d8828166a42d1aab5cdcf6fda9b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000366_jpg.rf.5f9e36c74e32ce6a84767922dab23967.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000683_jpg.rf.9c08d703eb07110cb020b1a8d1a6a9ab.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000373_jpg.rf.d5414b86f46e9be2fbbac153d08fc3ba.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000683_jpg.rf.9c08d703eb07110cb020b1a8d1a6a9ab.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000700_jpg.rf.c01ec9e8af07e699bd9505004fe6d6f7.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000701_jpg.rf.bcb4c4d2595c7db717125e54369090a7.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000716_jpg.rf.32f5623b82bfd18f1113097d10ff179b.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000715_jpg.rf.52a5569c9b60fddaabc106af32ab0230.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000722_jpg.rf.52b7106770ac068d9fa036f79826c178.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000730_jpg.rf.4296cf5d5876d9f5166c305a5007cae2.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000779_jpg.rf.24f6c67877b62f2ccf518f562f404038.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000776_jpg.rf.c8fd291d70928195f909ab6c91153f20.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000768_jpg.rf.9c523e1cf087f01baab36273c7402928.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000776_jpg.rf.c8fd291d70928195f909ab6c91153f20.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001086_jpg.rf.3534794d856cc437a3447b658766d256.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000781_jpg.rf.6ea0b8556a7ced85bd17fe821a711eed.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 19
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000810_jpg.rf.b372f3308736f2c463fc813b8b1d3509.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000817_jpg.rf.f7649e105be4aefeb0e2a74e1f783db1.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000812_jpg.rf.08d86c3551d859b05f444121a5441f71.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000817_jpg.rf.f7649e105be4aefeb0e2a74e1f783db1.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000821_jpg.rf.20510dc273221d30771f1603a1180a26.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000833_jpg.rf.df55d45a4ea0eddb21dc0ab11418bb91.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 16
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000831_jpg.rf.aa5ec48710548d2bb8a85b690b5eb931.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000833_jpg.rf.df55d45a4ea0eddb21dc0ab11418bb91.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000835_jpg.rf.586492a539381022dc7275ad7cae4e9a.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000838_jpg.rf.614c9f5bc3376ef3b81b2502d3bfeb16.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000825_jpg.rf.a446ca86aff3d179a7cb4e46521e19ff.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000847_jpg.rf.787188302fed92dd5537d2a274ca4494.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 21
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000852_jpg.rf.a14a81939c158816ed425231178302fe.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000850_jpg.rf.55f5d96da4703a0eab53556f330dd217.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000905_jpg.rf.bcc8568e504d955969a281a6d5f9ec1f.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000907_jpg.rf.161d0e0093ab4922b6868356533fcf45.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000581_jpg.rf.d6faa5877264e8cc5363a5aa1903890a.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000908_jpg.rf.84032785398aa73501b077decc997eaf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 21
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000906_jpg.rf.79c10eca8c1ed3cefa61f4518a5e7c92.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000908_jpg.rf.84032785398aa73501b077decc997eaf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000909_jpg.rf.d9f19f192c36a4e923e1e0b43109e95d.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000908_jpg.rf.84032785398aa73501b077decc997eaf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000910_jpg.rf.415e39aaa6f97e0d4d5b911bc20a3f1a.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000908_jpg.rf.84032785398aa73501b077decc997eaf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000998_jpg.rf.d3a0eda679a5a897493382c3a010c74e.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000908_jpg.rf.84032785398aa73501b077decc997eaf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 22
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001008_jpg.rf.28529f53bfb2aae1db8f901dae029ef5.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000908_jpg.rf.84032785398aa73501b077decc997eaf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000916_jpg.rf.1f483d85e6836a908ad2273e694d9317.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000915_jpg.rf.d5c4100d69628c0e6b4c821e197b6147.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000995_jpg.rf.e385fbfee62c76add9e3b4bff31ba4b5.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000915_jpg.rf.d5c4100d69628c0e6b4c821e197b6147.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 31
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000970_jpg.rf.85377f9779557e4d9fdbe27efe9b2f9d.jpg",
+    "b": "rf100vl-mahjong-v2:valid:000961_jpg.rf.45235567b21028ec21b61109053b4ac6.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001072_jpg.rf.95eacb3edaa4cf4d5bd8c0e99877cd7e.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001071_jpg.rf.1d02ca7da2710a70869028b87f2d0475.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001078_jpg.rf.0a691b8372345c9caeb95f7bdfe4b6be.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001071_jpg.rf.1d02ca7da2710a70869028b87f2d0475.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001096_jpg.rf.6b4a44132549c7a6fd2c5370b3a083ec.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001093_jpg.rf.3473cfe6428a5f762ccad8c811e55552.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001091_jpg.rf.873c0e1c8f7bd3b7a515199d1b2c53fe.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001100_jpg.rf.745a67ba39a89f22444b601bc46f81ef.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001102_jpg.rf.b35a185c1a35b9f0f5fdd3ac199b8c77.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001100_jpg.rf.745a67ba39a89f22444b601bc46f81ef.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001104_jpg.rf.e9f2f0de286fa1dca38d1d8953ef5fdd.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001100_jpg.rf.745a67ba39a89f22444b601bc46f81ef.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001106_jpg.rf.25e747e8cf65ce04ce276138faf560fe.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001100_jpg.rf.745a67ba39a89f22444b601bc46f81ef.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001108_jpg.rf.c36d27059e558034cfcca2cb79c6ea7f.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001100_jpg.rf.745a67ba39a89f22444b601bc46f81ef.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001110_jpg.rf.c49164af5abb6593bc2a6f051828cc66.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001100_jpg.rf.745a67ba39a89f22444b601bc46f81ef.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:001093_jpg.rf.3473cfe6428a5f762ccad8c811e55552.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001100_jpg.rf.745a67ba39a89f22444b601bc46f81ef.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001116_jpg.rf.99784799ed8844a6b4411b313ae882de.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001122_jpg.rf.30e48a6f88a4d4a87636449c3a3e4fc4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001121_jpg.rf.26818b74a44507f6c447d501d42da093.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001122_jpg.rf.30e48a6f88a4d4a87636449c3a3e4fc4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001128_jpg.rf.78fcd87f39f0763803cc668add5a567e.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001124_jpg.rf.90d71158b65afa49800b7949f80cd9ad.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001080_jpg.rf.b8963ac55870f54f9225750ce742f526.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001126_jpg.rf.aeb4afe91623cba199a439b57d4f40f2.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001204_jpg.rf.e9977e6b8ec6cece388e1981778535de.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001202_jpg.rf.6732206cf33dcea91dffbd533b12824d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001105_jpg.rf.238e4409422a249fefa545bab2a77b1e.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001211_jpg.rf.21d313812dbf227e26d67bbba8bf0df5.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001107_jpg.rf.1ec71d5456350a666ba70d0cc0473f57.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001211_jpg.rf.21d313812dbf227e26d67bbba8bf0df5.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001209_jpg.rf.26c679208615a581df347a84e36fd993.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001211_jpg.rf.21d313812dbf227e26d67bbba8bf0df5.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001362_jpg.rf.91725c7f0045d108b1935c819edc97e9.jpg",
+    "b": "rf100vl-mahjong-v2:valid:001358_jpg.rf.9f88d917792e626b2d83670e90f90255.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:002099_jpg.rf.f5e6d0ba80361ddffee5b99c4ca63215.jpg",
+    "b": "rf100vl-mahjong-v2:valid:002096_jpg.rf.a88a4fc0ed2b071ace0dfab02435cd56.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000027_jpg.rf.86b985fb0a43a77119a978bde0398db7.jpg",
+    "b": "rf100vl-mahjong-v2:test:000033_jpg.rf.15388fa511af685b6de5159d90b2e337.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000215_jpg.rf.4eeb7a12c5364697efc70f303b147b50.jpg",
+    "b": "rf100vl-mahjong-v2:test:000033_jpg.rf.15388fa511af685b6de5159d90b2e337.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 18
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000027_jpg.rf.86b985fb0a43a77119a978bde0398db7.jpg",
+    "b": "rf100vl-mahjong-v2:test:000035_jpg.rf.f14375ca9496ad53fc123cc0adf6ad6a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000029_jpg.rf.41bc057673e93ff2caed14fd7b40b3e9.jpg",
+    "b": "rf100vl-mahjong-v2:test:000035_jpg.rf.f14375ca9496ad53fc123cc0adf6ad6a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000215_jpg.rf.4eeb7a12c5364697efc70f303b147b50.jpg",
+    "b": "rf100vl-mahjong-v2:test:000035_jpg.rf.f14375ca9496ad53fc123cc0adf6ad6a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 18
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000216_jpg.rf.470e13c5add517414b65d5d6f951d370.jpg",
+    "b": "rf100vl-mahjong-v2:test:000035_jpg.rf.f14375ca9496ad53fc123cc0adf6ad6a.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000044_jpg.rf.e33005213c2236a39f6096e7dc714712.jpg",
+    "b": "rf100vl-mahjong-v2:test:000042_jpg.rf.54ba0b55aabaf440c1b20524e4ee2daf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000048_jpg.rf.1eec14c4baf09efd45e04915a5c38543.jpg",
+    "b": "rf100vl-mahjong-v2:test:000042_jpg.rf.54ba0b55aabaf440c1b20524e4ee2daf.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000050_jpg.rf.606a44427595bce394b44006fb72ae78.jpg",
+    "b": "rf100vl-mahjong-v2:test:000042_jpg.rf.54ba0b55aabaf440c1b20524e4ee2daf.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000057_jpg.rf.7780f5fafbdab21e4c9e4eeba07da9e5.jpg",
+    "b": "rf100vl-mahjong-v2:test:000065_jpg.rf.4df5af3e623aa7ac52b6ca025819d0b9.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000140_jpg.rf.7aa94e2c67e61c76776cd7f574f30058.jpg",
+    "b": "rf100vl-mahjong-v2:test:000138_jpg.rf.f7d442bb53653830c4a3e5e95bbfd54e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000154_jpg.rf.20c4d0662b27f3810287ab54f097f576.jpg",
+    "b": "rf100vl-mahjong-v2:test:000167_jpg.rf.42b7c2f8d94641e10ac520bc02cdd26d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000160_jpg.rf.2aa10172331a168f585e19fb8c5fede1.jpg",
+    "b": "rf100vl-mahjong-v2:test:000167_jpg.rf.42b7c2f8d94641e10ac520bc02cdd26d.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000161_jpg.rf.c9bdd42ec6e708c3604387a5491fb5de.jpg",
+    "b": "rf100vl-mahjong-v2:test:000167_jpg.rf.42b7c2f8d94641e10ac520bc02cdd26d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000175_jpg.rf.7b82d8f8275f16a8d37bb0100666997d.jpg",
+    "b": "rf100vl-mahjong-v2:test:000173_jpg.rf.a83d8a043a6e9f7da960d557b9c3aeec.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000227_jpg.rf.18952fc7d3b16819b0509d3bbf28e9b4.jpg",
+    "b": "rf100vl-mahjong-v2:test:000220_jpg.rf.5796fbb5ff4385c6cf43ac42d5dcb7cc.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000257_jpg.rf.d0517bfffc2f520f18a395513d5aa4a6.jpg",
+    "b": "rf100vl-mahjong-v2:test:000264_jpg.rf.75a152de6d6492415450f35dbcd54f20.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000261_jpg.rf.682171184222d04888cc72ab65e9ddfa.jpg",
+    "b": "rf100vl-mahjong-v2:test:000264_jpg.rf.75a152de6d6492415450f35dbcd54f20.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000263_jpg.rf.756f74a69e5068c201dbc2f33d96a437.jpg",
+    "b": "rf100vl-mahjong-v2:test:000264_jpg.rf.75a152de6d6492415450f35dbcd54f20.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000261_jpg.rf.682171184222d04888cc72ab65e9ddfa.jpg",
+    "b": "rf100vl-mahjong-v2:test:000266_jpg.rf.108328f71c547dff0637b2ae6ddd1eee.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:test:000264_jpg.rf.75a152de6d6492415450f35dbcd54f20.jpg",
+    "b": "rf100vl-mahjong-v2:test:000266_jpg.rf.108328f71c547dff0637b2ae6ddd1eee.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000072_jpg.rf.726e568b226a462a13fcef4804ab728d.jpg",
+    "b": "rf100vl-mahjong-v2:test:000330_jpg.rf.6255c9c03b3bf4b22f9a4a0df2ec8cad.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 19
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000074_jpg.rf.a4b7bbe7f258df43dbcab04feb6e2413.jpg",
+    "b": "rf100vl-mahjong-v2:test:000330_jpg.rf.6255c9c03b3bf4b22f9a4a0df2ec8cad.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 19
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000357_jpg.rf.292d657c1769fa8e5196574cc5dea142.jpg",
+    "b": "rf100vl-mahjong-v2:test:000356_jpg.rf.8691a4541f4f878f567371561d21be05.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000373_jpg.rf.d5414b86f46e9be2fbbac153d08fc3ba.jpg",
+    "b": "rf100vl-mahjong-v2:test:000372_jpg.rf.8d723d0a22904014b1eb3c6fba1c6d15.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000385_jpg.rf.6d446e5ecd9ad28bc7e9d48a83f3573f.jpg",
+    "b": "rf100vl-mahjong-v2:test:000386_jpg.rf.062d4fb47b6e08de0c0b584af869f628.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 16
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000440_jpg.rf.10147453272d373973ca80829bb479df.jpg",
+    "b": "rf100vl-mahjong-v2:test:000395_jpg.rf.ce390ddc0122c9850c20b173e541524b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000442_jpg.rf.947a4d0c005a9fc1c125eb68558d17d7.jpg",
+    "b": "rf100vl-mahjong-v2:test:000395_jpg.rf.ce390ddc0122c9850c20b173e541524b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "b": "rf100vl-mahjong-v2:test:000411_jpg.rf.0a427fa9575c109d76ae8c562c447580.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000412_jpg.rf.8ce25925a87962060ed9e93c9e840b4f.jpg",
+    "b": "rf100vl-mahjong-v2:test:000411_jpg.rf.0a427fa9575c109d76ae8c562c447580.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000415_jpg.rf.63423ab00587b7ee25e95286c8c18f9a.jpg",
+    "b": "rf100vl-mahjong-v2:test:000411_jpg.rf.0a427fa9575c109d76ae8c562c447580.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000447_jpg.rf.82c4957a69af88c552aeb0295b11ffa2.jpg",
+    "b": "rf100vl-mahjong-v2:test:000411_jpg.rf.0a427fa9575c109d76ae8c562c447580.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000449_jpg.rf.e84221a0a67cea0943e92889f451f9a1.jpg",
+    "b": "rf100vl-mahjong-v2:test:000411_jpg.rf.0a427fa9575c109d76ae8c562c447580.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "b": "rf100vl-mahjong-v2:test:000411_jpg.rf.0a427fa9575c109d76ae8c562c447580.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000424_jpg.rf.c9ebce2ffb3d3a994a1bd717e6e6c9b3.jpg",
+    "b": "rf100vl-mahjong-v2:test:000423_jpg.rf.6dbdf4ed888b59e48fb2e505db07e07f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000426_jpg.rf.7a4dec987a6c44f5c3c645196bae221b.jpg",
+    "b": "rf100vl-mahjong-v2:test:000423_jpg.rf.6dbdf4ed888b59e48fb2e505db07e07f.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000438_jpg.rf.c779f53bc034e38194860a651d98ce90.jpg",
+    "b": "rf100vl-mahjong-v2:test:000439_jpg.rf.395bece20e245db94e95b860d3d276ef.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000442_jpg.rf.947a4d0c005a9fc1c125eb68558d17d7.jpg",
+    "b": "rf100vl-mahjong-v2:test:000439_jpg.rf.395bece20e245db94e95b860d3d276ef.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000402_jpg.rf.d671b9f64e0d7c278d6e7327a911a7ae.jpg",
+    "b": "rf100vl-mahjong-v2:test:000439_jpg.rf.395bece20e245db94e95b860d3d276ef.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000403_jpg.rf.82ea635672597285b5512ec4a75e5b4b.jpg",
+    "b": "rf100vl-mahjong-v2:test:000439_jpg.rf.395bece20e245db94e95b860d3d276ef.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 13
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000417_jpg.rf.62c30a5cb19abaa030dd05858eaf7e03.jpg",
+    "b": "rf100vl-mahjong-v2:test:000451_jpg.rf.b907283633aa81e1ee35bca887c82828.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000447_jpg.rf.82c4957a69af88c552aeb0295b11ffa2.jpg",
+    "b": "rf100vl-mahjong-v2:test:000451_jpg.rf.b907283633aa81e1ee35bca887c82828.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000449_jpg.rf.e84221a0a67cea0943e92889f451f9a1.jpg",
+    "b": "rf100vl-mahjong-v2:test:000451_jpg.rf.b907283633aa81e1ee35bca887c82828.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000402_jpg.rf.d671b9f64e0d7c278d6e7327a911a7ae.jpg",
+    "b": "rf100vl-mahjong-v2:test:000451_jpg.rf.b907283633aa81e1ee35bca887c82828.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "b": "rf100vl-mahjong-v2:test:000452_jpg.rf.7635ac97a39a2d9b9cc6c6c5582d8904.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000394_jpg.rf.07c073993ed86d6f8319c8776fbdc2a4.jpg",
+    "b": "rf100vl-mahjong-v2:test:000452_jpg.rf.7635ac97a39a2d9b9cc6c6c5582d8904.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000417_jpg.rf.62c30a5cb19abaa030dd05858eaf7e03.jpg",
+    "b": "rf100vl-mahjong-v2:test:000452_jpg.rf.7635ac97a39a2d9b9cc6c6c5582d8904.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000449_jpg.rf.e84221a0a67cea0943e92889f451f9a1.jpg",
+    "b": "rf100vl-mahjong-v2:test:000452_jpg.rf.7635ac97a39a2d9b9cc6c6c5582d8904.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "b": "rf100vl-mahjong-v2:test:000452_jpg.rf.7635ac97a39a2d9b9cc6c6c5582d8904.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000402_jpg.rf.d671b9f64e0d7c278d6e7327a911a7ae.jpg",
+    "b": "rf100vl-mahjong-v2:test:000452_jpg.rf.7635ac97a39a2d9b9cc6c6c5582d8904.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:test:000451_jpg.rf.b907283633aa81e1ee35bca887c82828.jpg",
+    "b": "rf100vl-mahjong-v2:test:000452_jpg.rf.7635ac97a39a2d9b9cc6c6c5582d8904.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000561_jpg.rf.79c615cd71ad73e7ef3e0d48bd3ae915.jpg",
+    "b": "rf100vl-mahjong-v2:test:000512_jpg.rf.d29ee072884e1e07c279c2bcc988035e.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000515_jpg.rf.80091065b4886b6f86e600d76aa99c12.jpg",
+    "b": "rf100vl-mahjong-v2:test:000556_jpg.rf.ebd981c2e94340f5cd4ceff85f7f0728.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000558_jpg.rf.5ac6a064559c3446d7268e1e97d2db79.jpg",
+    "b": "rf100vl-mahjong-v2:test:000556_jpg.rf.ebd981c2e94340f5cd4ceff85f7f0728.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000560_jpg.rf.339f3f57c159179eab36c49e7ec55871.jpg",
+    "b": "rf100vl-mahjong-v2:test:000556_jpg.rf.ebd981c2e94340f5cd4ceff85f7f0728.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000528_jpg.rf.e07b415002471ce46cffff30f96725a9.jpg",
+    "b": "rf100vl-mahjong-v2:test:000556_jpg.rf.ebd981c2e94340f5cd4ceff85f7f0728.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000561_jpg.rf.79c615cd71ad73e7ef3e0d48bd3ae915.jpg",
+    "b": "rf100vl-mahjong-v2:test:000556_jpg.rf.ebd981c2e94340f5cd4ceff85f7f0728.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000565_jpg.rf.7f3f6d626f216ce28eb56915f5f742b2.jpg",
+    "b": "rf100vl-mahjong-v2:test:000570_jpg.rf.5c287d6e466b4cd20fcfbf2df52b8596.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000566_jpg.rf.ad88dd485c824c009c34a65690f36043.jpg",
+    "b": "rf100vl-mahjong-v2:test:000570_jpg.rf.5c287d6e466b4cd20fcfbf2df52b8596.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 14
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000516_jpg.rf.27e2e119c7f589118a83a6466ae9b00e.jpg",
+    "b": "rf100vl-mahjong-v2:test:000570_jpg.rf.5c287d6e466b4cd20fcfbf2df52b8596.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 17
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000569_jpg.rf.501c8498bdf2a986a6a1ac4507c2585e.jpg",
+    "b": "rf100vl-mahjong-v2:test:000570_jpg.rf.5c287d6e466b4cd20fcfbf2df52b8596.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000506_jpg.rf.3195acdae7b92f8e959931051f30437a.jpg",
+    "b": "rf100vl-mahjong-v2:test:000571_jpg.rf.1b1ae030af5646d7b8f838e8c6e10e85.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 23
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000593_jpg.rf.5a52039bd1c268641a78cbea442ec60c.jpg",
+    "b": "rf100vl-mahjong-v2:test:000596_jpg.rf.549c30f9eac9cd047af62306e39f34b6.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000612_jpg.rf.bf90b243198b26c5a7743eb92f87598a.jpg",
+    "b": "rf100vl-mahjong-v2:test:000610_jpg.rf.baf7109c86d6154cddb7bf08d3b69121.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000613_jpg.rf.73ac383f9eea22aac2db6d3a8b0e0096.jpg",
+    "b": "rf100vl-mahjong-v2:test:000610_jpg.rf.baf7109c86d6154cddb7bf08d3b69121.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000609_jpg.rf.ae7c29c9aa8d50590e94355b0e32ff7f.jpg",
+    "b": "rf100vl-mahjong-v2:test:000610_jpg.rf.baf7109c86d6154cddb7bf08d3b69121.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000611_jpg.rf.af2a5623d94352427c86d67df1124937.jpg",
+    "b": "rf100vl-mahjong-v2:test:000610_jpg.rf.baf7109c86d6154cddb7bf08d3b69121.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000636_jpg.rf.d4852ce054c0aae3f1c9ae7c70fd23e2.jpg",
+    "b": "rf100vl-mahjong-v2:test:000631_jpg.rf.e040b7dbc78b6ee0a74a27b1b6d301c9.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 8
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "b": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "b": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000668_jpg.rf.425bd8b8692242446c1685e200a3c330.jpg",
+    "b": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "b": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "b": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000674_jpg.rf.b917513659828ec6eaf83f1754d11578.jpg",
+    "b": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000678_jpg.rf.6cc89a0ff0042a3107affbb72a7c4556.jpg",
+    "b": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000657_jpg.rf.f0d0408901ae6887b10a5fb2ebe68b59.jpg",
+    "b": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000667_jpg.rf.83053d8828166a42d1aab5cdcf6fda9b.jpg",
+    "b": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000665_jpg.rf.1a7a6c6adf828b51a74692fda485975b.jpg",
+    "b": "rf100vl-mahjong-v2:test:000662_jpg.rf.55a98d88653c7d8ac1c3c2f83120982f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000668_jpg.rf.425bd8b8692242446c1685e200a3c330.jpg",
+    "b": "rf100vl-mahjong-v2:test:000662_jpg.rf.55a98d88653c7d8ac1c3c2f83120982f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000663_jpg.rf.7d36e9ed88c6217e6ce176607d413186.jpg",
+    "b": "rf100vl-mahjong-v2:test:000664_jpg.rf.6be284dd0858328e6d47179e9fecc112.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000665_jpg.rf.1a7a6c6adf828b51a74692fda485975b.jpg",
+    "b": "rf100vl-mahjong-v2:test:000664_jpg.rf.6be284dd0858328e6d47179e9fecc112.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000668_jpg.rf.425bd8b8692242446c1685e200a3c330.jpg",
+    "b": "rf100vl-mahjong-v2:test:000664_jpg.rf.6be284dd0858328e6d47179e9fecc112.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "b": "rf100vl-mahjong-v2:test:000664_jpg.rf.6be284dd0858328e6d47179e9fecc112.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000665_jpg.rf.1a7a6c6adf828b51a74692fda485975b.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000668_jpg.rf.425bd8b8692242446c1685e200a3c330.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000672_jpg.rf.579bf31c5e8c39dac4be5658d57f09bc.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000674_jpg.rf.b917513659828ec6eaf83f1754d11578.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000678_jpg.rf.6cc89a0ff0042a3107affbb72a7c4556.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000657_jpg.rf.f0d0408901ae6887b10a5fb2ebe68b59.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "b": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000673_jpg.rf.62918c8faea584c95b4c4e194e4985a0.jpg",
+    "b": "rf100vl-mahjong-v2:test:000671_jpg.rf.82ec00dfb5f9668ba5598c80d08862e1.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000675_jpg.rf.3118a1d6fedc10f7b5cbfe1719ca200f.jpg",
+    "b": "rf100vl-mahjong-v2:test:000671_jpg.rf.82ec00dfb5f9668ba5598c80d08862e1.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000678_jpg.rf.6cc89a0ff0042a3107affbb72a7c4556.jpg",
+    "b": "rf100vl-mahjong-v2:test:000671_jpg.rf.82ec00dfb5f9668ba5598c80d08862e1.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000679_jpg.rf.4bfbb78720c803f0f179a9db59c4e2a0.jpg",
+    "b": "rf100vl-mahjong-v2:test:000671_jpg.rf.82ec00dfb5f9668ba5598c80d08862e1.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "b": "rf100vl-mahjong-v2:test:000671_jpg.rf.82ec00dfb5f9668ba5598c80d08862e1.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000393_jpg.rf.f1cbd3312b5c0bd508b85d225be441a2.jpg",
+    "b": "rf100vl-mahjong-v2:test:000676_jpg.rf.df0ab8acdaf4fd0690eddeea6e8f6aa1.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000666_jpg.rf.838a6ea34d88a9b223d737424469c751.jpg",
+    "b": "rf100vl-mahjong-v2:test:000676_jpg.rf.df0ab8acdaf4fd0690eddeea6e8f6aa1.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:test:000411_jpg.rf.0a427fa9575c109d76ae8c562c447580.jpg",
+    "b": "rf100vl-mahjong-v2:test:000676_jpg.rf.df0ab8acdaf4fd0690eddeea6e8f6aa1.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000692_jpg.rf.31c5a8b6e5ed763a00240ea1c2726f81.jpg",
+    "b": "rf100vl-mahjong-v2:test:000693_jpg.rf.60f29870b9d4dfc44ced9ee188ad3f9f.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000706_jpg.rf.a95c8a455e2ba0cf49bb6f4fe18bf6f7.jpg",
+    "b": "rf100vl-mahjong-v2:test:000707_jpg.rf.1b4227a177a2a5e2a73adbc6cc5f2e3d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000751_jpg.rf.c5d89c7754eee9d67bddc55de8925ca9.jpg",
+    "b": "rf100vl-mahjong-v2:test:000755_jpg.rf.5c26e699998aa56f9c50281cb1f7c4c6.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000753_jpg.rf.1d32274cf7d028e2f0d2fb01d3b8cebd.jpg",
+    "b": "rf100vl-mahjong-v2:test:000755_jpg.rf.5c26e699998aa56f9c50281cb1f7c4c6.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000756_jpg.rf.cc4364c56b36f5dc9e732414fc14cd63.jpg",
+    "b": "rf100vl-mahjong-v2:test:000755_jpg.rf.5c26e699998aa56f9c50281cb1f7c4c6.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 0
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000758_jpg.rf.302ff2d878f3572b0fa155a6a58c4e7e.jpg",
+    "b": "rf100vl-mahjong-v2:test:000755_jpg.rf.5c26e699998aa56f9c50281cb1f7c4c6.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000730_jpg.rf.4296cf5d5876d9f5166c305a5007cae2.jpg",
+    "b": "rf100vl-mahjong-v2:test:000769_jpg.rf.11ca3db824bd65b5a39ae7a13237c337.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000783_jpg.rf.daff60aad60e97bfc967a9fa9024f590.jpg",
+    "b": "rf100vl-mahjong-v2:test:000792_jpg.rf.757e07a119e90a7fc3e3ea9983238f91.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000807_jpg.rf.e9cb5e3f8b1bad2081bc5fd4d3bea545.jpg",
+    "b": "rf100vl-mahjong-v2:test:000830_jpg.rf.cae9d35c9b060a95f467aaadf9e2b3d8.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000831_jpg.rf.aa5ec48710548d2bb8a85b690b5eb931.jpg",
+    "b": "rf100vl-mahjong-v2:test:000830_jpg.rf.cae9d35c9b060a95f467aaadf9e2b3d8.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 6
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000835_jpg.rf.586492a539381022dc7275ad7cae4e9a.jpg",
+    "b": "rf100vl-mahjong-v2:test:000830_jpg.rf.cae9d35c9b060a95f467aaadf9e2b3d8.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000833_jpg.rf.df55d45a4ea0eddb21dc0ab11418bb91.jpg",
+    "b": "rf100vl-mahjong-v2:test:000830_jpg.rf.cae9d35c9b060a95f467aaadf9e2b3d8.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 12
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000846_jpg.rf.0ba6cc74d063051cb438fce46a2e7e19.jpg",
+    "b": "rf100vl-mahjong-v2:test:000832_jpg.rf.1b56c328dc273ca43fdf11ff518f8877.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000825_jpg.rf.a446ca86aff3d179a7cb4e46521e19ff.jpg",
+    "b": "rf100vl-mahjong-v2:test:000845_jpg.rf.97726a1f3cb11c58c97f88769f0bedc3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 20
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000831_jpg.rf.aa5ec48710548d2bb8a85b690b5eb931.jpg",
+    "b": "rf100vl-mahjong-v2:test:000845_jpg.rf.97726a1f3cb11c58c97f88769f0bedc3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 10
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000842_jpg.rf.aeac5b0605f4488d66772105bba72264.jpg",
+    "b": "rf100vl-mahjong-v2:test:000845_jpg.rf.97726a1f3cb11c58c97f88769f0bedc3.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000852_jpg.rf.a14a81939c158816ed425231178302fe.jpg",
+    "b": "rf100vl-mahjong-v2:test:000845_jpg.rf.97726a1f3cb11c58c97f88769f0bedc3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000847_jpg.rf.787188302fed92dd5537d2a274ca4494.jpg",
+    "b": "rf100vl-mahjong-v2:test:000845_jpg.rf.97726a1f3cb11c58c97f88769f0bedc3.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000846_jpg.rf.0ba6cc74d063051cb438fce46a2e7e19.jpg",
+    "b": "rf100vl-mahjong-v2:test:000858_jpg.rf.59f4c683ff6d7dc8edb508fe3f24f09c.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000853_jpg.rf.09ad4681d703955d77b1555c40ee22e8.jpg",
+    "b": "rf100vl-mahjong-v2:test:000858_jpg.rf.59f4c683ff6d7dc8edb508fe3f24f09c.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000905_jpg.rf.bcc8568e504d955969a281a6d5f9ec1f.jpg",
+    "b": "rf100vl-mahjong-v2:test:000895_jpg.rf.fb60f71d9dc580229de708085b74e84b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:000907_jpg.rf.161d0e0093ab4922b6868356533fcf45.jpg",
+    "b": "rf100vl-mahjong-v2:test:000895_jpg.rf.fb60f71d9dc580229de708085b74e84b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000622_jpg.rf.f97e89d595117ec13990643849e8cbc4.jpg",
+    "b": "rf100vl-mahjong-v2:test:000919_jpg.rf.ffd78866a2c699de1da4599826e3c627.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 33
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000916_jpg.rf.1f483d85e6836a908ad2273e694d9317.jpg",
+    "b": "rf100vl-mahjong-v2:test:000919_jpg.rf.ffd78866a2c699de1da4599826e3c627.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000918_jpg.rf.b648597672e7c8a8b292578f4108d99f.jpg",
+    "b": "rf100vl-mahjong-v2:test:000919_jpg.rf.ffd78866a2c699de1da4599826e3c627.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000924_jpg.rf.f7e56f1030f2d032793494c54bd2f465.jpg",
+    "b": "rf100vl-mahjong-v2:test:000926_jpg.rf.2dff4a4cee84e7825bb6fe47888aa788.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000945_jpg.rf.ca8c43e8420642775b1cbf976893c804.jpg",
+    "b": "rf100vl-mahjong-v2:test:000943_jpg.rf.5e0dfc4cad8d23d6d4bd738f20080226.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001055_jpg.rf.a10766d8a1300d57dabd73be4d049cce.jpg",
+    "b": "rf100vl-mahjong-v2:test:001057_jpg.rf.843ecdcde984a2179ddcde0a7eeb9d11.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001060_jpg.rf.64f08f2809b4701f68a7a3c26fc19d30.jpg",
+    "b": "rf100vl-mahjong-v2:test:001058_jpg.rf.76564666e8a0dfad4a72c71ba0385a5b.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:000709_jpg.rf.eca4cbdbe2ed11e87f279488e936be71.jpg",
+    "b": "rf100vl-mahjong-v2:test:001068_jpg.rf.5aac1a879db0eefe98415defff02a015.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 11
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001072_jpg.rf.95eacb3edaa4cf4d5bd8c0e99877cd7e.jpg",
+    "b": "rf100vl-mahjong-v2:test:001068_jpg.rf.5aac1a879db0eefe98415defff02a015.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001078_jpg.rf.0a691b8372345c9caeb95f7bdfe4b6be.jpg",
+    "b": "rf100vl-mahjong-v2:test:001076_jpg.rf.aca700cd0a83d10ee474e6fd40c8c036.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 7
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001086_jpg.rf.3534794d856cc437a3447b658766d256.jpg",
+    "b": "rf100vl-mahjong-v2:test:001084_jpg.rf.a46f95b92f2238a0b4bade7e0b4b705b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:001100_jpg.rf.745a67ba39a89f22444b601bc46f81ef.jpg",
+    "b": "rf100vl-mahjong-v2:test:001084_jpg.rf.a46f95b92f2238a0b4bade7e0b4b705b.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001041_jpg.rf.7cad3c0df640c39881fbb6e65b3b418b.jpg",
+    "b": "rf100vl-mahjong-v2:test:001089_jpg.rf.166810797b87eeafef1c6a8f67bb4423.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001091_jpg.rf.873c0e1c8f7bd3b7a515199d1b2c53fe.jpg",
+    "b": "rf100vl-mahjong-v2:test:001089_jpg.rf.166810797b87eeafef1c6a8f67bb4423.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001096_jpg.rf.6b4a44132549c7a6fd2c5370b3a083ec.jpg",
+    "b": "rf100vl-mahjong-v2:test:001089_jpg.rf.166810797b87eeafef1c6a8f67bb4423.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001098_jpg.rf.fc72482b2508485515371ffb0c3206fc.jpg",
+    "b": "rf100vl-mahjong-v2:test:001089_jpg.rf.166810797b87eeafef1c6a8f67bb4423.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001104_jpg.rf.e9f2f0de286fa1dca38d1d8953ef5fdd.jpg",
+    "b": "rf100vl-mahjong-v2:test:001089_jpg.rf.166810797b87eeafef1c6a8f67bb4423.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001106_jpg.rf.25e747e8cf65ce04ce276138faf560fe.jpg",
+    "b": "rf100vl-mahjong-v2:test:001089_jpg.rf.166810797b87eeafef1c6a8f67bb4423.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001108_jpg.rf.c36d27059e558034cfcca2cb79c6ea7f.jpg",
+    "b": "rf100vl-mahjong-v2:test:001089_jpg.rf.166810797b87eeafef1c6a8f67bb4423.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 5
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:001093_jpg.rf.3473cfe6428a5f762ccad8c811e55552.jpg",
+    "b": "rf100vl-mahjong-v2:test:001089_jpg.rf.166810797b87eeafef1c6a8f67bb4423.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:001100_jpg.rf.745a67ba39a89f22444b601bc46f81ef.jpg",
+    "b": "rf100vl-mahjong-v2:test:001089_jpg.rf.166810797b87eeafef1c6a8f67bb4423.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001133_jpg.rf.113472e5f55579ddb9cd04da7e86cc79.jpg",
+    "b": "rf100vl-mahjong-v2:test:001129_jpg.rf.39cfe543856e8fb864f5d92c63af31ea.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 3
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001148_jpg.rf.406415faa6d3f6ae32a181c9b29e2725.jpg",
+    "b": "rf100vl-mahjong-v2:test:001129_jpg.rf.39cfe543856e8fb864f5d92c63af31ea.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001140_jpg.rf.c0f83b3e1dd56fb5e04f3d968bcdc5be.jpg",
+    "b": "rf100vl-mahjong-v2:test:001143_jpg.rf.0d5dbe20a5d7d5b2b716a75436267f90.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 1
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001141_jpg.rf.c5e1cede668f92dc246aa9389adb0d20.jpg",
+    "b": "rf100vl-mahjong-v2:test:001143_jpg.rf.0d5dbe20a5d7d5b2b716a75436267f90.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 2
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001131_jpg.rf.86ca4fa438055f2ae3dc316c383d22e3.jpg",
+    "b": "rf100vl-mahjong-v2:test:001173_jpg.rf.e0dc0a5b6adeb78492abdc0e2edc4409.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 15
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001208_jpg.rf.0b76b75b927f91fd19cdb0576c63b203.jpg",
+    "b": "rf100vl-mahjong-v2:test:001201_jpg.rf.95bd8d877633f8a8fc7e47abc7add984.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:valid:001202_jpg.rf.6732206cf33dcea91dffbd533b12824d.jpg",
+    "b": "rf100vl-mahjong-v2:test:001201_jpg.rf.95bd8d877633f8a8fc7e47abc7add984.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 4
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001212_jpg.rf.db2b3dc9596fa4d2deaa52228011e2c0.jpg",
+    "b": "rf100vl-mahjong-v2:test:001210_jpg.rf.3be86fcfbb1260ed310032db8fbde64d.jpg",
+    "reason": "dhash64_hamming_le_4",
+    "dhash_distance": 0
+  },
+  {
+    "a": "rf100vl-mahjong-v2:train:001236_jpg.rf.ed7546583dcd4c46207a8a68517c1e82.jpg",
+    "b": "rf100vl-mahjong-v2:test:001237_jpg.rf.3039bf1d3489af341bc07a0311f18889.jpg",
+    "reason": "phash64_hamming_le_6_rgb32_mae_le_12",
+    "dhash_distance": 9
+  }
+]

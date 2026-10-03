@@ -1,0 +1,770 @@
+[
+  {
+    "id": "rf100vl-mahjong-v2:valid:000211_jpg.rf.d3212f1c4c4594fa4dab20d3eafaddc4.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:9174a27780d8c47ccf3b"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000214_jpg.rf.dbc0b7d0440566cc69157effac5df971.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:9174a27780d8c47ccf3b"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000219_jpg.rf.b37c45172c2a3561b58166b0f9c43e8c.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:9174a27780d8c47ccf3b"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000033_jpg.rf.15388fa511af685b6de5159d90b2e337.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:9174a27780d8c47ccf3b"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000035_jpg.rf.f14375ca9496ad53fc123cc0adf6ad6a.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:9174a27780d8c47ccf3b"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000042_jpg.rf.54ba0b55aabaf440c1b20524e4ee2daf.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:978e120697777a5e552a"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000065_jpg.rf.4df5af3e623aa7ac52b6ca025819d0b9.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:3dc84516f84f245db7fe"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000330_jpg.rf.6255c9c03b3bf4b22f9a4a0df2ec8cad.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:4d8c676cf2d03591e270"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000090_jpg.rf.4ca7c5d897e6361888650e8de715788b.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:a169d454e1c8ef607e92"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000124_jpg.rf.9b590d420cdcaaae061d53284d40eebc.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:1665da28be0eb09903b7"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000153_jpg.rf.ff87a75a47892567051bf4b240a74c34.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:d0c962042cb65454100a"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000167_jpg.rf.42b7c2f8d94641e10ac520bc02cdd26d.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:5adf42df3c3d6387a7ae"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000157_jpg.rf.de5f1a4b9db393ae627ee78b6c88d7ae.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:f2dd44eddafe1b12cf69"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000170_jpg.rf.a04de73b3db1bf1af1649ac24100df1f.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:e25f4f06ab943cb62702"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000173_jpg.rf.a83d8a043a6e9f7da960d557b9c3aeec.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:c3e800332fa1de48b189"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000177_jpg.rf.659ddc2cfeb1fdef0c9acac29db2463b.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:f3cdc8ae488009f3a0d8"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000183_jpg.rf.3320f07f38aceb480f33836fa689c02e.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:38a4e778ff0c90c878a4"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000198_jpg.rf.8b033ecc807955b4589c6792f52c01c4.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:87d26e57ee5d70353a9f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000230_jpg.rf.1d35fc8e4b52c07d7b9f279bf233ebe7.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ef9b833cb2ca645dbef2"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000220_jpg.rf.5796fbb5ff4385c6cf43ac42d5dcb7cc.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:4a172a91550c8cb61eb9"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000264_jpg.rf.75a152de6d6492415450f35dbcd54f20.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:82ec0f0f226ac4ae24da"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000266_jpg.rf.108328f71c547dff0637b2ae6ddd1eee.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:82ec0f0f226ac4ae24da"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000116_jpg.rf.34eb40d0182eb5adfd2493c890ff64ce.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:bd01cebac4404ec26064"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000288_jpg.rf.009b0268d6ec620a7b3f8d6f0c3aa46d.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:01db49f76c1c2301f1e6"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000311_jpg.rf.c7173ac3ad151366a14fe3cc3ecfbe42.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:8ea1fb6476f8ac31ee8d"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000307_jpg.rf.e30fa432bc1d8103c17a5ef9a11f3196.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:0e2e277179d77b68b692"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000386_jpg.rf.062d4fb47b6e08de0c0b584af869f628.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:62ac7900c922018168a4"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000345_jpg.rf.73604f2ce0cc4d56bea022998bd00015.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:4244c245ed5d0808a1c7"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000347_jpg.rf.da383517e3a16eb610de0d85975f04bc.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:4244c245ed5d0808a1c7"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000356_jpg.rf.8691a4541f4f878f567371561d21be05.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:1c5447bb021e35081797"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000365_jpg.rf.ed8c8a9114f7c3f0c1813a5b62e534e5.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:fdda2bb8c13634074d13"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000384_jpg.rf.0c1ab80e2aa70b6b71381db0f7c952f2.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000387_jpg.rf.fe6dd4451b8e876f39cf6fe794835024.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000402_jpg.rf.d671b9f64e0d7c278d6e7327a911a7ae.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000403_jpg.rf.82ea635672597285b5512ec4a75e5b4b.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000657_jpg.rf.f0d0408901ae6887b10a5fb2ebe68b59.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000667_jpg.rf.83053d8828166a42d1aab5cdcf6fda9b.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000395_jpg.rf.ce390ddc0122c9850c20b173e541524b.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000411_jpg.rf.0a427fa9575c109d76ae8c562c447580.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000439_jpg.rf.395bece20e245db94e95b860d3d276ef.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000451_jpg.rf.b907283633aa81e1ee35bca887c82828.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000452_jpg.rf.7635ac97a39a2d9b9cc6c6c5582d8904.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000658_jpg.rf.9d2a4dedd0c77e31e643f826f9c7561a.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000662_jpg.rf.55a98d88653c7d8ac1c3c2f83120982f.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000664_jpg.rf.6be284dd0858328e6d47179e9fecc112.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000670_jpg.rf.1efcc60141d7b310fa39fd0556da4ad4.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000671_jpg.rf.82ec00dfb5f9668ba5598c80d08862e1.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000676_jpg.rf.df0ab8acdaf4fd0690eddeea6e8f6aa1.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ddb259ea00d32fc6f51f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000428_jpg.rf.e1d0169710c57f40ac9218d2edd7ad27.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:867b18eba1ef777a699a"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000423_jpg.rf.6dbdf4ed888b59e48fb2e505db07e07f.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:867b18eba1ef777a699a"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000344_jpg.rf.cd77ed4927f3585dec3bc6071b9123cb.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:3e9d62a5f18b55fba44e"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000352_jpg.rf.8566a1c487f09450661ecdbcb8776629.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:3e9d62a5f18b55fba44e"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000461_jpg.rf.0fe9a3a4236e33f34563c1430720c448.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:62d0cafef8a668f05f3f"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000466_jpg.rf.97b35110535e83888a884b1bebea1171.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:5b68163704de521e8972"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000473_jpg.rf.a1c371e9c9ea4791367b00771e61540f.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:5bf6546a172dc84acdf9"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000484_jpg.rf.87fc36bb91b00d3852cd7b63a77e668e.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:879f701c6b00b5eb7521"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000513_jpg.rf.14930f57faa1ee3022d7b1c037880b97.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:827f9bdb911704dd7a35"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000516_jpg.rf.27e2e119c7f589118a83a6466ae9b00e.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:827f9bdb911704dd7a35"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000528_jpg.rf.e07b415002471ce46cffff30f96725a9.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:827f9bdb911704dd7a35"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000561_jpg.rf.79c615cd71ad73e7ef3e0d48bd3ae915.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:827f9bdb911704dd7a35"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000568_jpg.rf.c495e9d596c2010cd9ec6c2bbd54f8b0.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:827f9bdb911704dd7a35"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000569_jpg.rf.501c8498bdf2a986a6a1ac4507c2585e.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:827f9bdb911704dd7a35"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000512_jpg.rf.d29ee072884e1e07c279c2bcc988035e.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:827f9bdb911704dd7a35"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000556_jpg.rf.ebd981c2e94340f5cd4ceff85f7f0728.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:827f9bdb911704dd7a35"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000570_jpg.rf.5c287d6e466b4cd20fcfbf2df52b8596.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:827f9bdb911704dd7a35"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000571_jpg.rf.1b1ae030af5646d7b8f838e8c6e10e85.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:827f9bdb911704dd7a35"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000538_jpg.rf.4c93b7065763cc7bbb868a4ce124879b.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:0536e091dbcb826a0761"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000547_jpg.rf.3a1c98ad51ab9194279b8cf2ab147622.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:c242a24f936d3f122399"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000599_jpg.rf.71c1682af5e93481c39656fa2c5bb828.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:9b5dbfce279ddb3a8fbf"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000602_jpg.rf.9e63c11e7e3741df57ba43af1c469486.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:9b5dbfce279ddb3a8fbf"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000908_jpg.rf.84032785398aa73501b077decc997eaf.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:9b5dbfce279ddb3a8fbf"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000596_jpg.rf.549c30f9eac9cd047af62306e39f34b6.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:70b5da176a35b533ccfe"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000609_jpg.rf.ae7c29c9aa8d50590e94355b0e32ff7f.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:40639789a4d72a6ae5fc"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000611_jpg.rf.af2a5623d94352427c86d67df1124937.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:40639789a4d72a6ae5fc"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000610_jpg.rf.baf7109c86d6154cddb7bf08d3b69121.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:40639789a4d72a6ae5fc"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000915_jpg.rf.d5c4100d69628c0e6b4c821e197b6147.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:94fd65780ca981d7a680"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000919_jpg.rf.ffd78866a2c699de1da4599826e3c627.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:94fd65780ca981d7a680"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000628_jpg.rf.8aaa23f5fcf16ec723487637e3de86a3.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:f67b1c73d57c4e5f2872"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000631_jpg.rf.e040b7dbc78b6ee0a74a27b1b6d301c9.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:c3809415b4a32bf5e9d6"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000693_jpg.rf.60f29870b9d4dfc44ced9ee188ad3f9f.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:64075b2bbc5a7cec9837"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000701_jpg.rf.bcb4c4d2595c7db717125e54369090a7.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:7943d71eba9bbde68ca8"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000707_jpg.rf.1b4227a177a2a5e2a73adbc6cc5f2e3d.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:f14f49b4cb36cb3737aa"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000730_jpg.rf.4296cf5d5876d9f5166c305a5007cae2.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:57ee8a2e3640d34d9e42"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:001071_jpg.rf.1d02ca7da2710a70869028b87f2d0475.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:57ee8a2e3640d34d9e42"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000769_jpg.rf.11ca3db824bd65b5a39ae7a13237c337.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:57ee8a2e3640d34d9e42"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001068_jpg.rf.5aac1a879db0eefe98415defff02a015.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:57ee8a2e3640d34d9e42"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001076_jpg.rf.aca700cd0a83d10ee474e6fd40c8c036.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:57ee8a2e3640d34d9e42"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000715_jpg.rf.52a5569c9b60fddaabc106af32ab0230.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:64f431cf332adc7543b0"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000768_jpg.rf.9c523e1cf087f01baab36273c7402928.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:64f431cf332adc7543b0"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000776_jpg.rf.c8fd291d70928195f909ab6c91153f20.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:64f431cf332adc7543b0"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000755_jpg.rf.5c26e699998aa56f9c50281cb1f7c4c6.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:64f431cf332adc7543b0"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000817_jpg.rf.f7649e105be4aefeb0e2a74e1f783db1.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:af4fb4661f0f125b77f7"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000833_jpg.rf.df55d45a4ea0eddb21dc0ab11418bb91.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:af4fb4661f0f125b77f7"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000838_jpg.rf.614c9f5bc3376ef3b81b2502d3bfeb16.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:af4fb4661f0f125b77f7"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000847_jpg.rf.787188302fed92dd5537d2a274ca4494.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:af4fb4661f0f125b77f7"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000850_jpg.rf.55f5d96da4703a0eab53556f330dd217.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:af4fb4661f0f125b77f7"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000830_jpg.rf.cae9d35c9b060a95f467aaadf9e2b3d8.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:af4fb4661f0f125b77f7"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000845_jpg.rf.97726a1f3cb11c58c97f88769f0bedc3.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:af4fb4661f0f125b77f7"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000832_jpg.rf.1b56c328dc273ca43fdf11ff518f8877.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:27d335d2c5b1d13f65e9"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000858_jpg.rf.59f4c683ff6d7dc8edb508fe3f24f09c.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:27d335d2c5b1d13f65e9"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000907_jpg.rf.161d0e0093ab4922b6868356533fcf45.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:b466c06c579844f65f56"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000895_jpg.rf.fb60f71d9dc580229de708085b74e84b.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:b466c06c579844f65f56"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000926_jpg.rf.2dff4a4cee84e7825bb6fe47888aa788.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:c60a381396e392b80be9"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000943_jpg.rf.5e0dfc4cad8d23d6d4bd738f20080226.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:e27fca8850c7a74d0a73"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000961_jpg.rf.45235567b21028ec21b61109053b4ac6.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:512f6eb25fe48de77368"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:000781_jpg.rf.6ea0b8556a7ced85bd17fe821a711eed.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:97177a32bee6259d372a"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:001093_jpg.rf.3473cfe6428a5f762ccad8c811e55552.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:97177a32bee6259d372a"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:001100_jpg.rf.745a67ba39a89f22444b601bc46f81ef.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:97177a32bee6259d372a"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001084_jpg.rf.a46f95b92f2238a0b4bade7e0b4b705b.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:97177a32bee6259d372a"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001089_jpg.rf.166810797b87eeafef1c6a8f67bb4423.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:97177a32bee6259d372a"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001057_jpg.rf.843ecdcde984a2179ddcde0a7eeb9d11.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:4140490663633e21de0a"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001058_jpg.rf.76564666e8a0dfad4a72c71ba0385a5b.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:dd098c871527494bd293"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:001126_jpg.rf.aeb4afe91623cba199a439b57d4f40f2.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:996dfe555f0b2d7edecd"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:001211_jpg.rf.21d313812dbf227e26d67bbba8bf0df5.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:ecb4de7509be4660b5a6"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:001122_jpg.rf.30e48a6f88a4d4a87636449c3a3e4fc4.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:dbd5d8b8515b101436cf"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:001124_jpg.rf.90d71158b65afa49800b7949f80cd9ad.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:c70a9febcc8a44f15ae2"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001173_jpg.rf.e0dc0a5b6adeb78492abdc0e2edc4409.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:47ad0d12e010a38f5cea"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001129_jpg.rf.39cfe543856e8fb864f5d92c63af31ea.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:2ccd72bb9f54c89049e9"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001143_jpg.rf.0d5dbe20a5d7d5b2b716a75436267f90.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:2ccd72bb9f54c89049e9"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:001202_jpg.rf.6732206cf33dcea91dffbd533b12824d.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:346554d2caf644f909c6"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001201_jpg.rf.95bd8d877633f8a8fc7e47abc7add984.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:346554d2caf644f909c6"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001210_jpg.rf.3be86fcfbb1260ed310032db8fbde64d.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:9f78cf6c6c8871ebd9b9"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:001237_jpg.rf.3039bf1d3489af341bc07a0311f18889.jpg",
+    "from": "internal_test",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:4d66aecb6991d0f17612"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:001358_jpg.rf.9f88d917792e626b2d83670e90f90255.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:f1a4e683785be1b43793"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:valid:002096_jpg.rf.a88a4fc0ed2b071ace0dfab02435cd56.jpg",
+    "from": "dev",
+    "to": "train",
+    "group_id": "rf100vl-mahjong-v2:group:97cd46b67490f7f1377e"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000138_jpg.rf.f7d442bb53653830c4a3e5e95bbfd54e.jpg",
+    "from": "internal_test",
+    "to": "dev",
+    "group_id": "rf100vl-mahjong-v2:group:c34394907d081dc8d3f0"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000372_jpg.rf.8d723d0a22904014b1eb3c6fba1c6d15.jpg",
+    "from": "internal_test",
+    "to": "dev",
+    "group_id": "rf100vl-mahjong-v2:group:65d6a104b280c4464e74"
+  },
+  {
+    "id": "rf100vl-mahjong-v2:test:000792_jpg.rf.757e07a119e90a7fc3e3ea9983238f91.jpg",
+    "from": "internal_test",
+    "to": "dev",
+    "group_id": "rf100vl-mahjong-v2:group:f19e1bae74dcfc7877c7"
+  }
+]

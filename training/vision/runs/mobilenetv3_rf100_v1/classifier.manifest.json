@@ -1,0 +1,68 @@
+{
+  "checkpoint_sha256": "3881dd8444e934c0cb2ff9e8d39f97e65ace09f34e0d66ed7ada3ae31f438c78",
+  "onnx_sha256": "318a0a564117235d2e73bc2d71d2b066d5cd22a9e5f2ca08d8e06c507647c7a8",
+  "bytes": 6225040,
+  "classes": [
+    "1m",
+    "2m",
+    "3m",
+    "4m",
+    "5m",
+    "6m",
+    "7m",
+    "8m",
+    "9m",
+    "1p",
+    "2p",
+    "3p",
+    "4p",
+    "5p",
+    "6p",
+    "7p",
+    "8p",
+    "9p",
+    "1s",
+    "2s",
+    "3s",
+    "4s",
+    "5s",
+    "6s",
+    "7s",
+    "8s",
+    "9s",
+    "1z",
+    "2z",
+    "3z",
+    "4z",
+    "5z",
+    "6z",
+    "7z",
+    "background"
+  ],
+  "parity_development_crops": 35,
+  "max_abs_logit_error": 3.30805778503418e-05,
+  "input": [
+    "batch",
+    3,
+    160,
+    160
+  ],
+  "output": [
+    "batch",
+    35
+  ],
+  "desktop_cpu_inference_only": {
+    "1": {
+      "median_ms": 1.3047289685346186,
+      "p95_ms": 1.4563835691660643
+    },
+    "14": {
+      "median_ms": 14.926645992090926,
+      "p95_ms": 15.179966858704574
+    }
+  },
+  "limitations": [
+    "Not phone latency; excludes tile detection, crop preparation and camera.",
+    "Not installed in app: replacing detector labels worsened development complete-hand results."
+  ]
+}

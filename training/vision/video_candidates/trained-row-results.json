@@ -1,0 +1,405 @@
+{
+  "created_at": "2026-10-02T17:41:11.782835+00:00",
+  "candidate": "trained",
+  "model_sha256": "1a78e66672b643b972f8836efab49c61b1256604d3d6d7f612629bd9b1d2400e",
+  "reference_path": "vision/video_candidates/niconico_reference.json",
+  "reference_sha256": "8b49ac8b4aa4ae5491f721c06ebe47e7e53f903a7e4e2f1588e016e4c8f4f940",
+  "source": {
+    "schema_version": 1,
+    "video_path": "vision/video_candidates/niconico-188-196-lossless.mkv",
+    "video_sha256": "ae0c95344f211df8f978f478ff4fd0deece69e4a5a9508d490ef05ee9fa05d6f",
+    "source_start_ms": 188000,
+    "roi": [
+      365,
+      725,
+      900,
+      915
+    ],
+    "roi_format": "xyxy pixels in full decoded 1920x1080 frames",
+    "sample_period_ms": 400,
+    "expected_tiles": [
+      "1s",
+      "2s",
+      "5s",
+      "6s",
+      "6s",
+      "6s",
+      "2m",
+      "4m",
+      "0m",
+      "7m",
+      "5p",
+      "7p",
+      "8p"
+    ],
+    "valid_intervals_ms": [
+      [
+        0,
+        7975
+      ]
+    ],
+    "reviewed_frames": [
+      {
+        "frame_index": 0,
+        "clip_pts_ms": 33
+      },
+      {
+        "frame_index": 12,
+        "clip_pts_ms": 434
+      },
+      {
+        "frame_index": 24,
+        "clip_pts_ms": 834
+      },
+      {
+        "frame_index": 36,
+        "clip_pts_ms": 1235
+      },
+      {
+        "frame_index": 48,
+        "clip_pts_ms": 1635
+      },
+      {
+        "frame_index": 60,
+        "clip_pts_ms": 2035
+      },
+      {
+        "frame_index": 72,
+        "clip_pts_ms": 2436
+      },
+      {
+        "frame_index": 84,
+        "clip_pts_ms": 2836
+      },
+      {
+        "frame_index": 96,
+        "clip_pts_ms": 3237
+      },
+      {
+        "frame_index": 108,
+        "clip_pts_ms": 3637
+      },
+      {
+        "frame_index": 120,
+        "clip_pts_ms": 4037
+      },
+      {
+        "frame_index": 132,
+        "clip_pts_ms": 4438
+      },
+      {
+        "frame_index": 144,
+        "clip_pts_ms": 4838
+      },
+      {
+        "frame_index": 156,
+        "clip_pts_ms": 5239
+      },
+      {
+        "frame_index": 168,
+        "clip_pts_ms": 5639
+      },
+      {
+        "frame_index": 180,
+        "clip_pts_ms": 6039
+      },
+      {
+        "frame_index": 192,
+        "clip_pts_ms": 6440
+      },
+      {
+        "frame_index": 204,
+        "clip_pts_ms": 6840
+      },
+      {
+        "frame_index": 216,
+        "clip_pts_ms": 7241
+      },
+      {
+        "frame_index": 228,
+        "clip_pts_ms": 7641
+      }
+    ],
+    "uncertain_positions": [],
+    "frozen_at_utc": "2026-10-02T16:09:27.297663+00:00",
+    "notes": [
+      "Manual label sequence independently agreed by platform_build and root before inference.",
+      "All20 samples at frames0,12,...228 were visually checked; row unchanged and unoccluded.",
+      "0m denotes red5m. AR42 model only has5m, so report normalized-face accuracy separately from red-tile identity.",
+      "13tiles, with a tilted row: not a complete14/17tile hand and not a positive app-lock example.",
+      "Actual broadcast camera footage, not a handheld phone scan.",
+      "Source seek188s; local framePTS is authoritative; source188000+PTS only approximate to one frame.",
+      "Continuous interval is supported by20manualsamples, not dense239frame occlusion annotation.",
+      "This is a development diagnostic chosen by manual inspection; upstream training overlap unknown."
+    ]
+  },
+  "source_fps": 29.97002997002997,
+  "source_frame_count": 239,
+  "container_frame_count_estimate": 240,
+  "timestamp_origin": "Pinned ffprobe presentation timestamps verified against normalized OpenCV decoder time; source absolute times approximate within one frame",
+  "threshold": 0.25,
+  "nms": 0.45,
+  "sample_period_ms": 400,
+  "evaluated_frames": 20,
+  "reference_frames": 20,
+  "exact_ordered_canonical_rows": 0,
+  "minimum_confidence_ge_080_and_correct_count": 0,
+  "identity_multiset_totals": {
+    "correct": 0,
+    "extra": 0,
+    "missed": 260
+  },
+  "desktop_inference_median_ms": 19.298208004329354,
+  "desktop_inference_p95_ms": 21.912282702396624,
+  "temporal_gate_replay_performed": false,
+  "limitations": [
+    "One short video of one tile set; adjacent frames are correlated, not independent trials.",
+    "13 tiles, including one red five, are not a complete14-tile winning hand; app count menu does not include13.",
+    "Canonical comparison normalizes redfive to5; AR42 cannot preserve the red attribute.",
+    "Manual fixed cropped ROI is a controlled diagnostic, not automatic table reconstruction.",
+    "Identity multiset counts do not require IoU matching and are not detection precision/recall.",
+    "Upstream training overlap unknown; no unseen-set or actual-phone performance claim."
+  ],
+  "frames": [
+    {
+      "frame_index": 0,
+      "timestamp_ms": 33,
+      "source_timestamp_ms": 188033,
+      "rgb_sha256": "700742fcd86fa0f7fc1b0e999f4f298685fd95d4e291f8d91eb71c368b7d26a4",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 12,
+      "timestamp_ms": 434,
+      "source_timestamp_ms": 188434,
+      "rgb_sha256": "1f8e5d6e7f2e06ea16722c1bd1c6e7242970a1f35bca6307c941cc553cc1c78b",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 24,
+      "timestamp_ms": 834,
+      "source_timestamp_ms": 188834,
+      "rgb_sha256": "262b6ed2b69f6279db3f24f719993f81b90567794cff34203d1cef15eb717815",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 36,
+      "timestamp_ms": 1235,
+      "source_timestamp_ms": 189235,
+      "rgb_sha256": "b04ef46eb5d78eb5e1e1622bd250780a6fa7989202f9991785ac2dc133e2c254",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 48,
+      "timestamp_ms": 1635,
+      "source_timestamp_ms": 189635,
+      "rgb_sha256": "6b270a068b2724fe552aa183ba0c88845606f7bde257f967dab3f632879a0311",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 60,
+      "timestamp_ms": 2035,
+      "source_timestamp_ms": 190035,
+      "rgb_sha256": "a4e26b98d2a1f4252fd58f400a9230e5c897f7ae18ba35eee5a0dcb930f7fef2",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 72,
+      "timestamp_ms": 2436,
+      "source_timestamp_ms": 190436,
+      "rgb_sha256": "682acd4daf53f26aa3e0cf42a95b0e03e13bd43be3b1957aa96d02f6fa60ddbc",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 84,
+      "timestamp_ms": 2836,
+      "source_timestamp_ms": 190836,
+      "rgb_sha256": "ec332356fda33657cc3e32415c34e1d0b78930078881c71321a556b897cb79ed",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 96,
+      "timestamp_ms": 3237,
+      "source_timestamp_ms": 191237,
+      "rgb_sha256": "c42b0a17832a4ed81a1e36226f8ded3b229a3ecc95d660da6f58451762ceaa7b",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 108,
+      "timestamp_ms": 3637,
+      "source_timestamp_ms": 191637,
+      "rgb_sha256": "b5929c818c705b95744882e41e33e5b6b5dbc1b085ecabf47a99bd4d873f761d",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 120,
+      "timestamp_ms": 4037,
+      "source_timestamp_ms": 192037,
+      "rgb_sha256": "2d14c56bd614794e6145fd273d2415641be94ece7fdad24ede8a7399ed210593",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 132,
+      "timestamp_ms": 4438,
+      "source_timestamp_ms": 192438,
+      "rgb_sha256": "7b8fcd46efb9d0ae8a5a534d6ea0abfa26a5d3982eaa4532dcbb01c4c51ddedf",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 144,
+      "timestamp_ms": 4838,
+      "source_timestamp_ms": 192838,
+      "rgb_sha256": "a91f16a4c9f58f9cb957820705eb4776d2357be183ad6e52eb6b9e962433df04",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 156,
+      "timestamp_ms": 5239,
+      "source_timestamp_ms": 193239,
+      "rgb_sha256": "817d8ad3cb49157c47f7fd274ca91f0ad7f1c62061b3bf04111d1b5813af05e9",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 168,
+      "timestamp_ms": 5639,
+      "source_timestamp_ms": 193639,
+      "rgb_sha256": "c45ec587941f050f741ce50410115d55a4d19b6dfe944499631d39e903ff22af",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 180,
+      "timestamp_ms": 6039,
+      "source_timestamp_ms": 194039,
+      "rgb_sha256": "1f4ea66a5d6d68db38bef5ec4f98018d646251aeda5beb77485fccf116854d12",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 192,
+      "timestamp_ms": 6440,
+      "source_timestamp_ms": 194440,
+      "rgb_sha256": "c075aa0e45de1d0f7f941802089d098cbbe2324aa3324ea4e167d2597ab66088",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 204,
+      "timestamp_ms": 6840,
+      "source_timestamp_ms": 194840,
+      "rgb_sha256": "4ae5c057e346914d00ac276de1c79429af160479c8e40f4a405b5ea390e344aa",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 216,
+      "timestamp_ms": 7241,
+      "source_timestamp_ms": 195241,
+      "rgb_sha256": "c7cf027adba52a4b470ab6b6a78486fa2889827db39850c438bb06410651daff",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    },
+    {
+      "frame_index": 228,
+      "timestamp_ms": 7641,
+      "source_timestamp_ms": 195641,
+      "rgb_sha256": "af45bec4560491d39ea1482c3e4725a818fd6ca4eb14b4113fda8003f7074f19",
+      "predictions": [],
+      "reference_valid": true,
+      "exact_ordered_canonical_row": false,
+      "identity_multiset_correct": 0,
+      "identity_multiset_extra": 0,
+      "identity_multiset_missed": 13
+    }
+  ]
+}
