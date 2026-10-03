@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "verified_at_utc": "2026-10-03T12:47:45.260994+00:00",
+  "source_root": "/Users/samuel/Documents/leisure/mahjong vision/Mahjong-cal-app",
+  "app_version": "0.4.0+4",
+  "engine_version": "0.1.2",
+  "source_dart_sha256": "d0cee320238fb50362bdb2c0a690272b1b4b3775f491ccb23609627f5e64948a",
+  "source_dart_file_count": 12,
+  "source_digest_method": "SHA256 of lexicographically sorted repository-relative app/lib/**.dart paths (including app/lib/ prefix) + NUL + file bytes + NUL; verified before and after every build",
+  "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+  "toolchain": {
+    "flutter": "3.47.6",
+    "dart": "3.13.5",
+    "xcode_developer_dir": "/Applications/Xcode.app/Contents/Developer"
+  },
+  "ios": {
+    "artifact": "app/build/ios/iphoneos/Runner.app",
+    "absolute_path": "/Users/samuel/Documents/leisure/mahjong vision/Mahjong-cal-app/app/build/ios/iphoneos/Runner.app",
+    "version": "0.4.0",
+    "build": "4",
+    "bundle_id": "com.mahjongvision.mahjongVision",
+    "configuration": "Profile",
+    "target": "lib/main.dart",
+    "signing": "unsigned; codesign inspection confirms not signed",
+    "runner_sha256": "1c873e379c3de2cb508cff248dd7e6353c577554b89aafd45b3d5f453bc075ce",
+    "flutter_app_sha256": "4e92db63b21808252b4cf6c1c50727199f4972969be4e807a08f94445964e6c3",
+    "bundle_content_sha256": "2796e9077aa7fe40286d30e06885c473966c28516e4ea275a67bb2fc26076710",
+    "bundle_digest_method": "SHA256 of sorted bundle-relative file paths + NUL + bytes + NUL",
+    "bundle_file_count": 73,
+    "bundle_bytes": 81963042,
+    "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+    "localized_info_plist_strings": {
+      "en": {
+        "CFBundleDisplayName": "Point of Happiness",
+        "CFBundleName": "Point of Happiness",
+        "NSCameraUsageDescription": "Use the live camera to recognize mahjong tiles and help calculate scores on your phone. Camera images are never uploaded or recorded."
+      },
+      "zh-Hant": {
+        "CFBundleDisplayName": "開心計一番",
+        "CFBundleName": "開心計一番",
+        "NSCameraUsageDescription": "使用即時相機畫面，在手機上辨識麻將牌並協助計算番數。畫面不會上傳或錄影。"
+      },
+      "zh-Hans": {
+        "CFBundleDisplayName": "开心计一番",
+        "CFBundleName": "开心计一番",
+        "NSCameraUsageDescription": "使用实时相机画面，在手机上识别麻将牌并协助计算番数。画面不会上传或录像。"
+      }
+    },
+    "workspace": "app/ios/Runner.xcworkspace",
+    "build_method": "Flutter iOS Profile invokes the Xcode workspace; no redundant standalone workspace build"
+  },
+  "android": {
+    "artifact": "app/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk",
+    "absolute_path": "/Users/samuel/Documents/leisure/mahjong vision/Mahjong-cal-app/app/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk",
+    "version": "0.4.0",
+    "build": "4",
+    "abi": "arm64-v8a",
+    "min_sdk": 24,
+    "signing": "Android Debug certificate, verified by apksigner; optimized local test APK",
+    "sha256": "38e20e7ac58db6b877f5ca4f2d57c5dffdf7c7be467dbcc9c4224da9fa4f9c93",
+    "bytes": 57609379,
+    "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+    "aapt_labels": {
+      "default": "Point of Happiness",
+      "-af": "Point of Happiness",
+      "-am": "Point of Happiness",
+      "-ar": "Point of Happiness",
+      "-as": "Point of Happiness",
+      "-az": "Point of Happiness",
+      "-be": "Point of Happiness",
+      "-bg": "Point of Happiness",
+      "-bn": "Point of Happiness",
+      "-bs": "Point of Happiness",
+      "-ca": "Point of Happiness",
+      "-cs": "Point of Happiness",
+      "-da": "Point of Happiness",
+      "-de": "Point of Happiness",
+      "-el": "Point of Happiness",
+      "-en-AU": "Point of Happiness",
+      "-en-CA": "Point of Happiness",
+      "-en-GB": "Point of Happiness",
+      "-en-IN": "Point of Happiness",
+      "-en-XC": "Point of Happiness",
+      "-es": "Point of Happiness",
+      "-es-US": "Point of Happiness",
+      "-et": "Point of Happiness",
+      "-eu": "Point of Happiness",
+      "-fa": "Point of Happiness",
+      "-fi": "Point of Happiness",
+      "-fr": "Point of Happiness",
+      "-fr-CA": "Point of Happiness",
+      "-gl": "Point of Happiness",
+      "-gu": "Point of Happiness",
+      "-hi": "Point of Happiness",
+      "-hr": "Point of Happiness",
+      "-hu": "Point of Happiness",
+      "-hy": "Point of Happiness",
+      "-in": "Point of Happiness",
+      "-is": "Point of Happiness",
+      "-it": "Point of Happiness",
+      "-iw": "Point of Happiness",
+      "-ja": "Point of Happiness",
+      "-ka": "Point of Happiness",
+      "-kk": "Point of Happiness",
+      "-km": "Point of Happiness",
+      "-kn": "Point of Happiness",
+      "-ko": "Point of Happiness",
+      "-ky": "Point of Happiness",
+      "-lo": "Point of Happiness",
+      "-lt": "Point of Happiness",
+      "-lv": "Point of Happiness",
+      "-mk": "Point of Happiness",
+      "-ml": "Point of Happiness",
+      "-mn": "Point of Happiness",
+      "-mr": "Point of Happiness",
+      "-ms": "Point of Happiness",
+      "-my": "Point of Happiness",
+      "-nb": "Point of Happiness",
+      "-ne": "Point of Happiness",
+      "-nl": "Point of Happiness",
+      "-or": "Point of Happiness",
+      "-pa": "Point of Happiness",
+      "-pl": "Point of Happiness",
+      "-pt": "Point of Happiness",
+      "-pt-BR": "Point of Happiness",
+      "-pt-PT": "Point of Happiness",
+      "-ro": "Point of Happiness",
+      "-ru": "Point of Happiness",
+      "-si": "Point of Happiness",
+      "-sk": "Point of Happiness",
+      "-sl": "Point of Happiness",
+      "-sq": "Point of Happiness",
+      "-sr": "Point of Happiness",
+      "-sr-Latn": "Point of Happiness",
+      "-sv": "Point of Happiness",
+      "-sw": "Point of Happiness",
+      "-ta": "Point of Happiness",
+      "-te": "Point of Happiness",
+      "-th": "Point of Happiness",
+      "-tl": "Point of Happiness",
+      "-tr": "Point of Happiness",
+      "-uk": "Point of Happiness",
+      "-ur": "Point of Happiness",
+      "-uz": "Point of Happiness",
+      "-vi": "Point of Happiness",
+      "-zh": "开心计一番",
+      "-zh-CN": "开心计一番",
+      "-zh-HK": "開心計一番",
+      "-zh-Hans": "开心计一番",
+      "-zh-Hant": "開心計一番",
+      "-zh-TW": "開心計一番",
+      "-zu": "Point of Happiness"
+    }
+  },
+  "web": {
+    "artifact": "app/build/web",
+    "absolute_path": "/Users/samuel/Documents/leisure/mahjong vision/Mahjong-cal-app/app/build/web",
+    "version": {
+      "app_name": "mahjong_vision",
+      "version": "0.4.0",
+      "build_number": "4",
+      "package_name": "mahjong_vision"
+    },
+    "main_js_sha256": "daa6727b5ef185b29a16bebbb7eaa3cc44782248bf2b62a2ffdd73b1a478ef8b",
+    "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+    "manifest": {
+      "name": "開心計一番 · Point of Happiness",
+      "short_name": "開心計一番",
+      "start_url": ".",
+      "display": "standalone",
+      "background_color": "#F6F4EC",
+      "theme_color": "#174E43",
+      "description": "在裝置上辨識麻將牌、核對番數與結算。",
+      "orientation": "portrait-primary",
+      "prefer_related_applications": false,
+      "icons": [
+        {
+          "src": "icons/Icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/Icon-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/Icon-maskable-192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "maskable"
+        },
+        {
+          "src": "icons/Icon-maskable-512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "maskable"
+        }
+      ]
+    },
+    "build_flags": [
+      "--release",
+      "--no-web-resources-cdn",
+      "--target",
+      "lib/main.dart"
+    ]
+  },
+  "build_stages": [
+    {
+      "stage": "ios-profile",
+      "exit_code": 0,
+      "seconds": 20.7,
+      "log": "/tmp/mahjong-040-clone-final2-ios-profile.log",
+      "source_before_sha256": "d0cee320238fb50362bdb2c0a690272b1b4b3775f491ccb23609627f5e64948a",
+      "source_after_sha256": "d0cee320238fb50362bdb2c0a690272b1b4b3775f491ccb23609627f5e64948a"
+    },
+    {
+      "stage": "android-arm64",
+      "exit_code": 0,
+      "seconds": 16.7,
+      "log": "/tmp/mahjong-040-clone-final2-android-arm64.log",
+      "source_before_sha256": "d0cee320238fb50362bdb2c0a690272b1b4b3775f491ccb23609627f5e64948a",
+      "source_after_sha256": "d0cee320238fb50362bdb2c0a690272b1b4b3775f491ccb23609627f5e64948a"
+    },
+    {
+      "stage": "web",
+      "exit_code": 0,
+      "seconds": 18.1,
+      "log": "/tmp/mahjong-040-clone-final2-web.log",
+      "source_before_sha256": "d0cee320238fb50362bdb2c0a690272b1b4b3775f491ccb23609627f5e64948a",
+      "source_after_sha256": "d0cee320238fb50362bdb2c0a690272b1b4b3775f491ccb23609627f5e64948a"
+    }
+  ],
+  "recovered_initial_setup_failure": {
+    "initial_xcode_error": 74,
+    "initial_log": "/tmp/mahjong-040-clone-ios-profile.log",
+    "resolution": "Explicit xcodebuild -resolvePackageDependencies succeeded; all subsequent Profile builds passed without source repairs.",
+    "resolution_log": "/tmp/mahjong-040-clone-ios-resolve.log"
+  },
+  "normal_target": "lib/main.dart",
+  "tests_reported_by_parent": {
+    "flutter_tests_passed": 216,
+    "whole_app_analysis": "No issues",
+    "source_dart_sha256": "d0cee320238fb50362bdb2c0a690272b1b4b3775f491ccb23609627f5e64948a",
+    "executed_by": "parent agent; not rerun by build agent"
+  },
+  "historical_native_runtime_scope": {
+    "app_version": "0.3.0+3",
+    "engine_version": "0.1.1",
+    "source_dart_sha256": "15837a498eee47dd4f6186f07e49e5d1714bcae1824d9683fa4b45e1009e77cd",
+    "model_sha256": "63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a",
+    "checks": "iOS and Android native 14-tile photograph inference, blank/reopen smoke; Android YUV camera stream reopen",
+    "rerun_for_0_4_0": false,
+    "limitation": "Historical native scanner tests are not a runtime test of the changed 0.4.0 confirmation UI."
+  },
+  "limitations": [
+    "No simulator/emulator was started and no physical phone was installed or tested for this 0.4.0 build refresh.",
+    "iOS Profile bundle is unsigned; physical iPhone use requires the user’s signing team and device setup in Xcode.",
+    "Localized launcher names were verified in packaged resources, not on a device launcher.",
+    "Android ARM64 APK is optimized but uses a development certificate; no store release was produced.",
+    "Web build supports manual entry, settings and calculation; live camera scanning remains a native iOS/Android feature.",
+    "Bundled AR42 checkpoint public redistribution rights remain unresolved; these are local research test artifacts."
+  ],
+  "nonblocking_build_warning": "flutter_onnxruntime applies Kotlin Gradle Plugin; Flutter reports that future toolchain versions will require plugin migration. Current build passed.",
+  "original_outputs_verified_unchanged": [
+    "/Users/samuel/Documents/leisure/mahjong vision/app/build/ios/iphonesimulator/Runner.app",
+    "/Users/samuel/Documents/leisure/mahjong vision/app/build/ios/iphoneos/Runner.app",
+    "/Users/samuel/Documents/leisure/mahjong vision/app/build/xcode-phone-test/Build/Products/Profile-iphoneos/Runner.app",
+    "/Users/samuel/Documents/leisure/mahjong vision/app/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk",
+    "/Users/samuel/Documents/leisure/mahjong vision/app/build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk",
+    "/Users/samuel/Documents/leisure/mahjong vision/app/build/app/outputs/flutter-apk/app-debug.apk",
+    "/Users/samuel/Documents/leisure/mahjong vision/app/build/app/outputs/flutter-apk/app-x86_64-release.apk",
+    "/Users/samuel/Documents/leisure/mahjong vision/app/build/web/main.dart.js"
+  ],
+  "no_emulators_or_physical_install": true,
+  "changes_by_build_agent": "Generated caches/build outputs plus this machine-readable report only; no production source edits or commits."
+}

@@ -139,6 +139,7 @@ void main() {
   late FakeDetector detector;
   late int now;
   List<int>? accepted;
+  int acceptanceCount = 0;
   setUp(() {
     original = CameraPlatform.instance;
     camera = FakeCamera();
@@ -146,6 +147,7 @@ void main() {
     CameraPlatform.instance = camera;
     now = 0;
     accepted = null;
+    acceptanceCount = 0;
   });
   tearDown(() async {
     await camera.shutdown();
@@ -161,6 +163,7 @@ void main() {
             nowMilliseconds: () => now,
             onAccepted: (tiles) async {
               accepted = tiles;
+              acceptanceCount++;
             },
             onManual: () {},
             onSample: () {},
@@ -205,6 +208,14 @@ void main() {
     await tester.pump();
   }
 
+  bool canConfirm(WidgetTester tester) =>
+      tester
+          .widget<FilledButton>(
+            find.byKey(const ValueKey('confirm-scan-preview')),
+          )
+          .onPressed !=
+      null;
+
   Future<void> unmount(WidgetTester tester) async {
     await tester.pumpWidget(const SizedBox());
     await tester.pump();
@@ -244,18 +255,15 @@ void main() {
     await unmount(tester);
   });
   testWidgets(
-    'five stable frames require confirmation then pass ordered tiles and close camera',
+    'human can confirm the first preview without waiting for stable frames',
     (tester) async {
       await mount(tester);
       await start(tester);
-      for (var i = 0; i < 4; i++) {
-        await frame(tester);
-      }
-      expect(find.text('確認這排牌，前往計算'), findsNothing);
+      expect(canConfirm(tester), isFalse);
       await frame(tester);
-      expect(find.text('確認這排牌，前往計算'), findsOneWidget);
+      expect(canConfirm(tester), isTrue);
       expect(accepted, isNull);
-      await tester.tap(find.text('確認這排牌，前往計算'));
+      await tester.tap(find.byKey(const ValueKey('confirm-scan-preview')));
       await tester.pump();
       await tester.runAsync(() async {
         await Future<void>.delayed(Duration.zero);
@@ -267,27 +275,28 @@ void main() {
       await unmount(tester);
     },
   );
-  testWidgets('low confidence and UNKNOWN never enable confirmation', (
-    tester,
-  ) async {
-    await mount(tester);
-    await start(tester);
-    detector.detections = row(confidence: .79);
-    for (var i = 0; i < 6; i++) {
-      await frame(tester);
-    }
-    expect(find.text('確認這排牌，前往計算'), findsNothing);
-    detector.detections = [
-      const Detection(-1, .99, .035, .2, .087, .8),
-      ...row().skip(1),
-    ];
-    for (var i = 0; i < 6; i++) {
-      await frame(tester);
-    }
-    expect(find.text('確認這排牌，前往計算'), findsNothing);
-    expect(tester.takeException(), isNull);
-    await unmount(tester);
-  });
+  testWidgets(
+    'low confidence permits human review but UNKNOWN never enters the hand',
+    (tester) async {
+      await mount(tester);
+      await start(tester);
+      detector.detections = row(confidence: .79);
+      for (var i = 0; i < 6; i++) {
+        await frame(tester);
+      }
+      expect(canConfirm(tester), isTrue);
+      detector.detections = [
+        const Detection(-1, .99, .035, .2, .087, .8),
+        ...row().skip(1),
+      ];
+      for (var i = 0; i < 6; i++) {
+        await frame(tester);
+      }
+      expect(canConfirm(tester), isFalse);
+      expect(tester.takeException(), isNull);
+      await unmount(tester);
+    },
+  );
   testWidgets(
     'stale stable result is disabled without waiting for another frame',
     (tester) async {
@@ -296,9 +305,108 @@ void main() {
       for (var i = 0; i < 5; i++) {
         await frame(tester);
       }
-      now += 1300;
+      now += 4001;
       await tester.pump(const Duration(milliseconds: 200));
-      expect(find.text('確認這排牌，前往計算'), findsNothing);
+      expect(canConfirm(tester), isFalse);
+      await unmount(tester);
+    },
+  );
+  testWidgets(
+    'low-confidence preview expires and tap rechecks age immediately',
+    (tester) async {
+      await mount(tester);
+      await start(tester);
+      detector.detections = row(confidence: .4);
+      await frame(tester);
+      expect(canConfirm(tester), isTrue);
+      // No timer tick or new render: the callback itself must reject old results.
+      now += 4001;
+      await tester.tap(find.byKey(const ValueKey('confirm-scan-preview')));
+      await tester.pump();
+      expect(accepted, isNull);
+      await tester.pump(const Duration(milliseconds: 200));
+      expect(canConfirm(tester), isFalse);
+      await unmount(tester);
+    },
+  );
+  testWidgets('double tap confirms once and ignores an in-flight next frame', (
+    tester,
+  ) async {
+    await mount(tester);
+    await start(tester);
+    await frame(tester);
+    detector.pending = Completer<ScanResult>();
+    await frame(tester);
+    final button = tester.widget<FilledButton>(
+      find.byKey(const ValueKey('confirm-scan-preview')),
+    );
+    button.onPressed!();
+    button.onPressed!();
+    detector.pending!.complete(
+      ScanResult(row().reversed.toList(), Uint8List(0), 640, 200, 20),
+    );
+    await tester.pump();
+    await tester.runAsync(() async {
+      await Future<void>.delayed(Duration.zero);
+    });
+    await tester.pump();
+    expect(acceptanceCount, 1);
+    expect(accepted, List.generate(14, (i) => i));
+    expect(camera.disposed, [1]);
+    await unmount(tester);
+  });
+  testWidgets(
+    'slow inference yields a usable first preview instead of instant expiry',
+    (tester) async {
+      await mount(tester);
+      await start(tester);
+      detector.pending = Completer<ScanResult>();
+      await frame(tester);
+      now += 1500;
+      detector.pending!.complete(detector.result);
+      await tester.pump();
+      await tester.runAsync(() async {
+        await Future<void>.delayed(Duration.zero);
+      });
+      await tester.pump();
+      expect(canConfirm(tester), isTrue);
+      expect(accepted, isNull);
+      await unmount(tester);
+    },
+  );
+  testWidgets(
+    'tap cannot accept identities that changed after the preview was painted',
+    (tester) async {
+      await mount(tester);
+      await start(tester);
+      await frame(tester);
+      final oldTap = tester
+          .widget<FilledButton>(
+            find.byKey(const ValueKey('confirm-scan-preview')),
+          )
+          .onPressed!;
+      detector.pending = Completer<ScanResult>();
+      await frame(tester);
+      final changed = row()..[0] = const Detection(33, .95, .035, .2, .087, .8);
+      // Complete inference but deliberately do not paint the changed preview.
+      await tester.runAsync(() async {
+        detector.pending!.complete(
+          ScanResult(changed, Uint8List(0), 640, 200, 20),
+        );
+        await Future<void>.delayed(Duration.zero);
+      });
+      oldTap();
+      await tester.pump();
+      expect(accepted, isNull);
+      expect(find.text('預覽剛有更新，請核對後再確認。'), findsOneWidget);
+      await tester.tap(find.byKey(const ValueKey('confirm-scan-preview')));
+      await tester.pump();
+      await tester.runAsync(() async {
+        await Future<void>.delayed(Duration.zero);
+      });
+      await tester.pump();
+      expect(accepted!.first, 33);
+      expect(acceptanceCount, 1);
       await unmount(tester);
     },
   );
@@ -324,7 +432,7 @@ void main() {
       detector.pending = null;
       await mount(tester);
       expect(camera.created, 2);
-      expect(find.text('確認這排牌，前往計算'), findsNothing);
+      expect(canConfirm(tester), isFalse);
       await unmount(tester);
     },
   );
@@ -400,15 +508,15 @@ void main() {
       for (var i = 0; i < 5; i++) {
         await frame(tester);
       }
-      expect(find.text('確認這排牌，前往計算'), findsOneWidget);
+      expect(canConfirm(tester), isTrue);
       camera.orientations.add(
         const DeviceOrientationChangedEvent(DeviceOrientation.landscapeLeft),
       );
       await tester.pump();
-      expect(find.text('確認這排牌，前往計算'), findsNothing);
+      expect(canConfirm(tester), isFalse);
       expect(accepted, isNull);
       await frame(tester);
-      expect(find.text('確認這排牌，前往計算'), findsNothing);
+      expect(canConfirm(tester), isTrue);
       await unmount(tester);
     },
   );

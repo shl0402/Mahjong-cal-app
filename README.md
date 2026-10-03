@@ -1,11 +1,11 @@
-# 開心計一番
+# 開心計一番 · Point of Happiness
 
 Two separate workspaces:
 
 - **[app/](app/)** — Flutter application, iOS/Xcode and Android projects, local settings/history, rule engine, tests and phone-testing guides.
 - **[training/](training/)** — dataset preparation, training/export/evaluation scripts, experiment manifests and measured results, plus the original training source.
 
-App version **0.3.0+3**, rules engine **0.1.2**. The original workspace passed 206 Flutter tests and iOS/Android/web builds. This repository reorganizes that source; it is an experimental test app, not a finished universal mahjong product. Hong Kong and a partial Taiwanese house preset are implemented; other regional packs remain unfinished.
+App version **0.4.0+4**, rules engine **0.1.2**. The original workspace passed 206 Flutter tests and iOS/Android/web builds. This repository reorganizes that source; it is an experimental test app, not a finished universal mahjong product. Hong Kong and a partial Taiwanese house preset are implemented; other regional packs remain unfinished.
 
 ## Run the app
 
@@ -31,3 +31,7 @@ The model importer verifies the exact SHA-256. See [app setup](app/README.md) fo
 Upstream training overlap is unknown. These are not guarantees of unseen-data accuracy. Newly trained candidates did not generalize well enough to replace the current app model. Detailed results are in [the evaluation report](training/docs/VISION_EVALUATION.md).
 
 Images are processed on the phone without uploading. Stable predictions still require human review. Training results and report manifests are retained as historical evidence, including failed experiments.
+
+## Scan preview update
+
+The current preview can be explicitly accepted after one usable result with **我已核對，使用這排牌**; the stability indicator is advisory. The next screen supports correction before scoring. Empty, stale, unknown or invalid tile sets still require rescanning or manual entry. This changes usability, not model accuracy.

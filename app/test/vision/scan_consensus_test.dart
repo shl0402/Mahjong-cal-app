@@ -56,6 +56,57 @@ ScanDecision stable(
 }
 
 void main() {
+  group('human preview confirmation and live guidance', () {
+    test('first low-confidence or unsteady row can be explicitly reviewed', () {
+      final c = ScanConsensus.livePreview(expectedCount: 14);
+      final low = c.observe(row(confidence: .3), 100);
+      expect(low.ready, isFalse);
+      expect(low.canConfirmManually, isTrue);
+      final tilted = row();
+      tilted[2] = change(tilted[2], top: .5, bottom: .95);
+      expect(c.observe(tilted, 500).canConfirmManually, isTrue);
+      expect(c.current.ready, isFalse);
+    });
+    test('slow 1.5s inference still accumulates live guidance', () {
+      final c = ScanConsensus.livePreview(expectedCount: 14);
+      for (final capture in [0, 1500, 3000]) {
+        c.observe(row(), capture);
+        final preview = c.at(capture + 1500);
+        expect(preview.canConfirmManually, isTrue);
+      }
+      expect(c.current.ready, isTrue);
+    });
+    test(
+      'freshness applies to low-confidence human review as well as stable rows',
+      () {
+        final c = ScanConsensus.livePreview(expectedCount: 14);
+        c.observe(row(confidence: .7), 100);
+        expect(c.at(4100).canConfirmManually, isTrue);
+        expect(c.at(4101).canConfirmManually, isFalse);
+        expect(c.current.tiles, isEmpty);
+        c.observe(row(), 4200);
+        expect(c.at(4199).canConfirmManually, isFalse);
+      },
+    );
+    test('human bypass cannot accept unknowns, invalid scores, missing tiles or five copies', () {
+      final c = ScanConsensus.livePreview(expectedCount: 14);
+      var time = 0;
+      for (final input in [
+        <Detection>[],
+        row(count: 13),
+        row(count: 15),
+        row(tiles: [-1, ...List.generate(13, (i) => i + 1)]),
+        row(tiles: [34, ...List.generate(13, (i) => i + 1)]),
+        row(tiles: [0, 0, 0, 0, 0, ...List.generate(9, (i) => i + 1)]),
+        row(confidence: double.nan),
+        row(confidence: 1.1),
+      ]) {
+        expect(c.observe(input, time += 100).canConfirmManually, isFalse);
+      }
+      c.reset();
+      expect(c.current.canConfirmManually, isFalse);
+    });
+  });
   group('default five-frame / 1200ms stability contract', () {
     test('empty observations and fresh instance cannot be confirmed', () {
       final c = ScanConsensus(expectedCount: 14);
@@ -168,7 +219,8 @@ void main() {
           1.00001,
         ]) {
           final c = ScanConsensus(expectedCount: 14);
-          final bad = row()..[7] = change(row()[7], confidence: score.toDouble());
+          final bad = row()
+            ..[7] = change(row()[7], confidence: score.toDouble());
           expect(stable(c, detections: bad).issue, ScanIssue.confidence);
           expect(c.current.ready, isFalse);
         }

@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "開心計一番";
+"CFBundleName" = "開心計一番";
+"NSCameraUsageDescription" = "使用即時相機畫面，在手機上辨識麻將牌並協助計算番數。畫面不會上傳或錄影。";

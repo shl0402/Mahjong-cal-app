@@ -1,3 +1,11 @@
+# Current work — 3 October 2026
+
+Current GitHub checkout: `Mahjong-cal-app/` in the original workspace. App version0.4.0+4 is named 開心計一番 / Point of Happiness. It permits manual confirmation after the first usable preview, with optional stability guidance. See [SCAN_PREVIEW_UPDATE.md](SCAN_PREVIEW_UPDATE.md) and [competitor review](COMPETITOR_REVIEW_20261003.md). The216-test suite and static analysis pass. Source is in `app/`; research remains in `training/`. Follow app/README.md for setup.
+
+The original workspace launcher now opens this checkout; the original source/build folders remain historical. Model weights stay local/Git-ignored. Physical camera accuracy is not improved by this UI change. Broader rule packs, house-payment options and model training remain unfinished.
+
+---
+
 > Archived handoff from the original workspace. For this repository use `app/README.md` and `training/README.md`; binary artifacts and local SDKs described below are not committed.
 
 # Continue here — 3 October 2026

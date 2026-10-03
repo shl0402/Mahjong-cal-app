@@ -1,8 +1,10 @@
 import 'dart:convert';
 import 'dart:collection';
+import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 
+import 'branding.dart';
 import 'data/local_store.dart';
 import 'data/licenses.dart';
 import 'domain/scoring.dart';
@@ -24,7 +26,7 @@ class MahjongApp extends StatelessWidget {
   const MahjongApp({super.key, required this.store});
   @override
   Widget build(BuildContext context) => MaterialApp(
-    title: '牌照 · Mahjong Vision',
+    title: appNameBilingual,
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
       useMaterial3: true,
@@ -192,54 +194,88 @@ class _HomeState extends State<MahjongHome> {
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      toolbarHeight: 76,
-      title: Row(
-        children: [
-          Container(
-            width: 38,
-            height: 42,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              color: pine,
-              borderRadius: BorderRadius.circular(10),
-            ),
-            child: const Text(
-              '發',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
+      toolbarHeight: math.max(
+        76,
+        (MediaQuery.textScalerOf(context).scale(23) +
+                    MediaQuery.textScalerOf(context).scale(10) +
+                    MediaQuery.textScalerOf(context).scale(11)) *
+                1.5 +
+            16,
+      ),
+      title: LayoutBuilder(
+        builder: (context, constraints) => Row(
+          children: [
+            Container(
+              width: 38,
+              height: 42,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: pine,
+                borderRadius: BorderRadius.circular(10),
               ),
-            ),
-          ),
-          const SizedBox(width: 12),
-          const Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                '牌照',
+              child: const Text(
+                '發',
                 style: TextStyle(
-                  fontSize: 23,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: 2,
+                  color: Colors.white,
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
-              Text(
-                'MAHJONG VISION',
-                style: TextStyle(fontSize: 9, letterSpacing: 1.6, color: pine),
-              ),
-            ],
-          ),
-          const Spacer(),
-          ActionChip(
-            avatar: const Icon(Icons.tune, size: 16),
-            label: Text(
-              '${rules.title}${rules.custom ? ' · 自訂' : ''}',
-              style: const TextStyle(fontSize: 12),
             ),
-            onPressed: () => setState(() => page = 3),
-          ),
-        ],
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    appNameChinese,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      fontSize: 23,
+                      fontWeight: FontWeight.w800,
+                      letterSpacing: 1,
+                    ),
+                  ),
+                  Text(
+                    appNameEnglish,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      fontSize: 10,
+                      letterSpacing: .3,
+                      color: pine,
+                    ),
+                  ),
+                  Text(
+                    '${rules.title}${rules.custom ? ' · 自訂' : ''}',
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(fontSize: 11, color: pine),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(width: 8),
+            if (constraints.maxWidth >= 420 &&
+                MediaQuery.textScalerOf(context).scale(1) <= 1.3)
+              ActionChip(
+                avatar: const Icon(Icons.tune, size: 16),
+                label: Text(
+                  '${rules.title}${rules.custom ? ' · 自訂' : ''}',
+                  style: const TextStyle(fontSize: 12),
+                ),
+                onPressed: () => setState(() => page = 3),
+              )
+            else
+              IconButton(
+                tooltip: '規則設定：${rules.title}${rules.custom ? ' · 自訂' : ''}',
+                onPressed: () => setState(() => page = 3),
+                icon: const Icon(Icons.tune),
+              ),
+          ],
+        ),
       ),
     ),
     body: SafeArea(
@@ -338,13 +374,20 @@ class _HomeState extends State<MahjongHome> {
               ),
               const SizedBox(height: 12),
               const Text(
-                '點一下標記食糊牌（金框）；長按可更正或刪除。',
+                '點一下標記食糊牌（金框）；用「更正牌面」修改或刪除，也可長按牌面。',
                 style: TextStyle(fontSize: 12, color: Color(0xff66746C)),
               ),
               const SizedBox(height: 12),
               Wrap(
                 spacing: 8,
                 children: [
+                  OutlinedButton.icon(
+                    onPressed: hand.concealed.isEmpty
+                        ? null
+                        : chooseTileToCorrect,
+                    icon: const Icon(Icons.edit_outlined),
+                    label: const Text('更正牌面'),
+                  ),
                   OutlinedButton.icon(
                     onPressed: addTiles,
                     icon: const Icon(Icons.add),
@@ -725,6 +768,39 @@ class _HomeState extends State<MahjongHome> {
         ],
       ),
     );
+  }
+
+  Future<void> chooseTileToCorrect() async {
+    int? selected;
+    await tileSheet(
+      '選擇要更正的牌',
+      (ctx, refresh) => Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('先選要更正的牌，再選正確牌面；也可以刪除。'),
+          gap,
+          Wrap(
+            spacing: 6,
+            runSpacing: 10,
+            children: [
+              for (var i = 0; i < hand.concealed.length; i++)
+                TileView(
+                  key: ValueKey('choose-correction-$i'),
+                  tile: hand.concealed[i],
+                  onTap: () {
+                    selected = i;
+                    Navigator.pop(ctx);
+                  },
+                ),
+            ],
+          ),
+        ],
+      ),
+    );
+    if (!mounted || selected == null || selected! >= hand.concealed.length) {
+      return;
+    }
+    await editTile(selected!);
   }
 
   Future<void> editTile(int i) => tileSheet(

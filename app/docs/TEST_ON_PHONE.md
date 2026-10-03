@@ -1,3 +1,5 @@
+> Current source: 開心計一番 / Point of Happiness 0.4.0+4. Older build measurements below remain historical; see SCAN_PREVIEW_UPDATE.md for this change's validation.
+
 # Test the live camera app in Xcode
 
 牌照 / Mahjong Vision is one Flutter project with native iOS and Android apps. Xcode builds its native iPhone application even though the shared UI, recognition pipeline, and scoring engine are written in Dart. The scanner uses a continuous camera feed; it does not ask you to take or import a photo.
@@ -29,7 +31,7 @@ If you previously ran an integration test and Xcode launches a test harness, run
 
 1. Choose the rules preset and the number of concealed tiles inside the guide. Include the winning tile. Use 14 for a complete ordinary Hong Kong concealed hand or 17 for a complete Taiwanese concealed hand; reduce the count when there are declared melds.
 2. Tap **開啟相機掃描**. Point the rear camera at one row of face-up tiles, with the whole row inside the guide. Keep exposed melds and flowers outside it; add those separately afterward.
-3. Hold the phone steady and check the tile identities shown. The app compares several observations and enables **確認這排牌，前往計算** only after the count and recognition agree. Agreement is a consistency check, not a guarantee of correctness.
+3. Check the tile preview. As soon as the expected number of ordinary tiles is shown correctly, tap **我已核對，使用這排牌**. You do not need to wait for the stability indicator or every confidence score to reach 80%. Unknown tiles, incorrect counts, more than four identical tiles and stale previews still require another scan or manual entry. The indicator is guidance, not a guarantee of correctness.
 4. Confirm the row, correct any tile errors in the hand editor, and supply the game facts: self-draw/discard, dealer, winds, and any relevant special circumstances. Camera images cannot establish these facts.
 5. Use **暫停相機** to stop scanning. Manual entry stays available when lighting, tile styles, or device performance prevent a reliable reading.
 
@@ -55,7 +57,7 @@ Select the **Runner** scheme and an iPhone simulator. The simulator has no physi
 
 ## Android Studio and APKs
 
-Open `app` in Android Studio with its Flutter and Dart plugins installed, start an emulator or connect a phone with USB debugging, and run `lib/main.dart`. The native Android Gradle module is `app/android`.
+Open this Flutter project folder in Android Studio with its Flutter and Dart plugins installed, start an emulator or connect a phone with USB debugging, and run `lib/main.dart`. The native Android Gradle module is `android/`.
 
 ```sh
 ./scripts/flutter.sh devices

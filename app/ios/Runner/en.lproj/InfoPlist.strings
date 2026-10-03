@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Point of Happiness";
+"CFBundleName" = "Point of Happiness";
+"NSCameraUsageDescription" = "Use the live camera to recognize mahjong tiles and help calculate scores on your phone. Camera images are never uploaded or recorded.";

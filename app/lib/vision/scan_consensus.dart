@@ -25,12 +25,47 @@ class ScanDecision {
     this.detections,
   );
   bool get ready => issue == ScanIssue.stable;
+
+  /// Human review can bypass confidence, motion and the multi-frame wait, but
+  /// must not send missing/unknown or physically impossible tiles to the editor.
+  /// Call ScanConsensus.at immediately before using this property for a tap.
+  bool get canConfirmManually {
+    if (issue == ScanIssue.stale ||
+        detections.isEmpty ||
+        detections.length != expectedCount) {
+      return false;
+    }
+    final counts = <int, int>{};
+    for (final d in detections) {
+      if (d.tile < 0 ||
+          d.tile >= 34 ||
+          !d.confidence.isFinite ||
+          d.confidence < 0 ||
+          d.confidence > 1) {
+        return false;
+      }
+      counts[d.tile] = (counts[d.tile] ?? 0) + 1;
+      if (counts[d.tile]! > 4) return false;
+    }
+    return true;
+  }
+
   List<int> get tiles => List.unmodifiable(detections.map((d) => d.tile));
 }
 
 /// Temporal agreement is an input-quality gate, not calibrated certainty.
 /// A consistently misclassified tile can still pass. Final user review remains.
 class ScanConsensus {
+  /// Live UI guidance tolerates slower phones. The historical default policy
+  /// remains available for reproducible benchmark replays.
+  factory ScanConsensus.livePreview({required int expectedCount}) =>
+      ScanConsensus(
+        expectedCount: expectedCount,
+        requiredFrames: 3,
+        minimumSpanMs: 700,
+        maximumGapMs: 3000,
+        expiryMs: 4000,
+      );
   final int expectedCount,
       requiredFrames,
       minimumSpanMs,

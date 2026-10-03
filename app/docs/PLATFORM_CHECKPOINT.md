@@ -1,3 +1,5 @@
+> Historical 0.3.0 build record. For the current 0.4.0 scan-preview update see [SCAN_PREVIEW_UPDATE.md](SCAN_PREVIEW_UPDATE.md).
+
 # Platform checkpoint — 3 October 2026 (Hong Kong)
 
 Final handoff: **app 0.3.0+3 / rules engine 0.1.2**, with AR42 model SHA-256 `63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a`. All requested platform outputs have been refreshed after the Hong Kong direct kong-replacement liability correction and its explanatory UI text.

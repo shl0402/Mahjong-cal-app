@@ -10,7 +10,7 @@
     <uses-feature android:name="android.hardware.camera.any" android:required="false"
         tools:replace="android:required" />
     <application
-        android:label="牌照"
+        android:label="@string/app_name"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

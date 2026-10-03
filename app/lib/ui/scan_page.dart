@@ -57,10 +57,11 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     _expected = widget.maximumTiles;
-    _consensus = ScanConsensus(expectedCount: _expected);
+    _consensus = ScanConsensus.livePreview(expectedCount: _expected);
     _expiry = Timer.periodic(const Duration(milliseconds: 200), (_) {
-      if (_disposed || !_decision.ready) return;
-      if (!_consensus.at(_now).ready) setState(() {});
+      if (!_desired || _decision.detections.isEmpty) return;
+      final previous = _decision;
+      if (!identical(previous, _consensus.at(_now))) setState(() {});
     });
   }
 
@@ -69,7 +70,7 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
     super.didUpdateWidget(old);
     if (old.maximumTiles != widget.maximumTiles) {
       _expected = widget.maximumTiles;
-      _consensus = ScanConsensus(expectedCount: _expected);
+      _consensus = ScanConsensus.livePreview(expectedCount: _expected);
       _generation++;
     }
     if (old.active != widget.active) {
@@ -219,7 +220,7 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
   String _cameraError(Object e) {
     if (e is CameraException) {
       if (e.code.contains('Denied')) {
-        return '未獲相機權限。請在手機設定 → 隱私權 → 相機允許「牌照」，再重試。';
+        return '未獲相機權限。請在手機設定 → 隱私權 → 相機允許「開心計一番 / Point of Happiness」，再重試。';
       }
       if (e.code.contains('Restricted')) return '這部裝置限制了相機使用。你仍可手動輸入手牌。';
       if (e.code == 'NoRearCamera') {
@@ -336,19 +337,34 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
     debugPrint('Live camera inference: $error');
   }
 
-  Future<void> _confirm() async {
+  Future<void> _confirm(ScanDecision displayed, int generation) async {
     final decision = _consensus.at(_now);
-    if (!decision.ready ||
-        _confirming ||
+    if (!decision.canConfirmManually) {
+      if (!_disposed) setState(() {});
+      return;
+    }
+    if (_confirming ||
         !_desired ||
+        generation != _generation ||
         _lastOrientation != _camera?.value.deviceOrientation) {
       return;
     }
-    final tiles = List<int>.of(decision.tiles);
+    // Inference may finish between painting the preview and dispatching its tap.
+    // Never accept newly changed identities that the user has not seen yet.
+    if (!listEquals(displayed.tiles, decision.tiles)) {
+      setState(() {});
+      ScaffoldMessenger.of(context)
+          .showSnackBar(const SnackBar(content: Text('預覽剛有更新，請核對後再確認。')));
+      return;
+    }
+    final tiles = List<int>.of(displayed.tiles);
     setState(() => _confirming = true);
-    await _stop();
-    if (!_disposed) await widget.onAccepted(tiles);
-    if (!_disposed) setState(() => _confirming = false);
+    try {
+      await _stop();
+      if (!_disposed) await widget.onAccepted(tiles);
+    } finally {
+      if (!_disposed) setState(() => _confirming = false);
+    }
   }
 
   Future<void> _manual() async {
@@ -378,10 +394,10 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
   }
 
   String get _status => switch (_decision.issue) {
-    ScanIssue.stable => '牌面已穩定，請核對後確認',
-    ScanIssue.collecting => '保持不動，正在比對連續畫面…',
+    ScanIssue.stable => '自動核對已穩定，請確認預覽牌面',
+    ScanIssue.collecting => '正在比對畫面；預覽正確即可確認',
     ScanIssue.count => '請將整排 $_expected 張牌放入框中',
-    ScanIssue.confidence => '部分牌面仍不清楚，請改善光線或距離',
+    ScanIssue.confidence => '部分牌面較不確定；你可核對預覽後確認',
     ScanIssue.arrangement => '請排成一行，讓每張牌完整入框',
     ScanIssue.physical => '辨識結果有重複或異常，請調整角度',
     ScanIssue.stale => '畫面已改變，正在重新確認',
@@ -390,6 +406,8 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     final live = _camera != null && _camera!.value.isInitialized;
+    final displayed = _decision;
+    final generation = _generation;
     return Column(
       children: [
         Expanded(
@@ -407,7 +425,7 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
               ),
               const SizedBox(height: 8),
               Text(
-                '對準手牌，\n穩定後確認。',
+                '掃描與預覽，\n你確認就繼續。',
                 style: Theme.of(context).textTheme.headlineLarge
                     ?.copyWith(height: 1.3),
               ),
@@ -415,6 +433,15 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
               const Text(
                 '相機連續辨識，畫面只在手機內處理。',
                 style: TextStyle(color: Color(0xff606B64), height: 1.7),
+              ),
+              const SizedBox(height: 6),
+              const Text(
+                '只掃暗手牌及食糊牌；吃、碰、槓和花牌在下一步加入。',
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Color(0xff606B64),
+                  height: 1.6,
+                ),
               ),
               const SizedBox(height: 18),
               Row(
@@ -437,7 +464,9 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
                             if (v != null) {
                               setState(() {
                                 _expected = v;
-                                _consensus = ScanConsensus(expectedCount: v);
+                                _consensus = ScanConsensus.livePreview(
+                                  expectedCount: v,
+                                );
                                 _generation++;
                               });
                             }
@@ -485,7 +514,10 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
                 ),
                 const SizedBox(height: 10),
                 LinearProgressIndicator(
-                  value: math.min(1, _decision.matchedFrames / 5),
+                  value: math.min(
+                    1,
+                    _decision.matchedFrames / _consensus.requiredFrames,
+                  ),
                   color: _decision.ready
                       ? const Color(0xff194D40)
                       : const Color(0xffB68335),
@@ -507,7 +539,7 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
                 ),
                 const SizedBox(height: 12),
                 const Text(
-                  '穩定代表多次辨識一致，並不保證每張正確。請核對牌面；確認後仍可修改。',
+                  '不必等自動核對完成。預覽正確就按「我已核對」，下一步仍可修改；若有 ? 或張數不符，請重掃或手動輸入。',
                   style: TextStyle(
                     fontSize: 12,
                     color: Color(0xff66746C),
@@ -590,15 +622,13 @@ class _ScanPageState extends State<ScanPage> with WidgetsBindingObserver {
               child: SizedBox(
                 width: double.infinity,
                 child: FilledButton.icon(
-                  onPressed: _decision.ready && !_confirming ? _confirm : null,
+                  key: const ValueKey('confirm-scan-preview'),
+                  onPressed:
+                      _decision.canConfirmManually && !_confirming && _desired
+                      ? () => _confirm(displayed, generation)
+                      : null,
                   icon: const Icon(Icons.check_circle_outline),
-                  label: Text(
-                    _confirming
-                        ? '正在開啟手牌…'
-                        : _decision.ready
-                        ? '確認這排牌，前往計算'
-                        : '等待牌面穩定…',
-                  ),
+                  label: Text(_confirming ? '正在開啟手牌…' : '我已核對，使用這排牌'),
                 ),
               ),
             ),

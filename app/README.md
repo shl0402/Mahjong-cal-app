@@ -1,6 +1,6 @@
-# Mahjong app
+# 開心計一番 · Point of Happiness
 
-Flutter app **0.3.0+3**, rule engine **0.1.2**. This folder is the Flutter project root: `lib/`, `test/`, `ios/`, `android/`, and `pubspec.yaml` live here.
+Flutter app **0.4.0+4**, rule engine **0.1.2**. This folder is the Flutter project root: `lib/`, `test/`, `ios/`, `android/`, and `pubspec.yaml` live here.
 
 ## Setup
 
@@ -39,3 +39,9 @@ You can also double-click **Open in Xcode.command** in this folder. Open `androi
 Continuous on-device scanning, editable confirmation, local settings/history, supported scoring and settlement are implemented. The app remains experimental: recognition errors, incomplete Hong Kong/Taiwan events and unimplemented rule families are documented in [rules readiness](docs/RULES_READINESS.md).
 
 The checked-in reports under `docs/` describe the original local build and its artifacts. They are historical evidence, not claims that APKs, weights or local SDKs are present in a fresh clone. Vision source references now resolve under the repository's separate `training/vision/` workspace.
+
+## Scan preview update
+
+The current preview can be explicitly accepted after one usable result with **我已核對，使用這排牌**; the stability indicator is advisory. The next screen supports correction before scoring. Empty, stale, unknown or invalid tile sets still require rescanning or manual entry. This changes usability, not model accuracy.
+
+Current validation: **216 Flutter tests pass**, static analysis is clean, and iPhone Profile / Android ARM64 / web builds passed. See [the update report](docs/SCAN_PREVIEW_UPDATE.md) and [competitor review](docs/COMPETITOR_REVIEW_20261003.md).

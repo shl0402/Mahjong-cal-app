@@ -1,3 +1,5 @@
+> Historical 0.3.0 build record. For the current 0.4.0 scan-preview update see [SCAN_PREVIEW_UPDATE.md](SCAN_PREVIEW_UPDATE.md).
+
 # Local AR42 testing build — 3 October 2026
 
 Version **0.3.0+3 / rules engine 0.1.2** uses 42-class AR42 with the live camera scanner, editable calculator and local settings/history. The model SHA-256 is `63b683c7f50e4e9c65492d53530e6722c58d2b34350480ee979fb8ba92b7fe5a`. This is a local research build: the checkpoint publisher's redistribution grant remains unresolved, and red fives are not distinguished separately. See [the provenance review](VISION_DATA_AUDIT.md#appendix-ar-detector-provenance-and-redistribution-review).

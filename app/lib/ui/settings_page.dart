@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../branding.dart';
 import '../main.dart' show heading, section, gap, dropdown, pine;
 import '../domain/scoring.dart';
 
@@ -196,7 +197,7 @@ class _SettingsPageState extends State<SettingsPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              '0.2 · 即時掃描測試版\n相機畫面只在裝置內處理。確認後仍可修改；花牌需手動加入。\n香港牌依香港麻雀協會牌例研究；台灣預設為基本家規，並非完整官方牌例。',
+              '$appNameBilingual\n$appVersion · 掃描與預覽測試版\n相機畫面只在裝置內處理。確認後仍可修改；花牌需手動加入。\n香港牌依香港麻雀協會牌例研究；台灣預設為基本家規，並非完整官方牌例。',
               style: TextStyle(
                 fontSize: 12,
                 color: Color(0xff66746C),
@@ -206,8 +207,8 @@ class _SettingsPageState extends State<SettingsPage> {
             TextButton(
               onPressed: () => showLicensePage(
                 context: context,
-                applicationName: '牌照 · Mahjong Vision',
-                applicationVersion: '0.2.0',
+                applicationName: appNameBilingual,
+                applicationVersion: appVersion,
               ),
               child: const Text('開源授權'),
             ),

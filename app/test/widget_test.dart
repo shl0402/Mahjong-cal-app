@@ -77,6 +77,28 @@ SavedHand savedSample(Rules rules) {
 }
 
 void main() {
+  testWidgets('new bilingual brand fits a narrow phone', (tester) async {
+    await launch(tester, size: const Size(320, 568));
+    expect(find.text('開心計一番'), findsOneWidget);
+    expect(find.text('Point of Happiness'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+  testWidgets(
+    'visible correction button opens the tile editor without long press',
+    (tester) async {
+      await launch(tester);
+      await sample(tester);
+      await tapVisible(tester, '更正牌面');
+      expect(find.text('選擇要更正的牌'), findsOneWidget);
+      await tester.tap(find.byKey(const ValueKey('choose-correction-0')));
+      await tester.pumpAndSettle();
+      expect(find.text('更正 一萬'), findsOneWidget);
+      await tester.tap(find.text('刪除這一張'));
+      await tester.pumpAndSettle();
+      expect(find.text('暗手牌  13 / 14'), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    },
+  );
   testWidgets('sample confirms, scores, saves and reopens', (tester) async {
     final store = await launch(tester);
     await sample(tester);
