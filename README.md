@@ -1,4 +1,4 @@
-# Mahjong calculator and offline camera research
+# 開心計一番
 
 Two separate workspaces:
 
